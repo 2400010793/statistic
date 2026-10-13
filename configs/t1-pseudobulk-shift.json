@@ -1,0 +1,15 @@
+{
+  "task": "T1",
+  "model": "pseudobulk_shift",
+  "source": "data/raw/T1/E9.5_RNA.h5ad",
+  "history": "data/raw/T1/E8.5_RNA.h5ad",
+  "source_stage": 9.5,
+  "history_stage": 8.5,
+  "target_stage": 10.5,
+  "output": "artifacts/T1/pseudobulk_shift_E10.5.h5ad",
+  "n_cells": 2000,
+  "seed": 0,
+  "celltype_key": "celltype",
+  "scale_by_time": false,
+  "board": "T1:val"
+}

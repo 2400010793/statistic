@@ -1,0 +1,175 @@
+{
+  "catalog_version": "2026-10-13",
+  "files": [
+    {
+      "id": "sample_8.5",
+      "kind": "sample",
+      "path": "data/samples/sample_8.5.h5ad",
+      "status": "present",
+      "size_bytes": 6650592,
+      "sha256": "b914bae904384fa492d3b8e105cb408cb80ea6f45c20f4be836027a4c66e940f"
+    },
+    {
+      "id": "sample_9.5",
+      "kind": "sample",
+      "path": "data/samples/sample_9.5.h5ad",
+      "status": "present",
+      "size_bytes": 6805136,
+      "sha256": "4b43eaef661b61ee65afebc88b89de5977ff4ebf5216cd8ec0bf0210917a71a0"
+    },
+    {
+      "id": "sample_heart_9.25",
+      "kind": "sample",
+      "path": "data/samples/sample_heart_9.25.h5ad",
+      "status": "present",
+      "size_bytes": 560816,
+      "sha256": "90cc0ad7ce53d14545a142316891b561a49f51c373ecc3e1aefba4275272c132"
+    },
+    {
+      "id": "sample_heart_9.5",
+      "kind": "sample",
+      "path": "data/samples/sample_heart_9.5.h5ad",
+      "status": "present",
+      "size_bytes": 565224,
+      "sha256": "714952899885e5fd6190393245e63210c561f8021d368abd34e7c97a929d1fce"
+    },
+    {
+      "id": "sample_mab21l2_ko",
+      "kind": "sample",
+      "path": "data/samples/sample_mab21l2_ko.h5ad",
+      "status": "present",
+      "size_bytes": 1574024,
+      "sha256": "c565caee6a30b5cb705044f0cb6cd5aded932c81fb22ecd974fd09a63c5fb8e9"
+    },
+    {
+      "id": "sample_wt",
+      "kind": "sample",
+      "path": "data/samples/sample_wt.h5ad",
+      "status": "present",
+      "size_bytes": 562744,
+      "sha256": "b8f2adb3a8e51428b7ab2a4fe081976f0e1dbdec6b0148ea14572d51cd1b2429"
+    },
+    {
+      "id": "panel-index.json",
+      "kind": "panel",
+      "path": "data/panels/index.json",
+      "status": "downloaded",
+      "size_bytes": 5608,
+      "sha256": "26830523bcba077fe27481ee53cddcf49c6b35cf5bdd7acabc5f6b7c94ea7f78"
+    },
+    {
+      "id": "panel-T1__val.genes.txt",
+      "kind": "panel",
+      "path": "data/panels/T1__val.genes.txt",
+      "status": "downloaded",
+      "size_bytes": 244808,
+      "sha256": "2aeae4cd284933956242bbc9c5ab4f565c1d2acc7cc3fd3037977e4bce8be4bf"
+    },
+    {
+      "id": "panel-T2__embryo__val_interp.genes.txt",
+      "kind": "panel",
+      "path": "data/panels/T2__embryo__val_interp.genes.txt",
+      "status": "downloaded",
+      "size_bytes": 2993,
+      "sha256": "e20f726e623e04af289b434277187002150dbd5699a3ed09f5babfb633eddee7"
+    },
+    {
+      "id": "panel-T2__heart__val_extrap.genes.txt",
+      "kind": "panel",
+      "path": "data/panels/T2__heart__val_extrap.genes.txt",
+      "status": "downloaded",
+      "size_bytes": 3008,
+      "sha256": "bf40079bfb50c78d9360905156bd7fd8b39e711ad0cc44866e6dac3f7e9999fa"
+    },
+    {
+      "id": "panel-T2__heart__val_interp.genes.txt",
+      "kind": "panel",
+      "path": "data/panels/T2__heart__val_interp.genes.txt",
+      "status": "downloaded",
+      "size_bytes": 3008,
+      "sha256": "bf40079bfb50c78d9360905156bd7fd8b39e711ad0cc44866e6dac3f7e9999fa"
+    },
+    {
+      "id": "panel-T3__gata4.genes.txt",
+      "kind": "panel",
+      "path": "data/panels/T3__gata4.genes.txt",
+      "status": "downloaded",
+      "size_bytes": 3008,
+      "sha256": "bf40079bfb50c78d9360905156bd7fd8b39e711ad0cc44866e6dac3f7e9999fa"
+    },
+    {
+      "id": "panel-t1_composition.json",
+      "kind": "panel",
+      "path": "data/panels/t1_composition.json",
+      "status": "downloaded",
+      "size_bytes": 1796,
+      "sha256": "e713feb83f5ccd55a24123ddf86a6ffa55393284f050d78f1e05348dc4a217d6"
+    },
+    {
+      "id": "t1-e8.5",
+      "kind": "training",
+      "path": "data/raw/T1/E8.5_RNA.h5ad",
+      "status": "blocked",
+      "reason": "Official registration/download URL required"
+    },
+    {
+      "id": "t1-e9.5",
+      "kind": "training",
+      "path": "data/raw/T1/E9.5_RNA.h5ad",
+      "status": "blocked",
+      "reason": "Official registration/download URL required"
+    },
+    {
+      "id": "t2-embryo-e6.75",
+      "kind": "training",
+      "path": "data/raw/T2/embryo/E6.75.h5ad",
+      "status": "blocked",
+      "reason": "Official registration/download URL required"
+    },
+    {
+      "id": "t2-embryo-e7.25",
+      "kind": "training",
+      "path": "data/raw/T2/embryo/E7.25.h5ad",
+      "status": "blocked",
+      "reason": "Official registration/download URL required"
+    },
+    {
+      "id": "t2-embryo-e8.0",
+      "kind": "training",
+      "path": "data/raw/T2/embryo/E8.0.h5ad",
+      "status": "blocked",
+      "reason": "Official registration/download URL required"
+    },
+    {
+      "id": "t2-heart-e8.25",
+      "kind": "training",
+      "path": "data/raw/T2/heart/E8.25_late.h5ad",
+      "status": "blocked",
+      "reason": "Official registration/download URL required"
+    },
+    {
+      "id": "t2-heart-e8.75",
+      "kind": "training",
+      "path": "data/raw/T2/heart/E8.75.h5ad",
+      "status": "blocked",
+      "reason": "Official registration/download URL required"
+    },
+    {
+      "id": "t2-heart-e9.5",
+      "kind": "training",
+      "path": "data/raw/T2/heart/E9.5.h5ad",
+      "status": "blocked",
+      "reason": "Official registration/download URL required"
+    },
+    {
+      "id": "t3-mab21l2-e9.5",
+      "kind": "training",
+      "path": "data/raw/T3/Mab21l2_KO_E9.5.h5ad",
+      "status": "blocked",
+      "reason": "Official registration/download URL required"
+    }
+  ],
+  "public_complete": true,
+  "selected_resources_complete": false,
+  "note": "Public demo samples are not the complete training data; hidden ground truth is never downloaded."
+}

@@ -1,0 +1,15 @@
+{
+  "files": [
+    {
+      "id": "t1-e8.5",
+      "authorized": true,
+      "url": "https://example.invalid/replace-with-your-authorized-official-download-url",
+      "sha256": null
+    },
+    {
+      "id": "t1-e9.5",
+      "authorized": true,
+      "local_path": "/replace/with/your/official/E9.5_RNA.h5ad"
+    }
+  ]
+}

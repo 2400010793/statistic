@@ -1,0 +1,121 @@
+{
+  "version": "2026-10-13",
+  "local": {
+    "copy_last": [
+      "T1",
+      "T2"
+    ],
+    "pseudobulk_shift": [
+      "T1",
+      "T2"
+    ],
+    "ot_linear": [
+      "T1",
+      "T2"
+    ],
+    "ot_flow": [
+      "T1",
+      "T2"
+    ],
+    "wt_identity": [
+      "T3"
+    ],
+    "shift_transfer": [
+      "T3"
+    ],
+    "gene_ko": [
+      "T3"
+    ],
+    "gene_zero": [
+      "T3"
+    ],
+    "wot_linear": [
+      "T1"
+    ],
+    "prescient": [
+      "T1"
+    ]
+  },
+  "external": {
+    "veckit": {
+      "commit": "cc3859ab2a2305efc4544815d3f44f660efa77d4",
+      "date": "2026-10-02T23:17:15Z",
+      "url": "https://github.com/aristoteleo/veckit.git",
+      "tasks": "T1/T2/T3",
+      "integration": "package_scorer",
+      "note": "Official local scorer; installable package used by CLI"
+    },
+    "wot": {
+      "commit": "ca5e94f05699997b01cf5ae13383f9810f0613f6",
+      "date": "2021-03-31T15:27:28Z",
+      "url": "https://github.com/broadinstitute/wot.git",
+      "tasks": "T1",
+      "integration": "author_coupling_adapter",
+      "note": "Locked author OTModel coupling with explicit local linear future extrapolation"
+    },
+    "prescient": {
+      "commit": "50971c7d495e8763eaa60f83af91f51555ed7ece",
+      "date": "2025-01-20T21:08:40Z",
+      "url": "https://github.com/gifford-lab/prescient.git",
+      "tasks": "T1",
+      "integration": "author_generator_adapter",
+      "note": "Locked author AutoGenerator/OTLoss stochastic two-snapshot T1 adapter; not full paper reproduction"
+    },
+    "trajectorynet": {
+      "commit": "810c89b081f95405bc0ad42bfb3cb41038e13700",
+      "date": "2024-08-19T17:38:06Z",
+      "url": "https://github.com/KrishnaswamyLab/TrajectoryNet.git",
+      "tasks": "T1",
+      "integration": "source_only",
+      "note": "Author source; independent environment and future adapter required"
+    },
+    "tigon": {
+      "commit": "1ed92cfcc250415fc01b4d344a308b0680cc9635",
+      "date": "2025-03-23T01:13:35Z",
+      "url": "https://github.com/yutongo/TIGON.git",
+      "tasks": "T1",
+      "integration": "source_only",
+      "note": "Author source; independent environment and future adapter required"
+    },
+    "cellot": {
+      "commit": "522d2b953da8ad244fcf36f64521487fdf763788",
+      "date": "2024-10-31T23:34:58Z",
+      "url": "https://github.com/bunnech/cellot.git",
+      "tasks": "T3",
+      "integration": "source_only",
+      "note": "Author source; unseen KO adapter and supervision required"
+    },
+    "cpa": {
+      "commit": "fbd7c0250edc23eff003a10c99655579c53afd63",
+      "date": "2024-08-14T11:16:20Z",
+      "url": "https://github.com/theislab/cpa.git",
+      "tasks": "T3",
+      "integration": "source_only",
+      "note": "Author source; adequate perturbation supervision required"
+    },
+    "gears": {
+      "commit": "f374e43e197b295016d80395d7a54ddb81cc6769",
+      "date": "2025-02-01T09:35:37Z",
+      "url": "https://github.com/snap-stanford/GEARS.git",
+      "tasks": "T3",
+      "integration": "source_only",
+      "note": "Author source; authorized graph and perturbation supervision required"
+    },
+    "spateo": {
+      "commit": "1bd8a35e6e7b0dfc712d76b1c32987dc06652774",
+      "date": "2026-02-25T23:25:40Z",
+      "url": "https://github.com/aristoteleo/spateo-release.git",
+      "tasks": "T2",
+      "integration": "source_only",
+      "note": "Author source; future prediction is separate from alignment"
+    },
+    "torchcfm": {
+      "commit": "7c653857de4c25b979a740ef8b6a5d5ddb09b6c1",
+      "date": "2026-07-20T22:02:23Z",
+      "url": "https://github.com/atong01/conditional-flow-matching.git",
+      "tasks": "T1",
+      "integration": "source_only",
+      "note": "Author Flow Matching/SF2M examples; independent environment"
+    }
+  }
+}

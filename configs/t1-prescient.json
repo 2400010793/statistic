@@ -1,0 +1,17 @@
+{
+  "task": "T1",
+  "model": "prescient",
+  "source": "data/raw/T1/E9.5_RNA.h5ad",
+  "history": "data/raw/T1/E8.5_RNA.h5ad",
+  "source_stage": 9.5,
+  "history_stage": 8.5,
+  "target_stage": 10.5,
+  "output": "artifacts/T1/prescient_E10.5.h5ad",
+  "n_cells": 2000,
+  "max_train_cells": 2000,
+  "seed": 0,
+  "n_components": 30,
+  "board": "T1:val",
+  "epochs": 20,
+  "device": "cuda:0"
+}

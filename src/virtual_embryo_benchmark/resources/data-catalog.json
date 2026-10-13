@@ -1,0 +1,284 @@
+{
+  "version": "2026-10-13",
+  "official_data_page": "https://virtualembryo.ai/challenge/data",
+  "account_page": "https://virtualembryo.ai/challenge/account",
+  "account_observed_status": "Sign-in is not available yet.",
+  "excluded": "Held-out validation/test ground truth, external forbidden stages and genotypes",
+  "files": [
+    {
+      "id": "sample_8.5",
+      "kind": "sample",
+      "tasks": [
+        "T1"
+      ],
+      "path": "data/samples/sample_8.5.h5ad",
+      "url": "https://api.github.com/repos/aristoteleo/veckit/git/blobs/86abd5e7e51a3bca9fff13ebc3ca906cb186dfbb",
+      "size_bytes": 6650592,
+      "sha256": "b914bae904384fa492d3b8e105cb408cb80ea6f45c20f4be836027a4c66e940f",
+      "note": "Official 150-cell demo only; not a complete competition stage.",
+      "raw_url": "https://raw.githubusercontent.com/aristoteleo/veckit/cc3859ab2a2305efc4544815d3f44f660efa77d4/data/sample_8.5.h5ad",
+      "transport": "github_blob"
+    },
+    {
+      "id": "sample_9.5",
+      "kind": "sample",
+      "tasks": [
+        "T1"
+      ],
+      "path": "data/samples/sample_9.5.h5ad",
+      "url": "https://api.github.com/repos/aristoteleo/veckit/git/blobs/241b900ae5b465109cc6baee62e03f3a6468d281",
+      "size_bytes": 6805136,
+      "sha256": "4b43eaef661b61ee65afebc88b89de5977ff4ebf5216cd8ec0bf0210917a71a0",
+      "note": "Official 150-cell demo only; not a complete competition stage.",
+      "raw_url": "https://raw.githubusercontent.com/aristoteleo/veckit/cc3859ab2a2305efc4544815d3f44f660efa77d4/data/sample_9.5.h5ad",
+      "transport": "github_blob"
+    },
+    {
+      "id": "sample_heart_9.25",
+      "kind": "sample",
+      "tasks": [
+        "T2"
+      ],
+      "path": "data/samples/sample_heart_9.25.h5ad",
+      "url": "https://api.github.com/repos/aristoteleo/veckit/git/blobs/d349d95fe831d323f82e6aed297b701833634c42",
+      "size_bytes": 560816,
+      "sha256": "90cc0ad7ce53d14545a142316891b561a49f51c373ecc3e1aefba4275272c132",
+      "note": "Official 150-cell demo only; not a complete competition stage.",
+      "raw_url": "https://raw.githubusercontent.com/aristoteleo/veckit/cc3859ab2a2305efc4544815d3f44f660efa77d4/data/sample_heart_9.25.h5ad",
+      "transport": "github_blob"
+    },
+    {
+      "id": "sample_heart_9.5",
+      "kind": "sample",
+      "tasks": [
+        "T2"
+      ],
+      "path": "data/samples/sample_heart_9.5.h5ad",
+      "url": "https://api.github.com/repos/aristoteleo/veckit/git/blobs/6268b474bff42aeccc8aaf06dfcc9107cecb9250",
+      "size_bytes": 565224,
+      "sha256": "714952899885e5fd6190393245e63210c561f8021d368abd34e7c97a929d1fce",
+      "note": "Official 150-cell demo only; not a complete competition stage.",
+      "raw_url": "https://raw.githubusercontent.com/aristoteleo/veckit/cc3859ab2a2305efc4544815d3f44f660efa77d4/data/sample_heart_9.5.h5ad",
+      "transport": "github_blob"
+    },
+    {
+      "id": "sample_mab21l2_ko",
+      "kind": "sample",
+      "tasks": [
+        "T3"
+      ],
+      "path": "data/samples/sample_mab21l2_ko.h5ad",
+      "url": "https://api.github.com/repos/aristoteleo/veckit/git/blobs/87f17d1cb37984a08d9e79989361fcb72ae6d132",
+      "size_bytes": 1574024,
+      "sha256": "c565caee6a30b5cb705044f0cb6cd5aded932c81fb22ecd974fd09a63c5fb8e9",
+      "note": "Official 150-cell demo only; not a complete competition stage.",
+      "raw_url": "https://raw.githubusercontent.com/aristoteleo/veckit/cc3859ab2a2305efc4544815d3f44f660efa77d4/data/sample_mab21l2_ko.h5ad",
+      "transport": "github_blob"
+    },
+    {
+      "id": "sample_wt",
+      "kind": "sample",
+      "tasks": [
+        "T3"
+      ],
+      "path": "data/samples/sample_wt.h5ad",
+      "url": "https://api.github.com/repos/aristoteleo/veckit/git/blobs/10ff61c1b8e3d22a32d3890f6768a3e1f91cc26d",
+      "size_bytes": 562744,
+      "sha256": "b8f2adb3a8e51428b7ab2a4fe081976f0e1dbdec6b0148ea14572d51cd1b2429",
+      "note": "Official 150-cell demo only; not a complete competition stage.",
+      "raw_url": "https://raw.githubusercontent.com/aristoteleo/veckit/cc3859ab2a2305efc4544815d3f44f660efa77d4/data/sample_wt.h5ad",
+      "transport": "github_blob"
+    },
+    {
+      "id": "panel-index.json",
+      "kind": "panel",
+      "tasks": [
+        "T1",
+        "T2",
+        "T3"
+      ],
+      "path": "data/panels/index.json",
+      "url": "https://virtualembryo.ai/challenge/panels/index.json",
+      "note": "Public official contract; server can update this file."
+    },
+    {
+      "id": "panel-T1__val.genes.txt",
+      "kind": "panel",
+      "tasks": [
+        "T1"
+      ],
+      "path": "data/panels/T1__val.genes.txt",
+      "url": "https://virtualembryo.ai/challenge/panels/T1__val.genes.txt",
+      "note": "Public official contract; server can update this file."
+    },
+    {
+      "id": "panel-T2__embryo__val_interp.genes.txt",
+      "kind": "panel",
+      "tasks": [
+        "T2"
+      ],
+      "path": "data/panels/T2__embryo__val_interp.genes.txt",
+      "url": "https://virtualembryo.ai/challenge/panels/T2__embryo__val_interp.genes.txt",
+      "note": "Public official contract; server can update this file."
+    },
+    {
+      "id": "panel-T2__heart__val_extrap.genes.txt",
+      "kind": "panel",
+      "tasks": [
+        "T2"
+      ],
+      "path": "data/panels/T2__heart__val_extrap.genes.txt",
+      "url": "https://virtualembryo.ai/challenge/panels/T2__heart__val_extrap.genes.txt",
+      "note": "Public official contract; server can update this file."
+    },
+    {
+      "id": "panel-T2__heart__val_interp.genes.txt",
+      "kind": "panel",
+      "tasks": [
+        "T2"
+      ],
+      "path": "data/panels/T2__heart__val_interp.genes.txt",
+      "url": "https://virtualembryo.ai/challenge/panels/T2__heart__val_interp.genes.txt",
+      "note": "Public official contract; server can update this file."
+    },
+    {
+      "id": "panel-T3__gata4.genes.txt",
+      "kind": "panel",
+      "tasks": [
+        "T3"
+      ],
+      "path": "data/panels/T3__gata4.genes.txt",
+      "url": "https://virtualembryo.ai/challenge/panels/T3__gata4.genes.txt",
+      "note": "Public official contract; server can update this file."
+    },
+    {
+      "id": "panel-t1_composition.json",
+      "kind": "panel",
+      "tasks": [
+        "T1"
+      ],
+      "path": "data/panels/t1_composition.json",
+      "url": "https://virtualembryo.ai/challenge/panels/t1_composition.json",
+      "note": "Public official contract; server can update this file."
+    },
+    {
+      "id": "t1-e8.5",
+      "kind": "training",
+      "tasks": [
+        "T1"
+      ],
+      "path": "data/raw/T1/E8.5_RNA.h5ad",
+      "stage": 8.5,
+      "url": null,
+      "approx_mb_on_official_page": 571,
+      "access": "registered_participants",
+      "note": "Supply authorized official URL/local_path; no public direct URL found on 2026-10-13."
+    },
+    {
+      "id": "t1-e9.5",
+      "kind": "training",
+      "tasks": [
+        "T1"
+      ],
+      "path": "data/raw/T1/E9.5_RNA.h5ad",
+      "stage": 9.5,
+      "url": null,
+      "approx_mb_on_official_page": 590,
+      "access": "registered_participants",
+      "note": "Supply authorized official URL/local_path; no public direct URL found on 2026-10-13."
+    },
+    {
+      "id": "t2-embryo-e6.75",
+      "kind": "training",
+      "tasks": [
+        "T2"
+      ],
+      "path": "data/raw/T2/embryo/E6.75.h5ad",
+      "stage": 6.75,
+      "url": null,
+      "approx_mb_on_official_page": null,
+      "access": "registered_participants",
+      "note": "Supply authorized official URL/local_path; no public direct URL found on 2026-10-13."
+    },
+    {
+      "id": "t2-embryo-e7.25",
+      "kind": "training",
+      "tasks": [
+        "T2"
+      ],
+      "path": "data/raw/T2/embryo/E7.25.h5ad",
+      "stage": 7.25,
+      "url": null,
+      "approx_mb_on_official_page": null,
+      "access": "registered_participants",
+      "note": "Supply authorized official URL/local_path; no public direct URL found on 2026-10-13."
+    },
+    {
+      "id": "t2-embryo-e8.0",
+      "kind": "training",
+      "tasks": [
+        "T2"
+      ],
+      "path": "data/raw/T2/embryo/E8.0.h5ad",
+      "stage": 8.0,
+      "url": null,
+      "approx_mb_on_official_page": null,
+      "access": "registered_participants",
+      "note": "Supply authorized official URL/local_path; no public direct URL found on 2026-10-13."
+    },
+    {
+      "id": "t2-heart-e8.25",
+      "kind": "training",
+      "tasks": [
+        "T2"
+      ],
+      "path": "data/raw/T2/heart/E8.25_late.h5ad",
+      "stage": 8.25,
+      "url": null,
+      "approx_mb_on_official_page": 225,
+      "access": "registered_participants",
+      "note": "Supply authorized official URL/local_path; no public direct URL found on 2026-10-13."
+    },
+    {
+      "id": "t2-heart-e8.75",
+      "kind": "training",
+      "tasks": [
+        "T2",
+        "T3"
+      ],
+      "path": "data/raw/T2/heart/E8.75.h5ad",
+      "stage": 8.75,
+      "url": null,
+      "approx_mb_on_official_page": 84,
+      "access": "registered_participants",
+      "note": "Supply authorized official URL/local_path; no public direct URL found on 2026-10-13."
+    },
+    {
+      "id": "t2-heart-e9.5",
+      "kind": "training",
+      "tasks": [
+        "T2",
+        "T3"
+      ],
+      "path": "data/raw/T2/heart/E9.5.h5ad",
+      "stage": 9.5,
+      "url": null,
+      "approx_mb_on_official_page": 164,
+      "access": "registered_participants",
+      "note": "Supply authorized official URL/local_path; no public direct URL found on 2026-10-13."
+    },
+    {
+      "id": "t3-mab21l2-e9.5",
+      "kind": "training",
+      "tasks": [
+        "T3"
+      ],
+      "path": "data/raw/T3/Mab21l2_KO_E9.5.h5ad",
+      "stage": 9.5,
+      "url": null,
+      "approx_mb_on_official_page": 458,
+      "access": "registered_participants",
+      "note": "Supply authorized official URL/local_path; no public direct URL found on 2026-10-13."
+    }
+  ]
+}

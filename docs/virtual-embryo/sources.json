@@ -1,0 +1,4491 @@
+{
+  "verified_on": "2026-10-11",
+  "scope": "Learning-plan source audit. This file contains public bibliographic metadata and public competition contract information; no measured training/validation/test matrices.",
+  "verification_note": "Crossref/Europe PMC metadata proves article identity; page/repository availability does not prove all experiments will run. URLs and competition rules may change. Publisher access restrictions are separate from DOI validity.",
+  "official_scoring_code": {
+    "repo": "https://github.com/aristoteleo/veckit",
+    "commit": "cc3859ab2a2305efc4544815d3f44f660efa77d4",
+    "examined_files": [
+      "README.md",
+      "pyproject.toml",
+      "score_h5ad.py",
+      "common/core_metrics.py",
+      "T1/metrics_v2.py"
+    ]
+  },
+  "official_facts": {
+    "T1_train": [
+      "E8.5",
+      "E9.5"
+    ],
+    "T1_validation": "E10.5",
+    "T1_hidden_test": "E12.5",
+    "T1_ranked_metrics": {
+      "DES": 0.25,
+      "DCS": 0.25,
+      "MMD": 0.3,
+      "CSS": 0.2
+    },
+    "validation_truth_release_and_test_phase": "2026-10-20",
+    "final_submission_deadline_date": "2026-12-02",
+    "winners_date": "2026-12-11",
+    "T1_validation_panel_genes": 32285,
+    "T2_embryo_validation_panel_genes": 498,
+    "external_T1_excluded_window": "(E9.5, E13.5]",
+    "protected_data_forbidden_through_pretraining": true,
+    "registration_and_submission_status": "Not performed as part of writing the learning plan."
+  },
+  "references": [
+    {
+      "id": "R01",
+      "citation_markdown": "Cao, Lu & Qiu (2026). [Towards predictive virtual embryos with genomics and AI](https://doi.org/10.1038/s41592-026-03055-4). *Nature Methods*. [官方 PDF 入口](https://virtualembryo.ai/challenge/paper/nature-methods-comment)",
+      "title": "Towards predictive virtual embryos with genomics and AI",
+      "primary_url": "https://doi.org/10.1038/s41592-026-03055-4",
+      "other_links": [
+        {
+          "label": "官方 PDF 入口",
+          "url": "https://virtualembryo.ai/challenge/paper/nature-methods-comment"
+        }
+      ],
+      "purpose": "评论文章；研究背景与从虚拟细胞到组织/胚胎的动机",
+      "verification": {
+        "url": "https://doi.org/10.1038/s41592-026-03055-4",
+        "status": "verified_metadata",
+        "http_status": 200,
+        "verification_url": "https://api.crossref.org/works/10.1038/s41592-026-03055-4",
+        "metadata": {
+          "DOI": "10.1038/s41592-026-03055-4",
+          "title": [
+            "Towards predictive virtual embryos with genomics and AI"
+          ],
+          "author": [
+            {
+              "given": "Natalie",
+              "family": "Cao",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Yifan",
+              "family": "Lu",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-7881-5395",
+              "authenticated-orcid": false,
+              "given": "Xiaojie",
+              "family": "Qiu",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                3,
+                26
+              ]
+            ]
+          },
+          "container-title": [
+            "Nature Methods"
+          ]
+        }
+      }
+    },
+    {
+      "id": "R02",
+      "citation_markdown": "Richter, Wang, Palma & Theis (2026). [Generative models of cell dynamics: from Neural ODEs to flow matching](https://doi.org/10.1038/s42003-026-09758-w). *Communications Biology*. [开放全文](https://pmc.ncbi.nlm.nih.gov/articles/PMC12976343/)",
+      "title": "Generative models of cell dynamics: from Neural ODEs to flow matching",
+      "primary_url": "https://doi.org/10.1038/s42003-026-09758-w",
+      "other_links": [
+        {
+          "label": "开放全文",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12976343/"
+        }
+      ],
+      "purpose": "**核心综述**；连续时间模型、OT、生成路径与前沿问题",
+      "verification": {
+        "url": "https://doi.org/10.1038/s42003-026-09758-w",
+        "status": "verified_metadata",
+        "http_status": 200,
+        "verification_url": "https://api.crossref.org/works/10.1038/s42003-026-09758-w",
+        "metadata": {
+          "DOI": "10.1038/s42003-026-09758-w",
+          "title": [
+            "Generative models of cell dynamics: from Neural ODEs to flow matching"
+          ],
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0001-6008-8209",
+              "authenticated-orcid": false,
+              "given": "Till",
+              "family": "Richter",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Weixu",
+              "family": "Wang",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Alessandro",
+              "family": "Palma",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-2419-1943",
+              "authenticated-orcid": false,
+              "given": "Fabian J.",
+              "family": "Theis",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                2,
+                27
+              ]
+            ]
+          },
+          "container-title": [
+            "Communications Biology"
+          ]
+        }
+      }
+    },
+    {
+      "id": "R03",
+      "citation_markdown": "Saelens et al. (2019). [A comparison of single-cell trajectory inference methods](https://doi.org/10.1038/s41587-019-0071-9). *Nature Biotechnology*",
+      "title": "A comparison of single-cell trajectory inference methods",
+      "primary_url": "https://doi.org/10.1038/s41587-019-0071-9",
+      "other_links": [],
+      "purpose": "方法比较与综述式阅读；理解轨迹推断的假设与评价",
+      "verification": {
+        "url": "https://doi.org/10.1038/s41587-019-0071-9",
+        "status": "verified_metadata",
+        "http_status": 200,
+        "verification_url": "https://api.crossref.org/works/10.1038/s41587-019-0071-9",
+        "metadata": {
+          "DOI": "10.1038/s41587-019-0071-9",
+          "title": [
+            "A comparison of single-cell trajectory inference methods"
+          ],
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0002-7114-6248",
+              "authenticated-orcid": false,
+              "given": "Wouter",
+              "family": "Saelens",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0003-3641-729X",
+              "authenticated-orcid": false,
+              "given": "Robrecht",
+              "family": "Cannoodt",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-1594-8609",
+              "authenticated-orcid": false,
+              "given": "Helena",
+              "family": "Todorov",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-0415-1506",
+              "authenticated-orcid": false,
+              "given": "Yvan",
+              "family": "Saeys",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2019,
+                4,
+                1
+              ]
+            ]
+          },
+          "container-title": [
+            "Nature Biotechnology"
+          ]
+        }
+      }
+    },
+    {
+      "id": "R04",
+      "citation_markdown": "Luecken & Theis (2019). [Current best practices in single-cell RNA-seq analysis: a tutorial](https://doi.org/10.15252/msb.20188746). *Molecular Systems Biology*. [开放全文](https://pmc.ncbi.nlm.nih.gov/articles/PMC6582955/)",
+      "title": "Current best practices in single-cell RNA-seq analysis: a tutorial",
+      "primary_url": "https://doi.org/10.15252/msb.20188746",
+      "other_links": [
+        {
+          "label": "开放全文",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6582955/"
+        }
+      ],
+      "purpose": "**基础教程/综述**；预处理、QC、注释与分析设计",
+      "verification": {
+        "url": "https://doi.org/10.15252/msb.20188746",
+        "status": "verified_metadata",
+        "http_status": 429,
+        "verification_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.15252/msb.20188746&format=json",
+        "last_http_attempt": 429,
+        "metadata": {
+          "id": "31217225",
+          "source": "MED",
+          "pmcid": "PMC6582955",
+          "doi": "10.15252/msb.20188746",
+          "title": "Current best practices in single-cell RNA-seq analysis: a tutorial.",
+          "authorString": "Luecken MD, Theis FJ.",
+          "journalTitle": "Mol Syst Biol",
+          "pubYear": "2019"
+        },
+        "verification_method": "Previously retrieved Europe PMC indexed metadata",
+        "local_audit_cache": "literature-search.json"
+      }
+    },
+    {
+      "id": "R05",
+      "citation_markdown": "Lopez et al. (2018). [Deep generative modeling for single-cell transcriptomics](https://doi.org/10.1038/s41592-018-0229-2). *Nature Methods*. [开放全文](https://pmc.ncbi.nlm.nih.gov/articles/PMC6289068/)",
+      "title": "Deep generative modeling for single-cell transcriptomics",
+      "primary_url": "https://doi.org/10.1038/s41592-018-0229-2",
+      "other_links": [
+        {
+          "label": "开放全文",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6289068/"
+        }
+      ],
+      "purpose": "scVI 原论文；表示学习与原始 counts 观测模型",
+      "verification": {
+        "url": "https://doi.org/10.1038/s41592-018-0229-2",
+        "status": "verified_metadata",
+        "http_status": 200,
+        "verification_url": "https://api.crossref.org/works/10.1038/s41592-018-0229-2",
+        "metadata": {
+          "DOI": "10.1038/s41592-018-0229-2",
+          "title": [
+            "Deep generative modeling for single-cell transcriptomics"
+          ],
+          "author": [
+            {
+              "given": "Romain",
+              "family": "Lopez",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-1472-5235",
+              "authenticated-orcid": false,
+              "given": "Jeffrey",
+              "family": "Regier",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Michael B.",
+              "family": "Cole",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Michael I.",
+              "family": "Jordan",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0001-9004-1225",
+              "authenticated-orcid": false,
+              "given": "Nir",
+              "family": "Yosef",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2018,
+                11,
+                30
+              ]
+            ]
+          },
+          "container-title": [
+            "Nature Methods"
+          ]
+        }
+      }
+    },
+    {
+      "id": "R06",
+      "citation_markdown": "Pijuan-Sala et al. (2019). [A single-cell molecular map of mouse gastrulation and early organogenesis](https://doi.org/10.1038/s41586-019-0933-9). *Nature*. [开放全文](https://pmc.ncbi.nlm.nih.gov/articles/PMC6522369/)",
+      "title": "A single-cell molecular map of mouse gastrulation and early organogenesis",
+      "primary_url": "https://doi.org/10.1038/s41586-019-0933-9",
+      "other_links": [
+        {
+          "label": "开放全文",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6522369/"
+        }
+      ],
+      "purpose": "胚胎图谱与细胞类型背景；不是不经审查即可训练的外部数据",
+      "verification": {
+        "url": "https://doi.org/10.1038/s41586-019-0933-9",
+        "status": "verified_metadata",
+        "http_status": 200,
+        "verification_url": "https://api.crossref.org/works/10.1038/s41586-019-0933-9",
+        "metadata": {
+          "DOI": "10.1038/s41586-019-0933-9",
+          "title": [
+            "A single-cell molecular map of mouse gastrulation and early organogenesis"
+          ],
+          "author": [
+            {
+              "given": "Blanca",
+              "family": "Pijuan-Sala",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Jonathan A.",
+              "family": "Griffiths",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Carolina",
+              "family": "Guibentif",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Tom W.",
+              "family": "Hiscock",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Wajid",
+              "family": "Jawaid",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Fernando J.",
+              "family": "Calero-Nieto",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Carla",
+              "family": "Mulas",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Ximena",
+              "family": "Ibarra-Soria",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Richard C. V.",
+              "family": "Tyser",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Debbie Lee Lian",
+              "family": "Ho",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Wolf",
+              "family": "Reik",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Shankar",
+              "family": "Srinivas",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Benjamin D.",
+              "family": "Simons",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Jennifer",
+              "family": "Nichols",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "John C.",
+              "family": "Marioni",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Berthold",
+              "family": "Göttgens",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2019,
+                2
+              ]
+            ]
+          },
+          "container-title": [
+            "Nature"
+          ]
+        }
+      }
+    },
+    {
+      "id": "R07",
+      "citation_markdown": "Schiebinger et al. (2019). [Optimal-Transport Analysis of Single-Cell Gene Expression Identifies Developmental Trajectories in Reprogramming](https://doi.org/10.1016/j.cell.2019.01.006). *Cell*. [开放全文](https://pmc.ncbi.nlm.nih.gov/articles/PMC6402800/)",
+      "title": "Optimal-Transport Analysis of Single-Cell Gene Expression Identifies Developmental Trajectories in Reprogramming",
+      "primary_url": "https://doi.org/10.1016/j.cell.2019.01.006",
+      "other_links": [
+        {
+          "label": "开放全文",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6402800/"
+        }
+      ],
+      "purpose": "Waddington-OT；连接不配对快照、增长假设",
+      "verification": {
+        "url": "https://doi.org/10.1016/j.cell.2019.01.006",
+        "status": "verified_metadata",
+        "http_status": 200,
+        "verification_url": "https://api.crossref.org/works/10.1016/j.cell.2019.01.006",
+        "metadata": {
+          "DOI": "10.1016/j.cell.2019.01.006",
+          "title": [
+            "Optimal-Transport Analysis of Single-Cell Gene Expression Identifies Developmental Trajectories in Reprogramming"
+          ],
+          "author": [
+            {
+              "given": "Geoffrey",
+              "family": "Schiebinger",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Jian",
+              "family": "Shu",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Marcin",
+              "family": "Tabaka",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Brian",
+              "family": "Cleary",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Vidya",
+              "family": "Subramanian",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Aryeh",
+              "family": "Solomon",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Joshua",
+              "family": "Gould",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Siyan",
+              "family": "Liu",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Stacie",
+              "family": "Lin",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Peter",
+              "family": "Berube",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Lia",
+              "family": "Lee",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Jenny",
+              "family": "Chen",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Justin",
+              "family": "Brumbaugh",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Philippe",
+              "family": "Rigollet",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Konrad",
+              "family": "Hochedlinger",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Rudolf",
+              "family": "Jaenisch",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Aviv",
+              "family": "Regev",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Eric S.",
+              "family": "Lander",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2019,
+                2
+              ]
+            ]
+          },
+          "container-title": [
+            "Cell"
+          ]
+        }
+      }
+    },
+    {
+      "id": "R08",
+      "citation_markdown": "Tong et al. (2020). [TrajectoryNet: A Dynamic Optimal Transport Network for Modeling Cellular Dynamics](https://proceedings.mlr.press/v119/tong20a.html). *ICML*, PMLR 119",
+      "title": "TrajectoryNet: A Dynamic Optimal Transport Network for Modeling Cellular Dynamics",
+      "primary_url": "https://proceedings.mlr.press/v119/tong20a.html",
+      "other_links": [],
+      "purpose": "动态 OT/连续流；优先复现目标之一",
+      "verification": {
+        "url": "https://proceedings.mlr.press/v119/tong20a.html",
+        "status": "verified_page",
+        "http_status": 200,
+        "effective_url": "https://proceedings.mlr.press/v119/tong20a.html",
+        "page_title": "TrajectoryNet: A Dynamic Optimal Transport Network for Modeling Cellular Dynamics",
+        "content_sha256": "8fa86551faddbeeeaf3f9cbc721f89cd89d03b3fc78f43f3f45c2afa8725e8ea"
+      }
+    },
+    {
+      "id": "R09",
+      "citation_markdown": "Yeo, Saksena & Gifford (2021). [Generative modeling of single-cell time series with PRESCIENT enables prediction of cell trajectories with interventions](https://doi.org/10.1038/s41467-021-23518-w). *Nature Communications*. [开放全文](https://pmc.ncbi.nlm.nih.gov/articles/PMC8163769/)",
+      "title": "Generative modeling of single-cell time series with PRESCIENT enables prediction of cell trajectories with interventions",
+      "primary_url": "https://doi.org/10.1038/s41467-021-23518-w",
+      "other_links": [
+        {
+          "label": "开放全文",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8163769/"
+        }
+      ],
+      "purpose": "随机景观与轨迹模拟；优先复现目标之一",
+      "verification": {
+        "url": "https://doi.org/10.1038/s41467-021-23518-w",
+        "status": "verified_metadata",
+        "http_status": 429,
+        "verification_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1038/s41467-021-23518-w&format=json",
+        "last_http_attempt": 429,
+        "metadata": {
+          "id": "34050150",
+          "source": "MED",
+          "pmcid": "PMC8163769",
+          "doi": "10.1038/s41467-021-23518-w",
+          "title": "Generative modeling of single-cell time series with PRESCIENT enables prediction of cell trajectories with interventions.",
+          "authorString": "Yeo GHT, Saksena SD, Gifford DK.",
+          "journalTitle": "Nat Commun",
+          "pubYear": "2021"
+        },
+        "verification_method": "Previously retrieved Europe PMC indexed metadata",
+        "local_audit_cache": "literature-search.json"
+      }
+    },
+    {
+      "id": "R10",
+      "citation_markdown": "Bunne et al. (2023). [Learning single-cell perturbation responses using neural optimal transport](https://doi.org/10.1038/s41592-023-01969-x). *Nature Methods*. [开放全文](https://pmc.ncbi.nlm.nih.gov/articles/PMC10630137/)",
+      "title": "Learning single-cell perturbation responses using neural optimal transport",
+      "primary_url": "https://doi.org/10.1038/s41592-023-01969-x",
+      "other_links": [
+        {
+          "label": "开放全文",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10630137/"
+        }
+      ],
+      "purpose": "CellOT；非配对干预分布与泛化边界",
+      "verification": {
+        "url": "https://doi.org/10.1038/s41592-023-01969-x",
+        "status": "verified_metadata",
+        "http_status": 200,
+        "verification_url": "https://api.crossref.org/works/10.1038/s41592-023-01969-x",
+        "metadata": {
+          "DOI": "10.1038/s41592-023-01969-x",
+          "title": [
+            "Learning single-cell perturbation responses using neural optimal transport"
+          ],
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0003-1431-103X",
+              "authenticated-orcid": false,
+              "given": "Charlotte",
+              "family": "Bunne",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Stefan G.",
+              "family": "Stark",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0001-8991-0040",
+              "authenticated-orcid": false,
+              "given": "Gabriele",
+              "family": "Gut",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Jacobo Sarabia",
+              "family": "del Castillo",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Mitch",
+              "family": "Levesque",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-1936-298X",
+              "authenticated-orcid": false,
+              "given": "Kjong-Van",
+              "family": "Lehmann",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-6754-9730",
+              "authenticated-orcid": false,
+              "given": "Lucas",
+              "family": "Pelkmans",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0001-7260-9673",
+              "authenticated-orcid": false,
+              "given": "Andreas",
+              "family": "Krause",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0001-5486-8532",
+              "authenticated-orcid": false,
+              "given": "Gunnar",
+              "family": "Rätsch",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2023,
+                9,
+                28
+              ]
+            ]
+          },
+          "container-title": [
+            "Nature Methods"
+          ]
+        }
+      }
+    },
+    {
+      "id": "R11",
+      "citation_markdown": "Lotfollahi et al. (2023). [Predicting cellular responses to complex perturbations in high-throughput screens](https://doi.org/10.15252/msb.202211517). *Molecular Systems Biology*. [开放全文](https://pmc.ncbi.nlm.nih.gov/articles/PMC10258562/)",
+      "title": "Predicting cellular responses to complex perturbations in high-throughput screens",
+      "primary_url": "https://doi.org/10.15252/msb.202211517",
+      "other_links": [
+        {
+          "label": "开放全文",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10258562/"
+        }
+      ],
+      "purpose": "CPA；条件表示、剂量与组合泛化",
+      "verification": {
+        "url": "https://doi.org/10.15252/msb.202211517",
+        "status": "verified_metadata",
+        "http_status": 200,
+        "verification_url": "https://api.crossref.org/works/10.15252/msb.202211517",
+        "metadata": {
+          "DOI": "10.15252/msb.202211517",
+          "title": [
+            "Predicting cellular responses to complex perturbations in high‐throughput screens"
+          ],
+          "author": [
+            {
+              "given": "Mohammad",
+              "family": "Lotfollahi",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-1057-6690",
+              "authenticated-orcid": false,
+              "given": "Anna",
+              "family": "Klimovskaia Susmelj",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-9553-0121",
+              "authenticated-orcid": false,
+              "given": "Carlo",
+              "family": "De Donno",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-4823-9729",
+              "authenticated-orcid": false,
+              "given": "Leon",
+              "family": "Hetzel",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Yuge",
+              "family": "Ji",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-0582-002X",
+              "authenticated-orcid": false,
+              "given": "Ignacio L",
+              "family": "Ibarra",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Sanjay R",
+              "family": "Srivatsan",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Mohsen",
+              "family": "Naghipourfar",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0003-1635-8675",
+              "authenticated-orcid": false,
+              "given": "Riza M",
+              "family": "Daza",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Beth",
+              "family": "Martin",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Jay",
+              "family": "Shendure",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0003-4387-1511",
+              "authenticated-orcid": false,
+              "given": "Jose L",
+              "family": "McFaline‐Figueroa",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Pierre",
+              "family": "Boyeau",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "F Alexander",
+              "family": "Wolf",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Nafissa",
+              "family": "Yakubova",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Stephan",
+              "family": "Günnemann",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Cole",
+              "family": "Trapnell",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "David",
+              "family": "Lopez‐Paz",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-2419-1943",
+              "authenticated-orcid": false,
+              "given": "Fabian J",
+              "family": "Theis",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2023,
+                5,
+                8
+              ]
+            ]
+          },
+          "container-title": [
+            "Molecular Systems Biology"
+          ]
+        }
+      }
+    },
+    {
+      "id": "R12",
+      "citation_markdown": "Roohani, Huang & Leskovec (2024；online 2023). [Predicting transcriptional outcomes of novel multigene perturbations with GEARS](https://doi.org/10.1038/s41587-023-01905-6). *Nature Biotechnology*. [开放全文](https://pmc.ncbi.nlm.nih.gov/articles/PMC11180609/)",
+      "title": "Predicting transcriptional outcomes of novel multigene perturbations with GEARS",
+      "primary_url": "https://doi.org/10.1038/s41587-023-01905-6",
+      "other_links": [
+        {
+          "label": "开放全文",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11180609/"
+        }
+      ],
+      "purpose": "基因图与组合扰动；训练监督条件须与比赛区分",
+      "verification": {
+        "url": "https://doi.org/10.1038/s41587-023-01905-6",
+        "status": "verified_metadata",
+        "http_status": 200,
+        "verification_url": "https://api.crossref.org/works/10.1038/s41587-023-01905-6",
+        "metadata": {
+          "DOI": "10.1038/s41587-023-01905-6",
+          "title": [
+            "Predicting transcriptional outcomes of novel multigene perturbations with GEARS"
+          ],
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0002-9577-5014",
+              "authenticated-orcid": false,
+              "given": "Yusuf",
+              "family": "Roohani",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Kexin",
+              "family": "Huang",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-5411-923X",
+              "authenticated-orcid": false,
+              "given": "Jure",
+              "family": "Leskovec",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2023,
+                8,
+                17
+              ]
+            ]
+          },
+          "container-title": [
+            "Nature Biotechnology"
+          ]
+        }
+      }
+    },
+    {
+      "id": "R13",
+      "citation_markdown": "Sha et al. (2024；online 2023). [Reconstructing growth and dynamic trajectories from single-cell transcriptomics data](https://doi.org/10.1038/s42256-023-00763-w). *Nature Machine Intelligence*. [开放全文](https://pmc.ncbi.nlm.nih.gov/articles/PMC10805654/)",
+      "title": "Reconstructing growth and dynamic trajectories from single-cell transcriptomics data",
+      "primary_url": "https://doi.org/10.1038/s42256-023-00763-w",
+      "other_links": [
+        {
+          "label": "开放全文",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10805654/"
+        }
+      ],
+      "purpose": "TIGON；不平衡群体动力学与增长",
+      "verification": {
+        "url": "https://doi.org/10.1038/s42256-023-00763-w",
+        "status": "verified_metadata",
+        "http_status": 200,
+        "verification_url": "https://api.crossref.org/works/10.1038/s42256-023-00763-w",
+        "metadata": {
+          "DOI": "10.1038/s42256-023-00763-w",
+          "title": [
+            "Reconstructing growth and dynamic trajectories from single-cell transcriptomics data"
+          ],
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0001-5530-734X",
+              "authenticated-orcid": false,
+              "given": "Yutong",
+              "family": "Sha",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-7058-6428",
+              "authenticated-orcid": false,
+              "given": "Yuchi",
+              "family": "Qiu",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Peijie",
+              "family": "Zhou",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-8804-3368",
+              "authenticated-orcid": false,
+              "given": "Qing",
+              "family": "Nie",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2023,
+                11,
+                30
+              ]
+            ]
+          },
+          "container-title": [
+            "Nature Machine Intelligence"
+          ]
+        }
+      }
+    },
+    {
+      "id": "R14",
+      "citation_markdown": "Ahlmann-Eltze, Huber & Anders (2025). [Deep-learning-based gene perturbation effect prediction does not yet outperform simple linear baselines](https://doi.org/10.1038/s41592-025-02772-6). *Nature Methods*. [开放全文](https://pmc.ncbi.nlm.nih.gov/articles/PMC12328236/)",
+      "title": "Deep-learning-based gene perturbation effect prediction does not yet outperform simple linear baselines",
+      "primary_url": "https://doi.org/10.1038/s41592-025-02772-6",
+      "other_links": [
+        {
+          "label": "开放全文",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12328236/"
+        }
+      ],
+      "purpose": "**评价必读**；强基线、真实变化和谨慎解释深度模型",
+      "verification": {
+        "url": "https://doi.org/10.1038/s41592-025-02772-6",
+        "status": "verified_metadata",
+        "http_status": 429,
+        "verification_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1038/s41592-025-02772-6&format=json",
+        "last_http_attempt": 429,
+        "metadata": {
+          "id": "40759747",
+          "source": "MED",
+          "pmcid": "PMC12328236",
+          "doi": "10.1038/s41592-025-02772-6",
+          "title": "Deep-learning-based gene perturbation effect prediction does not yet outperform simple linear baselines.",
+          "authorString": "Ahlmann-Eltze C, Huber W, Anders S.",
+          "journalTitle": "Nat Methods",
+          "pubYear": "2025"
+        },
+        "verification_method": "Previously retrieved Europe PMC indexed metadata",
+        "local_audit_cache": "literature-search.json"
+      }
+    },
+    {
+      "id": "R15",
+      "citation_markdown": "Gretton et al. (2012). [A Kernel Two-Sample Test](https://www.jmlr.org/papers/v13/gretton12a.html). *JMLR* 13:723–773",
+      "title": "A Kernel Two-Sample Test",
+      "primary_url": "https://www.jmlr.org/papers/v13/gretton12a.html",
+      "other_links": [],
+      "purpose": "MMD 的理论与无偏估计依据",
+      "verification": {
+        "url": "https://www.jmlr.org/papers/v13/gretton12a.html",
+        "status": "verified_page",
+        "http_status": 200,
+        "effective_url": "https://www.jmlr.org/papers/v13/gretton12a.html",
+        "page_title": "A Kernel Two-Sample Test",
+        "content_sha256": "8b9f713a4a5eb04c279a06f61b29631e98eaec4e330da3303d2017d43b2f339b"
+      }
+    },
+    {
+      "id": "R16",
+      "citation_markdown": "Cuturi (2013). [Sinkhorn Distances: Lightspeed Computation of Optimal Transport](https://proceedings.neurips.cc/paper/2013/hash/af21d0c97db2e27e13572cbf59eb343d-Abstract.html). *NeurIPS 2013*",
+      "title": "Sinkhorn Distances: Lightspeed Computation of Optimal Transport",
+      "primary_url": "https://proceedings.neurips.cc/paper/2013/hash/af21d0c97db2e27e13572cbf59eb343d-Abstract.html",
+      "other_links": [],
+      "purpose": "熵正则 OT 与快速计算；不是直接把正则 OT cost 等同 Wasserstein",
+      "verification": {
+        "url": "https://proceedings.neurips.cc/paper/2013/hash/af21d0c97db2e27e13572cbf59eb343d-Abstract.html",
+        "status": "verified_page",
+        "http_status": 200,
+        "effective_url": "https://proceedings.neurips.cc/paper/2013/hash/af21d0c97db2e27e13572cbf59eb343d-Abstract.html",
+        "page_title": "Sinkhorn Distances: Lightspeed Computation of Optimal Transport",
+        "content_sha256": "9f68d789e48df2338d549f606fd17a839af261dfb8d795072a48a8fe4aa6a8f4"
+      }
+    },
+    {
+      "id": "R17",
+      "citation_markdown": "Feydy et al. (2019). [Interpolating between Optimal Transport and MMD using Sinkhorn Divergences](https://proceedings.mlr.press/v89/feydy19a.html). *AISTATS*, PMLR 89",
+      "title": "Interpolating between Optimal Transport and MMD using Sinkhorn Divergences",
+      "primary_url": "https://proceedings.mlr.press/v89/feydy19a.html",
+      "other_links": [],
+      "purpose": "去偏 Sinkhorn divergence，作为补充分布指标",
+      "verification": {
+        "url": "https://proceedings.mlr.press/v89/feydy19a.html",
+        "status": "verified_page",
+        "http_status": 200,
+        "effective_url": "https://proceedings.mlr.press/v89/feydy19a.html",
+        "page_title": "Interpolating between Optimal Transport and MMD using Sinkhorn Divergences",
+        "content_sha256": "848ff334e6fac754977431494bc33d926156caebf4fa1f4755081b7c80a763ec"
+      }
+    },
+    {
+      "id": "R18",
+      "citation_markdown": "Benjamini & Hochberg (1995). [Controlling the False Discovery Rate: A Practical and Powerful Approach to Multiple Testing](https://doi.org/10.1111/j.2517-6161.1995.tb02031.x). *JRSS Series B*",
+      "title": "Controlling the False Discovery Rate: A Practical and Powerful Approach to Multiple Testing",
+      "primary_url": "https://doi.org/10.1111/j.2517-6161.1995.tb02031.x",
+      "other_links": [],
+      "purpose": "多基因检验的 BH-FDR 依据",
+      "verification": {
+        "url": "https://doi.org/10.1111/j.2517-6161.1995.tb02031.x",
+        "status": "verified_metadata",
+        "http_status": 200,
+        "verification_url": "https://api.crossref.org/works/10.1111/j.2517-6161.1995.tb02031.x",
+        "metadata": {
+          "DOI": "10.1111/j.2517-6161.1995.tb02031.x",
+          "title": [
+            "Controlling the False Discovery Rate: A Practical and Powerful Approach to Multiple Testing"
+          ],
+          "author": [
+            {
+              "given": "Yoav",
+              "family": "Benjamini",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Tel Aviv University , Israel"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Yosef",
+              "family": "Hochberg",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Tel Aviv University , Israel"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                1995,
+                1,
+                1
+              ]
+            ]
+          },
+          "container-title": [
+            "Journal of the Royal Statistical Society Series B: Statistical Methodology"
+          ]
+        }
+      }
+    },
+    {
+      "id": "R19",
+      "citation_markdown": "Scheuerer & Hamill (2015). [Variogram-Based Proper Scoring Rules for Probabilistic Forecasts of Multivariate Quantities](https://doi.org/10.1175/MWR-D-14-00269.1). *Monthly Weather Review*",
+      "title": "Variogram-Based Proper Scoring Rules for Probabilistic Forecasts of Multivariate Quantities",
+      "primary_url": "https://doi.org/10.1175/MWR-D-14-00269.1",
+      "other_links": [],
+      "purpose": "共变结构评价的思想来源；官方 CSS 是其具体改编",
+      "verification": {
+        "url": "https://doi.org/10.1175/MWR-D-14-00269.1",
+        "status": "verified_metadata",
+        "http_status": 429,
+        "verification_url": "https://api.crossref.org/works?query.title=Variogram-Based+Proper+Scoring+Rules&rows=1",
+        "last_http_attempt": 429,
+        "metadata": {
+          "DOI": "10.1175/mwr-d-14-00269.1",
+          "title": [
+            "Variogram-Based Proper Scoring Rules for Probabilistic Forecasts of Multivariate Quantities*"
+          ],
+          "author": [
+            {
+              "given": "Michael",
+              "family": "Scheuerer",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "NOAA/Earth System Research Laboratory, Boulder, Colorado"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Thomas M.",
+              "family": "Hamill",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "NOAA/Earth System Research Laboratory, Boulder, Colorado"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2015,
+                3,
+                31
+              ]
+            ]
+          },
+          "container-title": [
+            "Monthly Weather Review"
+          ]
+        },
+        "verification_method": "Previously retrieved Crossref title-query metadata"
+      }
+    },
+    {
+      "id": "R20",
+      "citation_markdown": "Lin (1991). [Divergence measures based on the Shannon entropy](https://doi.org/10.1109/18.61115). *IEEE Transactions on Information Theory*",
+      "title": "Divergence measures based on the Shannon entropy",
+      "primary_url": "https://doi.org/10.1109/18.61115",
+      "other_links": [],
+      "purpose": "JS divergence 的依据",
+      "verification": {
+        "url": "https://doi.org/10.1109/18.61115",
+        "status": "verified_metadata",
+        "http_status": 200,
+        "verification_url": "https://api.crossref.org/works/10.1109/18.61115",
+        "metadata": {
+          "DOI": "10.1109/18.61115",
+          "title": [
+            "Divergence measures based on the Shannon entropy"
+          ],
+          "author": [
+            {
+              "given": "J.",
+              "family": "Lin",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                1991
+              ]
+            ]
+          },
+          "container-title": [
+            "IEEE Transactions on Information Theory"
+          ]
+        }
+      }
+    },
+    {
+      "id": "R21",
+      "citation_markdown": "Bergen et al. (2020). [Generalizing RNA velocity to transient cell states through dynamical modeling](https://doi.org/10.1038/s41587-020-0591-3). *Nature Biotechnology*. [预印本入口](https://doi.org/10.1101/820936)",
+      "title": "Generalizing RNA velocity to transient cell states through dynamical modeling",
+      "primary_url": "https://doi.org/10.1038/s41587-020-0591-3",
+      "other_links": [
+        {
+          "label": "预印本入口",
+          "url": "https://doi.org/10.1101/820936"
+        }
+      ],
+      "purpose": "scVelo；局部 RNA 动力学与 spliced/unspliced 数据要求",
+      "verification": {
+        "url": "https://doi.org/10.1038/s41587-020-0591-3",
+        "status": "verified_metadata",
+        "http_status": 200,
+        "verification_url": "https://api.crossref.org/works/10.1038/s41587-020-0591-3",
+        "metadata": {
+          "DOI": "10.1038/s41587-020-0591-3",
+          "title": [
+            "Generalizing RNA velocity to transient cell states through dynamical modeling"
+          ],
+          "author": [
+            {
+              "given": "Volker",
+              "family": "Bergen",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-4846-1266",
+              "authenticated-orcid": false,
+              "given": "Marius",
+              "family": "Lange",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-4257-8690",
+              "authenticated-orcid": false,
+              "given": "Stefan",
+              "family": "Peidli",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-8760-7838",
+              "authenticated-orcid": false,
+              "given": "F. Alexander",
+              "family": "Wolf",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-2419-1943",
+              "authenticated-orcid": false,
+              "given": "Fabian J.",
+              "family": "Theis",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2020,
+                8,
+                3
+              ]
+            ]
+          },
+          "container-title": [
+            "Nature Biotechnology"
+          ]
+        }
+      }
+    },
+    {
+      "id": "R22",
+      "citation_markdown": "Qiu et al. (2024). [Spatiotemporal modeling of molecular holograms](https://doi.org/10.1016/j.cell.2024.10.011). *Cell*",
+      "title": "Spatiotemporal modeling of molecular holograms",
+      "primary_url": "https://doi.org/10.1016/j.cell.2024.10.011",
+      "other_links": [],
+      "purpose": "Spateo 正式论文；空间重建和多尺度动态，不把早期预印本当正式题名",
+      "verification": {
+        "url": "https://doi.org/10.1016/j.cell.2024.10.011",
+        "status": "verified_metadata",
+        "http_status": 429,
+        "verification_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1016/j.cell.2024.10.011&format=json",
+        "last_http_attempt": 429,
+        "metadata": {
+          "id": "39532097",
+          "source": "MED",
+          "doi": "10.1016/j.cell.2024.10.011",
+          "title": "Spatiotemporal modeling of molecular holograms.",
+          "authorString": "Qiu X, Zhu DY, Lu Y, Yao J, Jing Z, Min KH, Cheng M, Pan H, Zuo L, King S, Fang Q, Zheng H, Wang M, Wang S, Zhang Q, Yu S, Liao S, Liu C, Wu X, Lai Y, Hao S, Zhang Z, Wu L, Zhang Y, Li M, Tu Z, Lin J, Yang Z, Li Y, Gu Y, Ellison D, Chen A, Liu L, Weissman JS, Ma J, Xu X, Liu S, Bai Y.",
+          "journalTitle": "Cell",
+          "pubYear": "2024"
+        },
+        "verification_method": "Previously retrieved Europe PMC indexed metadata",
+        "local_audit_cache": "literature-search.json"
+      }
+    },
+    {
+      "id": "R23",
+      "citation_markdown": "Lipman et al. (2023). [Flow Matching for Generative Modeling](https://openreview.net/forum?id=PqvMRDCJT9t). *ICLR 2023*. [预印本](https://arxiv.org/abs/2210.02747)",
+      "title": "Flow Matching for Generative Modeling",
+      "primary_url": "https://openreview.net/forum?id=PqvMRDCJT9t",
+      "other_links": [
+        {
+          "label": "预印本",
+          "url": "https://arxiv.org/abs/2210.02747"
+        }
+      ],
+      "purpose": "前沿训练框架；生成路径参数并不自动等同真实发育时间",
+      "verification": {
+        "url": "https://openreview.net/forum?id=PqvMRDCJT9t",
+        "status": "verified_page",
+        "http_status": 200,
+        "effective_url": "https://openreview.net/challenge?redirect=%2Fforum%3Fid%3DPqvMRDCJT9t",
+        "page_title": "Verifying your browser | OpenReview",
+        "content_sha256": "0d121ec4992cc58cebcb951f57ff85cd18b755294dcb911c55d566369f5c1d24"
+      }
+    },
+    {
+      "id": "R24",
+      "citation_markdown": "Tong et al. (2024). [Simulation-Free Schrödinger Bridges via Score and Flow Matching](https://proceedings.mlr.press/v238/tong24a.html). *AISTATS*, PMLR 238. [代码](https://github.com/atong01/conditional-flow-matching)",
+      "title": "Simulation-Free Schrödinger Bridges via Score and Flow Matching",
+      "primary_url": "https://proceedings.mlr.press/v238/tong24a.html",
+      "other_links": [
+        {
+          "label": "代码",
+          "url": "https://github.com/atong01/conditional-flow-matching"
+        }
+      ],
+      "purpose": "[SF]²M；不配对快照的随机动力学、训练效率",
+      "verification": {
+        "url": "https://proceedings.mlr.press/v238/tong24a.html",
+        "status": "verified_page",
+        "http_status": 200,
+        "effective_url": "https://proceedings.mlr.press/v238/tong24a.html",
+        "page_title": "Simulation-Free Schrödinger Bridges via Score and Flow Matching",
+        "content_sha256": "1793a78feb0723aa35bdbabeecdc5cf7963bfe827a4be86321c46d54cb106209"
+      }
+    },
+    {
+      "id": "R25",
+      "citation_markdown": "Zhang et al. (2025). [Modeling Cell Dynamics and Interactions with Unbalanced Mean Field Schrödinger Bridge](https://arxiv.org/abs/2505.11197). *NeurIPS 2025*（arXiv 页面标注已发表）. [代码](https://github.com/zhenyiizhang/CytoBridge-NeurIPS)",
+      "title": "Modeling Cell Dynamics and Interactions with Unbalanced Mean Field Schrödinger Bridge",
+      "primary_url": "https://arxiv.org/abs/2505.11197",
+      "other_links": [
+        {
+          "label": "代码",
+          "url": "https://github.com/zhenyiizhang/CytoBridge-NeurIPS"
+        }
+      ],
+      "purpose": "CytoBridge；细胞相互作用、增长和非守恒随机动力学",
+      "verification": {
+        "url": "https://arxiv.org/abs/2505.11197",
+        "status": "verified_page",
+        "http_status": 200,
+        "effective_url": "https://arxiv.org/abs/2505.11197",
+        "page_title": "[2505.11197] Modeling Cell Dynamics and Interactions with Unbalanced Mean Field Schrödinger Bridge",
+        "content_sha256": "a2b49926d0a8169148f7ef2d118c6586af06cc789b8bba8c2ccb854044b6d0bf"
+      }
+    },
+    {
+      "id": "R26",
+      "citation_markdown": "Moses & Pachter (2022). [Museum of spatial transcriptomics](https://doi.org/10.1038/s41592-022-01409-2)",
+      "title": "Museum of spatial transcriptomics",
+      "primary_url": "https://doi.org/10.1038/s41592-022-01409-2",
+      "other_links": [],
+      "purpose": "**空间技术综述**；测量方式、技术范围与 T2/T3 观测限制",
+      "verification": {
+        "url": "https://doi.org/10.1038/s41592-022-01409-2",
+        "status": "verified_metadata",
+        "http_status": 429,
+        "verification_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1038/s41592-022-01409-2&format=json",
+        "last_http_attempt": 429,
+        "metadata": {
+          "doi": "10.1038/s41592-022-01409-2",
+          "title": "Museum of spatial transcriptomics.",
+          "authorString": "Moses L, Pachter L.",
+          "journalTitle": "Nat Methods",
+          "pubYear": "2022"
+        },
+        "verification_method": "Previously retrieved Europe PMC indexed metadata",
+        "local_audit_cache": "literature-extra.json"
+      }
+    },
+    {
+      "id": "R27",
+      "citation_markdown": "Peyré & Cuturi (2019；arXiv 初稿 2018). [Computational Optimal Transport](https://arxiv.org/abs/1803.00567)",
+      "title": "Computational Optimal Transport",
+      "primary_url": "https://arxiv.org/abs/1803.00567",
+      "other_links": [],
+      "purpose": "OT 教材/长篇综述；代价、正则化、算法与计算边界",
+      "verification": {
+        "url": "https://arxiv.org/abs/1803.00567",
+        "status": "verified_page",
+        "http_status": 200,
+        "effective_url": "https://arxiv.org/abs/1803.00567",
+        "page_title": "[1803.00567] Computational Optimal Transport",
+        "content_sha256": "b2022f83f142d12c65400d0c5d9d79af7b3617ba90e5e1d712f4d2687dd93734"
+      }
+    },
+    {
+      "id": "R28",
+      "citation_markdown": "Székely & Rizzo (2013). [Energy statistics: A class of statistics based on distances](https://doi.org/10.1016/j.jspi.2013.03.018). *Journal of Statistical Planning and Inference*",
+      "title": "Energy statistics: A class of statistics based on distances",
+      "primary_url": "https://doi.org/10.1016/j.jspi.2013.03.018",
+      "other_links": [],
+      "purpose": "energy distance 的依据，用于补充检查投影之外的分布变化",
+      "verification": {
+        "url": "https://doi.org/10.1016/j.jspi.2013.03.018",
+        "status": "verified_metadata",
+        "http_status": 200,
+        "verification_url": "https://api.crossref.org/works/10.1016/j.jspi.2013.03.018",
+        "metadata": {
+          "DOI": "10.1016/j.jspi.2013.03.018",
+          "title": [
+            "Energy statistics: A class of statistics based on distances"
+          ],
+          "author": [
+            {
+              "given": "Gábor J.",
+              "family": "Székely",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Maria L.",
+              "family": "Rizzo",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2013,
+                8
+              ]
+            ]
+          },
+          "container-title": [
+            "Journal of Statistical Planning and Inference"
+          ]
+        }
+      }
+    }
+  ],
+  "url_checks": [
+    {
+      "url": "https://anndata.readthedocs.io/en/stable/",
+      "status": "verified_page",
+      "http_status": 200,
+      "effective_url": "https://anndata.readthedocs.io/en/stable/",
+      "page_title": "anndata - Annotated data — anndata 0.13.3.post0 documentation",
+      "content_sha256": "ff9aa74d6a5ea53980cbeaca2db5c2b2d8082d6af05f7ece0ca7fcd75a5de296"
+    },
+    {
+      "url": "https://arxiv.org/abs/1803.00567",
+      "status": "verified_page",
+      "http_status": 200,
+      "effective_url": "https://arxiv.org/abs/1803.00567",
+      "page_title": "[1803.00567] Computational Optimal Transport",
+      "content_sha256": "b2022f83f142d12c65400d0c5d9d79af7b3617ba90e5e1d712f4d2687dd93734"
+    },
+    {
+      "url": "https://arxiv.org/abs/2210.02747",
+      "status": "verified_page",
+      "http_status": 200,
+      "effective_url": "https://arxiv.org/abs/2210.02747",
+      "page_title": "[2210.02747] Flow Matching for Generative Modeling",
+      "content_sha256": "228275106e1c6eb485b9729a4226982bd7bb7f5fc8d16fd3d6567aa49074d25d"
+    },
+    {
+      "url": "https://arxiv.org/abs/2505.11197",
+      "status": "verified_page",
+      "http_status": 200,
+      "effective_url": "https://arxiv.org/abs/2505.11197",
+      "page_title": "[2505.11197] Modeling Cell Dynamics and Interactions with Unbalanced Mean Field Schrödinger Bridge",
+      "content_sha256": "a2b49926d0a8169148f7ef2d118c6586af06cc789b8bba8c2ccb854044b6d0bf"
+    },
+    {
+      "url": "https://colab.research.google.com/drive/11kHZjd4IawoC6uwCqiHNuDGAYpoPlUQO?usp=sharing",
+      "status": "officially_cited_destination_unchecked",
+      "error": "HTTPSConnectionPool(host='colab.research.google.com', port=443): Max retries exceeded with url: /drive/11kHZjd4IawoC6uwCqiHNuDGAYpoPlUQO?usp=sharing (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f4f6239e790>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))",
+      "verification_url": "https://virtualembryo.ai/challenge/baselines",
+      "verification_method": "Exact URL is linked on official baseline page; direct destination inaccessible from this environment due to DNS. Notebook not executed."
+    },
+    {
+      "url": "https://doi.org/10.1016/j.cell.2019.01.006",
+      "status": "verified_metadata",
+      "http_status": 200,
+      "verification_url": "https://api.crossref.org/works/10.1016/j.cell.2019.01.006",
+      "metadata": {
+        "DOI": "10.1016/j.cell.2019.01.006",
+        "title": [
+          "Optimal-Transport Analysis of Single-Cell Gene Expression Identifies Developmental Trajectories in Reprogramming"
+        ],
+        "author": [
+          {
+            "given": "Geoffrey",
+            "family": "Schiebinger",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Jian",
+            "family": "Shu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Marcin",
+            "family": "Tabaka",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Brian",
+            "family": "Cleary",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Vidya",
+            "family": "Subramanian",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Aryeh",
+            "family": "Solomon",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Joshua",
+            "family": "Gould",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Siyan",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Stacie",
+            "family": "Lin",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Peter",
+            "family": "Berube",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Lia",
+            "family": "Lee",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Jenny",
+            "family": "Chen",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Justin",
+            "family": "Brumbaugh",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Philippe",
+            "family": "Rigollet",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Konrad",
+            "family": "Hochedlinger",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Rudolf",
+            "family": "Jaenisch",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Aviv",
+            "family": "Regev",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Eric S.",
+            "family": "Lander",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2019,
+              2
+            ]
+          ]
+        },
+        "container-title": [
+          "Cell"
+        ]
+      }
+    },
+    {
+      "url": "https://doi.org/10.1016/j.cell.2024.10.011",
+      "status": "verified_metadata",
+      "http_status": 429,
+      "verification_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1016/j.cell.2024.10.011&format=json",
+      "last_http_attempt": 429,
+      "metadata": {
+        "id": "39532097",
+        "source": "MED",
+        "doi": "10.1016/j.cell.2024.10.011",
+        "title": "Spatiotemporal modeling of molecular holograms.",
+        "authorString": "Qiu X, Zhu DY, Lu Y, Yao J, Jing Z, Min KH, Cheng M, Pan H, Zuo L, King S, Fang Q, Zheng H, Wang M, Wang S, Zhang Q, Yu S, Liao S, Liu C, Wu X, Lai Y, Hao S, Zhang Z, Wu L, Zhang Y, Li M, Tu Z, Lin J, Yang Z, Li Y, Gu Y, Ellison D, Chen A, Liu L, Weissman JS, Ma J, Xu X, Liu S, Bai Y.",
+        "journalTitle": "Cell",
+        "pubYear": "2024"
+      },
+      "verification_method": "Previously retrieved Europe PMC indexed metadata",
+      "local_audit_cache": "literature-search.json"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.jspi.2013.03.018",
+      "status": "verified_metadata",
+      "http_status": 200,
+      "verification_url": "https://api.crossref.org/works/10.1016/j.jspi.2013.03.018",
+      "metadata": {
+        "DOI": "10.1016/j.jspi.2013.03.018",
+        "title": [
+          "Energy statistics: A class of statistics based on distances"
+        ],
+        "author": [
+          {
+            "given": "Gábor J.",
+            "family": "Székely",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Maria L.",
+            "family": "Rizzo",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2013,
+              8
+            ]
+          ]
+        },
+        "container-title": [
+          "Journal of Statistical Planning and Inference"
+        ]
+      }
+    },
+    {
+      "url": "https://doi.org/10.1038/s41467-021-23518-w",
+      "status": "verified_metadata",
+      "http_status": 429,
+      "verification_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1038/s41467-021-23518-w&format=json",
+      "last_http_attempt": 429,
+      "metadata": {
+        "id": "34050150",
+        "source": "MED",
+        "pmcid": "PMC8163769",
+        "doi": "10.1038/s41467-021-23518-w",
+        "title": "Generative modeling of single-cell time series with PRESCIENT enables prediction of cell trajectories with interventions.",
+        "authorString": "Yeo GHT, Saksena SD, Gifford DK.",
+        "journalTitle": "Nat Commun",
+        "pubYear": "2021"
+      },
+      "verification_method": "Previously retrieved Europe PMC indexed metadata",
+      "local_audit_cache": "literature-search.json"
+    },
+    {
+      "url": "https://doi.org/10.1038/s41586-019-0933-9",
+      "status": "verified_metadata",
+      "http_status": 200,
+      "verification_url": "https://api.crossref.org/works/10.1038/s41586-019-0933-9",
+      "metadata": {
+        "DOI": "10.1038/s41586-019-0933-9",
+        "title": [
+          "A single-cell molecular map of mouse gastrulation and early organogenesis"
+        ],
+        "author": [
+          {
+            "given": "Blanca",
+            "family": "Pijuan-Sala",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Jonathan A.",
+            "family": "Griffiths",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Carolina",
+            "family": "Guibentif",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Tom W.",
+            "family": "Hiscock",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Wajid",
+            "family": "Jawaid",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Fernando J.",
+            "family": "Calero-Nieto",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Carla",
+            "family": "Mulas",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Ximena",
+            "family": "Ibarra-Soria",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Richard C. V.",
+            "family": "Tyser",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Debbie Lee Lian",
+            "family": "Ho",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Wolf",
+            "family": "Reik",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Shankar",
+            "family": "Srinivas",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Benjamin D.",
+            "family": "Simons",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Jennifer",
+            "family": "Nichols",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "John C.",
+            "family": "Marioni",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Berthold",
+            "family": "Göttgens",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2019,
+              2
+            ]
+          ]
+        },
+        "container-title": [
+          "Nature"
+        ]
+      }
+    },
+    {
+      "url": "https://doi.org/10.1038/s41587-019-0071-9",
+      "status": "verified_metadata",
+      "http_status": 200,
+      "verification_url": "https://api.crossref.org/works/10.1038/s41587-019-0071-9",
+      "metadata": {
+        "DOI": "10.1038/s41587-019-0071-9",
+        "title": [
+          "A comparison of single-cell trajectory inference methods"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-7114-6248",
+            "authenticated-orcid": false,
+            "given": "Wouter",
+            "family": "Saelens",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-3641-729X",
+            "authenticated-orcid": false,
+            "given": "Robrecht",
+            "family": "Cannoodt",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-1594-8609",
+            "authenticated-orcid": false,
+            "given": "Helena",
+            "family": "Todorov",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-0415-1506",
+            "authenticated-orcid": false,
+            "given": "Yvan",
+            "family": "Saeys",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2019,
+              4,
+              1
+            ]
+          ]
+        },
+        "container-title": [
+          "Nature Biotechnology"
+        ]
+      }
+    },
+    {
+      "url": "https://doi.org/10.1038/s41587-020-0591-3",
+      "status": "verified_metadata",
+      "http_status": 200,
+      "verification_url": "https://api.crossref.org/works/10.1038/s41587-020-0591-3",
+      "metadata": {
+        "DOI": "10.1038/s41587-020-0591-3",
+        "title": [
+          "Generalizing RNA velocity to transient cell states through dynamical modeling"
+        ],
+        "author": [
+          {
+            "given": "Volker",
+            "family": "Bergen",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-4846-1266",
+            "authenticated-orcid": false,
+            "given": "Marius",
+            "family": "Lange",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-4257-8690",
+            "authenticated-orcid": false,
+            "given": "Stefan",
+            "family": "Peidli",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-8760-7838",
+            "authenticated-orcid": false,
+            "given": "F. Alexander",
+            "family": "Wolf",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-2419-1943",
+            "authenticated-orcid": false,
+            "given": "Fabian J.",
+            "family": "Theis",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2020,
+              8,
+              3
+            ]
+          ]
+        },
+        "container-title": [
+          "Nature Biotechnology"
+        ]
+      }
+    },
+    {
+      "url": "https://doi.org/10.1038/s41587-023-01905-6",
+      "status": "verified_metadata",
+      "http_status": 200,
+      "verification_url": "https://api.crossref.org/works/10.1038/s41587-023-01905-6",
+      "metadata": {
+        "DOI": "10.1038/s41587-023-01905-6",
+        "title": [
+          "Predicting transcriptional outcomes of novel multigene perturbations with GEARS"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-9577-5014",
+            "authenticated-orcid": false,
+            "given": "Yusuf",
+            "family": "Roohani",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Kexin",
+            "family": "Huang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-5411-923X",
+            "authenticated-orcid": false,
+            "given": "Jure",
+            "family": "Leskovec",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              8,
+              17
+            ]
+          ]
+        },
+        "container-title": [
+          "Nature Biotechnology"
+        ]
+      }
+    },
+    {
+      "url": "https://doi.org/10.1038/s41592-018-0229-2",
+      "status": "verified_metadata",
+      "http_status": 200,
+      "verification_url": "https://api.crossref.org/works/10.1038/s41592-018-0229-2",
+      "metadata": {
+        "DOI": "10.1038/s41592-018-0229-2",
+        "title": [
+          "Deep generative modeling for single-cell transcriptomics"
+        ],
+        "author": [
+          {
+            "given": "Romain",
+            "family": "Lopez",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-1472-5235",
+            "authenticated-orcid": false,
+            "given": "Jeffrey",
+            "family": "Regier",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Michael B.",
+            "family": "Cole",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Michael I.",
+            "family": "Jordan",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-9004-1225",
+            "authenticated-orcid": false,
+            "given": "Nir",
+            "family": "Yosef",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2018,
+              11,
+              30
+            ]
+          ]
+        },
+        "container-title": [
+          "Nature Methods"
+        ]
+      }
+    },
+    {
+      "url": "https://doi.org/10.1038/s41592-022-01409-2",
+      "status": "verified_metadata",
+      "http_status": 429,
+      "verification_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1038/s41592-022-01409-2&format=json",
+      "last_http_attempt": 429,
+      "metadata": {
+        "doi": "10.1038/s41592-022-01409-2",
+        "title": "Museum of spatial transcriptomics.",
+        "authorString": "Moses L, Pachter L.",
+        "journalTitle": "Nat Methods",
+        "pubYear": "2022"
+      },
+      "verification_method": "Previously retrieved Europe PMC indexed metadata",
+      "local_audit_cache": "literature-extra.json"
+    },
+    {
+      "url": "https://doi.org/10.1038/s41592-023-01969-x",
+      "status": "verified_metadata",
+      "http_status": 200,
+      "verification_url": "https://api.crossref.org/works/10.1038/s41592-023-01969-x",
+      "metadata": {
+        "DOI": "10.1038/s41592-023-01969-x",
+        "title": [
+          "Learning single-cell perturbation responses using neural optimal transport"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0003-1431-103X",
+            "authenticated-orcid": false,
+            "given": "Charlotte",
+            "family": "Bunne",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Stefan G.",
+            "family": "Stark",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-8991-0040",
+            "authenticated-orcid": false,
+            "given": "Gabriele",
+            "family": "Gut",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Jacobo Sarabia",
+            "family": "del Castillo",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Mitch",
+            "family": "Levesque",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-1936-298X",
+            "authenticated-orcid": false,
+            "given": "Kjong-Van",
+            "family": "Lehmann",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-6754-9730",
+            "authenticated-orcid": false,
+            "given": "Lucas",
+            "family": "Pelkmans",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-7260-9673",
+            "authenticated-orcid": false,
+            "given": "Andreas",
+            "family": "Krause",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-5486-8532",
+            "authenticated-orcid": false,
+            "given": "Gunnar",
+            "family": "Rätsch",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              9,
+              28
+            ]
+          ]
+        },
+        "container-title": [
+          "Nature Methods"
+        ]
+      }
+    },
+    {
+      "url": "https://doi.org/10.1038/s41592-025-02772-6",
+      "status": "verified_metadata",
+      "http_status": 429,
+      "verification_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1038/s41592-025-02772-6&format=json",
+      "last_http_attempt": 429,
+      "metadata": {
+        "id": "40759747",
+        "source": "MED",
+        "pmcid": "PMC12328236",
+        "doi": "10.1038/s41592-025-02772-6",
+        "title": "Deep-learning-based gene perturbation effect prediction does not yet outperform simple linear baselines.",
+        "authorString": "Ahlmann-Eltze C, Huber W, Anders S.",
+        "journalTitle": "Nat Methods",
+        "pubYear": "2025"
+      },
+      "verification_method": "Previously retrieved Europe PMC indexed metadata",
+      "local_audit_cache": "literature-search.json"
+    },
+    {
+      "url": "https://doi.org/10.1038/s41592-026-03055-4",
+      "status": "verified_metadata",
+      "http_status": 200,
+      "verification_url": "https://api.crossref.org/works/10.1038/s41592-026-03055-4",
+      "metadata": {
+        "DOI": "10.1038/s41592-026-03055-4",
+        "title": [
+          "Towards predictive virtual embryos with genomics and AI"
+        ],
+        "author": [
+          {
+            "given": "Natalie",
+            "family": "Cao",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Yifan",
+            "family": "Lu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-7881-5395",
+            "authenticated-orcid": false,
+            "given": "Xiaojie",
+            "family": "Qiu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              26
+            ]
+          ]
+        },
+        "container-title": [
+          "Nature Methods"
+        ]
+      }
+    },
+    {
+      "url": "https://doi.org/10.1038/s42003-026-09758-w",
+      "status": "verified_metadata",
+      "http_status": 200,
+      "verification_url": "https://api.crossref.org/works/10.1038/s42003-026-09758-w",
+      "metadata": {
+        "DOI": "10.1038/s42003-026-09758-w",
+        "title": [
+          "Generative models of cell dynamics: from Neural ODEs to flow matching"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-6008-8209",
+            "authenticated-orcid": false,
+            "given": "Till",
+            "family": "Richter",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Weixu",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Alessandro",
+            "family": "Palma",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-2419-1943",
+            "authenticated-orcid": false,
+            "given": "Fabian J.",
+            "family": "Theis",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              27
+            ]
+          ]
+        },
+        "container-title": [
+          "Communications Biology"
+        ]
+      }
+    },
+    {
+      "url": "https://doi.org/10.1038/s42256-023-00763-w",
+      "status": "verified_metadata",
+      "http_status": 200,
+      "verification_url": "https://api.crossref.org/works/10.1038/s42256-023-00763-w",
+      "metadata": {
+        "DOI": "10.1038/s42256-023-00763-w",
+        "title": [
+          "Reconstructing growth and dynamic trajectories from single-cell transcriptomics data"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-5530-734X",
+            "authenticated-orcid": false,
+            "given": "Yutong",
+            "family": "Sha",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-7058-6428",
+            "authenticated-orcid": false,
+            "given": "Yuchi",
+            "family": "Qiu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Peijie",
+            "family": "Zhou",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-8804-3368",
+            "authenticated-orcid": false,
+            "given": "Qing",
+            "family": "Nie",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              11,
+              30
+            ]
+          ]
+        },
+        "container-title": [
+          "Nature Machine Intelligence"
+        ]
+      }
+    },
+    {
+      "url": "https://doi.org/10.1101/820936",
+      "status": "verified_metadata",
+      "http_status": 200,
+      "verification_url": "https://api.crossref.org/works/10.1101/820936",
+      "metadata": {
+        "DOI": "10.1101/820936",
+        "title": [
+          "Generalizing RNA velocity to transient cell states through dynamical modeling"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0003-2486-1473",
+            "authenticated-orcid": false,
+            "given": "Volker",
+            "family": "Bergen",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Marius",
+            "family": "Lange",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Stefan",
+            "family": "Peidli",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "F. Alexander",
+            "family": "Wolf",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Fabian J.",
+            "family": "Theis",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2019,
+              10,
+              29
+            ]
+          ]
+        },
+        "container-title": []
+      }
+    },
+    {
+      "url": "https://doi.org/10.1109/18.61115",
+      "status": "verified_metadata",
+      "http_status": 200,
+      "verification_url": "https://api.crossref.org/works/10.1109/18.61115",
+      "metadata": {
+        "DOI": "10.1109/18.61115",
+        "title": [
+          "Divergence measures based on the Shannon entropy"
+        ],
+        "author": [
+          {
+            "given": "J.",
+            "family": "Lin",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              1991
+            ]
+          ]
+        },
+        "container-title": [
+          "IEEE Transactions on Information Theory"
+        ]
+      }
+    },
+    {
+      "url": "https://doi.org/10.1111/j.2517-6161.1995.tb02031.x",
+      "status": "verified_metadata",
+      "http_status": 200,
+      "verification_url": "https://api.crossref.org/works/10.1111/j.2517-6161.1995.tb02031.x",
+      "metadata": {
+        "DOI": "10.1111/j.2517-6161.1995.tb02031.x",
+        "title": [
+          "Controlling the False Discovery Rate: A Practical and Powerful Approach to Multiple Testing"
+        ],
+        "author": [
+          {
+            "given": "Yoav",
+            "family": "Benjamini",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Tel Aviv University , Israel"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Yosef",
+            "family": "Hochberg",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Tel Aviv University , Israel"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              1995,
+              1,
+              1
+            ]
+          ]
+        },
+        "container-title": [
+          "Journal of the Royal Statistical Society Series B: Statistical Methodology"
+        ]
+      }
+    },
+    {
+      "url": "https://doi.org/10.1175/MWR-D-14-00269.1",
+      "status": "verified_metadata",
+      "http_status": 429,
+      "verification_url": "https://api.crossref.org/works?query.title=Variogram-Based+Proper+Scoring+Rules&rows=1",
+      "last_http_attempt": 429,
+      "metadata": {
+        "DOI": "10.1175/mwr-d-14-00269.1",
+        "title": [
+          "Variogram-Based Proper Scoring Rules for Probabilistic Forecasts of Multivariate Quantities*"
+        ],
+        "author": [
+          {
+            "given": "Michael",
+            "family": "Scheuerer",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "NOAA/Earth System Research Laboratory, Boulder, Colorado"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Thomas M.",
+            "family": "Hamill",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "NOAA/Earth System Research Laboratory, Boulder, Colorado"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2015,
+              3,
+              31
+            ]
+          ]
+        },
+        "container-title": [
+          "Monthly Weather Review"
+        ]
+      },
+      "verification_method": "Previously retrieved Crossref title-query metadata"
+    },
+    {
+      "url": "https://doi.org/10.15252/msb.20188746",
+      "status": "verified_metadata",
+      "http_status": 429,
+      "verification_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.15252/msb.20188746&format=json",
+      "last_http_attempt": 429,
+      "metadata": {
+        "id": "31217225",
+        "source": "MED",
+        "pmcid": "PMC6582955",
+        "doi": "10.15252/msb.20188746",
+        "title": "Current best practices in single-cell RNA-seq analysis: a tutorial.",
+        "authorString": "Luecken MD, Theis FJ.",
+        "journalTitle": "Mol Syst Biol",
+        "pubYear": "2019"
+      },
+      "verification_method": "Previously retrieved Europe PMC indexed metadata",
+      "local_audit_cache": "literature-search.json"
+    },
+    {
+      "url": "https://doi.org/10.15252/msb.202211517",
+      "status": "verified_metadata",
+      "http_status": 200,
+      "verification_url": "https://api.crossref.org/works/10.15252/msb.202211517",
+      "metadata": {
+        "DOI": "10.15252/msb.202211517",
+        "title": [
+          "Predicting cellular responses to complex perturbations in high‐throughput screens"
+        ],
+        "author": [
+          {
+            "given": "Mohammad",
+            "family": "Lotfollahi",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-1057-6690",
+            "authenticated-orcid": false,
+            "given": "Anna",
+            "family": "Klimovskaia Susmelj",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-9553-0121",
+            "authenticated-orcid": false,
+            "given": "Carlo",
+            "family": "De Donno",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-4823-9729",
+            "authenticated-orcid": false,
+            "given": "Leon",
+            "family": "Hetzel",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Yuge",
+            "family": "Ji",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-0582-002X",
+            "authenticated-orcid": false,
+            "given": "Ignacio L",
+            "family": "Ibarra",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Sanjay R",
+            "family": "Srivatsan",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Mohsen",
+            "family": "Naghipourfar",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-1635-8675",
+            "authenticated-orcid": false,
+            "given": "Riza M",
+            "family": "Daza",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Beth",
+            "family": "Martin",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Jay",
+            "family": "Shendure",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-4387-1511",
+            "authenticated-orcid": false,
+            "given": "Jose L",
+            "family": "McFaline‐Figueroa",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Pierre",
+            "family": "Boyeau",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "F Alexander",
+            "family": "Wolf",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Nafissa",
+            "family": "Yakubova",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Stephan",
+            "family": "Günnemann",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Cole",
+            "family": "Trapnell",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "David",
+            "family": "Lopez‐Paz",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-2419-1943",
+            "authenticated-orcid": false,
+            "given": "Fabian J",
+            "family": "Theis",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              5,
+              8
+            ]
+          ]
+        },
+        "container-title": [
+          "Molecular Systems Biology"
+        ]
+      }
+    },
+    {
+      "url": "https://github.com/KrishnaswamyLab/TrajectoryNet",
+      "status": "verified_repo",
+      "http_status": 200,
+      "verification_url": "https://api.github.com/repos/KrishnaswamyLab/TrajectoryNet",
+      "metadata": {
+        "full_name": "KrishnaswamyLab/TrajectoryNet",
+        "description": "TrajectoryNet: A Dynamic Optimal Transport Network for Modeling Cellular Dynamics",
+        "default_branch": "master",
+        "archived": false,
+        "license": {
+          "key": "other",
+          "name": "Other",
+          "spdx_id": "NOASSERTION",
+          "url": null,
+          "node_id": "MDc6TGljZW5zZTA="
+        }
+      }
+    },
+    {
+      "url": "https://github.com/aristoteleo/spateo-release",
+      "status": "verified_repo",
+      "http_status": 200,
+      "verification_url": "https://api.github.com/repos/aristoteleo/spateo-release",
+      "metadata": {
+        "full_name": "aristoteleo/spateo-release",
+        "description": "Spatiotemporal modeling of spatial transcriptomics ",
+        "default_branch": "main",
+        "archived": false,
+        "license": {
+          "key": "bsd-2-clause",
+          "name": "BSD 2-Clause \"Simplified\" License",
+          "spdx_id": "BSD-2-Clause",
+          "url": "https://api.github.com/licenses/bsd-2-clause",
+          "node_id": "MDc6TGljZW5zZTQ="
+        }
+      }
+    },
+    {
+      "url": "https://github.com/aristoteleo/veckit",
+      "status": "verified_repo",
+      "http_status": 200,
+      "verification_url": "https://api.github.com/repos/aristoteleo/veckit",
+      "metadata": {
+        "full_name": "aristoteleo/veckit",
+        "description": "Virtual Embryo Challenge (VEC) local scorer: score a submitted .h5ad against the T1/T2/T3 metric panels, offline, against reference files you supply.",
+        "default_branch": "main",
+        "archived": false,
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        }
+      }
+    },
+    {
+      "url": "https://github.com/aristoteleo/veckit#cli",
+      "status": "verified_repo",
+      "http_status": 200,
+      "verification_url": "https://api.github.com/repos/aristoteleo/veckit",
+      "metadata": {
+        "full_name": "aristoteleo/veckit",
+        "description": "Virtual Embryo Challenge (VEC) local scorer: score a submitted .h5ad against the T1/T2/T3 metric panels, offline, against reference files you supply.",
+        "default_branch": "main",
+        "archived": false,
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        }
+      }
+    },
+    {
+      "url": "https://github.com/atong01/conditional-flow-matching",
+      "status": "verified_repo",
+      "http_status": 200,
+      "verification_url": "https://api.github.com/repos/atong01/conditional-flow-matching",
+      "metadata": {
+        "full_name": "atong01/conditional-flow-matching",
+        "description": "TorchCFM: a Conditional Flow Matching library",
+        "default_branch": "main",
+        "archived": false,
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        }
+      }
+    },
+    {
+      "url": "https://github.com/broadinstitute/wot",
+      "status": "verified_repo",
+      "http_status": 200,
+      "verification_url": "https://api.github.com/repos/broadinstitute/wot",
+      "metadata": {
+        "full_name": "broadinstitute/wot",
+        "description": "A software package for analyzing snapshots of developmental processes",
+        "default_branch": "master",
+        "archived": false,
+        "license": {
+          "key": "bsd-3-clause",
+          "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+          "spdx_id": "BSD-3-Clause",
+          "url": "https://api.github.com/licenses/bsd-3-clause",
+          "node_id": "MDc6TGljZW5zZTU="
+        }
+      }
+    },
+    {
+      "url": "https://github.com/bunnech/cellot",
+      "status": "verified_repo",
+      "http_status": 200,
+      "verification_url": "https://api.github.com/repos/bunnech/cellot",
+      "metadata": {
+        "full_name": "bunnech/cellot",
+        "description": "Learning Single-Cell Perturbation Responses using Neural Optimal Transport",
+        "default_branch": "main",
+        "archived": false,
+        "license": {
+          "key": "bsd-3-clause",
+          "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+          "spdx_id": "BSD-3-Clause",
+          "url": "https://api.github.com/licenses/bsd-3-clause",
+          "node_id": "MDc6TGljZW5zZTU="
+        }
+      }
+    },
+    {
+      "url": "https://github.com/gifford-lab/prescient",
+      "status": "verified_repo",
+      "http_status": 200,
+      "verification_url": "https://api.github.com/repos/gifford-lab/prescient",
+      "metadata": {
+        "full_name": "gifford-lab/prescient",
+        "description": "Codebase for PRESCIENT (Potential eneRgy undErlying Single Cell gradIENTs) for generative modeling of single-cell time-series.",
+        "default_branch": "master",
+        "archived": false,
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        }
+      }
+    },
+    {
+      "url": "https://github.com/gifford-lab/prescient-analysis",
+      "status": "verified_repo",
+      "http_status": 200,
+      "verification_url": "https://api.github.com/repos/gifford-lab/prescient-analysis",
+      "metadata": {
+        "full_name": "gifford-lab/prescient-analysis",
+        "description": "Notebooks for pre-processing, analysis, and visualization of PRESCIENT applied to in vitro hematopoeisis (Weinreb et al. 2020) and in vitro beta-cell differentiation (Veres et al. 2019).",
+        "default_branch": "master",
+        "archived": false,
+        "license": null
+      }
+    },
+    {
+      "url": "https://github.com/snap-stanford/GEARS",
+      "status": "verified_repo",
+      "http_status": 200,
+      "verification_url": "https://api.github.com/repos/snap-stanford/GEARS",
+      "metadata": {
+        "full_name": "snap-stanford/GEARS",
+        "description": "GEARS is a geometric deep learning model that predicts outcomes of novel multi-gene perturbations",
+        "default_branch": "master",
+        "archived": false,
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        }
+      }
+    },
+    {
+      "url": "https://github.com/yutongo/TIGON",
+      "status": "verified_repo",
+      "http_status": 200,
+      "verification_url": "https://api.github.com/repos/yutongo/TIGON",
+      "metadata": {
+        "full_name": "yutongo/TIGON",
+        "description": null,
+        "default_branch": "main",
+        "archived": false,
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        }
+      }
+    },
+    {
+      "url": "https://github.com/zhenyiizhang/CytoBridge-NeurIPS",
+      "status": "verified_repo",
+      "http_status": 200,
+      "verification_url": "https://api.github.com/repos/zhenyiizhang/CytoBridge-NeurIPS",
+      "metadata": {
+        "full_name": "zhenyiizhang/CytoBridge-NeurIPS",
+        "description": "Modeling Cell Dynamics and Interactions with Unbalanced Mean Field Schrödinger Bridge (NeurIPS 2025)",
+        "default_branch": "main",
+        "archived": false,
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        }
+      }
+    },
+    {
+      "url": "https://openreview.net/forum?id=PqvMRDCJT9t",
+      "status": "verified_page",
+      "http_status": 200,
+      "effective_url": "https://openreview.net/challenge?redirect=%2Fforum%3Fid%3DPqvMRDCJT9t",
+      "page_title": "Verifying your browser | OpenReview",
+      "content_sha256": "0d121ec4992cc58cebcb951f57ff85cd18b755294dcb911c55d566369f5c1d24"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10258562/",
+      "status": "verified_page",
+      "http_status": 200,
+      "effective_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10258562/",
+      "page_title": "Predicting cellular responses to complex perturbations in high‐throughput screens - PMC",
+      "content_sha256": "80ce91b059b5cbd0889036d43303a00916d865bd92ed05d214ebfd3f4e36ed75"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10630137/",
+      "status": "verified_page",
+      "http_status": 200,
+      "effective_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10630137/",
+      "page_title": "Checking your browser - reCAPTCHA",
+      "content_sha256": "52b8b0b1a3ec98f160b6993dee1c069283c691b9646a76d925c240e326f2ecb9"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10805654/",
+      "status": "verified_page",
+      "http_status": 200,
+      "effective_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10805654/",
+      "page_title": "Reconstructing growth and dynamic trajectories from single-cell transcriptomics data - PMC",
+      "content_sha256": "791df79ea197a8d7f073930262b346747d190747ac6944c8103fee0ba82927e1"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11180609/",
+      "status": "verified_page",
+      "http_status": 200,
+      "effective_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11180609/",
+      "page_title": "Checking your browser - reCAPTCHA",
+      "content_sha256": "1ba8f864bc8803ae63e7cb49f887dcacd907fe3be1872afbac51f68f713cc45e"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12328236/",
+      "status": "verified_page",
+      "http_status": 200,
+      "effective_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12328236/",
+      "page_title": "Checking your browser - reCAPTCHA",
+      "content_sha256": "302d74fa085ad7fedd51ba7652e39ead97069a88c71ba82be2630b62b4e32984"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12976343/",
+      "status": "verified_page",
+      "http_status": 200,
+      "effective_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12976343/",
+      "page_title": "Checking your browser - reCAPTCHA",
+      "content_sha256": "51e364f2413d08b52614521a28f1d34295ea5bb4637554d9c3f94d837bc81e9c"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6289068/",
+      "status": "verified_page",
+      "http_status": 200,
+      "effective_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6289068/",
+      "page_title": "Checking your browser - reCAPTCHA",
+      "content_sha256": "277a0161f2ddd6b101a85228b66315a96a0d629d4ff6b7813791f87d8353d3a2"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6402800/",
+      "status": "verified_page",
+      "http_status": 200,
+      "effective_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6402800/",
+      "page_title": "Checking your browser - reCAPTCHA",
+      "content_sha256": "396c5eac54faf86435ac25db367a089130529bf2ec54399ca47bda90af772695"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6522369/",
+      "status": "verified_page",
+      "http_status": 200,
+      "effective_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6522369/",
+      "page_title": "Checking your browser - reCAPTCHA",
+      "content_sha256": "9f777eda12ecdbbcd73db85b3fb26922bb71b3a9ad21b73145c80f1685b240bb"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6582955/",
+      "status": "verified_page",
+      "http_status": 200,
+      "effective_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6582955/",
+      "page_title": "Checking your browser - reCAPTCHA",
+      "content_sha256": "186b48cdcd5b9f6a3e855824496230fc5131f260df3daa0ec38fbb1c4a80bc9a"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8163769/",
+      "status": "verified_page",
+      "http_status": 200,
+      "effective_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8163769/",
+      "page_title": "Checking your browser - reCAPTCHA",
+      "content_sha256": "62e25ee69b071ee9b633d2b7acef6c2dbf836312452eaa9311b951414024a23d"
+    },
+    {
+      "url": "https://proceedings.mlr.press/v119/tong20a.html",
+      "status": "verified_page",
+      "http_status": 200,
+      "effective_url": "https://proceedings.mlr.press/v119/tong20a.html",
+      "page_title": "TrajectoryNet: A Dynamic Optimal Transport Network for Modeling Cellular Dynamics",
+      "content_sha256": "8fa86551faddbeeeaf3f9cbc721f89cd89d03b3fc78f43f3f45c2afa8725e8ea"
+    },
+    {
+      "url": "https://proceedings.mlr.press/v238/tong24a.html",
+      "status": "verified_page",
+      "http_status": 200,
+      "effective_url": "https://proceedings.mlr.press/v238/tong24a.html",
+      "page_title": "Simulation-Free Schrödinger Bridges via Score and Flow Matching",
+      "content_sha256": "1793a78feb0723aa35bdbabeecdc5cf7963bfe827a4be86321c46d54cb106209"
+    },
+    {
+      "url": "https://proceedings.mlr.press/v89/feydy19a.html",
+      "status": "verified_page",
+      "http_status": 200,
+      "effective_url": "https://proceedings.mlr.press/v89/feydy19a.html",
+      "page_title": "Interpolating between Optimal Transport and MMD using Sinkhorn Divergences",
+      "content_sha256": "848ff334e6fac754977431494bc33d926156caebf4fa1f4755081b7c80a763ec"
+    },
+    {
+      "url": "https://proceedings.neurips.cc/paper/2013/hash/af21d0c97db2e27e13572cbf59eb343d-Abstract.html",
+      "status": "verified_page",
+      "http_status": 200,
+      "effective_url": "https://proceedings.neurips.cc/paper/2013/hash/af21d0c97db2e27e13572cbf59eb343d-Abstract.html",
+      "page_title": "Sinkhorn Distances: Lightspeed Computation of Optimal Transport",
+      "content_sha256": "9f68d789e48df2338d549f606fd17a839af261dfb8d795072a48a8fe4aa6a8f4"
+    },
+    {
+      "url": "https://scanpy.readthedocs.io/en/stable/",
+      "status": "verified_page",
+      "http_status": 200,
+      "effective_url": "https://scanpy.readthedocs.io/en/stable/",
+      "page_title": "Scanpy – Single-Cell Analysis in Python — scanpy",
+      "content_sha256": "c50161f89c2de7def659d6755a71be8724348f2353c40017215c358edbd88c47"
+    },
+    {
+      "url": "https://virtualembryo.ai/challenge/data",
+      "status": "verified_page",
+      "http_status": 200,
+      "effective_url": "https://virtualembryo.ai/challenge/data",
+      "page_title": "Data · Virtual Embryo Challenge",
+      "content_sha256": "d31b25ab9290053ae460641c649adc3237c930df2acd7cadabb4d8a05124eeb4"
+    },
+    {
+      "url": "https://virtualembryo.ai/challenge/evaluation?task=1&section=scoring",
+      "status": "verified_page",
+      "http_status": 200,
+      "effective_url": "https://virtualembryo.ai/challenge/evaluation?task=1&section=scoring",
+      "page_title": "Evaluation · Virtual Embryo Challenge",
+      "content_sha256": "18eaa8da6940361b70fb98c36f5295becfda4a205e8bd00447ec5c1ec2fa2c1d"
+    },
+    {
+      "url": "https://virtualembryo.ai/challenge/evaluation?task=2&section=scoring",
+      "status": "verified_page",
+      "http_status": 200,
+      "effective_url": "https://virtualembryo.ai/challenge/evaluation?task=2&section=scoring",
+      "page_title": "Evaluation · Virtual Embryo Challenge",
+      "content_sha256": "ecf7593a57aae083575b5785f40374794a464ffc647090fe31d98425076ba7eb"
+    },
+    {
+      "url": "https://virtualembryo.ai/challenge/evaluation?task=3&section=scoring",
+      "status": "verified_page",
+      "http_status": 200,
+      "effective_url": "https://virtualembryo.ai/challenge/evaluation?task=3&section=scoring",
+      "page_title": "Evaluation · Virtual Embryo Challenge",
+      "content_sha256": "518e8bf6de869f03614bcb58f04fa7a19c1934fffad1895a3ce95ea71910f846"
+    },
+    {
+      "url": "https://virtualembryo.ai/challenge/panels/index.json",
+      "status": "verified_page",
+      "http_status": 200,
+      "effective_url": "https://virtualembryo.ai/challenge/panels/index.json",
+      "page_title": null,
+      "content_sha256": "26830523bcba077fe27481ee53cddcf49c6b35cf5bdd7acabc5f6b7c94ea7f78"
+    },
+    {
+      "url": "https://virtualembryo.ai/challenge/paper/nature-methods-comment",
+      "status": "verified_page",
+      "http_status": 200,
+      "effective_url": "https://virtualembryo.ai/challenge/paper/nature-methods-comment",
+      "page_title": "Towards predictive virtual embryos with genomics and AI · Virtual Embryo Challenge",
+      "content_sha256": "839288e2ef4f9fd893f6b7f274fd39c9f900aa2182b3d999876040998d0cff1b"
+    },
+    {
+      "url": "https://virtualembryo.ai/challenge/rules",
+      "status": "verified_page",
+      "http_status": 200,
+      "effective_url": "https://virtualembryo.ai/challenge/rules",
+      "page_title": "Rules · Virtual Embryo Challenge",
+      "content_sha256": "04120103aac9d28341f91cd88c7664adb6be06181cbfaa851840b519147673b4"
+    },
+    {
+      "url": "https://virtualembryo.ai/challenge/tasks/perturbation",
+      "status": "verified_page",
+      "http_status": 200,
+      "effective_url": "https://virtualembryo.ai/challenge/tasks/perturbation",
+      "page_title": "Task 3 · Perturbation · Virtual Embryo Challenge",
+      "content_sha256": "bd8d275cc46827280f4eba07067fd37c244face30ac712c7d1f7dfb8ba1f1297"
+    },
+    {
+      "url": "https://virtualembryo.ai/challenge/tasks/spatial",
+      "status": "verified_page",
+      "http_status": 200,
+      "effective_url": "https://virtualembryo.ai/challenge/tasks/spatial",
+      "page_title": "Task 2 · Spatial-temporal · Virtual Embryo Challenge",
+      "content_sha256": "a2cee277ebcf37e09588ecf96798f0b439f5809ada4c66e614377c184b025ce2"
+    },
+    {
+      "url": "https://virtualembryo.ai/challenge/tasks/temporal",
+      "status": "verified_page",
+      "http_status": 200,
+      "effective_url": "https://virtualembryo.ai/challenge/tasks/temporal",
+      "page_title": "Task 1 · Temporal · Virtual Embryo Challenge",
+      "content_sha256": "946f69483267c5964482a4959d7d9351e45df1c972d07cd3ffef81c6230cbd94"
+    },
+    {
+      "url": "https://virtualembryo.ai/challenge/terms",
+      "status": "verified_page",
+      "http_status": 200,
+      "effective_url": "https://virtualembryo.ai/challenge/terms",
+      "page_title": "Terms of Use · Virtual Embryo Challenge",
+      "content_sha256": "6fc0ea2eef549e1c8c0291a6f1537c26358dc2198d874681d81a5570e6c6d86d"
+    },
+    {
+      "url": "https://virtualembryo.ai/challenge/timeline",
+      "status": "verified_page",
+      "http_status": 200,
+      "effective_url": "https://virtualembryo.ai/challenge/timeline",
+      "page_title": "Timeline · Virtual Embryo Challenge",
+      "content_sha256": "74769eb6b6645e46195d9e9f53be5e66c13c00bf45839e88839af2edc94d4568"
+    },
+    {
+      "url": "https://www.jmlr.org/papers/v13/gretton12a.html",
+      "status": "verified_page",
+      "http_status": 200,
+      "effective_url": "https://www.jmlr.org/papers/v13/gretton12a.html",
+      "page_title": "A Kernel Two-Sample Test",
+      "content_sha256": "8b9f713a4a5eb04c279a06f61b29631e98eaec4e330da3303d2017d43b2f339b"
+    },
+    {
+      "url": "https://www.sc-best-practices.org/",
+      "status": "verified_page",
+      "http_status": 200,
+      "effective_url": "https://www.sc-best-practices.org/",
+      "page_title": "Single-cell best practices",
+      "content_sha256": "ca97132d071873538713d389eb4500409a7c0cfb62c6e7d63ba78e3b1b49dbce"
+    }
+  ],
+  "official_page_text_hashes": [
+    {
+      "snapshot_name": "data",
+      "sha256_of_extracted_text": "d3010b450bb25c19439ea7233a2611afa1601ce83ecf1158f3fd3bab9cdabbd5"
+    },
+    {
+      "snapshot_name": "rules",
+      "sha256_of_extracted_text": "8676981282f33ba250f659d53ecc96208f4db6a6e8ad91678ad692e798451c8f"
+    },
+    {
+      "snapshot_name": "baselines",
+      "sha256_of_extracted_text": "efa9a9410b92cb6d685be56e09944db656e54780d6fbf949fd6af1901c1bf760"
+    },
+    {
+      "snapshot_name": "timeline",
+      "sha256_of_extracted_text": "6c317ea8eda7e5d729ba570793d81dc207e647f7b6e0f7cf858cae66a18bbb17"
+    },
+    {
+      "snapshot_name": "tasks_temporal",
+      "sha256_of_extracted_text": "288fb9fe3deaf2b07d27848eb8d21e5c52a3c6d34ec4f4a1ed773400243009ef"
+    },
+    {
+      "snapshot_name": "tasks_spatial",
+      "sha256_of_extracted_text": "ac2e4cab782df8398cc8bee24ab255824745d7cb4a1913914d3ed8c9280f4a4c"
+    },
+    {
+      "snapshot_name": "tasks_perturbation",
+      "sha256_of_extracted_text": "357c6f809fa4555a7a0c61b19b7489f15f6b27e37179ef65ee47ac523efcb465"
+    },
+    {
+      "snapshot_name": "score1",
+      "sha256_of_extracted_text": "dacab1ae1e8d52dc36889b88da4a0104bdcb769abcac7eae06dc108bb4dd19c4"
+    },
+    {
+      "snapshot_name": "score2",
+      "sha256_of_extracted_text": "33b0b5f71b10a5e598cb95024927eaa70c875d7e8c44c78f55d42bc4cce3aecb"
+    },
+    {
+      "snapshot_name": "score3",
+      "sha256_of_extracted_text": "842a43006a3ea2c8a30062afc445b4be762fbbae23cea02c5f29e11a126295c1"
+    },
+    {
+      "snapshot_name": "contract",
+      "sha256_of_extracted_text": "f86f381c0081fcd6470759c44125d4dd8ad1e1bf77d5c20d06e2be1d4383335c"
+    }
+  ]
+}

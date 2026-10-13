@@ -1,0 +1,19 @@
+{
+  "task": "T1",
+  "model": "ot_flow",
+  "source": "data/raw/T1/E9.5_RNA.h5ad",
+  "history": "data/raw/T1/E8.5_RNA.h5ad",
+  "source_stage": 9.5,
+  "history_stage": 8.5,
+  "target_stage": 10.5,
+  "output": "artifacts/T1/ot_flow_E10.5.h5ad",
+  "n_cells": 2000,
+  "max_train_cells": 2000,
+  "seed": 0,
+  "n_components": 30,
+  "epsilon": 0.1,
+  "board": "T1:val",
+  "epochs": 100,
+  "hidden_dim": 64,
+  "device": "cuda:0"
+}

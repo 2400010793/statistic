@@ -1,0 +1,17 @@
+# Direct dependency versions verified locally on Python 3.9, 2026-10-13.
+# This is not a complete transitive or CUDA environment lock.
+# Optional: pip install -c configs/python39-tested-constraints.txt -e '.[flow,papers,dev]'
+numpy==1.24.4
+scipy==1.10.1
+scikit-learn==1.2.2
+anndata==0.10.9
+requests==2.29.0
+veckit==0.1.1
+torch==2.6.0
+geomloss==0.3.1
+POT==0.9.7.post1
+matplotlib==3.7.1
+tqdm==4.65.0
+pytest==8.4.2
+pandas==2.3.3
+h5py==3.7.0

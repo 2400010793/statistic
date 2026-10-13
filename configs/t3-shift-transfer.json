@@ -1,0 +1,13 @@
+{
+  "task": "T3",
+  "model": "shift_transfer",
+  "source": "data/raw/T2/heart/E8.75.h5ad",
+  "observed_wt": "data/raw/T2/heart/E9.5.h5ad",
+  "observed_perturbed": "data/raw/T3/Mab21l2_KO_E9.5.h5ad",
+  "observed_stage": 9.5,
+  "target_stage": 8.75,
+  "output": "artifacts/T3/shift_transfer_Gata4_E8.75.h5ad",
+  "n_cells": 2000,
+  "seed": 0,
+  "board": "T3:gata4"
+}

@@ -1,0 +1,24 @@
+# 本地实验数据与模型产物
+data/
+artifacts/
+checkpoints/
+runs/
+*.h5ad
+*.pt
+*.pth
+
+# Python 与本地环境
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.env
+.env.*
+
+# 授权下载地址、论文代码与本地运行结果
+third_party/
+predictions/
+*.local.json
+*.egg-info/
+build/
+dist/
+.pytest_cache/
