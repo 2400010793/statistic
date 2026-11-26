@@ -1,0 +1,1780 @@
+{
+  "scope": "Independent T1 research completed on 2026-11-26; frozen outputs, not E12.5 accuracy validation",
+  "release_tag": "t1-e125-research-20261126",
+  "raw_data_included": false,
+  "python_environment_included": false,
+  "publication_changes": "Text copies normalize line endings and JSON formatting, and replace the original project-root prefix with a relative dot. Original numerical arrays, prediction matrices and checkpoints are byte-identical. Historical input hashes remain evidence of the original run; published_sha256 verifies each distributed copy.",
+  "files": [
+    {
+      "path": "analysis/independent_review_20261126/audit_figure.png",
+      "source_sha256": "80625fce1c9699a5da46e0d3cbde165638e15e95a7d3076293df3b726cb2ba1a",
+      "published_sha256": "80625fce1c9699a5da46e0d3cbde165638e15e95a7d3076293df3b726cb2ba1a",
+      "size": 199885,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/composition_forecast_trial/composition.tsv",
+      "source_sha256": "32bfa714c9de71ef88e0b9e954d612d40dcfd03eddc5b195e9d4e4f96f77b3ea",
+      "published_sha256": "feb7f774e39fb7c3576d39cafe0e22c98e2aaf30025cdfebdebfc6b470a84e36",
+      "size": 1269,
+      "text_copy_changed": true
+    },
+    {
+      "path": "analysis/independent_review_20261126/composition_forecast_trial/core.py",
+      "source_sha256": "a5dba42e0087e8d1edda0ef460663c93065fdbde814bdf66cd8bc281c58af89b",
+      "published_sha256": "a5dba42e0087e8d1edda0ef460663c93065fdbde814bdf66cd8bc281c58af89b",
+      "size": 2396,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/composition_forecast_trial/density_fit.json",
+      "source_sha256": "8639d2d98c9c51504dce820cb8fd363213dc96b55c98cd497921d05ec51a2b23",
+      "published_sha256": "8639d2d98c9c51504dce820cb8fd363213dc96b55c98cd497921d05ec51a2b23",
+      "size": 2391,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/composition_forecast_trial/density_fold_models.joblib",
+      "source_sha256": "210a96b7a4a1dbb75f7a90995bfd863c80fb10ae3aba34cb991d73cd3ba49266",
+      "published_sha256": "210a96b7a4a1dbb75f7a90995bfd863c80fb10ae3aba34cb991d73cd3ba49266",
+      "size": 3889,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/composition_forecast_trial/density_frozen.npz",
+      "source_sha256": "861df35f7ee03ae8bf70f317be12d886a14deeee7064e2059118b3b85cd780d9",
+      "published_sha256": "861df35f7ee03ae8bf70f317be12d886a14deeee7064e2059118b3b85cd780d9",
+      "size": 179377,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/composition_forecast_trial/density_realizations.npz",
+      "source_sha256": "b4983f1cd6d3062af3668e92033ee5ebfa8c5fe0980c065187390f68280a3e5d",
+      "published_sha256": "b4983f1cd6d3062af3668e92033ee5ebfa8c5fe0980c065187390f68280a3e5d",
+      "size": 315699,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/composition_forecast_trial/density_results.json",
+      "source_sha256": "5f3347d99db45a68c9bfb4e4638adb401d743100feafe3504d4cfa5214cfef45",
+      "published_sha256": "5f3347d99db45a68c9bfb4e4638adb401d743100feafe3504d4cfa5214cfef45",
+      "size": 102282,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/composition_forecast_trial/early_space.joblib",
+      "source_sha256": "790e6e54a3d0c3e60b1e02ee97c0b0587c8bbf88d3d2cb7e6c2fab6fbb8a3dce",
+      "published_sha256": "790e6e54a3d0c3e60b1e02ee97c0b0587c8bbf88d3d2cb7e6c2fab6fbb8a3dce",
+      "size": 2054713,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/composition_forecast_trial/early_space.npz",
+      "source_sha256": "35d6bba5f2aca7c7e86cec9c82014971622c0183981566e00b2a15196bd64671",
+      "published_sha256": "35d6bba5f2aca7c7e86cec9c82014971622c0183981566e00b2a15196bd64671",
+      "size": 2520131,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/composition_forecast_trial/evaluate.py",
+      "source_sha256": "e7701e4401ade402eabfe8e4573cd91b3321cd107d95cb8413221a05eec2b07c",
+      "published_sha256": "e7701e4401ade402eabfe8e4573cd91b3321cd107d95cb8413221a05eec2b07c",
+      "size": 7789,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/composition_forecast_trial/fit_models.py",
+      "source_sha256": "4a0c2f5c3514f70dbd86db3bea52c50c59c4dcc0e0d865e3ad72d62d91462151",
+      "published_sha256": "4a0c2f5c3514f70dbd86db3bea52c50c59c4dcc0e0d865e3ad72d62d91462151",
+      "size": 4568,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/composition_forecast_trial/forecast_trials.png",
+      "source_sha256": "787ece01d153e9d55eabbe2d6ee5d9fb38280cfa2a07b50c9d52b0aea9f78bbe",
+      "published_sha256": "787ece01d153e9d55eabbe2d6ee5d9fb38280cfa2a07b50c9d52b0aea9f78bbe",
+      "size": 187477,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/composition_forecast_trial/metrics.tsv",
+      "source_sha256": "a339e174be088d36933209c4f977d43481ee91f143be10f9ec293e81d876d631",
+      "published_sha256": "ee273954a3c795f2f29172d7d63fc79cbe407eab23547d9914036737543480a6",
+      "size": 13228,
+      "text_copy_changed": true
+    },
+    {
+      "path": "analysis/independent_review_20261126/composition_forecast_trial/protocol.txt",
+      "source_sha256": "aeb1c63a94e721d031576f1763accb3593728b0c7e72be4c4c5ce292efd72f25",
+      "published_sha256": "aeb1c63a94e721d031576f1763accb3593728b0c7e72be4c4c5ce292efd72f25",
+      "size": 5255,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/composition_forecast_trial/report.txt",
+      "source_sha256": "98cc892ec448c47946f942bd509e47cc5ab940bf78b959b605a5554ce77a48b5",
+      "published_sha256": "c0fcf03a6db51f2ce340e9179af1ec1e00a0ecd43ac7bc62213eea61a1541318",
+      "size": 10894,
+      "text_copy_changed": true
+    },
+    {
+      "path": "analysis/independent_review_20261126/composition_forecast_trial/summarize.py",
+      "source_sha256": "754c760932c34263c5cc0b476ce7a890f210ac87ff77893f3ada4d77d311946f",
+      "published_sha256": "754c760932c34263c5cc0b476ce7a890f210ac87ff77893f3ada4d77d311946f",
+      "size": 5726,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/composition_forecast_trial/summary.json",
+      "source_sha256": "784c16d71895c5ca6848ff2bd88569a30e3ad886f67daa2efe913b52cb4e0d8c",
+      "published_sha256": "784c16d71895c5ca6848ff2bd88569a30e3ad886f67daa2efe913b52cb4e0d8c",
+      "size": 33028,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/composition_forecast_trial/trend_fit.json",
+      "source_sha256": "a04f6b28f04c0c327be77fd25bdcc8d1e5bb4b69beba79d19f755c7c44e6b725",
+      "published_sha256": "a04f6b28f04c0c327be77fd25bdcc8d1e5bb4b69beba79d19f755c7c44e6b725",
+      "size": 3193,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/composition_forecast_trial/trend_frozen.npz",
+      "source_sha256": "c266e09c3febed960a10fa1c302990638568a9b7ec0d381464fd9f2d2312bad6",
+      "published_sha256": "c266e09c3febed960a10fa1c302990638568a9b7ec0d381464fd9f2d2312bad6",
+      "size": 881,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/composition_forecast_trial/trend_realizations.npz",
+      "source_sha256": "5c1d16f8f0037f2a15555fa1c82e00c17e9e270748cb21f5fb592d20a96c978b",
+      "published_sha256": "5c1d16f8f0037f2a15555fa1c82e00c17e9e270748cb21f5fb592d20a96c978b",
+      "size": 186156,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/composition_forecast_trial/trend_results.json",
+      "source_sha256": "234f02955144cb008c7355a670d0e84b659e548684c4da013543e90253f28e19",
+      "published_sha256": "234f02955144cb008c7355a670d0e84b659e548684c4da013543e90253f28e19",
+      "size": 67336,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/data_inspection.json",
+      "source_sha256": "a35e349e75def429134eac08c576aadad5a7a54e270b86d1f09b817a57c3cdb7",
+      "published_sha256": "a35e349e75def429134eac08c576aadad5a7a54e270b86d1f09b817a57c3cdb7",
+      "size": 5926,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/e125_readiness/next_steps.txt",
+      "source_sha256": "1aa9f6f2174e95f2a3f260263271d8136894b0751b95cea171d1adc7c9b2c0bd",
+      "published_sha256": "153f845ad3f72780560b3c8b9fdac853b51c88b21a064c00dd0380ecd34f46e1",
+      "size": 4974,
+      "text_copy_changed": true
+    },
+    {
+      "path": "analysis/independent_review_20261126/e125_readiness/protocol.txt",
+      "source_sha256": "b7cd5926f4d6130cd5460173fb749630f40f9986c6f3634099c7a48c874b83be",
+      "published_sha256": "b7cd5926f4d6130cd5460173fb749630f40f9986c6f3634099c7a48c874b83be",
+      "size": 1258,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/e125_readiness/stress.py",
+      "source_sha256": "349f89226f1fa0109d4eaf882964064678572a3e9d0f131a04a46ee2f3c0b9d5",
+      "published_sha256": "349f89226f1fa0109d4eaf882964064678572a3e9d0f131a04a46ee2f3c0b9d5",
+      "size": 5734,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/e125_readiness/stress_results.json",
+      "source_sha256": "4da43d76639ba5f491038a29c623fc853158aa21a64b28087b182b4be586564f",
+      "published_sha256": "4da43d76639ba5f491038a29c623fc853158aa21a64b28087b182b4be586564f",
+      "size": 30357,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/frozen_controls.npz",
+      "source_sha256": "df1e45b43e7ddcfe98eb6af95e485a12091370b1302c44aee513f92bbb1c76e4",
+      "published_sha256": "df1e45b43e7ddcfe98eb6af95e485a12091370b1302c44aee513f92bbb1c76e4",
+      "size": 73729275,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/frozen_controls_audit.json",
+      "source_sha256": "2dcdc034d053a1db1e0d46cfdb45dd031407cf1ae044a06790d9e03708bed5ab",
+      "published_sha256": "2dcdc034d053a1db1e0d46cfdb45dd031407cf1ae044a06790d9e03708bed5ab",
+      "size": 3305,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/gene_identity_control/control_core.py",
+      "source_sha256": "a74391b01e14eb7684b09ad45baf23bcf0cf6575dd2e8636388fecdf3ce162cc",
+      "published_sha256": "a74391b01e14eb7684b09ad45baf23bcf0cf6575dd2e8636388fecdf3ce162cc",
+      "size": 2512,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/gene_identity_control/evaluate.py",
+      "source_sha256": "e5c0b7b56cca087845c87cecddae7e66eca51b50adf0b43fcdc1b4b363aa5b38",
+      "published_sha256": "e5c0b7b56cca087845c87cecddae7e66eca51b50adf0b43fcdc1b4b363aa5b38",
+      "size": 5116,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/gene_identity_control/fit_audit.json",
+      "source_sha256": "fcaa047bf607b9eea5401ddee83b71dd5cbb2b8fbc9b263ea35448d9d3a12982",
+      "published_sha256": "fcaa047bf607b9eea5401ddee83b71dd5cbb2b8fbc9b263ea35448d9d3a12982",
+      "size": 38796,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/gene_identity_control/fit_controls.py",
+      "source_sha256": "b22d31fb5644d38918b31b5786b967299dd4e45c8e23d16e7bb01bea192add76",
+      "published_sha256": "b22d31fb5644d38918b31b5786b967299dd4e45c8e23d16e7bb01bea192add76",
+      "size": 6562,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/gene_identity_control/frozen.npz",
+      "source_sha256": "4f4d2eed0768fd52b0d10e522fa2f4efadb2adf4c79677271df0ac3e43a8f12d",
+      "published_sha256": "4f4d2eed0768fd52b0d10e522fa2f4efadb2adf4c79677271df0ac3e43a8f12d",
+      "size": 4801654,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/gene_identity_control/gene_identity_figure.png",
+      "source_sha256": "6e652a4eacb1b79c3a40c5843e8cf9dc687713018da91c32767446404117e114",
+      "published_sha256": "6e652a4eacb1b79c3a40c5843e8cf9dc687713018da91c32767446404117e114",
+      "size": 119276,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/gene_identity_control/metrics.tsv",
+      "source_sha256": "50bade0d8cccd9df589dbb51cbb375c66417dca40bde38a498d00992bf7b48c6",
+      "published_sha256": "03e3fd96c4bbc678325d7dd965a24a3b330b479bfa6b12bc0c6f99db3296e7d6",
+      "size": 33846,
+      "text_copy_changed": true
+    },
+    {
+      "path": "analysis/independent_review_20261126/gene_identity_control/protocol.txt",
+      "source_sha256": "5a9cf0b38a3d138c4fa28f1403c57cec95360f7e57c9cc334459b8a1d2cfac85",
+      "published_sha256": "5a9cf0b38a3d138c4fa28f1403c57cec95360f7e57c9cc334459b8a1d2cfac85",
+      "size": 4413,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/gene_identity_control/report.txt",
+      "source_sha256": "a2c0131e483c51bd66cc1590b5976b66f925388562bbb1ca4926098db02fdb7c",
+      "published_sha256": "687b44df3dc8470676472ad20518b9f0948269f9b1bc17246ff3d1bf94a8282a",
+      "size": 8663,
+      "text_copy_changed": true
+    },
+    {
+      "path": "analysis/independent_review_20261126/gene_identity_control/results.json",
+      "source_sha256": "bbd40dd505e79c7d0571cbf114a954d7623ce6e3fd8183eb40fdc4a5459c1e14",
+      "published_sha256": "bbd40dd505e79c7d0571cbf114a954d7623ce6e3fd8183eb40fdc4a5459c1e14",
+      "size": 252739,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/gene_identity_control/summarize.py",
+      "source_sha256": "8ecbb55804a6030dae569a50c2cf38adb2478e6ef784fba84e21dbc500a7f617",
+      "published_sha256": "8ecbb55804a6030dae569a50c2cf38adb2478e6ef784fba84e21dbc500a7f617",
+      "size": 5404,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/gene_identity_control/summary.json",
+      "source_sha256": "57930e735bc72dc6ee8dddce575a1d8ae45c5a36abc0c807fe19120c37c6f2d7",
+      "published_sha256": "57930e735bc72dc6ee8dddce575a1d8ae45c5a36abc0c807fe19120c37c6f2d7",
+      "size": 19539,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/initial_judgment.md",
+      "source_sha256": "b7b89abccb16d57270b1c65d9b75659e436ac01c3e4178d153c519504d7c8474",
+      "published_sha256": "b7b89abccb16d57270b1c65d9b75659e436ac01c3e4178d153c519504d7c8474",
+      "size": 2239,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/inspect_data.py",
+      "source_sha256": "5dc4287d5a50dd198a953a0abf1cc4044d8e4542d29d98c27943896cca985193",
+      "published_sha256": "5dc4287d5a50dd198a953a0abf1cc4044d8e4542d29d98c27943896cca985193",
+      "size": 2356,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/joint_dynamics_trial/check_resampling.py",
+      "source_sha256": "9e6dee57901f6f1cedbb5b17f450d5961fc751d449391a9db0f79028fec78451",
+      "published_sha256": "9e6dee57901f6f1cedbb5b17f450d5961fc751d449391a9db0f79028fec78451",
+      "size": 3582,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/joint_dynamics_trial/core.py",
+      "source_sha256": "d4d4dc97ceb3adbd7c1f8910ea38997dad4a0072b0bff60f3ee9f748baf0d14e",
+      "published_sha256": "d4d4dc97ceb3adbd7c1f8910ea38997dad4a0072b0bff60f3ee9f748baf0d14e",
+      "size": 3311,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/joint_dynamics_trial/diagnostics_protocol.txt",
+      "source_sha256": "cab651be2eb2808e5e6759c43ced514d820e6bf61f546a8dce7c70d915e260bf",
+      "published_sha256": "cab651be2eb2808e5e6759c43ced514d820e6bf61f546a8dce7c70d915e260bf",
+      "size": 553,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/joint_dynamics_trial/early_latent.npz",
+      "source_sha256": "d3d61a94eb57510f23d69d0cad69086ef092f65b2ae7592e84e66a7cb6d0595e",
+      "published_sha256": "d3d61a94eb57510f23d69d0cad69086ef092f65b2ae7592e84e66a7cb6d0595e",
+      "size": 4093728,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/joint_dynamics_trial/evaluate.py",
+      "source_sha256": "7e8ac75f40f72ed3428da8ce0e87491410d7bfd4bc111b4538457b46f3104d8b",
+      "published_sha256": "7e8ac75f40f72ed3428da8ce0e87491410d7bfd4bc111b4538457b46f3104d8b",
+      "size": 9454,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/joint_dynamics_trial/findings.txt",
+      "source_sha256": "e9015c4dc218523e0932dfd0a2cf8f09b0951896cdcaf09e95e6be485831819b",
+      "published_sha256": "e9015c4dc218523e0932dfd0a2cf8f09b0951896cdcaf09e95e6be485831819b",
+      "size": 4102,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/joint_dynamics_trial/frozen_predictions.npz",
+      "source_sha256": "edabc76b624a784ce24a23e9680cb57f4b6ce033a86ad7561ce558e00fe54fbb",
+      "published_sha256": "edabc76b624a784ce24a23e9680cb57f4b6ce033a86ad7561ce558e00fe54fbb",
+      "size": 9729724,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/joint_dynamics_trial/joint_2026112601.pt",
+      "source_sha256": "f4110e96e42f8c860ef7e982a28d9621fcad686611ea654e6f8b76042c86698a",
+      "published_sha256": "f4110e96e42f8c860ef7e982a28d9621fcad686611ea654e6f8b76042c86698a",
+      "size": 102805,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/joint_dynamics_trial/joint_2026112602.pt",
+      "source_sha256": "f3180d63cd8e7db455f3d71a060bf3e2067c7431aa5130f2fcd13ad2167f27f8",
+      "published_sha256": "f3180d63cd8e7db455f3d71a060bf3e2067c7431aa5130f2fcd13ad2167f27f8",
+      "size": 102805,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/joint_dynamics_trial/joint_dynamics_results.png",
+      "source_sha256": "a7b6116a83209f73179a432d1b696b173aebf3d9bf8ba312c93280c244eb1959",
+      "published_sha256": "a7b6116a83209f73179a432d1b696b173aebf3d9bf8ba312c93280c244eb1959",
+      "size": 372881,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/joint_dynamics_trial/joint_primary_E10.5.h5ad",
+      "source_sha256": "08979dda836b034c53c37bb3411ba3cdc4b674a56828340b71cf44352e5d0a17",
+      "published_sha256": "08979dda836b034c53c37bb3411ba3cdc4b674a56828340b71cf44352e5d0a17",
+      "size": 46414458,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/joint_dynamics_trial/metrics.tsv",
+      "source_sha256": "c51d8a3794b16c98cc079ede9cb8c599af1359d9224ac6ab6a8874972614db62",
+      "published_sha256": "8ad66136ae880e647e7519ca6ae5d488566447a8dfec09f0591f36425f121947",
+      "size": 32056,
+      "text_copy_changed": true
+    },
+    {
+      "path": "analysis/independent_review_20261126/joint_dynamics_trial/protocol.txt",
+      "source_sha256": "da9dc46ecf93a335656b9213955bb4b57fb01d98b7bd1764e84d97a9481996dc",
+      "published_sha256": "da9dc46ecf93a335656b9213955bb4b57fb01d98b7bd1764e84d97a9481996dc",
+      "size": 5160,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/joint_dynamics_trial/report.txt",
+      "source_sha256": "1a1cc3508a629f8e4c1eec79de4f9481f2e6ec75c454e44b61a29ee4ee8d7f23",
+      "published_sha256": "7279876a746e3f400cd2c09a062e5c22ed73480868cfd14b530d9e3d090d84de",
+      "size": 7374,
+      "text_copy_changed": true
+    },
+    {
+      "path": "analysis/independent_review_20261126/joint_dynamics_trial/representation.joblib",
+      "source_sha256": "1a37ff47b7a3d87aa3e20fb3845ad9ca75c7fb2405407e08d205e8791c5fa53e",
+      "published_sha256": "1a37ff47b7a3d87aa3e20fb3845ad9ca75c7fb2405407e08d205e8791c5fa53e",
+      "size": 4262993,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/joint_dynamics_trial/requirements-local.txt",
+      "source_sha256": "69191f795f024589b482e6bf90c5db6a5631c0296f383f193eb1c1f76dfeaefd",
+      "published_sha256": "69191f795f024589b482e6bf90c5db6a5631c0296f383f193eb1c1f76dfeaefd",
+      "size": 14,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/joint_dynamics_trial/resampling_amendment.txt",
+      "source_sha256": "f195d7ff8147b4c4d1549fcf64c8f8fe9bfd4dcbfadd61e53c841639e382dbf7",
+      "published_sha256": "f195d7ff8147b4c4d1549fcf64c8f8fe9bfd4dcbfadd61e53c841639e382dbf7",
+      "size": 1285,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/joint_dynamics_trial/resampling_frozen.npz",
+      "source_sha256": "dfd9e245770a438ba63906bc32ee9432f8448a9ee427b7d51c35f9203bbddd86",
+      "published_sha256": "dfd9e245770a438ba63906bc32ee9432f8448a9ee427b7d51c35f9203bbddd86",
+      "size": 96767,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/joint_dynamics_trial/resampling_results.json",
+      "source_sha256": "ca3ec962d81a08bf3000e9a7ae657fb09d30f0a7dd89a7966a49dd34ef464750",
+      "published_sha256": "ca3ec962d81a08bf3000e9a7ae657fb09d30f0a7dd89a7966a49dd34ef464750",
+      "size": 109380,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/joint_dynamics_trial/results.json",
+      "source_sha256": "3d17c9bd503a9bd77f05258e09f1ebf0eccd5153b98bfcce15312a4de9c4c880",
+      "published_sha256": "ba6507ed43aaa1eae74999b46fdd75104e04dc8c9297c4b61b3db6e973bcbd99",
+      "size": 276003,
+      "text_copy_changed": true
+    },
+    {
+      "path": "analysis/independent_review_20261126/joint_dynamics_trial/summarize.py",
+      "source_sha256": "b7bb4659a4d55885b6cab0a1d7689860b4c261591abb1f5460b1419ed04fa4bd",
+      "published_sha256": "e7a065d6ee8671ee425516cf0b1ff56bff07dd16b8afb6451e1a319d6b700b0e",
+      "size": 11136,
+      "text_copy_changed": true
+    },
+    {
+      "path": "analysis/independent_review_20261126/joint_dynamics_trial/summary.json",
+      "source_sha256": "470b38b552e3e396b5e4c0b9da6767e8c6728a1f08eb07719cb522986e6a15bd",
+      "published_sha256": "470b38b552e3e396b5e4c0b9da6767e8c6728a1f08eb07719cb522986e6a15bd",
+      "size": 121701,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/joint_dynamics_trial/train.py",
+      "source_sha256": "638c93bcf01027570b40221f1338968f290a5c8c28f239b06dcba1a898ff8c2f",
+      "published_sha256": "638c93bcf01027570b40221f1338968f290a5c8c28f239b06dcba1a898ff8c2f",
+      "size": 6562,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/joint_dynamics_trial/training.json",
+      "source_sha256": "d5909aec5128bf6b49a9b39c00072ae025656ab7f8b8fdad16f9cfd22e4c5039",
+      "published_sha256": "d5909aec5128bf6b49a9b39c00072ae025656ab7f8b8fdad16f9cfd22e4c5039",
+      "size": 16371,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/joint_dynamics_trial/velocity_2026112601.pt",
+      "source_sha256": "c3194262b21984f23b91ab8db12475137bdaf42e61e0a47cd9a135701a75b33c",
+      "published_sha256": "c3194262b21984f23b91ab8db12475137bdaf42e61e0a47cd9a135701a75b33c",
+      "size": 102805,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/joint_dynamics_trial/velocity_2026112602.pt",
+      "source_sha256": "a13dcff9a8af9783a0a051fe1fea3e002edd41b0914778a4da3412fb06e4b946",
+      "published_sha256": "a13dcff9a8af9783a0a051fe1fea3e002edd41b0914778a4da3412fb06e4b946",
+      "size": 102805,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/joint_dynamics_trial/verification.json",
+      "source_sha256": "9e97b87a4595d835b3b2375e00bddab023503d1ee1cdbc3ab8c6018c9248d572",
+      "published_sha256": "9e97b87a4595d835b3b2375e00bddab023503d1ee1cdbc3ab8c6018c9248d572",
+      "size": 965,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/joint_dynamics_trial/verify.py",
+      "source_sha256": "ad5b603ba3ece3485983bfa7a17a6607e0c6fcb8443e65ae7ff75a0412e867fe",
+      "published_sha256": "ad5b603ba3ece3485983bfa7a17a6607e0c6fcb8443e65ae7ff75a0412e867fe",
+      "size": 1801,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/metrics.tsv",
+      "source_sha256": "478d2b06e52c039e7d36d26f6115e8f94c090a723ee2bd365d2fcdb3668bf01d",
+      "published_sha256": "b2c4ee2724b2cc2cff27fa119903a314e12b5bdbe56f81b7bc163e76dd7f3dcf",
+      "size": 6920,
+      "text_copy_changed": true
+    },
+    {
+      "path": "analysis/independent_review_20261126/moment_factorial_diagnostic/contributions.tsv",
+      "source_sha256": "bbe667fc6aa0631301da94aa0db02d4e29616f87b6517953f8617a73f31e535b",
+      "published_sha256": "7508cb09756da5aa84daeb97b2295cae0382e0f3db39ff836d92e988f4f5502f",
+      "size": 18872,
+      "text_copy_changed": true
+    },
+    {
+      "path": "analysis/independent_review_20261126/moment_factorial_diagnostic/factorial_diagnostic.png",
+      "source_sha256": "64143ed1bf33d11a47808751ccfa34b7050f854a76b50951ba30eac0e79dbdf9",
+      "published_sha256": "64143ed1bf33d11a47808751ccfa34b7050f854a76b50951ba30eac0e79dbdf9",
+      "size": 160862,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/moment_factorial_diagnostic/factorial_metrics.tsv",
+      "source_sha256": "ff16547c629622486fe8c632319880beee86e41bb3223f46c30b12f83223f0c6",
+      "published_sha256": "398ea4944415c04cbdc551e019c34cb33f79dd733f3e7a3f25a439bb74416e05",
+      "size": 27637,
+      "text_copy_changed": true
+    },
+    {
+      "path": "analysis/independent_review_20261126/moment_factorial_diagnostic/group_composition.tsv",
+      "source_sha256": "302ab11116023045af9cc6f71137a71ffc713c65f707e52e2834f9ea60764439",
+      "published_sha256": "200b521c3dce66d97976286da371db7e27dd4797f2175e467c1a0653afb1c9fb",
+      "size": 1494,
+      "text_copy_changed": true
+    },
+    {
+      "path": "analysis/independent_review_20261126/moment_factorial_diagnostic/protocol.txt",
+      "source_sha256": "f5a7408b662bfe2e5bcc1d668c8e58f1fc9cb01627c96c6c93b7d539813d7253",
+      "published_sha256": "f5a7408b662bfe2e5bcc1d668c8e58f1fc9cb01627c96c6c93b7d539813d7253",
+      "size": 4547,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/moment_factorial_diagnostic/report.txt",
+      "source_sha256": "e02e754226c53d6f07d51e8b7bf52e414ff60a1d399dd67aedc515b921bbc5ab",
+      "published_sha256": "78c4bc5955c72c0e59591943ac46c75edc399a62de51f387666175f93faccc26",
+      "size": 9794,
+      "text_copy_changed": true
+    },
+    {
+      "path": "analysis/independent_review_20261126/moment_factorial_diagnostic/results.json",
+      "source_sha256": "57b9f66dbc00e1ee0b32a3521b208e30b601741f6ff476f2de72a101716e3d29",
+      "published_sha256": "57b9f66dbc00e1ee0b32a3521b208e30b601741f6ff476f2de72a101716e3d29",
+      "size": 585738,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/moment_factorial_diagnostic/run_diagnostic.py",
+      "source_sha256": "33daca457c490872196449fffd39cb616e3f3c33aab228246a7642ab6f8e5916",
+      "published_sha256": "33daca457c490872196449fffd39cb616e3f3c33aab228246a7642ab6f8e5916",
+      "size": 11632,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/moment_factorial_diagnostic/sampling_indices.npz",
+      "source_sha256": "63c9239c2412a0364817fecd2a95a46c55a4c3bc34e9c1be50ed41a721fb0561",
+      "published_sha256": "63c9239c2412a0364817fecd2a95a46c55a4c3bc34e9c1be50ed41a721fb0561",
+      "size": 322887,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/moment_factorial_diagnostic/sufficient_statistics.npz",
+      "source_sha256": "0e267eb91cb8a9fab7a299b800efae9227561c3217b730446d35de6a9d5c88b0",
+      "published_sha256": "0e267eb91cb8a9fab7a299b800efae9227561c3217b730446d35de6a9d5c88b0",
+      "size": 52059667,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/moment_factorial_diagnostic/summarize.py",
+      "source_sha256": "dd39845211c9d7e6c87e3cb3c6966f879d6da8d52574fc1411a04776c45499bf",
+      "published_sha256": "dd39845211c9d7e6c87e3cb3c6966f879d6da8d52574fc1411a04776c45499bf",
+      "size": 7227,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/moment_factorial_diagnostic/summary.json",
+      "source_sha256": "1913f3e652a6ff6803aa14300a08109ff4418dd407489220903bd9807d07ef63",
+      "published_sha256": "1913f3e652a6ff6803aa14300a08109ff4418dd407489220903bd9807d07ef63",
+      "size": 9199,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/protocol.txt",
+      "source_sha256": "8b89d6eefc52b163cb655fa3159f7f0293c8357ad7ccdd65eede570f98c19cb6",
+      "published_sha256": "8b89d6eefc52b163cb655fa3159f7f0293c8357ad7ccdd65eede570f98c19cb6",
+      "size": 3823,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/results.json",
+      "source_sha256": "c652c226a634f09cf06b9b348112f576c7cf8c642831ba75b0acfc9226845d7b",
+      "published_sha256": "c652c226a634f09cf06b9b348112f576c7cf8c642831ba75b0acfc9226845d7b",
+      "size": 63286,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/review_report.txt",
+      "source_sha256": "e7ecaef2ddf8539ed79f458c15aa913773bbca3355298f38619e25dad7ed6087",
+      "published_sha256": "2f1591488369f672a04ea9419a49a308e3809a9f34e908c3817ab5d348f08675",
+      "size": 10718,
+      "text_copy_changed": true
+    },
+    {
+      "path": "analysis/independent_review_20261126/run_review.py",
+      "source_sha256": "35e2939a0a29cd0a603d3eb253dd61600971d0038e47631ae9246dc1ead37735",
+      "published_sha256": "35e2939a0a29cd0a603d3eb253dd61600971d0038e47631ae9246dc1ead37735",
+      "size": 10438,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/speed_direction_diagnostic/calibrate.py",
+      "source_sha256": "7e8cb913dbea57f4a489401e9fb04f0f8d5b97184512c4d7315dffacb83b4506",
+      "published_sha256": "7e8cb913dbea57f4a489401e9fb04f0f8d5b97184512c4d7315dffacb83b4506",
+      "size": 7075,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/speed_direction_diagnostic/calibration.json",
+      "source_sha256": "0c61b3dc2521ee0664782b0b29fef29406e73757f629f70a3ee27741ad2066b9",
+      "published_sha256": "0c61b3dc2521ee0664782b0b29fef29406e73757f629f70a3ee27741ad2066b9",
+      "size": 104290,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/speed_direction_diagnostic/data_splits.npz",
+      "source_sha256": "d7aa61d443c6c1107ee5290edc4bc8fd1aca831816c10bf67898d20b00c4a628",
+      "published_sha256": "d7aa61d443c6c1107ee5290edc4bc8fd1aca831816c10bf67898d20b00c4a628",
+      "size": 5165518,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/speed_direction_diagnostic/diagnostic_results.png",
+      "source_sha256": "ff1dc4ae8b67429e2ad6569b599f1c6ff6b68649bbe11ea83b5156908610b483",
+      "published_sha256": "ff1dc4ae8b67429e2ad6569b599f1c6ff6b68649bbe11ea83b5156908610b483",
+      "size": 255859,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/speed_direction_diagnostic/evaluate.py",
+      "source_sha256": "835f624db63fee223c315f9e7055d132577862ffc5838affba2b4534afe52b38",
+      "published_sha256": "835f624db63fee223c315f9e7055d132577862ffc5838affba2b4534afe52b38",
+      "size": 6193,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/speed_direction_diagnostic/evaluate_unbounded.py",
+      "source_sha256": "c4bf59183ff46235b9e9fc2921d69d2cb21d2284e3ea9d93fde0f47abde38b5d",
+      "published_sha256": "c4bf59183ff46235b9e9fc2921d69d2cb21d2284e3ea9d93fde0f47abde38b5d",
+      "size": 4125,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/speed_direction_diagnostic/evaluation_details.txt",
+      "source_sha256": "e9ef3a8af7adef4a7b3357df0bd2eb462ff95082eb33c5414d838431534b17a2",
+      "published_sha256": "e9ef3a8af7adef4a7b3357df0bd2eb462ff95082eb33c5414d838431534b17a2",
+      "size": 1173,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/speed_direction_diagnostic/f0_s2026112601_flex_mass.pt",
+      "source_sha256": "68894baf5117f416f7dbce0cd3e4328441f0612b8fe2ac87d69bb0c97f6a9262",
+      "published_sha256": "68894baf5117f416f7dbce0cd3e4328441f0612b8fe2ac87d69bb0c97f6a9262",
+      "size": 204732,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/speed_direction_diagnostic/f0_s2026112601_flex_mass_unbounded.pt",
+      "source_sha256": "fb1a49d2a470ce5b789b4b882e290fffa6e6bdeedfff897f0311173a7409b780",
+      "published_sha256": "fb1a49d2a470ce5b789b4b882e290fffa6e6bdeedfff897f0311173a7409b780",
+      "size": 204732,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/speed_direction_diagnostic/f0_s2026112601_full.pt",
+      "source_sha256": "2b04028d660c70f3757da560d83653a2c965ba337afc647fc3363ea44c3f3d18",
+      "published_sha256": "2b04028d660c70f3757da560d83653a2c965ba337afc647fc3363ea44c3f3d18",
+      "size": 204732,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/speed_direction_diagnostic/f0_s2026112601_full_unbounded.pt",
+      "source_sha256": "7816339bcc7f1c4b17d3a0a615e68c3601256d05ffb98776b5ee53fe4a935d7f",
+      "published_sha256": "7816339bcc7f1c4b17d3a0a615e68c3601256d05ffb98776b5ee53fe4a935d7f",
+      "size": 204732,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/speed_direction_diagnostic/f0_s2026112601_global_mass.pt",
+      "source_sha256": "1d55ede90421e721659421df31371a8fcd26630db1a01aca4190582bb8e46ffd",
+      "published_sha256": "1d55ede90421e721659421df31371a8fcd26630db1a01aca4190582bb8e46ffd",
+      "size": 204732,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/speed_direction_diagnostic/f0_s2026112601_mass.pt",
+      "source_sha256": "889e8ad989c6928a53a333de3fa571d5683de75b0998dff822ef7df673657490",
+      "published_sha256": "889e8ad989c6928a53a333de3fa571d5683de75b0998dff822ef7df673657490",
+      "size": 204732,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/speed_direction_diagnostic/f0_s2026112602_flex_mass.pt",
+      "source_sha256": "81727f21ab9f81830218b73e49ca0b8588a68a8b6e743d9fbe66f45c186325c1",
+      "published_sha256": "81727f21ab9f81830218b73e49ca0b8588a68a8b6e743d9fbe66f45c186325c1",
+      "size": 204732,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/speed_direction_diagnostic/f0_s2026112602_flex_mass_unbounded.pt",
+      "source_sha256": "1180281ab5eb1a33dbb38d62faddca470065712e4732b9ef4cd0d9e7fe4d7d5c",
+      "published_sha256": "1180281ab5eb1a33dbb38d62faddca470065712e4732b9ef4cd0d9e7fe4d7d5c",
+      "size": 204732,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/speed_direction_diagnostic/f0_s2026112602_full.pt",
+      "source_sha256": "4cd1e5bc9c76e4da551277bcf274c06d8a74ca3e81e1d14c1d165d0e0971878a",
+      "published_sha256": "4cd1e5bc9c76e4da551277bcf274c06d8a74ca3e81e1d14c1d165d0e0971878a",
+      "size": 204732,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/speed_direction_diagnostic/f0_s2026112602_full_unbounded.pt",
+      "source_sha256": "baa008cc1e5f9dce45313c107807f293a6025c4bbc1b699165bc3365c1d47901",
+      "published_sha256": "baa008cc1e5f9dce45313c107807f293a6025c4bbc1b699165bc3365c1d47901",
+      "size": 204732,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/speed_direction_diagnostic/f0_s2026112602_global_mass.pt",
+      "source_sha256": "23fc83a868ba31055f35a0c235fe3ff0efb4a38c6e7022728d381d1c325b6b5b",
+      "published_sha256": "23fc83a868ba31055f35a0c235fe3ff0efb4a38c6e7022728d381d1c325b6b5b",
+      "size": 204732,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/speed_direction_diagnostic/f0_s2026112602_mass.pt",
+      "source_sha256": "08e31bef884aa259e4d9b24bf11c742715c9b84480c68688f426b9eeebf0864f",
+      "published_sha256": "08e31bef884aa259e4d9b24bf11c742715c9b84480c68688f426b9eeebf0864f",
+      "size": 204732,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/speed_direction_diagnostic/f1_s2026112601_flex_mass.pt",
+      "source_sha256": "febb7113908aef055a1e5e7a9f5d056ed05d4326698f7fced5d1046f8f005cd6",
+      "published_sha256": "febb7113908aef055a1e5e7a9f5d056ed05d4326698f7fced5d1046f8f005cd6",
+      "size": 204732,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/speed_direction_diagnostic/f1_s2026112601_flex_mass_unbounded.pt",
+      "source_sha256": "a541727990efd42a5e78bdfcfb0ff149b28649b5773079755c41f70155a997f9",
+      "published_sha256": "a541727990efd42a5e78bdfcfb0ff149b28649b5773079755c41f70155a997f9",
+      "size": 204732,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/speed_direction_diagnostic/f1_s2026112601_full.pt",
+      "source_sha256": "5d3084bd6588354cc631796c206d39614c384d2f8fc46799a6df9e98625fcb2e",
+      "published_sha256": "5d3084bd6588354cc631796c206d39614c384d2f8fc46799a6df9e98625fcb2e",
+      "size": 204732,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/speed_direction_diagnostic/f1_s2026112601_full_unbounded.pt",
+      "source_sha256": "3201710cc1aaf2279b33fdda581a53c7b5dc63b20b8825a0d4a9d95376f1d518",
+      "published_sha256": "3201710cc1aaf2279b33fdda581a53c7b5dc63b20b8825a0d4a9d95376f1d518",
+      "size": 204732,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/speed_direction_diagnostic/f1_s2026112601_global_mass.pt",
+      "source_sha256": "74d156d93999ad65ea2b7e9f9a597bdd3eb7b6c1f27c735792c0baf47e305470",
+      "published_sha256": "74d156d93999ad65ea2b7e9f9a597bdd3eb7b6c1f27c735792c0baf47e305470",
+      "size": 204732,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/speed_direction_diagnostic/f1_s2026112601_mass.pt",
+      "source_sha256": "815b4f33ae2318873c59e32ea5a477005cc291fca06aa708b66ad2ab4f2fd327",
+      "published_sha256": "815b4f33ae2318873c59e32ea5a477005cc291fca06aa708b66ad2ab4f2fd327",
+      "size": 204732,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/speed_direction_diagnostic/f1_s2026112602_flex_mass.pt",
+      "source_sha256": "ae206dbb5607cb2f06b2ed33a9a71e0211971393ae37768387fb776c15e6259a",
+      "published_sha256": "ae206dbb5607cb2f06b2ed33a9a71e0211971393ae37768387fb776c15e6259a",
+      "size": 204732,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/speed_direction_diagnostic/f1_s2026112602_flex_mass_unbounded.pt",
+      "source_sha256": "79c2a14bed4f04ccd01c4053ee06bde6636125533f0ca4330ff830b8d9e3d962",
+      "published_sha256": "79c2a14bed4f04ccd01c4053ee06bde6636125533f0ca4330ff830b8d9e3d962",
+      "size": 204732,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/speed_direction_diagnostic/f1_s2026112602_full.pt",
+      "source_sha256": "f744183fb14ff250ce1de3c4a5312d132b759b589abba2da811a1f76f5776c9e",
+      "published_sha256": "f744183fb14ff250ce1de3c4a5312d132b759b589abba2da811a1f76f5776c9e",
+      "size": 204732,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/speed_direction_diagnostic/f1_s2026112602_full_unbounded.pt",
+      "source_sha256": "64da2fc28c09ada4624c2cf48e3666eb6511fc86b8534aff1c3108c7a7968b17",
+      "published_sha256": "64da2fc28c09ada4624c2cf48e3666eb6511fc86b8534aff1c3108c7a7968b17",
+      "size": 204732,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/speed_direction_diagnostic/f1_s2026112602_global_mass.pt",
+      "source_sha256": "2c7d365c06256012181c6422a43fb3c5f5cb73c2ecd303ef1131fec026ddaff5",
+      "published_sha256": "2c7d365c06256012181c6422a43fb3c5f5cb73c2ecd303ef1131fec026ddaff5",
+      "size": 204732,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/speed_direction_diagnostic/f1_s2026112602_mass.pt",
+      "source_sha256": "7cb5a8e1eae50ebeb5af6916598c3af88c7aa0847885b6fb5124033fca1d730a",
+      "published_sha256": "7cb5a8e1eae50ebeb5af6916598c3af88c7aa0847885b6fb5124033fca1d730a",
+      "size": 204732,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/speed_direction_diagnostic/findings_and_model_decision.txt",
+      "source_sha256": "0cc781aeb2e91b2abd00600627d9829f9e73c7d655f23d6e61a59d692575e5e3",
+      "published_sha256": "0cc781aeb2e91b2abd00600627d9829f9e73c7d655f23d6e61a59d692575e5e3",
+      "size": 6368,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/speed_direction_diagnostic/frozen_predictions.npz",
+      "source_sha256": "74fd439a758829faec59ea26d1e6a7cda18b88ee7fbd40f1cd6437297e2ad1e3",
+      "published_sha256": "74fd439a758829faec59ea26d1e6a7cda18b88ee7fbd40f1cd6437297e2ad1e3",
+      "size": 34095002,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/speed_direction_diagnostic/growth_bound_tradeoffs.png",
+      "source_sha256": "adfb5ddf927f0e919254fa55a4a5c42e9284e729280796761bbc2f8edb70f186",
+      "published_sha256": "adfb5ddf927f0e919254fa55a4a5c42e9284e729280796761bbc2f8edb70f186",
+      "size": 246687,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/speed_direction_diagnostic/growth_cap_amendment.txt",
+      "source_sha256": "910b04896141667b1dd01d4a478475c76a5834e2f352cbb3dbf77ae41df699cc",
+      "published_sha256": "910b04896141667b1dd01d4a478475c76a5834e2f352cbb3dbf77ae41df699cc",
+      "size": 1531,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/speed_direction_diagnostic/helpers.py",
+      "source_sha256": "8e01611f27f5eedd3feb912c5e3df0826d76d92211129ef0a9a09db0caa43ea8",
+      "published_sha256": "8e01611f27f5eedd3feb912c5e3df0826d76d92211129ef0a9a09db0caa43ea8",
+      "size": 3254,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/speed_direction_diagnostic/latent_metrics.tsv",
+      "source_sha256": "8ab233327a4a431d69ddaf332c6e5583c0bdcb61f23341455ec9064ae70dd8f0",
+      "published_sha256": "094470987004e07c863cd72a633961d034b63958f63eccc6dc51d4d86fb4dd4d",
+      "size": 53516,
+      "text_copy_changed": true
+    },
+    {
+      "path": "analysis/independent_review_20261126/speed_direction_diagnostic/prepare.py",
+      "source_sha256": "e441366b64ca71b83c8160c66e9ae5afffc2d05b72cb42730ecc2305175e4db2",
+      "published_sha256": "e441366b64ca71b83c8160c66e9ae5afffc2d05b72cb42730ecc2305175e4db2",
+      "size": 2267,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/speed_direction_diagnostic/protocol.txt",
+      "source_sha256": "08068fdc715f3e656b13cb290486fca9ecb1d8df45d44f578db83abd587e9075",
+      "published_sha256": "08068fdc715f3e656b13cb290486fca9ecb1d8df45d44f578db83abd587e9075",
+      "size": 5282,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/speed_direction_diagnostic/report.txt",
+      "source_sha256": "73d489a00f12c9621a2c04681654d14a669395dafccd2336a193b0df6aeb9522",
+      "published_sha256": "e3c94eab5c38b45a60fccf7f7f115872525adf0f891a4d2c04af0f501cfd7801",
+      "size": 7223,
+      "text_copy_changed": true
+    },
+    {
+      "path": "analysis/independent_review_20261126/speed_direction_diagnostic/results.json",
+      "source_sha256": "508d736241430ffa57944913d8caf6e59dc0e8b012d46acf25585702abbd331b",
+      "published_sha256": "508d736241430ffa57944913d8caf6e59dc0e8b012d46acf25585702abbd331b",
+      "size": 231823,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/speed_direction_diagnostic/split_manifest.json",
+      "source_sha256": "b40f09636fa0dd13adb8581668e6c098492e324d62c0d4e89e15d19bfe786359",
+      "published_sha256": "b40f09636fa0dd13adb8581668e6c098492e324d62c0d4e89e15d19bfe786359",
+      "size": 1430,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/speed_direction_diagnostic/summarize.py",
+      "source_sha256": "c7958192ac16d51c16cceabf149dc462729852965d4ad575bf5d1cd44281eb86",
+      "published_sha256": "ce3eb6cc9eadaf4cbfa51468ec61469cc172085213c8c1b1049a6f8a2a0aa1c2",
+      "size": 12812,
+      "text_copy_changed": true
+    },
+    {
+      "path": "analysis/independent_review_20261126/speed_direction_diagnostic/summary.json",
+      "source_sha256": "5c763b9b59c130759176ce2cdcb453018c562099d8f2757d621d1a959ee2c31c",
+      "published_sha256": "5c763b9b59c130759176ce2cdcb453018c562099d8f2757d621d1a959ee2c31c",
+      "size": 99774,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/speed_direction_diagnostic/unbounded_calibration.json",
+      "source_sha256": "9e241a1c91dcb7ce4401aa114f2f35f26f33d2802e318ce0bbc5decfbc5d2a33",
+      "published_sha256": "9e241a1c91dcb7ce4401aa114f2f35f26f33d2802e318ce0bbc5decfbc5d2a33",
+      "size": 27043,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/speed_direction_diagnostic/unbounded_mass.py",
+      "source_sha256": "6fff2c7d43ea64b9739e4c82b97a97b1c30bcea491fc24922e6e5314efb072af",
+      "published_sha256": "6fff2c7d43ea64b9739e4c82b97a97b1c30bcea491fc24922e6e5314efb072af",
+      "size": 4993,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/speed_direction_diagnostic/unbounded_predictions.npz",
+      "source_sha256": "2bc32a7459302294c0b848de1eecaf7fe511c96c4094aacbe40b86d5fe9ea100",
+      "published_sha256": "2bc32a7459302294c0b848de1eecaf7fe511c96c4094aacbe40b86d5fe9ea100",
+      "size": 9803189,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/speed_direction_diagnostic/unbounded_results.json",
+      "source_sha256": "4d2ae6f5dacc4551028e6b1b7b9216ae9c0ee7bc30ce91335222f657cb9d4fe5",
+      "published_sha256": "4d2ae6f5dacc4551028e6b1b7b9216ae9c0ee7bc30ce91335222f657cb9d4fe5",
+      "size": 52884,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/speed_direction_diagnostic/verification.json",
+      "source_sha256": "31c7d1618bd4fcee7b71f3fe998dd8375716a085ed4c1fb013da64012176db28",
+      "published_sha256": "31c7d1618bd4fcee7b71f3fe998dd8375716a085ed4c1fb013da64012176db28",
+      "size": 8015,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/speed_direction_diagnostic/verify.py",
+      "source_sha256": "9addb5467233046f20034f817c7f0c2f155df7a99f3cee2d83b618d06e5e8070",
+      "published_sha256": "9addb5467233046f20034f817c7f0c2f155df7a99f3cee2d83b618d06e5e8070",
+      "size": 3045,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/stage_conditioned_decoder_v1/ablation_results.png",
+      "source_sha256": "f8848bb780b61993c137111118d64363eb4041305f70bc910bcc9eac8ece237f",
+      "published_sha256": "f8848bb780b61993c137111118d64363eb4041305f70bc910bcc9eac8ece237f",
+      "size": 247573,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/stage_conditioned_decoder_v1/data_splits.npz",
+      "source_sha256": "736adae9c78f3df0e90251810ae15d7556bf04e5079103acfd2489a0e71bc85e",
+      "published_sha256": "736adae9c78f3df0e90251810ae15d7556bf04e5079103acfd2489a0e71bc85e",
+      "size": 7226940,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/stage_conditioned_decoder_v1/evaluate.py",
+      "source_sha256": "d73c3fd68b87566bb755a8b06f1e387f5022f62bfda565fca5cfac23932fcc60",
+      "published_sha256": "d73c3fd68b87566bb755a8b06f1e387f5022f62bfda565fca5cfac23932fcc60",
+      "size": 9057,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/stage_conditioned_decoder_v1/f0_s2026112601_autonomous_latent.pt",
+      "source_sha256": "eb151239d2dddf94f20871bf11b19ea87bcefb5aca4a0b201dfbe735ed3299b6",
+      "published_sha256": "eb151239d2dddf94f20871bf11b19ea87bcefb5aca4a0b201dfbe735ed3299b6",
+      "size": 120333,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/stage_conditioned_decoder_v1/f0_s2026112601_temporal_decoded.pt",
+      "source_sha256": "91a60fc983d61b0daac49d1c84eb4bb08df127b0ee43592b21b44335e156c87f",
+      "published_sha256": "91a60fc983d61b0daac49d1c84eb4bb08df127b0ee43592b21b44335e156c87f",
+      "size": 120333,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/stage_conditioned_decoder_v1/f0_s2026112601_temporal_latent.pt",
+      "source_sha256": "45f21fc40598752117af6ad163f05948e795315c9857286c577f4dcd9a619765",
+      "published_sha256": "45f21fc40598752117af6ad163f05948e795315c9857286c577f4dcd9a619765",
+      "size": 120333,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/stage_conditioned_decoder_v1/f0_s2026112601_temporal_noess.pt",
+      "source_sha256": "f431859d89cabd79223fa83de115e202c42e554c26154a31e7026c0abeec4f97",
+      "published_sha256": "f431859d89cabd79223fa83de115e202c42e554c26154a31e7026c0abeec4f97",
+      "size": 120333,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/stage_conditioned_decoder_v1/f0_s2026112602_autonomous_latent.pt",
+      "source_sha256": "2555e840e26c8f10d84a950dff447c9d45671482dadab3091ac3d60eaffe968d",
+      "published_sha256": "2555e840e26c8f10d84a950dff447c9d45671482dadab3091ac3d60eaffe968d",
+      "size": 120333,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/stage_conditioned_decoder_v1/f0_s2026112602_temporal_decoded.pt",
+      "source_sha256": "e71e38956f645975e32f7261241d185eaa1ceea63675b3f5d0d4d203b7a022b3",
+      "published_sha256": "e71e38956f645975e32f7261241d185eaa1ceea63675b3f5d0d4d203b7a022b3",
+      "size": 120333,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/stage_conditioned_decoder_v1/f0_s2026112602_temporal_latent.pt",
+      "source_sha256": "78a8be71131625489ac1b0e025d96e7870a49818bf33f422990ee014a3e356d5",
+      "published_sha256": "78a8be71131625489ac1b0e025d96e7870a49818bf33f422990ee014a3e356d5",
+      "size": 120333,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/stage_conditioned_decoder_v1/f0_s2026112602_temporal_noess.pt",
+      "source_sha256": "0c588b9186be19804ebd3666a4dbf9dd08beba85221aa3de94a4a79f5e378900",
+      "published_sha256": "0c588b9186be19804ebd3666a4dbf9dd08beba85221aa3de94a4a79f5e378900",
+      "size": 120333,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/stage_conditioned_decoder_v1/f1_s2026112601_autonomous_latent.pt",
+      "source_sha256": "84a230f195c4eb812fdd50e0ddfaaf92ce37ad5a21c9871a68c4e196d26bc31d",
+      "published_sha256": "84a230f195c4eb812fdd50e0ddfaaf92ce37ad5a21c9871a68c4e196d26bc31d",
+      "size": 120333,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/stage_conditioned_decoder_v1/f1_s2026112601_temporal_decoded.pt",
+      "source_sha256": "46a58cfdc4802ac40b2d9168fac20efef5ba9e27b407866df94415c494fd4d88",
+      "published_sha256": "46a58cfdc4802ac40b2d9168fac20efef5ba9e27b407866df94415c494fd4d88",
+      "size": 120333,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/stage_conditioned_decoder_v1/f1_s2026112601_temporal_latent.pt",
+      "source_sha256": "16be044ade50b6180a518755ff750d30fe259b3e31279514522ca2dcc3d88c15",
+      "published_sha256": "16be044ade50b6180a518755ff750d30fe259b3e31279514522ca2dcc3d88c15",
+      "size": 120333,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/stage_conditioned_decoder_v1/f1_s2026112601_temporal_noess.pt",
+      "source_sha256": "984750f4c766db05d5ef7fd7ac312ff58d1dccd3f8986e02e7041163ad5d607e",
+      "published_sha256": "984750f4c766db05d5ef7fd7ac312ff58d1dccd3f8986e02e7041163ad5d607e",
+      "size": 120333,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/stage_conditioned_decoder_v1/f1_s2026112602_autonomous_latent.pt",
+      "source_sha256": "a235271da6e4deefadb9fc0c0752bd468048d9b4788da2e33851004bfac13166",
+      "published_sha256": "a235271da6e4deefadb9fc0c0752bd468048d9b4788da2e33851004bfac13166",
+      "size": 120333,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/stage_conditioned_decoder_v1/f1_s2026112602_temporal_decoded.pt",
+      "source_sha256": "12169c590213397206213b9aa11f774c70e7165af0ba4bf37c4b89e3786be366",
+      "published_sha256": "12169c590213397206213b9aa11f774c70e7165af0ba4bf37c4b89e3786be366",
+      "size": 120333,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/stage_conditioned_decoder_v1/f1_s2026112602_temporal_latent.pt",
+      "source_sha256": "fc8a5e7a353b599232dd5c1781b5c551dbf07dd73931e55607e4c2aea6eb42b5",
+      "published_sha256": "fc8a5e7a353b599232dd5c1781b5c551dbf07dd73931e55607e4c2aea6eb42b5",
+      "size": 120333,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/stage_conditioned_decoder_v1/f1_s2026112602_temporal_noess.pt",
+      "source_sha256": "5ff4eb4c173565e46141eafdbdefaa63fcfdcd78c370cf3358b01903338d650e",
+      "published_sha256": "5ff4eb4c173565e46141eafdbdefaa63fcfdcd78c370cf3358b01903338d650e",
+      "size": 120333,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/stage_conditioned_decoder_v1/findings_and_decision.txt",
+      "source_sha256": "26bcb9b72f710d469d69873c9c81e291814efe6265f1e32472c91b07b7f335a4",
+      "published_sha256": "26bcb9b72f710d469d69873c9c81e291814efe6265f1e32472c91b07b7f335a4",
+      "size": 4909,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/stage_conditioned_decoder_v1/frozen_predictions.npz",
+      "source_sha256": "8729be62bfc39575f5cac1c0d8c4b3acf6f46caa8ce672e98748f2567f0856bc",
+      "published_sha256": "8729be62bfc39575f5cac1c0d8c4b3acf6f46caa8ce672e98748f2567f0856bc",
+      "size": 23541875,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/stage_conditioned_decoder_v1/implementation_notes.txt",
+      "source_sha256": "64bab7416c44055d48160ebaa1c7e61ce9818834892c151dde29b4ff96a05135",
+      "published_sha256": "64bab7416c44055d48160ebaa1c7e61ce9818834892c151dde29b4ff96a05135",
+      "size": 983,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/stage_conditioned_decoder_v1/metrics.tsv",
+      "source_sha256": "fac5644b170c83f7b4bbaff77caf9413a046c6e9729b5ae801d14ae4a3597f0e",
+      "published_sha256": "d6d0ddf5d1d7e6c2bad09c102599b9dbd846f2409a464e052fbc6041d79196ec",
+      "size": 20144,
+      "text_copy_changed": true
+    },
+    {
+      "path": "analysis/independent_review_20261126/stage_conditioned_decoder_v1/model.py",
+      "source_sha256": "9f7636dd1104b61e5616e53c5f20e80da48081db9c0c4dc44eaecd57aeb04285",
+      "published_sha256": "9f7636dd1104b61e5616e53c5f20e80da48081db9c0c4dc44eaecd57aeb04285",
+      "size": 4259,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/stage_conditioned_decoder_v1/model_card.json",
+      "source_sha256": "10482c945db036de5127dad0c4bc934df767ec2b7d99ce16aba0930a85249379",
+      "published_sha256": "477164f95e25f19d569c44534164ae3af951b02215145e036898fc2e0149f043",
+      "size": 2400,
+      "text_copy_changed": true
+    },
+    {
+      "path": "analysis/independent_review_20261126/stage_conditioned_decoder_v1/preflight_verification.json",
+      "source_sha256": "eb8d3a8ae8985965fa362748a6057908486c072b3dd47a62617422f732c1c359",
+      "published_sha256": "eb8d3a8ae8985965fa362748a6057908486c072b3dd47a62617422f732c1c359",
+      "size": 382,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/stage_conditioned_decoder_v1/preparation.json",
+      "source_sha256": "3c48c6621b4ad2383ae4554438c682ebc511b9802a348cb1498d6196d6b446dc",
+      "published_sha256": "3c48c6621b4ad2383ae4554438c682ebc511b9802a348cb1498d6196d6b446dc",
+      "size": 1483,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/stage_conditioned_decoder_v1/prepare.py",
+      "source_sha256": "00cfec3da61499ecec0cb7423edf5ac57f80cc44fd75c149381c88ff5d88a7b6",
+      "published_sha256": "00cfec3da61499ecec0cb7423edf5ac57f80cc44fd75c149381c88ff5d88a7b6",
+      "size": 2408,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/stage_conditioned_decoder_v1/protocol.txt",
+      "source_sha256": "849ba2dc39b230dab5231eb67452d62c47ad551e8aa9e3cbc3f3f598e3373ef8",
+      "published_sha256": "849ba2dc39b230dab5231eb67452d62c47ad551e8aa9e3cbc3f3f598e3373ef8",
+      "size": 5595,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/stage_conditioned_decoder_v1/report.txt",
+      "source_sha256": "29949dceecc92bb094135a8c35122a50d15a5104e4e48947d305e50ee3ca945e",
+      "published_sha256": "1b0025dc51fccdf98f77d6e3a105f0b3729d969ed189c31e34430cb7cbfd429f",
+      "size": 7261,
+      "text_copy_changed": true
+    },
+    {
+      "path": "analysis/independent_review_20261126/stage_conditioned_decoder_v1/research_output_indices.npz",
+      "source_sha256": "c9280fa0a76651af8d5894aa939383ace8e7586b68e62ffd36dc72b43a622559",
+      "published_sha256": "c9280fa0a76651af8d5894aa939383ace8e7586b68e62ffd36dc72b43a622559",
+      "size": 21759,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/stage_conditioned_decoder_v1/results.json",
+      "source_sha256": "ed483086f606986a936c65cea160a1fb359581c01f63b30ad308411eb8c07a03",
+      "published_sha256": "9b4c411f08f51f3ff14d1ddff6f61609ceee4740ac12b42151e109e649937683",
+      "size": 157522,
+      "text_copy_changed": true
+    },
+    {
+      "path": "analysis/independent_review_20261126/stage_conditioned_decoder_v1/summarize.py",
+      "source_sha256": "759196e508e6a72c2f11433888227f3a6faa60c017528a7551b26b991ebd85e5",
+      "published_sha256": "996ff9d2a9232da52dd1b9c6200b763a03509b77ee578095b978c4c176900844",
+      "size": 9767,
+      "text_copy_changed": true
+    },
+    {
+      "path": "analysis/independent_review_20261126/stage_conditioned_decoder_v1/summary.json",
+      "source_sha256": "db5393d8107dbc69767fdc2bb31b08d40c8106d7709898a61f29c85aa403088f",
+      "published_sha256": "76c9d6acfe6c365d563716c1cab188be0bd3cdce0801bbfaf0ad063fc3584de5",
+      "size": 73065,
+      "text_copy_changed": true
+    },
+    {
+      "path": "analysis/independent_review_20261126/stage_conditioned_decoder_v1/target_moments.npz",
+      "source_sha256": "8506de9bfa387bdd3737310ef0c5039d1db2e8413c375d7434865cecb2d1891a",
+      "published_sha256": "8506de9bfa387bdd3737310ef0c5039d1db2e8413c375d7434865cecb2d1891a",
+      "size": 575666,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/stage_conditioned_decoder_v1/temporal_decoded_E10.5_diagnostic.h5ad",
+      "source_sha256": "ba00a4666e56929e5415bca1628a1ed13a2742d057e0acba5fc164562be9957e",
+      "published_sha256": "ba00a4666e56929e5415bca1628a1ed13a2742d057e0acba5fc164562be9957e",
+      "size": 33234857,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/stage_conditioned_decoder_v1/temporal_decoded_weighted_pool.h5ad",
+      "source_sha256": "ebc7412cde54965fa800bb32cd1f923db8dbd084782f2c073badfb32183b1ebe",
+      "published_sha256": "ebc7412cde54965fa800bb32cd1f923db8dbd084782f2c073badfb32183b1ebe",
+      "size": 46470563,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/stage_conditioned_decoder_v1/train.py",
+      "source_sha256": "572d8b30f97ce173561832289d77fd376891fc0c7e7995c3f6cc1a7446ec4a56",
+      "published_sha256": "572d8b30f97ce173561832289d77fd376891fc0c7e7995c3f6cc1a7446ec4a56",
+      "size": 6870,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/stage_conditioned_decoder_v1/training.json",
+      "source_sha256": "11337aeec75f614c3cb28d9e719e8412e8fd79ac15933af12622bdaf517fb035",
+      "published_sha256": "11337aeec75f614c3cb28d9e719e8412e8fd79ac15933af12622bdaf517fb035",
+      "size": 128584,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/stage_conditioned_decoder_v1/verification.json",
+      "source_sha256": "3f1a22654e67280de7c4c5836f7d85f9434bf393b54f021d71a40f5b2b47f13e",
+      "published_sha256": "3f1a22654e67280de7c4c5836f7d85f9434bf393b54f021d71a40f5b2b47f13e",
+      "size": 12151,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/stage_conditioned_decoder_v1/verify.py",
+      "source_sha256": "af3838d5b571f52a826b9a453244f1cf1645c7f40c331de66d754bcf2dcc1d3f",
+      "published_sha256": "af3838d5b571f52a826b9a453244f1cf1645c7f40c331de66d754bcf2dcc1d3f",
+      "size": 6107,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/summarize.py",
+      "source_sha256": "3e5510a0defe22141b2c7375e2c787c22717b64408e46ee3c4faebc79cd98882",
+      "published_sha256": "3e5510a0defe22141b2c7375e2c787c22717b64408e46ee3c4faebc79cd98882",
+      "size": 3677,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/summary.json",
+      "source_sha256": "5e0d340eb1dbe93a826569a54de21356cdbf3605f264aa9e9ff98039cdd55cee",
+      "published_sha256": "5e0d340eb1dbe93a826569a54de21356cdbf3605f264aa9e9ff98039cdd55cee",
+      "size": 2815,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/two_step_rollout_v2/audit_composition.py",
+      "source_sha256": "20568e948b5b5ac1bce4aa25271f17bb37fb890b86781db8c265a81125a45771",
+      "published_sha256": "20568e948b5b5ac1bce4aa25271f17bb37fb890b86781db8c265a81125a45771",
+      "size": 1904,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/two_step_rollout_v2/audit_outputs.py",
+      "source_sha256": "5ddb879ae45e0296898b8195f489d73e09e838b3c31e0efe5deb3e3d1e4e85d9",
+      "published_sha256": "5ddb879ae45e0296898b8195f489d73e09e838b3c31e0efe5deb3e3d1e4e85d9",
+      "size": 2910,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/two_step_rollout_v2/composition_audit.json",
+      "source_sha256": "e46ad696c67f30cd1bb58afcd5e4c14c8a1e17935b78d85cc2ddb229bf03bd5a",
+      "published_sha256": "e46ad696c67f30cd1bb58afcd5e4c14c8a1e17935b78d85cc2ddb229bf03bd5a",
+      "size": 741,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/two_step_rollout_v2/decision.json",
+      "source_sha256": "1adc89c1ee7bd7e13106ef9d8b8037ae9f9a2cb7d500cfe2115c40cfd4e48d90",
+      "published_sha256": "1adc89c1ee7bd7e13106ef9d8b8037ae9f9a2cb7d500cfe2115c40cfd4e48d90",
+      "size": 920,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/two_step_rollout_v2/diagnose_mass.py",
+      "source_sha256": "ae0978bd12d85fed938ffd60c62869b14c89f8703eb9857d367fe7895e6d3845",
+      "published_sha256": "ae0978bd12d85fed938ffd60c62869b14c89f8703eb9857d367fe7895e6d3845",
+      "size": 3115,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/two_step_rollout_v2/e125_candidates/single_step_damped_E12.5.h5ad",
+      "source_sha256": "8e61b96ffedbc7be7f8c45a45e2ba8155a7e110af59818f678b88555bbfddd79",
+      "published_sha256": "8e61b96ffedbc7be7f8c45a45e2ba8155a7e110af59818f678b88555bbfddd79",
+      "size": 16376577,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/two_step_rollout_v2/e125_candidates/single_step_damped_provenance.npz",
+      "source_sha256": "9af0bf53545f3eee77cd8011009b9f482218a0cb9463f23d4a1a031e222a3091",
+      "published_sha256": "9af0bf53545f3eee77cd8011009b9f482218a0cb9463f23d4a1a031e222a3091",
+      "size": 44416,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/two_step_rollout_v2/e125_candidates/single_step_damped_s2026112601_weighted.h5ad",
+      "source_sha256": "e97c0f5486621293c9aff3ee4551878cfca993d49ff8652859ad1667e61d6a2c",
+      "published_sha256": "e97c0f5486621293c9aff3ee4551878cfca993d49ff8652859ad1667e61d6a2c",
+      "size": 36354366,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/two_step_rollout_v2/e125_candidates/single_step_damped_s2026112602_weighted.h5ad",
+      "source_sha256": "66cac60baef2dbf2980baf2aff1eedf81fa491d028c3d5cb922e0120a1bd9961",
+      "published_sha256": "66cac60baef2dbf2980baf2aff1eedf81fa491d028c3d5cb922e0120a1bd9961",
+      "size": 36352620,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/two_step_rollout_v2/e125_candidates/single_step_hold_E12.5.h5ad",
+      "source_sha256": "f3771ebbd9a6cb9e4497e622505ce47944d21bd8f451ab3dd50c11e2ed184520",
+      "published_sha256": "f3771ebbd9a6cb9e4497e622505ce47944d21bd8f451ab3dd50c11e2ed184520",
+      "size": 13413021,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/two_step_rollout_v2/e125_candidates/single_step_hold_provenance.npz",
+      "source_sha256": "524a4760a3f6a980e34b55fb1b9f8f4c60e8085cd435711413b3ee4fa07e7829",
+      "published_sha256": "524a4760a3f6a980e34b55fb1b9f8f4c60e8085cd435711413b3ee4fa07e7829",
+      "size": 43384,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/two_step_rollout_v2/e125_candidates/single_step_hold_s2026112601_weighted.h5ad",
+      "source_sha256": "19fd766929ec2de5d4e29b9ec08ba160d7cac104e28d4cbc0ab873f202e00c23",
+      "published_sha256": "19fd766929ec2de5d4e29b9ec08ba160d7cac104e28d4cbc0ab873f202e00c23",
+      "size": 35455829,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/two_step_rollout_v2/e125_candidates/single_step_hold_s2026112602_weighted.h5ad",
+      "source_sha256": "03375db3c0c7acdd614b1fa0325d627d9fca587bdcc8f09d615e8911f7797a68",
+      "published_sha256": "03375db3c0c7acdd614b1fa0325d627d9fca587bdcc8f09d615e8911f7797a68",
+      "size": 35452536,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/two_step_rollout_v2/e125_candidates/two_step_damped_E12.5.h5ad",
+      "source_sha256": "755df62f23812b8a02293b23ed9ed836e4744d7661e5eb6135b7873dfd26bcd5",
+      "published_sha256": "755df62f23812b8a02293b23ed9ed836e4744d7661e5eb6135b7873dfd26bcd5",
+      "size": 14677112,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/two_step_rollout_v2/e125_candidates/two_step_damped_provenance.npz",
+      "source_sha256": "3440067f6d334fe91417156233cad477872da6408df95bd3c3a03fb3e32c33a1",
+      "published_sha256": "3440067f6d334fe91417156233cad477872da6408df95bd3c3a03fb3e32c33a1",
+      "size": 43682,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/two_step_rollout_v2/e125_candidates/two_step_damped_s2026112601_weighted.h5ad",
+      "source_sha256": "52891db1b4eeadffe5247e4fd1cf9115033e6bfd7aa7d9e793e5e5e9d09ef429",
+      "published_sha256": "52891db1b4eeadffe5247e4fd1cf9115033e6bfd7aa7d9e793e5e5e9d09ef429",
+      "size": 36656607,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/two_step_rollout_v2/e125_candidates/two_step_damped_s2026112602_weighted.h5ad",
+      "source_sha256": "487a9474990fec8e2967a208e74e0a4f13accf26b63b5a70ee3b57a430d464f2",
+      "published_sha256": "487a9474990fec8e2967a208e74e0a4f13accf26b63b5a70ee3b57a430d464f2",
+      "size": 36605232,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/two_step_rollout_v2/e125_candidates/two_step_hold_E12.5.h5ad",
+      "source_sha256": "cf1b810ee080174bc6b1dbce50ea01cca2ff15f5b48fe909afb415bf55bc658a",
+      "published_sha256": "cf1b810ee080174bc6b1dbce50ea01cca2ff15f5b48fe909afb415bf55bc658a",
+      "size": 12289902,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/two_step_rollout_v2/e125_candidates/two_step_hold_provenance.npz",
+      "source_sha256": "8dc78eed802820c499340aeea33255a225b899f215a18c5290ef56e023250db1",
+      "published_sha256": "8dc78eed802820c499340aeea33255a225b899f215a18c5290ef56e023250db1",
+      "size": 42816,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/two_step_rollout_v2/e125_candidates/two_step_hold_s2026112601_weighted.h5ad",
+      "source_sha256": "7c7bca699cecfc4a112ce1fd048328f8e0fbdf792facfd961791cbc0864af95a",
+      "published_sha256": "7c7bca699cecfc4a112ce1fd048328f8e0fbdf792facfd961791cbc0864af95a",
+      "size": 36111325,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/two_step_rollout_v2/e125_candidates/two_step_hold_s2026112602_weighted.h5ad",
+      "source_sha256": "df828fcbcf57acfa2485cc074169f0c9422f6f665e8a7e2de4b72da7dd1fe08f",
+      "published_sha256": "df828fcbcf57acfa2485cc074169f0c9422f6f665e8a7e2de4b72da7dd1fe08f",
+      "size": 35980719,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/two_step_rollout_v2/e125_results.json",
+      "source_sha256": "2ca51be1a78aef7d29b8575ec607d187f7ad6e1b428d75eafd8908b280410675",
+      "published_sha256": "f4502d31c2cb238442dd7038005b9b873c52ed09bd8843a0eb8eaee5dbc01de3",
+      "size": 25349,
+      "text_copy_changed": true
+    },
+    {
+      "path": "analysis/independent_review_20261126/two_step_rollout_v2/evaluate.py",
+      "source_sha256": "aa90137d608d3f4d4dbb8e074e5b49ce29faf55bf5698622f7e2d70d6c5a840f",
+      "published_sha256": "aa90137d608d3f4d4dbb8e074e5b49ce29faf55bf5698622f7e2d70d6c5a840f",
+      "size": 7887,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/two_step_rollout_v2/export_e125.py",
+      "source_sha256": "8bf1e967592ed748f443c02dae8d718c248e9b64934f051cb037c336c8c16805",
+      "published_sha256": "8bf1e967592ed748f443c02dae8d718c248e9b64934f051cb037c336c8c16805",
+      "size": 9331,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/two_step_rollout_v2/f0_s2026112601_single_step.pt",
+      "source_sha256": "72010b39c510e589d7d4614cac48faf7941e250968551337af453d09c711160e",
+      "published_sha256": "72010b39c510e589d7d4614cac48faf7941e250968551337af453d09c711160e",
+      "size": 120333,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/two_step_rollout_v2/f0_s2026112601_two_step.pt",
+      "source_sha256": "912d46d18b6bc17bf516665b5deada5ba2c748a89bcb333875f182ebb3bb0b3f",
+      "published_sha256": "912d46d18b6bc17bf516665b5deada5ba2c748a89bcb333875f182ebb3bb0b3f",
+      "size": 120333,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/two_step_rollout_v2/f0_s2026112602_single_step.pt",
+      "source_sha256": "bfc49d400a4569b0fc81a2a1af646340733d64e522187b0efb0d9863136214a6",
+      "published_sha256": "bfc49d400a4569b0fc81a2a1af646340733d64e522187b0efb0d9863136214a6",
+      "size": 120333,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/two_step_rollout_v2/f0_s2026112602_two_step.pt",
+      "source_sha256": "859492986d0aac3cbe72bff1a0b4d3c4f631e6c9bc5a0c250456a67b073d277f",
+      "published_sha256": "859492986d0aac3cbe72bff1a0b4d3c4f631e6c9bc5a0c250456a67b073d277f",
+      "size": 120333,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/two_step_rollout_v2/f1_s2026112601_single_step.pt",
+      "source_sha256": "64754e704ec33206670651ae77b6df71328ee0c66a3049d2a97fc1efd6dce12b",
+      "published_sha256": "64754e704ec33206670651ae77b6df71328ee0c66a3049d2a97fc1efd6dce12b",
+      "size": 120333,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/two_step_rollout_v2/f1_s2026112601_two_step.pt",
+      "source_sha256": "2d7e4ca4674919c3897a7bf03036261cace799f226fb56cad763dc4b523f6689",
+      "published_sha256": "2d7e4ca4674919c3897a7bf03036261cace799f226fb56cad763dc4b523f6689",
+      "size": 120333,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/two_step_rollout_v2/f1_s2026112602_single_step.pt",
+      "source_sha256": "5f840b67f64bb795e06785f28cfadf57020877e5957240eef856b2b288995595",
+      "published_sha256": "5f840b67f64bb795e06785f28cfadf57020877e5957240eef856b2b288995595",
+      "size": 120333,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/two_step_rollout_v2/f1_s2026112602_two_step.pt",
+      "source_sha256": "725401625326b54d5ebe9df9e5e33ab502cc55d38d813f2bba9bf239948b78c2",
+      "published_sha256": "725401625326b54d5ebe9df9e5e33ab502cc55d38d813f2bba9bf239948b78c2",
+      "size": 120333,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/two_step_rollout_v2/final_audit.json",
+      "source_sha256": "0cd03b3e7ca85a578a661cd8ad346165ff5cf16538631ca881b9a8d4b6eec509",
+      "published_sha256": "1099ab35a67a1389f3b1ead23a6922d73bac644e2f22c17981a6235f9f380b24",
+      "size": 3229,
+      "text_copy_changed": true
+    },
+    {
+      "path": "analysis/independent_review_20261126/two_step_rollout_v2/findings_and_decision.txt",
+      "source_sha256": "4f6ecf8550c47477ef106e930eed7bc0442af30aa78a3b24f548318358bbcc55",
+      "published_sha256": "4f6ecf8550c47477ef106e930eed7bc0442af30aa78a3b24f548318358bbcc55",
+      "size": 3604,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/two_step_rollout_v2/frozen_evaluation.npz",
+      "source_sha256": "7b7404b33a7121e9335dab7cdc33b8c844427a1a43d1d21f7e4a9db6954fbac3",
+      "published_sha256": "7b7404b33a7121e9335dab7cdc33b8c844427a1a43d1d21f7e4a9db6954fbac3",
+      "size": 15758818,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/two_step_rollout_v2/full_s2026112601_single_step.pt",
+      "source_sha256": "8421917c4556c18101b24f37dc8b34c366c20dcdb94dd90274383b17eaacc325",
+      "published_sha256": "8421917c4556c18101b24f37dc8b34c366c20dcdb94dd90274383b17eaacc325",
+      "size": 120333,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/two_step_rollout_v2/full_s2026112601_two_step.pt",
+      "source_sha256": "56e4e46047d1b64a362af7dd277988f2a7b01387c87b01cb9c4b3f220fa03e98",
+      "published_sha256": "56e4e46047d1b64a362af7dd277988f2a7b01387c87b01cb9c4b3f220fa03e98",
+      "size": 120333,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/two_step_rollout_v2/full_s2026112602_single_step.pt",
+      "source_sha256": "3ccb943fa3099b740293d691e395ad4865b7da2fc348bbd1277dd240f4ec1248",
+      "published_sha256": "3ccb943fa3099b740293d691e395ad4865b7da2fc348bbd1277dd240f4ec1248",
+      "size": 120333,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/two_step_rollout_v2/full_s2026112602_two_step.pt",
+      "source_sha256": "2f6817420a328b66921e7dc9405fc5d79281495d49379e9adfa44e6098af6c5e",
+      "published_sha256": "2f6817420a328b66921e7dc9405fc5d79281495d49379e9adfa44e6098af6c5e",
+      "size": 120333,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/two_step_rollout_v2/full_training.json",
+      "source_sha256": "458503306d3097c39ff6539f083b471e836498d06d99992ccb212f938f9d1656",
+      "published_sha256": "458503306d3097c39ff6539f083b471e836498d06d99992ccb212f938f9d1656",
+      "size": 8865,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/two_step_rollout_v2/mass_diagnostic.json",
+      "source_sha256": "3772eacfaf07aba0d5246c540d3d2fb66a7b8af0baae506a9e9b18480a5bf39e",
+      "published_sha256": "d75adf3a914a803d9d19de292f3a9000c1946e503389890e3d6f383c82cb3746",
+      "size": 13293,
+      "text_copy_changed": true
+    },
+    {
+      "path": "analysis/independent_review_20261126/two_step_rollout_v2/mass_diagnostic_protocol.txt",
+      "source_sha256": "0c771763e2db40b60760cac03b20285b09bca656d4374b871bf659c549a4ce0d",
+      "published_sha256": "0c771763e2db40b60760cac03b20285b09bca656d4374b871bf659c549a4ce0d",
+      "size": 1106,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/two_step_rollout_v2/metrics.tsv",
+      "source_sha256": "fe4ceb7a733c8ae8a45abadecb086a5d3670020da02ef81a8bbfe324400d123f",
+      "published_sha256": "eba4de926d2f9b98c769209f2ad310c1b8bd541b7c7f63e2ee2974adcda35568",
+      "size": 1844,
+      "text_copy_changed": true
+    },
+    {
+      "path": "analysis/independent_review_20261126/two_step_rollout_v2/model_card.json",
+      "source_sha256": "2abfdf7e79bc25be71a384ac124d83d98d622433838fd7f41111f76e88962330",
+      "published_sha256": "135e2be8c75853f081a364bfb4c9691c878fe75689a8d27fa46ccd5232125bc0",
+      "size": 3096,
+      "text_copy_changed": true
+    },
+    {
+      "path": "analysis/independent_review_20261126/two_step_rollout_v2/output_audit.json",
+      "source_sha256": "442b671aabaf8efe02dca97d9b2778844e33a61c0dc832d7a72efc00e24f6db1",
+      "published_sha256": "442b671aabaf8efe02dca97d9b2778844e33a61c0dc832d7a72efc00e24f6db1",
+      "size": 3977,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/two_step_rollout_v2/protocol.txt",
+      "source_sha256": "071d046a6be7aecb4e1d671a03d3dfd74026ffc40479577103206bfe0340559d",
+      "published_sha256": "071d046a6be7aecb4e1d671a03d3dfd74026ffc40479577103206bfe0340559d",
+      "size": 4762,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/two_step_rollout_v2/refit_parallel.py",
+      "source_sha256": "c4c3c70f504c2ba37a458a22e0df1b2f5b426968a6ba9e0e9c7dd86cf8477f8e",
+      "published_sha256": "c4c3c70f504c2ba37a458a22e0df1b2f5b426968a6ba9e0e9c7dd86cf8477f8e",
+      "size": 1670,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/two_step_rollout_v2/report.txt",
+      "source_sha256": "4496e77e02a802c4cc9897cc0c206c7966ea320fa5e4942223a1a97db79167bc",
+      "published_sha256": "000b08cb281ac7fa38a85358d1425beb21dea23696fc62a59944f0a9f0b4eafb",
+      "size": 9090,
+      "text_copy_changed": true
+    },
+    {
+      "path": "analysis/independent_review_20261126/two_step_rollout_v2/results.json",
+      "source_sha256": "d29a2a88e63b4988cb151696f904dad27fab81d312dfd7e2b8626db9e6f35c29",
+      "published_sha256": "d29a2a88e63b4988cb151696f904dad27fab81d312dfd7e2b8626db9e6f35c29",
+      "size": 142139,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/two_step_rollout_v2/rollout.py",
+      "source_sha256": "216f70414ecca8af556636aa41a5262d2e8a1ac430483d91bd44d8ab88004e6f",
+      "published_sha256": "216f70414ecca8af556636aa41a5262d2e8a1ac430483d91bd44d8ab88004e6f",
+      "size": 5081,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/two_step_rollout_v2/rollout_comparison.png",
+      "source_sha256": "6afc8df82886349131c798b0229fcf130c4b1bfff6e95c8cd73cc9cf068296d7",
+      "published_sha256": "6afc8df82886349131c798b0229fcf130c4b1bfff6e95c8cd73cc9cf068296d7",
+      "size": 129533,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/two_step_rollout_v2/run_all.py",
+      "source_sha256": "8927de99ad24c6b5b96cc223635e3f23b6b67fcdfa1d29f04d0aef89fe08904e",
+      "published_sha256": "8927de99ad24c6b5b96cc223635e3f23b6b67fcdfa1d29f04d0aef89fe08904e",
+      "size": 676,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/two_step_rollout_v2/summarize.py",
+      "source_sha256": "9e3f49e309023aaebf6c1835be801c3b420d106f990578b5ca7d415744006a4a",
+      "published_sha256": "9e3f49e309023aaebf6c1835be801c3b420d106f990578b5ca7d415744006a4a",
+      "size": 10532,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/two_step_rollout_v2/train.py",
+      "source_sha256": "e34e87c5bfcff3d11d2bb4cae0a01ee2d7a1a8ccf1a6a78bd59446f9d8a6b100",
+      "published_sha256": "e34e87c5bfcff3d11d2bb4cae0a01ee2d7a1a8ccf1a6a78bd59446f9d8a6b100",
+      "size": 6246,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/two_step_rollout_v2/training.json",
+      "source_sha256": "4565b7e9b7d51459267ad53e154595487717d8c1fd580843b61504b3c78fbb6a",
+      "published_sha256": "4565b7e9b7d51459267ad53e154595487717d8c1fd580843b61504b3c78fbb6a",
+      "size": 65406,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/two_step_rollout_v2/verification.json",
+      "source_sha256": "126c03608a784779797b7674fdfdecd696694c04eccee71708f67ced0fbfaeeb",
+      "published_sha256": "126c03608a784779797b7674fdfdecd696694c04eccee71708f67ced0fbfaeeb",
+      "size": 363,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/independent_review_20261126/two_step_rollout_v2/verify.py",
+      "source_sha256": "527f86c03bfaaec05954d44f0fb8a0b94a144e0ba81f30f2e01eafc19077c336",
+      "published_sha256": "527f86c03bfaaec05954d44f0fb8a0b94a144e0ba81f30f2e01eafc19077c336",
+      "size": 3772,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/results/p3_preparation/damped_group_forecast/copylast_E12.5.h5ad",
+      "source_sha256": "ee5617d8315b5254534d9d642bda86ef521a71aa142ec928aa4f4b6fba2dde21",
+      "published_sha256": "ee5617d8315b5254534d9d642bda86ef521a71aa142ec928aa4f4b6fba2dde21",
+      "size": 21127760,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/results/p3_preparation/damped_group_forecast/damped_group_E12.5.h5ad",
+      "source_sha256": "45eb60e67381f57b61fbef010f8a9d1da1b8989c3434c8ad8759683a892e7121",
+      "published_sha256": "45eb60e67381f57b61fbef010f8a9d1da1b8989c3434c8ad8759683a892e7121",
+      "size": 33291288,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/results/p3_preparation/damped_group_forecast/results.json",
+      "source_sha256": "d5b7ef2872f0a169d63fe6ac2da4110c9bc65c711218df67d47d77ea1e74e200",
+      "published_sha256": "d5b7ef2872f0a169d63fe6ac2da4110c9bc65c711218df67d47d77ea1e74e200",
+      "size": 2778,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/results/p3_preparation/damped_group_forecast/source_rows_E10.5.npy",
+      "source_sha256": "3e76b9e6ba3d707f7ae889140f9bbcfed1fd4e65230b166aaeffe54d1ff7f6cd",
+      "published_sha256": "3e76b9e6ba3d707f7ae889140f9bbcfed1fd4e65230b166aaeffe54d1ff7f6cd",
+      "size": 16128,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/results/p3_preparation/modules_substates_replay/frozen.npz",
+      "source_sha256": "b2d24248dd581203edb9f433ca711896cf3655540d9f97aa3a2e4f95c2c38a91",
+      "published_sha256": "b2d24248dd581203edb9f433ca711896cf3655540d9f97aa3a2e4f95c2c38a91",
+      "size": 4005884,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/results/p3_preparation/modules_substates_replay/module_directions.json",
+      "source_sha256": "2b326419923c6e91fb9fcc2aded0a2118ba9e01651d6baeeb6234656fb7f0dd1",
+      "published_sha256": "2b326419923c6e91fb9fcc2aded0a2118ba9e01651d6baeeb6234656fb7f0dd1",
+      "size": 963,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/results/p3_preparation/modules_substates_replay/r40_module_residual.json",
+      "source_sha256": "5763f82beac6a15695083cfa51c40f8b274eb0d6e702d13f602e4f6263c190df",
+      "published_sha256": "5763f82beac6a15695083cfa51c40f8b274eb0d6e702d13f602e4f6263c190df",
+      "size": 2802,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/results/p3_preparation/modules_substates_replay/scores.json",
+      "source_sha256": "25b7eaeb241855745faffd90395192092bebb9ed8ea05937eb162b083dd4563c",
+      "published_sha256": "25b7eaeb241855745faffd90395192092bebb9ed8ea05937eb162b083dd4563c",
+      "size": 10638,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/results/population_direction_round40/forecast_parameters.npz",
+      "source_sha256": "7c9865bd8dfd574acfdcab543e50ab25814cd95fd981c0cd0d1591c3bec47e24",
+      "published_sha256": "7c9865bd8dfd574acfdcab543e50ab25814cd95fd981c0cd0d1591c3bec47e24",
+      "size": 35882,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/results/population_direction_round40/neural_population_direction_E10.5.h5ad",
+      "source_sha256": "832c166cd3b32f4279ea72e55f473f5bd68cbaa8487a662909ee7efabc996902",
+      "published_sha256": "832c166cd3b32f4279ea72e55f473f5bd68cbaa8487a662909ee7efabc996902",
+      "size": 45780856,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/results/population_direction_round40/neural_population_direction_format.json",
+      "source_sha256": "dcb95844ac8266d439a9ed3c45f68acc1b75c539614c84f923c79c650cba9ea6",
+      "published_sha256": "dcb95844ac8266d439a9ed3c45f68acc1b75c539614c84f923c79c650cba9ea6",
+      "size": 393,
+      "text_copy_changed": false
+    },
+    {
+      "path": "analysis/results/population_direction_round40/review_summary.json",
+      "source_sha256": "542517bdf5e588a771ed9fcdd700e3886a898ca254e5952688257ea1bec454c2",
+      "published_sha256": "542517bdf5e588a771ed9fcdd700e3886a898ca254e5952688257ea1bec454c2",
+      "size": 7863,
+      "text_copy_changed": false
+    },
+    {
+      "path": "panels/T1__test.genes.txt",
+      "source_sha256": "2aeae4cd284933956242bbc9c5ab4f565c1d2acc7cc3fd3037977e4bce8be4bf",
+      "published_sha256": "2aeae4cd284933956242bbc9c5ab4f565c1d2acc7cc3fd3037977e4bce8be4bf",
+      "size": 244808,
+      "text_copy_changed": false
+    },
+    {
+      "path": "panels/T1__val.genes.txt",
+      "source_sha256": "2aeae4cd284933956242bbc9c5ab4f565c1d2acc7cc3fd3037977e4bce8be4bf",
+      "published_sha256": "2aeae4cd284933956242bbc9c5ab4f565c1d2acc7cc3fd3037977e4bce8be4bf",
+      "size": 244808,
+      "text_copy_changed": false
+    },
+    {
+      "path": "panels/index.json",
+      "source_sha256": "b03b6dea5f74e159a37c1261b330d56e5f8ee199f6014247c5b4c5402c01f0d9",
+      "published_sha256": "b03b6dea5f74e159a37c1261b330d56e5f8ee199f6014247c5b4c5402c01f0d9",
+      "size": 7283,
+      "text_copy_changed": false
+    }
+  ]
+}

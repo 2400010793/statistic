@@ -1,0 +1,98 @@
+{
+  "seed": 20261122,
+  "source": "Official E8.5, E9.5 and unlocked E10.5 only",
+  "target": "E12.5",
+  "design": "E10.5 retrospective design. Stratified cross-half replay on one stage, with E9.5 shared-midpoint correction. Final candidate holds latest group allocation and cell support fixed; one damped daily increment for a two-day horizon. Gain 0.8 to 1.2; step 0 to 0.5. No parameters selected by a P3 score.",
+  "sha256": {
+    "copylast": "ee5617d8315b5254534d9d642bda86ef521a71aa142ec928aa4f4b6fba2dde21",
+    "damped_group": "45eb60e67381f57b61fbef010f8a9d1da1b8989c3434c8ad8759683a892e7121"
+  },
+  "shape": [
+    2000,
+    32285
+  ],
+  "fitted_steps": [
+    0.002826262674062268,
+    0.4385599666021456,
+    0.0,
+    0.22951094738547606,
+    0.0,
+    0.0,
+    0.1604361330782678,
+    0.3777508848506688,
+    0.18987357667028498,
+    0.24024587078939663,
+    0.4886701321393816,
+    0.14885600686514788
+  ],
+  "replay": [
+    {
+      "n_calibration": 12494,
+      "n_evaluation": 12485,
+      "steps": [
+        0.0,
+        0.43383528835888674,
+        0.0027444302314057712,
+        0.22785448157507085,
+        0.0,
+        0.0,
+        0.1623219432661322,
+        0.3675024999764627,
+        0.18619197278557423,
+        0.2295601392063563,
+        0.4989236040642149,
+        0.1374335145725652
+      ],
+      "copy": {
+        "within_group_rmse": 0.07172261056556789,
+        "pooled_rmse": 0.06533669958069634,
+        "pooled_change_cosine": 0.017075113721625332
+      },
+      "candidate": {
+        "within_group_rmse": 0.07115071749854601,
+        "pooled_rmse": 0.06466405554615247,
+        "pooled_change_cosine": 0.13829721911499115
+      }
+    },
+    {
+      "n_calibration": 12485,
+      "n_evaluation": 12494,
+      "steps": [
+        0.015194327450899067,
+        0.4432957879544676,
+        0.0,
+        0.23116812290702687,
+        0.0,
+        0.0,
+        0.1585493617231315,
+        0.38802372887731856,
+        0.1935567654038481,
+        0.25103953905509435,
+        0.47839643640404533,
+        0.160278499157729
+      ],
+      "copy": {
+        "within_group_rmse": 0.07163577650956296,
+        "pooled_rmse": 0.06542067041593036,
+        "pooled_change_cosine": 0.014799028228530544
+      },
+      "candidate": {
+        "within_group_rmse": 0.07105536180260862,
+        "pooled_rmse": 0.06474323183292757,
+        "pooled_change_cosine": 0.1370280819540748
+      }
+    }
+  ],
+  "r40_source_matched_replay": {
+    "source_copy": {
+      "within_group_rmse": 0.07062766861594816,
+      "pooled_rmse": 0.06479353003774915,
+      "pooled_change_cosine": 0.12584512643694512
+    },
+    "r40": {
+      "within_group_rmse": 0.0713751040763661,
+      "pooled_rmse": 0.06303576000574435,
+      "pooled_change_cosine": 0.262786189563499
+    }
+  }
+}

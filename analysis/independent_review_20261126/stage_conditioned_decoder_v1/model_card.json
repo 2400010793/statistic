@@ -1,0 +1,64 @@
+{
+  "recommended_research_arm": "temporal_decoded",
+  "gate_passed": true,
+  "scope": "Retrospective two-interval E10.5-calibrated research; not an E12.5 forecast or official submission",
+  "architecture": {
+    "latent_dimensions": 32,
+    "hidden": [
+      128,
+      128
+    ],
+    "temporal_residual": true,
+    "relative_mass": "unbounded with growth-square and concentration penalties",
+    "decoder": "same bounded support-preserving CP10K decoder, differentiable"
+  },
+  "observed_time_domain": {
+    "0": "E8.5",
+    "1": "E9.5",
+    "2": "E10.5"
+  },
+  "future_time_policy_selected": false,
+  "checkpoints": [
+    {
+      "fold": 0,
+      "seed": 2026112601,
+      "path": "./analysis/independent_review_20261126/stage_conditioned_decoder_v1/f0_s2026112601_temporal_decoded.pt",
+      "sha256": "91a60fc983d61b0daac49d1c84eb4bb08df127b0ee43592b21b44335e156c87f",
+      "best_step": 1800
+    },
+    {
+      "fold": 0,
+      "seed": 2026112602,
+      "path": "./analysis/independent_review_20261126/stage_conditioned_decoder_v1/f0_s2026112602_temporal_decoded.pt",
+      "sha256": "e71e38956f645975e32f7261241d185eaa1ceea63675b3f5d0d4d203b7a022b3",
+      "best_step": 1600
+    },
+    {
+      "fold": 1,
+      "seed": 2026112601,
+      "path": "./analysis/independent_review_20261126/stage_conditioned_decoder_v1/f1_s2026112601_temporal_decoded.pt",
+      "sha256": "46a58cfdc4802ac40b2d9168fac20efef5ba9e27b407866df94415c494fd4d88",
+      "best_step": 1400
+    },
+    {
+      "fold": 1,
+      "seed": 2026112602,
+      "path": "./analysis/independent_review_20261126/stage_conditioned_decoder_v1/f1_s2026112602_temporal_decoded.pt",
+      "sha256": "12169c590213397206213b9aa11f774c70e7165af0ba4bf37c4b89e3786be366",
+      "best_step": 1600
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "./analysis/independent_review_20261126/stage_conditioned_decoder_v1/temporal_decoded_weighted_pool.h5ad",
+      "sha256": "ebc7412cde54965fa800bb32cd1f923db8dbd084782f2c073badfb32183b1ebe",
+      "role": "Weighted research pool; obs weights required"
+    },
+    {
+      "path": "./analysis/independent_review_20261126/stage_conditioned_decoder_v1/temporal_decoded_E10.5_diagnostic.h5ad",
+      "sha256": "ba00a4666e56929e5415bca1628a1ed13a2742d057e0acba5fc164562be9957e",
+      "role": "Same-stage calibrated research output; not an official forecast"
+    }
+  ],
+  "same_stage_validation_only": true
+}

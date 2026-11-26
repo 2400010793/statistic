@@ -1,0 +1,416 @@
+{
+  "decoder_max_absolute_difference": 4.76837158203125e-07,
+  "decoder_directional_derivative": {
+    "analytic": -0.004211441562013078,
+    "finite_difference": -0.0042114416287653
+  },
+  "zero_support_and_cp10k_passed": true,
+  "source_strata_exact_probability_correction": true,
+  "ess_penalty_has_concentration_gradient": true,
+  "stage_residual_field_identity_passed": true,
+  "checkpoint_replays": [
+    {
+      "fold": 0,
+      "seed": 2026112601,
+      "arm": "autonomous_latent",
+      "phase": 0,
+      "replay_max_error": 0.0,
+      "integration_relative_change": 0.020857183262705803
+    },
+    {
+      "fold": 0,
+      "seed": 2026112601,
+      "arm": "autonomous_latent",
+      "phase": 1,
+      "replay_max_error": 0.0,
+      "integration_relative_change": 0.00806617084890604
+    },
+    {
+      "fold": 0,
+      "seed": 2026112601,
+      "arm": "temporal_noess",
+      "phase": 0,
+      "replay_max_error": 0.0,
+      "integration_relative_change": 0.021194327622652054
+    },
+    {
+      "fold": 0,
+      "seed": 2026112601,
+      "arm": "temporal_noess",
+      "phase": 1,
+      "replay_max_error": 0.0,
+      "integration_relative_change": 0.014084973372519016
+    },
+    {
+      "fold": 0,
+      "seed": 2026112601,
+      "arm": "temporal_latent",
+      "phase": 0,
+      "replay_max_error": 0.0,
+      "integration_relative_change": 0.02206004597246647
+    },
+    {
+      "fold": 0,
+      "seed": 2026112601,
+      "arm": "temporal_latent",
+      "phase": 1,
+      "replay_max_error": 0.0,
+      "integration_relative_change": 0.0141627611592412
+    },
+    {
+      "fold": 0,
+      "seed": 2026112601,
+      "arm": "temporal_decoded",
+      "phase": 0,
+      "replay_max_error": 0.0,
+      "integration_relative_change": 0.01789660006761551
+    },
+    {
+      "fold": 0,
+      "seed": 2026112601,
+      "arm": "temporal_decoded",
+      "phase": 1,
+      "replay_max_error": 0.0,
+      "integration_relative_change": 0.021588316187262535
+    },
+    {
+      "fold": 0,
+      "seed": 2026112602,
+      "arm": "autonomous_latent",
+      "phase": 0,
+      "replay_max_error": 0.0,
+      "integration_relative_change": 0.022166874259710312
+    },
+    {
+      "fold": 0,
+      "seed": 2026112602,
+      "arm": "autonomous_latent",
+      "phase": 1,
+      "replay_max_error": 0.0,
+      "integration_relative_change": 0.007921592332422733
+    },
+    {
+      "fold": 0,
+      "seed": 2026112602,
+      "arm": "temporal_noess",
+      "phase": 0,
+      "replay_max_error": 0.0,
+      "integration_relative_change": 0.021148309111595154
+    },
+    {
+      "fold": 0,
+      "seed": 2026112602,
+      "arm": "temporal_noess",
+      "phase": 1,
+      "replay_max_error": 0.0,
+      "integration_relative_change": 0.015511035919189453
+    },
+    {
+      "fold": 0,
+      "seed": 2026112602,
+      "arm": "temporal_latent",
+      "phase": 0,
+      "replay_max_error": 0.0,
+      "integration_relative_change": 0.02139819599688053
+    },
+    {
+      "fold": 0,
+      "seed": 2026112602,
+      "arm": "temporal_latent",
+      "phase": 1,
+      "replay_max_error": 0.0,
+      "integration_relative_change": 0.015044382773339748
+    },
+    {
+      "fold": 0,
+      "seed": 2026112602,
+      "arm": "temporal_decoded",
+      "phase": 0,
+      "replay_max_error": 0.0,
+      "integration_relative_change": 0.017422866076231003
+    },
+    {
+      "fold": 0,
+      "seed": 2026112602,
+      "arm": "temporal_decoded",
+      "phase": 1,
+      "replay_max_error": 0.0,
+      "integration_relative_change": 0.02176506631076336
+    },
+    {
+      "fold": 1,
+      "seed": 2026112601,
+      "arm": "autonomous_latent",
+      "phase": 0,
+      "replay_max_error": 0.0,
+      "integration_relative_change": 0.020872479304671288
+    },
+    {
+      "fold": 1,
+      "seed": 2026112601,
+      "arm": "autonomous_latent",
+      "phase": 1,
+      "replay_max_error": 0.0,
+      "integration_relative_change": 0.008267984725534916
+    },
+    {
+      "fold": 1,
+      "seed": 2026112601,
+      "arm": "temporal_noess",
+      "phase": 0,
+      "replay_max_error": 0.0,
+      "integration_relative_change": 0.021176906302571297
+    },
+    {
+      "fold": 1,
+      "seed": 2026112601,
+      "arm": "temporal_noess",
+      "phase": 1,
+      "replay_max_error": 0.0,
+      "integration_relative_change": 0.01435631699860096
+    },
+    {
+      "fold": 1,
+      "seed": 2026112601,
+      "arm": "temporal_latent",
+      "phase": 0,
+      "replay_max_error": 0.0,
+      "integration_relative_change": 0.021872900426387787
+    },
+    {
+      "fold": 1,
+      "seed": 2026112601,
+      "arm": "temporal_latent",
+      "phase": 1,
+      "replay_max_error": 0.0,
+      "integration_relative_change": 0.014308853074908257
+    },
+    {
+      "fold": 1,
+      "seed": 2026112601,
+      "arm": "temporal_decoded",
+      "phase": 0,
+      "replay_max_error": 0.0,
+      "integration_relative_change": 0.018049580976366997
+    },
+    {
+      "fold": 1,
+      "seed": 2026112601,
+      "arm": "temporal_decoded",
+      "phase": 1,
+      "replay_max_error": 0.0,
+      "integration_relative_change": 0.022632116451859474
+    },
+    {
+      "fold": 1,
+      "seed": 2026112602,
+      "arm": "autonomous_latent",
+      "phase": 0,
+      "replay_max_error": 0.0,
+      "integration_relative_change": 0.023150717839598656
+    },
+    {
+      "fold": 1,
+      "seed": 2026112602,
+      "arm": "autonomous_latent",
+      "phase": 1,
+      "replay_max_error": 0.0,
+      "integration_relative_change": 0.007791536394506693
+    },
+    {
+      "fold": 1,
+      "seed": 2026112602,
+      "arm": "temporal_noess",
+      "phase": 0,
+      "replay_max_error": 0.0,
+      "integration_relative_change": 0.021727601066231728
+    },
+    {
+      "fold": 1,
+      "seed": 2026112602,
+      "arm": "temporal_noess",
+      "phase": 1,
+      "replay_max_error": 0.0,
+      "integration_relative_change": 0.0141847999766469
+    },
+    {
+      "fold": 1,
+      "seed": 2026112602,
+      "arm": "temporal_latent",
+      "phase": 0,
+      "replay_max_error": 0.0,
+      "integration_relative_change": 0.022292757406830788
+    },
+    {
+      "fold": 1,
+      "seed": 2026112602,
+      "arm": "temporal_latent",
+      "phase": 1,
+      "replay_max_error": 0.0,
+      "integration_relative_change": 0.013463498093187809
+    },
+    {
+      "fold": 1,
+      "seed": 2026112602,
+      "arm": "temporal_decoded",
+      "phase": 0,
+      "replay_max_error": 0.0,
+      "integration_relative_change": 0.01768253557384014
+    },
+    {
+      "fold": 1,
+      "seed": 2026112602,
+      "arm": "temporal_decoded",
+      "phase": 1,
+      "replay_max_error": 0.0,
+      "integration_relative_change": 0.021825185045599937
+    }
+  ],
+  "time_condition_effects": [
+    {
+      "fold": 0,
+      "seed": 2026112601,
+      "arm": "autonomous_latent",
+      "velocity_change_rms": 0.0,
+      "velocity_cosine_median": 1.0,
+      "growth_change_rms": 0.0,
+      "interpretation": "Change model time while holding E9.5 expression fixed; not measured biological velocity"
+    },
+    {
+      "fold": 0,
+      "seed": 2026112601,
+      "arm": "temporal_noess",
+      "velocity_change_rms": 0.5902498960494995,
+      "velocity_cosine_median": 0.2850748896598816,
+      "growth_change_rms": 0.4668091833591461,
+      "interpretation": "Change model time while holding E9.5 expression fixed; not measured biological velocity"
+    },
+    {
+      "fold": 0,
+      "seed": 2026112601,
+      "arm": "temporal_latent",
+      "velocity_change_rms": 0.6202958226203918,
+      "velocity_cosine_median": 0.2814368009567261,
+      "growth_change_rms": 0.46373769640922546,
+      "interpretation": "Change model time while holding E9.5 expression fixed; not measured biological velocity"
+    },
+    {
+      "fold": 0,
+      "seed": 2026112601,
+      "arm": "temporal_decoded",
+      "velocity_change_rms": 0.6048992276191711,
+      "velocity_cosine_median": 0.3879430890083313,
+      "growth_change_rms": 0.5566966533660889,
+      "interpretation": "Change model time while holding E9.5 expression fixed; not measured biological velocity"
+    },
+    {
+      "fold": 0,
+      "seed": 2026112602,
+      "arm": "autonomous_latent",
+      "velocity_change_rms": 0.0,
+      "velocity_cosine_median": 1.0,
+      "growth_change_rms": 0.0,
+      "interpretation": "Change model time while holding E9.5 expression fixed; not measured biological velocity"
+    },
+    {
+      "fold": 0,
+      "seed": 2026112602,
+      "arm": "temporal_noess",
+      "velocity_change_rms": 0.5843806862831116,
+      "velocity_cosine_median": 0.31910473108291626,
+      "growth_change_rms": 0.41320139169692993,
+      "interpretation": "Change model time while holding E9.5 expression fixed; not measured biological velocity"
+    },
+    {
+      "fold": 0,
+      "seed": 2026112602,
+      "arm": "temporal_latent",
+      "velocity_change_rms": 0.5996813178062439,
+      "velocity_cosine_median": 0.3391985595226288,
+      "growth_change_rms": 0.4044981300830841,
+      "interpretation": "Change model time while holding E9.5 expression fixed; not measured biological velocity"
+    },
+    {
+      "fold": 0,
+      "seed": 2026112602,
+      "arm": "temporal_decoded",
+      "velocity_change_rms": 0.6042293906211853,
+      "velocity_cosine_median": 0.4002547860145569,
+      "growth_change_rms": 0.6215379238128662,
+      "interpretation": "Change model time while holding E9.5 expression fixed; not measured biological velocity"
+    },
+    {
+      "fold": 1,
+      "seed": 2026112601,
+      "arm": "autonomous_latent",
+      "velocity_change_rms": 0.0,
+      "velocity_cosine_median": 1.0,
+      "growth_change_rms": 0.0,
+      "interpretation": "Change model time while holding E9.5 expression fixed; not measured biological velocity"
+    },
+    {
+      "fold": 1,
+      "seed": 2026112601,
+      "arm": "temporal_noess",
+      "velocity_change_rms": 0.6035475134849548,
+      "velocity_cosine_median": 0.2949947714805603,
+      "growth_change_rms": 0.4683089852333069,
+      "interpretation": "Change model time while holding E9.5 expression fixed; not measured biological velocity"
+    },
+    {
+      "fold": 1,
+      "seed": 2026112601,
+      "arm": "temporal_latent",
+      "velocity_change_rms": 0.6219514012336731,
+      "velocity_cosine_median": 0.29392266273498535,
+      "growth_change_rms": 0.45607319474220276,
+      "interpretation": "Change model time while holding E9.5 expression fixed; not measured biological velocity"
+    },
+    {
+      "fold": 1,
+      "seed": 2026112601,
+      "arm": "temporal_decoded",
+      "velocity_change_rms": 0.6322696208953857,
+      "velocity_cosine_median": 0.3579252064228058,
+      "growth_change_rms": 0.58365797996521,
+      "interpretation": "Change model time while holding E9.5 expression fixed; not measured biological velocity"
+    },
+    {
+      "fold": 1,
+      "seed": 2026112602,
+      "arm": "autonomous_latent",
+      "velocity_change_rms": 0.0,
+      "velocity_cosine_median": 1.0,
+      "growth_change_rms": 0.0,
+      "interpretation": "Change model time while holding E9.5 expression fixed; not measured biological velocity"
+    },
+    {
+      "fold": 1,
+      "seed": 2026112602,
+      "arm": "temporal_noess",
+      "velocity_change_rms": 0.6206915974617004,
+      "velocity_cosine_median": 0.2948419153690338,
+      "growth_change_rms": 0.4116211533546448,
+      "interpretation": "Change model time while holding E9.5 expression fixed; not measured biological velocity"
+    },
+    {
+      "fold": 1,
+      "seed": 2026112602,
+      "arm": "temporal_latent",
+      "velocity_change_rms": 0.6509583592414856,
+      "velocity_cosine_median": 0.3129967153072357,
+      "growth_change_rms": 0.40150487422943115,
+      "interpretation": "Change model time while holding E9.5 expression fixed; not measured biological velocity"
+    },
+    {
+      "fold": 1,
+      "seed": 2026112602,
+      "arm": "temporal_decoded",
+      "velocity_change_rms": 0.6081080436706543,
+      "velocity_cosine_median": 0.3824453055858612,
+      "growth_change_rms": 0.5673332810401917,
+      "interpretation": "Change model time while holding E9.5 expression fixed; not measured biological velocity"
+    }
+  ],
+  "frozen_unchanged": true
+}

@@ -1,0 +1,32 @@
+{
+  "seed": 2026112700,
+  "folds": [
+    {
+      "fold": 0,
+      "train10": 9991,
+      "valid10": 2498,
+      "test10": 12490
+    },
+    {
+      "fold": 1,
+      "train10": 9992,
+      "valid10": 2498,
+      "test10": 12489
+    }
+  ],
+  "train9": 7383,
+  "valid9": 1846,
+  "excluded_unique_source_cells": 7828,
+  "source_disjoint": true,
+  "target_outer_disjoint": true,
+  "data_sha256": "d7aa61d443c6c1107ee5290edc4bc8fd1aca831816c10bf67898d20b00c4a628",
+  "input_sha256": {
+    "analysis/independent_review_20261126/joint_dynamics_trial/representation.joblib": "1a37ff47b7a3d87aa3e20fb3845ad9ca75c7fb2405407e08d205e8791c5fa53e",
+    "analysis/independent_review_20261126/joint_dynamics_trial/early_latent.npz": "d3d61a94eb57510f23d69d0cad69086ef092f65b2ae7592e84e66a7cb6d0595e",
+    "analysis/independent_review_20261126/joint_dynamics_trial/frozen_predictions.npz": "edabc76b624a784ce24a23e9680cb57f4b6ce033a86ad7561ce558e00fe54fbb",
+    "data/p3/T1/E10.5_RNA.h5ad": "974e04e7fe64fb96142f17994a9678d4cebd4f1868dec4de034eda4245b7dd6c",
+    "data/raw/T1/E9.5_RNA.h5ad": "0296e0043842f944a663f3c11ac1542d1bbee733c1cd657bd56f75af65958361",
+    "analysis/independent_review_20261126/frozen_controls.npz": "df1e45b43e7ddcfe98eb6af95e485a12091370b1302c44aee513f92bbb1c76e4",
+    "analysis/independent_review_20261126/speed_direction_diagnostic/protocol.txt": "08068fdc715f3e656b13cb290486fca9ecb1d8df45d44f578db83abd587e9075"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "original_decoder_exact_match": true,
+  "cumulative_logmass_exact": true,
+  "second_day_backpropagates_to_first_expression": true,
+  "zero_field_identity": true,
+  "total_edit_budget_check": true,
+  "nonnegative_finite_cp10k_support_checks": true,
+  "directional_gradient": 0.01525726281474835,
+  "finite_difference": 0.015257262886425592
+}

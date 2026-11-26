@@ -1,0 +1,100 @@
+{
+  "phase": "trend",
+  "scope": "E8.5/E9.5 only; no E10.5 loaded in fitting process",
+  "stage_counts": [
+    [
+      2054,
+      1386,
+      3452,
+      1115,
+      1964,
+      992,
+      262,
+      1215,
+      866,
+      1204,
+      763,
+      1514
+    ],
+    [
+      2626,
+      1138,
+      1003,
+      1787,
+      1962,
+      2424,
+      211,
+      1481,
+      1907,
+      227,
+      1507,
+      784
+    ]
+  ],
+  "stage_frequencies": [
+    [
+      0.12235658545302913,
+      0.08256388872341693,
+      0.20563531303985227,
+      0.06642044439149342,
+      0.11699529397748258,
+      0.05909334604157979,
+      0.015607315184368857,
+      0.07237743491987848,
+      0.05158753797581462,
+      0.07172216596175612,
+      0.04545183773157801,
+      0.0901888365997498
+    ],
+    [
+      0.1539543882277071,
+      0.06671747669578472,
+      0.05880283754470306,
+      0.10476637157765141,
+      0.11502608899572023,
+      0.14211174297942195,
+      0.012370287858357273,
+      0.08682652283519962,
+      0.11180160637861289,
+      0.013308319165152138,
+      0.08835082370874128,
+      0.04596353403294835
+    ]
+  ],
+  "trend": [
+    0.148435357328018,
+    0.05155322676143447,
+    0.027033345102813473,
+    0.11308885350028655,
+    0.09803582997477214,
+    0.18940239342754106,
+    0.00946847415450052,
+    0.08174014722566945,
+    0.14145089301036962,
+    0.005719610090784398,
+    0.10586305014068659,
+    0.028208819283123632
+  ],
+  "early_space_sha256": "35d6bba5f2aca7c7e86cec9c82014971622c0183981566e00b2a15196bd64671",
+  "estimator_sha256": "790e6e54a3d0c3e60b1e02ee97c0b0587c8bbf88d3d2cb7e6c2fab6fbb8a3dce",
+  "parameters_sha256": "c266e09c3febed960a10fa1c302990638568a9b7ec0d381464fd9f2d2312bad6",
+  "inputs_sha256": {
+    "analysis/independent_review_20261126/composition_forecast_trial/protocol.txt": "aeb1c63a94e721d031576f1763accb3593728b0c7e72be4c4c5ce292efd72f25",
+    "analysis/independent_review_20261126/composition_forecast_trial/fit_models.py": "4a0c2f5c3514f70dbd86db3bea52c50c59c4dcc0e0d865e3ad72d62d91462151",
+    "analysis/independent_review_20261126/composition_forecast_trial/core.py": "a5dba42e0087e8d1edda0ef460663c93065fdbde814bdf66cd8bc281c58af89b",
+    "analysis/independent_review_20261126/frozen_controls.npz": "df1e45b43e7ddcfe98eb6af95e485a12091370b1302c44aee513f92bbb1c76e4",
+    "analysis/independent_review_20261126/run_review.py": "35e2939a0a29cd0a603d3eb253dd61600971d0038e47631ae9246dc1ead37735",
+    "data/raw/T1/E8.5_RNA.h5ad": "8eab2d0ccaa89f92861b09816b76b6a731b8ed6b5995e4af196d9ed8ff76e504",
+    "data/raw/T1/E9.5_RNA.h5ad": "0296e0043842f944a663f3c11ac1542d1bbee733c1cd657bd56f75af65958361"
+  },
+  "inputs_unchanged": {
+    "analysis/independent_review_20261126/composition_forecast_trial/protocol.txt": true,
+    "analysis/independent_review_20261126/composition_forecast_trial/fit_models.py": true,
+    "analysis/independent_review_20261126/composition_forecast_trial/core.py": true,
+    "analysis/independent_review_20261126/frozen_controls.npz": true,
+    "analysis/independent_review_20261126/run_review.py": true,
+    "data/raw/T1/E8.5_RNA.h5ad": true,
+    "data/raw/T1/E9.5_RNA.h5ad": true
+  },
+  "elapsed_seconds": 6.314167022705078
+}

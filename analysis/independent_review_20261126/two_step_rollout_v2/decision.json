@@ -1,0 +1,28 @@
+{
+  "observed_gate_passed": true,
+  "criteria": {
+    "two_objective_at_least_ten_percent": true,
+    "two_objective_improves_three_configs": true,
+    "two_mmd_improves": true,
+    "two_covariance_improves": true,
+    "early_objective_cost_at_most_ten_percent": true,
+    "late_objective_cost_at_most_ten_percent": true,
+    "late_pooled_cost_at_most_five_percent": true,
+    "late_within_cost_at_most_five_percent": true,
+    "two_ess_all_at_least_800": true
+  },
+  "future_stability_gate_passed": false,
+  "future_criteria": {
+    "mean_ess_improves_twenty_percent": false,
+    "all_ess_at_least_500": false
+  },
+  "future_mean_ess": {
+    "single_step": 351.44867723744926,
+    "two_step": 320.3299230556048
+  },
+  "full_refit_updates": {
+    "single_step": 600,
+    "two_step": 950
+  },
+  "interpretation": "Retrospective held-out cells, not held-out developmental time. Future stability is not future accuracy."
+}

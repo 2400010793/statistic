@@ -1,0 +1,21 @@
+{
+  "scope": "Post-hoc source ancestry audit; no E12.5 labels or truth",
+  "dominant_source_group": 6,
+  "observed_proportions": {
+    "E8.5_all": 0.015607315184368857,
+    "E9.5_all": 0.012370287858357273,
+    "E10.5_fixed_2000_source": 0.157
+  },
+  "source_group_celltype_counts": {
+    "Blood": 302,
+    "Macrophage": 11,
+    "Surface Ectoderm": 1
+  },
+  "predicted_ancestry_weights": {
+    "single_step/hold": 0.8879986730455948,
+    "single_step/damped": 0.7925381823957302,
+    "two_step/hold": 0.9337548386953833,
+    "two_step/damped": 0.8550082880915586
+  },
+  "interpretation": "A large ancestry weight is not an independently inferred future cell-type fraction. The E10.5 value uses the fixed source pool, not all E10.5 cells."
+}

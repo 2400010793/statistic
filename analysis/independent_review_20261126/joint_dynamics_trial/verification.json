@@ -1,0 +1,34 @@
+{
+  "coupled_loss_head_gradient_norms": {
+    "velocity": 0.00914487149566412,
+    "growth": 0.00476179039105773
+  },
+  "uniform_allocation_exact_identity": true,
+  "ode_sensitivity": [
+    {
+      "seed": 2026112601,
+      "kind": "velocity",
+      "relative_displacement_change_4_to_16": 0.01159479096531868,
+      "weight_l1_4_to_16": 0.0
+    },
+    {
+      "seed": 2026112601,
+      "kind": "joint",
+      "relative_displacement_change_4_to_16": 0.009632854722440243,
+      "weight_l1_4_to_16": 0.0010481476783752441
+    },
+    {
+      "seed": 2026112602,
+      "kind": "velocity",
+      "relative_displacement_change_4_to_16": 0.011179515160620213,
+      "weight_l1_4_to_16": 0.0
+    },
+    {
+      "seed": 2026112602,
+      "kind": "joint",
+      "relative_displacement_change_4_to_16": 0.009339806623756886,
+      "weight_l1_4_to_16": 0.0009183517540805042
+    }
+  ],
+  "note": "Sensitivity only; frozen forecasts remain 4 steps. No target data accessed."
+}

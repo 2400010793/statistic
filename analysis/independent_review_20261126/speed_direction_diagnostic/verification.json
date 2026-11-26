@@ -1,0 +1,223 @@
+{
+  "old_replay": [
+    {
+      "seed": 2026112601,
+      "max_absolute_old_prediction_error": 0.0
+    },
+    {
+      "seed": 2026112602,
+      "max_absolute_old_prediction_error": 0.0
+    }
+  ],
+  "checks": [
+    {
+      "fold": 0,
+      "seed": 2026112601,
+      "mode": "mass",
+      "direction_constraint_relative_error": 0.0,
+      "speed_min": 1.0,
+      "speed_max": 1.0,
+      "speed_near_upper_fraction": 0.0,
+      "instantaneous_growth_near_bound_fraction": 0.3709999918937683,
+      "endpoint_logweight_near_bound_fraction": 0.47699999809265137,
+      "relative_displacement_16_to_32": 0.0016113618621602654,
+      "weights_l1_16_to_32": 0.0036961548030376434
+    },
+    {
+      "fold": 0,
+      "seed": 2026112601,
+      "mode": "global_mass",
+      "direction_constraint_relative_error": 0.0,
+      "speed_min": 0.5003079771995544,
+      "speed_max": 0.5003079771995544,
+      "speed_near_upper_fraction": 0.0,
+      "instantaneous_growth_near_bound_fraction": 0.3449999988079071,
+      "endpoint_logweight_near_bound_fraction": 0.3804999887943268,
+      "relative_displacement_16_to_32": 0.0008439818629994988,
+      "weights_l1_16_to_32": 0.001457743113860488
+    },
+    {
+      "fold": 0,
+      "seed": 2026112601,
+      "mode": "flex_mass",
+      "direction_constraint_relative_error": 0.0,
+      "speed_min": 0.0004896021564491093,
+      "speed_max": 1.001814365386963,
+      "speed_near_upper_fraction": 0.0,
+      "instantaneous_growth_near_bound_fraction": 0.42149999737739563,
+      "endpoint_logweight_near_bound_fraction": 0.4300000071525574,
+      "relative_displacement_16_to_32": 0.0024432463105767965,
+      "weights_l1_16_to_32": 0.0005151003715582192
+    },
+    {
+      "fold": 0,
+      "seed": 2026112601,
+      "mode": "full",
+      "direction_constraint_relative_error": null,
+      "speed_min": 1.0,
+      "speed_max": 1.0,
+      "speed_near_upper_fraction": 0.0,
+      "instantaneous_growth_near_bound_fraction": 0.0,
+      "endpoint_logweight_near_bound_fraction": 0.0,
+      "relative_displacement_16_to_32": 0.0055685220286250114,
+      "weights_l1_16_to_32": 0.0007677669636905193
+    },
+    {
+      "fold": 1,
+      "seed": 2026112601,
+      "mode": "mass",
+      "direction_constraint_relative_error": 0.0,
+      "speed_min": 1.0,
+      "speed_max": 1.0,
+      "speed_near_upper_fraction": 0.0,
+      "instantaneous_growth_near_bound_fraction": 0.4345000088214874,
+      "endpoint_logweight_near_bound_fraction": 0.5285000205039978,
+      "relative_displacement_16_to_32": 0.0016113618621602654,
+      "weights_l1_16_to_32": 0.00423759501427412
+    },
+    {
+      "fold": 1,
+      "seed": 2026112601,
+      "mode": "global_mass",
+      "direction_constraint_relative_error": 0.0,
+      "speed_min": 0.5223695635795593,
+      "speed_max": 0.5223695635795593,
+      "speed_near_upper_fraction": 0.0,
+      "instantaneous_growth_near_bound_fraction": 0.4429999887943268,
+      "endpoint_logweight_near_bound_fraction": 0.49149999022483826,
+      "relative_displacement_16_to_32": 0.0008792513399384916,
+      "weights_l1_16_to_32": 0.0016788251232355833
+    },
+    {
+      "fold": 1,
+      "seed": 2026112601,
+      "mode": "flex_mass",
+      "direction_constraint_relative_error": 0.0,
+      "speed_min": 0.0006433525704778731,
+      "speed_max": 0.9897803068161011,
+      "speed_near_upper_fraction": 0.0,
+      "instantaneous_growth_near_bound_fraction": 0.4659999907016754,
+      "endpoint_logweight_near_bound_fraction": 0.4819999933242798,
+      "relative_displacement_16_to_32": 0.0024119399022310972,
+      "weights_l1_16_to_32": 0.0005612426321022213
+    },
+    {
+      "fold": 1,
+      "seed": 2026112601,
+      "mode": "full",
+      "direction_constraint_relative_error": null,
+      "speed_min": 1.0,
+      "speed_max": 1.0,
+      "speed_near_upper_fraction": 0.0,
+      "instantaneous_growth_near_bound_fraction": 0.009499999694526196,
+      "endpoint_logweight_near_bound_fraction": 0.014000000432133675,
+      "relative_displacement_16_to_32": 0.005074592772871256,
+      "weights_l1_16_to_32": 0.0016541921067982912
+    },
+    {
+      "fold": 0,
+      "seed": 2026112602,
+      "mode": "mass",
+      "direction_constraint_relative_error": 0.0,
+      "speed_min": 1.0,
+      "speed_max": 1.0,
+      "speed_near_upper_fraction": 0.0,
+      "instantaneous_growth_near_bound_fraction": 0.3714999854564667,
+      "endpoint_logweight_near_bound_fraction": 0.4690000116825104,
+      "relative_displacement_16_to_32": 0.0015661120414733887,
+      "weights_l1_16_to_32": 0.004164273850619793
+    },
+    {
+      "fold": 0,
+      "seed": 2026112602,
+      "mode": "global_mass",
+      "direction_constraint_relative_error": 0.0,
+      "speed_min": 0.49735841155052185,
+      "speed_max": 0.49735841155052185,
+      "speed_near_upper_fraction": 0.0,
+      "instantaneous_growth_near_bound_fraction": 0.38449999690055847,
+      "endpoint_logweight_near_bound_fraction": 0.4255000054836273,
+      "relative_displacement_16_to_32": 0.0008065793663263321,
+      "weights_l1_16_to_32": 0.0015358519740402699
+    },
+    {
+      "fold": 0,
+      "seed": 2026112602,
+      "mode": "flex_mass",
+      "direction_constraint_relative_error": 0.0,
+      "speed_min": 0.0007162165711633861,
+      "speed_max": 1.0609309673309326,
+      "speed_near_upper_fraction": 0.0,
+      "instantaneous_growth_near_bound_fraction": 0.41100001335144043,
+      "endpoint_logweight_near_bound_fraction": 0.41850000619888306,
+      "relative_displacement_16_to_32": 0.0024046516045928,
+      "weights_l1_16_to_32": 0.0005845923442393541
+    },
+    {
+      "fold": 0,
+      "seed": 2026112602,
+      "mode": "full",
+      "direction_constraint_relative_error": null,
+      "speed_min": 1.0,
+      "speed_max": 1.0,
+      "speed_near_upper_fraction": 0.0,
+      "instantaneous_growth_near_bound_fraction": 0.0035000001080334187,
+      "endpoint_logweight_near_bound_fraction": 0.004000000189989805,
+      "relative_displacement_16_to_32": 0.005199818406254053,
+      "weights_l1_16_to_32": 0.0009559289901517332
+    },
+    {
+      "fold": 1,
+      "seed": 2026112602,
+      "mode": "mass",
+      "direction_constraint_relative_error": 0.0,
+      "speed_min": 1.0,
+      "speed_max": 1.0,
+      "speed_near_upper_fraction": 0.0,
+      "instantaneous_growth_near_bound_fraction": 0.4519999921321869,
+      "endpoint_logweight_near_bound_fraction": 0.5494999885559082,
+      "relative_displacement_16_to_32": 0.0015661120414733887,
+      "weights_l1_16_to_32": 0.004332325886934996
+    },
+    {
+      "fold": 1,
+      "seed": 2026112602,
+      "mode": "global_mass",
+      "direction_constraint_relative_error": 0.0,
+      "speed_min": 0.49635234475135803,
+      "speed_max": 0.49635234475135803,
+      "speed_near_upper_fraction": 0.0,
+      "instantaneous_growth_near_bound_fraction": 0.46549999713897705,
+      "endpoint_logweight_near_bound_fraction": 0.5095000267028809,
+      "relative_displacement_16_to_32": 0.0008050150936469436,
+      "weights_l1_16_to_32": 0.0015584912616759539
+    },
+    {
+      "fold": 1,
+      "seed": 2026112602,
+      "mode": "flex_mass",
+      "direction_constraint_relative_error": 0.0,
+      "speed_min": 0.0005980593850836158,
+      "speed_max": 1.036980390548706,
+      "speed_near_upper_fraction": 0.0,
+      "instantaneous_growth_near_bound_fraction": 0.4984999895095825,
+      "endpoint_logweight_near_bound_fraction": 0.5109999775886536,
+      "relative_displacement_16_to_32": 0.002539280569180846,
+      "weights_l1_16_to_32": 0.0004738627467304468
+    },
+    {
+      "fold": 1,
+      "seed": 2026112602,
+      "mode": "full",
+      "direction_constraint_relative_error": null,
+      "speed_min": 1.0,
+      "speed_max": 1.0,
+      "speed_near_upper_fraction": 0.0,
+      "instantaneous_growth_near_bound_fraction": 0.003000000026077032,
+      "endpoint_logweight_near_bound_fraction": 0.003000000026077032,
+      "relative_displacement_16_to_32": 0.005578576121479273,
+      "weights_l1_16_to_32": 0.0008673231932334602
+    }
+  ],
+  "frozen_unchanged": true
+}

@@ -1,0 +1,116 @@
+{
+  "0": {
+    "modules_full": {
+      "pooled_target_rms": 0.004843346449167052,
+      "deviation_energy": 1.8616036969991177
+    },
+    "pooled_matched": {
+      "pooled_target_rms": 0.004843346449167053,
+      "deviation_energy": 1.1076435498510316e-32
+    },
+    "common_only": {
+      "pooled_target_rms": 0.0056456797725240445,
+      "deviation_energy": 1.4870433147961236e-32
+    },
+    "mismatch_01": {
+      "pooled_target_rms": 0.004843346449167053,
+      "deviation_energy": 1.8616036969991179
+    },
+    "mismatch_02": {
+      "pooled_target_rms": 0.004843346449167053,
+      "deviation_energy": 1.8616036969991172
+    },
+    "mismatch_03": {
+      "pooled_target_rms": 0.004843346449167053,
+      "deviation_energy": 1.8616036969991177
+    },
+    "mismatch_04": {
+      "pooled_target_rms": 0.004843346449167053,
+      "deviation_energy": 1.8616036969991177
+    },
+    "mismatch_05": {
+      "pooled_target_rms": 0.004843346449167053,
+      "deviation_energy": 1.8616036969991174
+    },
+    "mismatch_06": {
+      "pooled_target_rms": 0.004843346449167053,
+      "deviation_energy": 1.8616036969991174
+    },
+    "mismatch_07": {
+      "pooled_target_rms": 0.004843346449167053,
+      "deviation_energy": 1.8616036969991177
+    },
+    "mismatch_08": {
+      "pooled_target_rms": 0.004843346449167053,
+      "deviation_energy": 1.8616036969991179
+    },
+    "mismatch_09": {
+      "pooled_target_rms": 0.004843346449167053,
+      "deviation_energy": 1.8616036969991172
+    },
+    "mismatch_10": {
+      "pooled_target_rms": 0.004843346449167053,
+      "deviation_energy": 1.8616036969991174
+    },
+    "mismatch_11": {
+      "pooled_target_rms": 0.004843346449167053,
+      "deviation_energy": 1.8616036969991177
+    }
+  },
+  "1": {
+    "modules_full": {
+      "pooled_target_rms": 0.0048029717295116296,
+      "deviation_energy": 1.831286072355285
+    },
+    "pooled_matched": {
+      "pooled_target_rms": 0.0048029717295116296,
+      "deviation_energy": 8.741933197557938e-33
+    },
+    "common_only": {
+      "pooled_target_rms": 0.0056456797725240445,
+      "deviation_energy": 1.1996470154190932e-32
+    }
+  },
+  "2": {
+    "modules_full": {
+      "pooled_target_rms": 0.0048029717295116296,
+      "deviation_energy": 1.831286072355285
+    },
+    "pooled_matched": {
+      "pooled_target_rms": 0.0048029717295116296,
+      "deviation_energy": 8.741933197557938e-33
+    },
+    "common_only": {
+      "pooled_target_rms": 0.0056456797725240445,
+      "deviation_energy": 1.1996470154190932e-32
+    }
+  },
+  "3": {
+    "modules_full": {
+      "pooled_target_rms": 0.0048029717295116296,
+      "deviation_energy": 1.831286072355285
+    },
+    "pooled_matched": {
+      "pooled_target_rms": 0.0048029717295116296,
+      "deviation_energy": 8.741933197557938e-33
+    },
+    "common_only": {
+      "pooled_target_rms": 0.0056456797725240445,
+      "deviation_energy": 1.1996470154190932e-32
+    }
+  },
+  "4": {
+    "modules_full": {
+      "pooled_target_rms": 0.0048029717295116296,
+      "deviation_energy": 1.831286072355285
+    },
+    "pooled_matched": {
+      "pooled_target_rms": 0.0048029717295116296,
+      "deviation_energy": 8.741933197557938e-33
+    },
+    "common_only": {
+      "pooled_target_rms": 0.0056456797725240445,
+      "deviation_energy": 1.1996470154190932e-32
+    }
+  }
+}

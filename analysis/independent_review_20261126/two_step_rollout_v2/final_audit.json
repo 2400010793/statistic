@@ -1,0 +1,45 @@
+{
+  "old_inputs_preserved": {
+    "analysis/independent_review_20261126/joint_dynamics_trial/representation.joblib": true,
+    "analysis/independent_review_20261126/joint_dynamics_trial/early_latent.npz": true,
+    "analysis/independent_review_20261126/speed_direction_diagnostic/data_splits.npz": true,
+    "analysis/independent_review_20261126/frozen_controls.npz": true,
+    "analysis/independent_review_20261126/stage_conditioned_decoder_v1/protocol.txt": true,
+    "data/raw/T1/E8.5_RNA.h5ad": true,
+    "data/raw/T1/E9.5_RNA.h5ad": true,
+    "data/p3/T1/E10.5_RNA.h5ad": true
+  },
+  "export_hashes_match": {
+    "./analysis/independent_review_20261126/two_step_rollout_v2/e125_candidates/single_step_hold_s2026112601_weighted.h5ad": true,
+    "./analysis/independent_review_20261126/two_step_rollout_v2/e125_candidates/single_step_hold_s2026112602_weighted.h5ad": true,
+    "./analysis/independent_review_20261126/two_step_rollout_v2/e125_candidates/single_step_hold_E12.5.h5ad": true,
+    "./analysis/independent_review_20261126/two_step_rollout_v2/e125_candidates/single_step_damped_s2026112601_weighted.h5ad": true,
+    "./analysis/independent_review_20261126/two_step_rollout_v2/e125_candidates/single_step_damped_s2026112602_weighted.h5ad": true,
+    "./analysis/independent_review_20261126/two_step_rollout_v2/e125_candidates/single_step_damped_E12.5.h5ad": true,
+    "./analysis/independent_review_20261126/two_step_rollout_v2/e125_candidates/two_step_hold_s2026112601_weighted.h5ad": true,
+    "./analysis/independent_review_20261126/two_step_rollout_v2/e125_candidates/two_step_hold_s2026112602_weighted.h5ad": true,
+    "./analysis/independent_review_20261126/two_step_rollout_v2/e125_candidates/two_step_hold_E12.5.h5ad": true,
+    "./analysis/independent_review_20261126/two_step_rollout_v2/e125_candidates/two_step_damped_s2026112601_weighted.h5ad": true,
+    "./analysis/independent_review_20261126/two_step_rollout_v2/e125_candidates/two_step_damped_s2026112602_weighted.h5ad": true,
+    "./analysis/independent_review_20261126/two_step_rollout_v2/e125_candidates/two_step_damped_E12.5.h5ad": true
+  },
+  "script_sha256": {
+    "diagnose_mass.py": "ae0978bd12d85fed938ffd60c62869b14c89f8703eb9857d367fe7895e6d3845",
+    "audit_outputs.py": "5ddb879ae45e0296898b8195f489d73e09e838b3c31e0efe5deb3e3d1e4e85d9",
+    "summarize.py": "9e3f49e309023aaebf6c1835be801c3b420d106f990578b5ca7d415744006a4a",
+    "audit_composition.py": "20568e948b5b5ac1bce4aa25271f17bb37fb890b86781db8c265a81125a45771",
+    "refit_parallel.py": "c4c3c70f504c2ba37a458a22e0df1b2f5b426968a6ba9e0e9c7dd86cf8477f8e",
+    "rollout.py": "216f70414ecca8af556636aa41a5262d2e8a1ac430483d91bd44d8ab88004e6f",
+    "train.py": "e34e87c5bfcff3d11d2bb4cae0a01ee2d7a1a8ccf1a6a78bd59446f9d8a6b100",
+    "evaluate.py": "aa90137d608d3f4d4dbb8e074e5b49ce29faf55bf5698622f7e2d70d6c5a840f",
+    "run_all.py": "8927de99ad24c6b5b96cc223635e3f23b6b67fcdfa1d29f04d0aef89fe08904e",
+    "verify.py": "527f86c03bfaaec05954d44f0fb8a0b94a144e0ba81f30f2e01eafc19077c336",
+    "export_e125.py": "8bf1e967592ed748f443c02dae8d718c248e9b64934f051cb037c336c8c16805"
+  },
+  "candidate_count": 4,
+  "local_shape": [
+    2000,
+    32285
+  ],
+  "official_submission": false
+}

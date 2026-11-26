@@ -1,0 +1,17 @@
+{
+  "python": "3.14.6",
+  "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+  "packages": {
+    "numpy": "2.4.6",
+    "scipy": "1.18.0",
+    "pandas": "3.0.3",
+    "anndata": "0.13.4",
+    "scikit-learn": "1.9.0",
+    "joblib": "1.5.3",
+    "threadpoolctl": "3.5.0",
+    "matplotlib": "3.11.0",
+    "h5py": "3.16.0",
+    "torch": "2.10.0"
+  },
+  "cpu_threads_per_model": 2
+}

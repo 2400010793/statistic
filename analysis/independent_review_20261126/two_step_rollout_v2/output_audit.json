@@ -1,0 +1,136 @@
+{
+  "disjoint_splits": true,
+  "frozen_replay_exact": true,
+  "records": [
+    {
+      "tag": "f0_s2026112601_single_step",
+      "checks": [
+        {
+          "path": "observed",
+          "expression_change_relative_to_coarse_edit": 0.025329023599624634,
+          "weight_l1": 0.019924486987807355
+        },
+        {
+          "path": "future",
+          "expression_change_relative_to_coarse_edit": 0.003886681515723467,
+          "weight_l1": 0.003011807420089981
+        }
+      ],
+      "replay_max_abs_difference": 0.0
+    },
+    {
+      "tag": "f0_s2026112601_two_step",
+      "checks": [
+        {
+          "path": "observed",
+          "expression_change_relative_to_coarse_edit": 0.01885240525007248,
+          "weight_l1": 0.023610560675975587
+        },
+        {
+          "path": "future",
+          "expression_change_relative_to_coarse_edit": 0.004598610568791628,
+          "weight_l1": 0.0021856750736252394
+        }
+      ],
+      "replay_max_abs_difference": 0.0
+    },
+    {
+      "tag": "f0_s2026112602_single_step",
+      "checks": [
+        {
+          "path": "observed",
+          "expression_change_relative_to_coarse_edit": 0.02777944505214691,
+          "weight_l1": 0.019964572463024924
+        },
+        {
+          "path": "future",
+          "expression_change_relative_to_coarse_edit": 0.004120361525565386,
+          "weight_l1": 0.0016144846520654737
+        }
+      ],
+      "replay_max_abs_difference": 0.0
+    },
+    {
+      "tag": "f0_s2026112602_two_step",
+      "checks": [
+        {
+          "path": "observed",
+          "expression_change_relative_to_coarse_edit": 0.019522948190569878,
+          "weight_l1": 0.027369684102189443
+        },
+        {
+          "path": "future",
+          "expression_change_relative_to_coarse_edit": 0.004706306383013725,
+          "weight_l1": 0.0016463243534743104
+        }
+      ],
+      "replay_max_abs_difference": 0.0
+    },
+    {
+      "tag": "f1_s2026112601_single_step",
+      "checks": [
+        {
+          "path": "observed",
+          "expression_change_relative_to_coarse_edit": 0.026265393942594528,
+          "weight_l1": 0.020129059140795238
+        },
+        {
+          "path": "future",
+          "expression_change_relative_to_coarse_edit": 0.0043282900005578995,
+          "weight_l1": 0.003446123263121743
+        }
+      ],
+      "replay_max_abs_difference": 0.0
+    },
+    {
+      "tag": "f1_s2026112601_two_step",
+      "checks": [
+        {
+          "path": "observed",
+          "expression_change_relative_to_coarse_edit": 0.018949592486023903,
+          "weight_l1": 0.023776847612200204
+        },
+        {
+          "path": "future",
+          "expression_change_relative_to_coarse_edit": 0.0044027939438819885,
+          "weight_l1": 0.0019722334288031196
+        }
+      ],
+      "replay_max_abs_difference": 0.0
+    },
+    {
+      "tag": "f1_s2026112602_single_step",
+      "checks": [
+        {
+          "path": "observed",
+          "expression_change_relative_to_coarse_edit": 0.02536075748503208,
+          "weight_l1": 0.020110975049016207
+        },
+        {
+          "path": "future",
+          "expression_change_relative_to_coarse_edit": 0.004187826067209244,
+          "weight_l1": 0.0025761481180426454
+        }
+      ],
+      "replay_max_abs_difference": 0.0
+    },
+    {
+      "tag": "f1_s2026112602_two_step",
+      "checks": [
+        {
+          "path": "observed",
+          "expression_change_relative_to_coarse_edit": 0.019250258803367615,
+          "weight_l1": 0.024449561910452656
+        },
+        {
+          "path": "future",
+          "expression_change_relative_to_coarse_edit": 0.004082892555743456,
+          "weight_l1": 0.0020569256497016096
+        }
+      ],
+      "replay_max_abs_difference": 0.0
+    }
+  ],
+  "max_16_to_32_step_expression_change_relative_to_edit": 0.02777944505214691,
+  "interpretation": "Numerical sensitivity, not biological accuracy; 128-row integration probe per checkpoint and path"
+}

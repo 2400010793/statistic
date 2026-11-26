@@ -1,0 +1,10 @@
+{
+  "format_only": true,
+  "ok": true,
+  "task": "T1",
+  "bundle_key": "T1:val",
+  "bytes": 45780856,
+  "sha256": "832c166cd3b32f4279ea72e55f473f5bd68cbaa8487a662909ee7efabc996902",
+  "problems": [],
+  "note": "Format only \u2014 nothing was scored and no official attempt was used. Structural checks the scorer would apply are not all reproducible here; a clean result is not a guarantee."
+}

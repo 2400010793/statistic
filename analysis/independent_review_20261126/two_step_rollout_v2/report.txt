@@ -1,0 +1,114 @@
+两步闭环动力学 v2：结果与判断
+
+研究门槛：通过；未来来源稳定性门槛：未通过。
+E10.5已参与训练。所有有真值的结果均为已观察阶段留出细胞的回顾性评价；没有E12.5预测准确性或官方分数。
+两组网络、来源、随机初始化、外生批次、单日和总编辑预算相同；A单步训练，B加两步实际输出终点和累计ESS损失。B计算量更高，不声称算力匹配。
+模型按共同的单日+两步验证目标选检查点。没有依据外层结果或未来稳定性继续调参。
+
+指标空间：log1p(CP10K)全部32285基因；分布指标采用冻结早期PCA32/scale、三个RBF带宽、ddof0协方差。精确权重优先；固定源簇内RMSE按目标簇比例加权。
+2个种子×2个半分不构成4个独立时间段；E9单日每配置再平均5个来源池，同样不增加独立发育时点。
+
+E8.5→E9.5单日
+指标	A 单步训练	B 两步训练	B相对A变化
+objective	0.0100795	0.0107529	+6.68%
+mmd2	0.0058141	0.0063613	+9.41%
+covariance_rel	0.2401406	0.2411275	+0.41%
+pooled_rmse	0.0169172	0.0172546	+1.99%
+fixed_within_rmse	0.0393634	0.0392645	-0.25%
+cosine	0.8480058	0.8377768	-1.21%
+ess_rows	1837.2926208	1882.6622435	+2.47%
+ess_unique	1837.2926208	1882.6622435	+2.47%
+
+E9.5→E10.5单日
+指标	A 单步训练	B 两步训练	B相对A变化
+objective	0.0207198	0.0197487	-4.69%
+mmd2	0.0065374	0.0061224	-6.35%
+covariance_rel	0.3011722	0.2837953	-5.77%
+pooled_rmse	0.0345641	0.0340316	-1.54%
+fixed_within_rmse	0.0565291	0.0566703	+0.25%
+cosine	0.8547951	0.8576405	+0.33%
+ess_rows	1009.5216892	925.7946441	-8.29%
+ess_unique	975.2004155	892.7306323	-8.46%
+
+E8.5→E10.5两步闭环
+指标	A 单步训练	B 两步训练	B相对A变化
+objective	0.0320430	0.0228759	-28.61%
+mmd2	0.0124578	0.0067019	-46.20%
+covariance_rel	0.3312161	0.2703456	-18.38%
+pooled_rmse	0.0398785	0.0376665	-5.55%
+fixed_within_rmse	0.0689119	0.0663299	-3.75%
+cosine	0.8552952	0.8665549	+1.32%
+ess_rows	819.0623765	949.6513776	+15.94%
+ess_unique	819.0623765	949.6513776	+15.94%
+
+每配置两步主目标 / 来源ESS：
+fold=0 seed=2026112601：A 0.0317686/777.2；B 0.0231192/997.3
+fold=0 seed=2026112602：A 0.0326651/834.6；B 0.0232221/925.0
+fold=1 seed=2026112601：A 0.0329267/831.5；B 0.0225159/911.9
+fold=1 seed=2026112602：A 0.0308114/832.9；B 0.0226466/964.4
+
+E10.5→E12.5，时间条件保持t=2，分半检查点的无真值压力检查：
+single_step ess_rows: mean=351.4486772, range=[328.2341362, 369.5841713]
+single_step second_or_only_day_decoder_relative_residual: mean=0.7622672, range=[0.7540641, 0.7710072]
+single_step daily_bound_count: mean=0.2220248, range=[0.2033490, 0.2382806]
+single_step total_bound_count: mean=0.1505140, range=[0.1406295, 0.1609034]
+single_step edit_rms: mean=0.1368760, range=[0.1347556, 0.1388801]
+two_step ess_rows: mean=320.3299231, range=[305.0687655, 331.8516932]
+two_step second_or_only_day_decoder_relative_residual: mean=0.7038929, range=[0.6883981, 0.7213382]
+two_step daily_bound_count: mean=0.1619616, range=[0.1414358, 0.1727260]
+two_step total_bound_count: mean=0.1098561, range=[0.0964734, 0.1160175]
+two_step edit_rms: mean=0.1291359, range=[0.1242525, 0.1335375]
+这些是内部一致性和来源集中度，不是与E12.5真值的误差。
+触边比例按非零表达项计；daily为第二天的单日增益限幅，total为相对最初来源的两日总限幅。
+解码残差衡量第二天请求潜态位移和实际解码位移的差异；新方法未直接以该残差为损失，可能依然很高。
+
+预设判断逐条：{"two_objective_at_least_ten_percent": true, "two_objective_improves_three_configs": true, "two_mmd_improves": true, "two_covariance_improves": true, "early_objective_cost_at_most_ten_percent": true, "late_objective_cost_at_most_ten_percent": true, "late_pooled_cost_at_most_five_percent": true, "late_within_cost_at_most_five_percent": true, "two_ess_all_at_least_800": true}
+未来稳定性逐条：{"mean_ess_improves_twenty_percent": false, "all_ess_at_least_500": false}
+全量重训固定更新数（各组验证最优数中位数向上取整）：{'single_step': 600, 'two_step': 950}
+校准训练总秒数：1422.2
+
+P3全量重训和E12.5候选：
+三个允许阶段全部细胞用于训练；表示保持早期冻结版本。两个种子按分布混合，不逐基因平均。
+hold固定最后时间条件；damped固定第二日速度与质量各乘.5。两者都未根据未来真值选择。
+以下RMSE和协方差差异均相对同一E10.5来源，不是预测误差；CopyLast天然为0，不能据此排名。
+single_step/hold: 源祖先ESS=367.4, 重采样后ESS=358.0, 总体均值改变量=0.187625, 协方差改变量=0.719698, 种子均值分歧=0.008449
+./analysis/independent_review_20261126/two_step_rollout_v2/e125_candidates/single_step_hold_E12.5.h5ad
+single_step/damped: 源祖先ESS=464.2, 重采样后ESS=437.5, 总体均值改变量=0.160013, 协方差改变量=0.571699, 种子均值分歧=0.009803
+./analysis/independent_review_20261126/two_step_rollout_v2/e125_candidates/single_step_damped_E12.5.h5ad
+two_step/hold: 源祖先ESS=328.2, 重采样后ESS=322.3, 总体均值改变量=0.191835, 协方差改变量=0.795513, 种子均值分歧=0.007319
+./analysis/independent_review_20261126/two_step_rollout_v2/e125_candidates/two_step_hold_E12.5.h5ad
+two_step/damped: 源祖先ESS=398.1, 重采样后ESS=384.0, 总体均值改变量=0.162234, 协方差改变量=0.594418, 种子均值分歧=0.007370
+./analysis/independent_review_20261126/two_step_rollout_v2/e125_candidates/two_step_damped_E12.5.h5ad
+所有物化候选2000×32285，基因顺序、非负有限、CP10K、原始零支持及文件回读校验通过。
+
+追加质量累积诊断（事后，表达固定不变）：
+full=False, single_step: 两日log质量增量相关=0.990435; ESS={'continue_mass': 351.44867723744926, 'half_second_day_mass': 450.59652229470646, 'freeze_after_day1': 698.756410222812}
+full=False, two_step: 两日log质量增量相关=0.992186; ESS={'continue_mass': 320.3299230556048, 'half_second_day_mass': 394.24375131618956, 'freeze_after_day1': 597.7282442316942}
+full=True, single_step: 两日log质量增量相关=0.988380; ESS={'continue_mass': 367.2207161562558, 'half_second_day_mass': 473.2996123359743, 'freeze_after_day1': 726.7866671837916}
+full=True, two_step: 两日log质量增量相关=0.992763; ESS={'continue_mass': 328.0655775027184, 'half_second_day_mass': 403.78076276507835, 'freeze_after_day1': 613.6575327202154}
+停止或衰减第二天质量会按构造提高ESS；本地没有真值，不能说明哪种比例更准确。
+
+追加来源簇审计（事后）：
+主导来源簇=6；实际来源标注计数={'Blood': 302, 'Macrophage': 11, 'Surface Ectoderm': 1}
+已观察的比例={'E8.5_all': 0.015607315184368857, 'E9.5_all': 0.012370287858357273, 'E10.5_fixed_2000_source': 0.157}
+各候选给该来源簇的累计权重={'single_step/hold': 0.8879986730455948, 'single_step/damped': 0.7925381823957302, 'two_step/hold': 0.9337548386953833, 'two_step/damped': 0.8550082880915586}
+这是原始来源簇权重，不是经独立推断的E12.5细胞类型比例。此集中现象提示末期丰度变化在未来被重复放大；没有未来真值，不能判定真实比例。
+冻结检查点回放全部一致；16→32步积分的表达变化/原编辑幅度最大为0.02777944505214691
+
+限制：只能检验观测区间内的闭环拟合。真实细胞无配对，无法唯一识别生物学速度；未知未来时间条件仍是假设。模型不能开启源细胞中的零基因，也不能保证覆盖未来新谱系。软ESS不是逐样本硬下限。
+下一项辨别实验：固定表达路径，仅改变相对质量的时间延续规则，并在训练时对E10.5起点的无目标两步路径加入累计ESS控制；将它与当前只约束已知路径的版本比较。此控制可约束来源集中，但不能替代E12.5准确性验证。若需归因已知终点收益，可另做累计ESS罚与终点损失的消融；本轮未分开识别二者贡献。
+
+一条命令完整复跑（项目根目录）：
+.venv/bin/python analysis/independent_review_20261126/two_step_rollout_v2/run_all.py
+
+分步命令：
+.venv/bin/python analysis/independent_review_20261126/two_step_rollout_v2/verify.py
+.venv/bin/python analysis/independent_review_20261126/two_step_rollout_v2/train.py
+.venv/bin/python analysis/independent_review_20261126/two_step_rollout_v2/evaluate.py
+.venv/bin/python analysis/independent_review_20261126/two_step_rollout_v2/audit_outputs.py
+# 仅observed_gate_passed=true后运行：
+.venv/bin/python analysis/independent_review_20261126/two_step_rollout_v2/refit_parallel.py
+.venv/bin/python analysis/independent_review_20261126/two_step_rollout_v2/export_e125.py
+.venv/bin/python analysis/independent_review_20261126/two_step_rollout_v2/audit_composition.py
+.venv/bin/python analysis/independent_review_20261126/two_step_rollout_v2/diagnose_mass.py
+.venv/bin/python analysis/independent_review_20261126/two_step_rollout_v2/summarize.py

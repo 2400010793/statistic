@@ -1,0 +1,24 @@
+{
+  "scope": "Two-interval E10.5-calibrated retrospective study",
+  "data_sha256": "736adae9c78f3df0e90251810ae15d7556bf04e5079103acfd2489a0e71bc85e",
+  "moments_sha256": "8506de9bfa387bdd3737310ef0c5039d1db2e8413c375d7434865cecb2d1891a",
+  "input_sha256": {
+    "analysis/independent_review_20261126/joint_dynamics_trial/representation.joblib": "1a37ff47b7a3d87aa3e20fb3845ad9ca75c7fb2405407e08d205e8791c5fa53e",
+    "analysis/independent_review_20261126/joint_dynamics_trial/early_latent.npz": "d3d61a94eb57510f23d69d0cad69086ef092f65b2ae7592e84e66a7cb6d0595e",
+    "analysis/independent_review_20261126/speed_direction_diagnostic/data_splits.npz": "d7aa61d443c6c1107ee5290edc4bc8fd1aca831816c10bf67898d20b00c4a628",
+    "analysis/independent_review_20261126/frozen_controls.npz": "df1e45b43e7ddcfe98eb6af95e485a12091370b1302c44aee513f92bbb1c76e4",
+    "analysis/independent_review_20261126/stage_conditioned_decoder_v1/protocol.txt": "849ba2dc39b230dab5231eb67452d62c47ad551e8aa9e3cbc3f3f598e3373ef8",
+    "data/raw/T1/E8.5_RNA.h5ad": "8eab2d0ccaa89f92861b09816b76b6a731b8ed6b5995e4af196d9ed8ff76e504",
+    "data/raw/T1/E9.5_RNA.h5ad": "0296e0043842f944a663f3c11ac1542d1bbee733c1cd657bd56f75af65958361",
+    "data/p3/T1/E10.5_RNA.h5ad": "974e04e7fe64fb96142f17994a9678d4cebd4f1868dec4de034eda4245b7dd6c"
+  },
+  "counts": {
+    "train8": 13429,
+    "valid8": 1024,
+    "test8": 2000,
+    "train9": 7383,
+    "valid9": 1846,
+    "test9": 7828
+  },
+  "split_disjoint_checks": true
+}

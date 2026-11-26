@@ -1,0 +1,90 @@
+{
+  "checksum_files_verified": {
+    "T1-research-replay-20261126": 264,
+    "T1-E12.5-predictions-20261126": 19
+  },
+  "python_scripts_parsed": 46,
+  "matrices": [
+    {
+      "path": "copylast_E12.5.h5ad",
+      "shape": [
+        2000,
+        32285
+      ],
+      "gene_order": true,
+      "finite_nonnegative": true,
+      "max_cp10k_sum_error": 0.0009361237644043285
+    },
+    {
+      "path": "damped_group_E12.5.h5ad",
+      "shape": [
+        2000,
+        32285
+      ],
+      "gene_order": true,
+      "finite_nonnegative": true,
+      "max_cp10k_sum_error": 0.0009361237644043285
+    },
+    {
+      "path": "single_step_damped_E12.5.h5ad",
+      "shape": [
+        2000,
+        32285
+      ],
+      "gene_order": true,
+      "finite_nonnegative": true,
+      "max_cp10k_sum_error": 0.003635575576481642
+    },
+    {
+      "path": "single_step_hold_E12.5.h5ad",
+      "shape": [
+        2000,
+        32285
+      ],
+      "gene_order": true,
+      "finite_nonnegative": true,
+      "max_cp10k_sum_error": 0.0036994114961999003
+    },
+    {
+      "path": "two_step_damped_E12.5.h5ad",
+      "shape": [
+        2000,
+        32285
+      ],
+      "gene_order": true,
+      "finite_nonnegative": true,
+      "max_cp10k_sum_error": 0.0028822929416492116
+    },
+    {
+      "path": "two_step_hold_E12.5.h5ad",
+      "shape": [
+        2000,
+        32285
+      ],
+      "gene_order": true,
+      "finite_nonnegative": true,
+      "max_cp10k_sum_error": 0.004062674928718479
+    }
+  ],
+  "portable_replay": [
+    {
+      "file": "single_step_damped_E12.5.h5ad",
+      "max_absolute_difference": 0.0
+    },
+    {
+      "file": "single_step_hold_E12.5.h5ad",
+      "max_absolute_difference": 0.0
+    },
+    {
+      "file": "two_step_damped_E12.5.h5ad",
+      "max_absolute_difference": 0.0
+    },
+    {
+      "file": "two_step_hold_E12.5.h5ad",
+      "max_absolute_difference": 0.0
+    }
+  ],
+  "original_research_files_unchanged": true,
+  "publication_files_unchanged": true,
+  "portability": "Replayed from a different project directory using published files, original authorized raw data via a local-only symlink, and the original Python environment. This does not claim cross-platform byte identity."
+}

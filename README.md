@@ -4,6 +4,8 @@
 
 ## NeurIPS 2026 Virtual Embryo Challenge
 
+**2026-11-26 P3研究更新**：已上传[独立审查、两步模型结果与复现入口](experiments/t1-e125-20261126/README.md)，以及[E12.5预测和完整复现包](https://github.com/2400010793/statistic/releases/tag/t1-e125-research-20261126)。两步训练改善已观察区间的拟合，但未来来源稳定性门槛未通过；E12.5无本地真值，不宣称新官方成绩。
+
 **2026-11-24 团队进展**：R40 的 T1 官方验证分为 51.0397。组员可从[实验记录与复现入口](experiments/t1-r40/README.md)获取历史成绩、E9.25 回测和最新比赛时间。以下学习计划与验收记录保留编写时的日期。
 
 [中文学习计划](docs/virtual-embryo-learning-plan.zh-CN.md)包含问题定义、比赛节点、官方与补充评价指标、文献脉络、论文复现、研究方向、团队分工、工程注意事项和基础知识清单。

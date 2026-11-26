@@ -1,0 +1,54 @@
+阶段相关、软丰度、解码一致训练v1：完成报告
+
+预先指定主比较 D vs C 的替换标准：True。
+本轮两个区间都参与拟合，明确使用E10.5校准部分。外层细胞留出不是独立时间外推；没有E12.5效果或官方分数。
+原有预测和记录只读，所有记录输入保持不变：True
+
+实现：共享128×128主干，阶段残差头；无丰度硬上限，增长平方正则和相对权重集中度软罚；全基因CP10K解码可微。
+四组共享随机初始化主干和小批量序列，来源按训练群分层并使用精确基础概率校正；评价源全部一致。
+所有组都根据实际解码输出选择检查点，避免选择空间不同掩盖训练目标比较。
+
+门槛逐项：{"late_objective_wins_at_least_3_of_4": true, "mean_late_mmd_improves": true, "mean_late_covariance_improves": true, "main_pooled_within_2_percent_all": true, "main_within_group_within_2_percent_all": true, "late_mean_ess_fraction_at_least_point4_all": true, "early_objective_within_5_percent_all": true}
+
+晚区间：每配置先平均5源池，再平均两种子×两外层半区。指标全部来自实际解码表达。
+模型	主损失	MMD²代理	协方差相对误差	pooled RMSE	固定簇内RMSE	ESS/2000
+autonomous_latent	0.0417892	0.0180469	0.3232707	0.0424128	0.0624830	946.6
+temporal_noess	0.0403020	0.0173889	0.3191696	0.0417478	0.0623837	783.8
+temporal_latent	0.0408376	0.0176156	0.3116114	0.0420141	0.0619710	945.1
+temporal_decoded	0.0190285	0.0057622	0.2721481	0.0337059	0.0563496	871.2
+
+早区间：同一2000源池，目标为未参与本轮拟合/选择的E9.5源池并集；均值是4个拟合配置，不是独立时点。
+autonomous_latent	0.0180379	0.0109500	0.2987064	0.0207159	0.0409219	1820.1
+temporal_noess	0.0167502	0.0101133	0.2532869	0.0201986	0.0400483	1947.0
+temporal_latent	0.0167112	0.0100818	0.2529285	0.0201916	0.0400192	1949.5
+temporal_decoded	0.0100341	0.0057732	0.2395650	0.0169106	0.0392744	1817.9
+
+第一批R40原来源：4配置实际表达均值。
+autonomous_latent	0.0176425	0.3360496	0.0413500	0.0627195	0.7832048	ESS=854.9
+temporal_noess	0.0180106	0.3563220	0.0413327	0.0625891	0.7779413	ESS=729.3
+temporal_latent	0.0173357	0.3252642	0.0411092	0.0621641	0.7869734	ESS=877.6
+temporal_decoded	0.0063989	0.2859794	0.0334983	0.0566189	0.8584004	ESS=815.4
+
+消融差（后者减前者）：{"stage": {"early": {"objective": -0.0013267878161015607, "mmd2": -0.0008682649066903605, "covariance_rel": -0.04577791149637572, "pooled_rmse": -0.0005242861112598612, "fixed_within_rmse": -0.0009027644573243385, "cosine": 0.023440838471116, "ess_rows": 129.36900289096616, "ess_fraction": 0.06468450144548299, "ess_unique": 129.36900289096593}, "late_mean": {"objective": -0.0009516430365860001, "mmd2": -0.0004313458834184422, "covariance_rel": -0.01165933967898275, "pooled_rmse": -0.00039869781809027255, "fixed_within_rmse": -0.0005120020221616103, "cosine": 0.004837258239302811, "ess_rows": -1.5505682969827603, "ess_fraction": -0.0007752841484914286, "ess_unique": -5.054790666383951}, "late_main": {"objective": -0.0005926717296968823, "mmd2": -0.0003068779002998179, "covariance_rel": -0.010785395656375485, "pooled_rmse": -0.00024079872616270676, "fixed_within_rmse": -0.0005554040080757092, "cosine": 0.0037685954163386715, "ess_rows": 22.771944836586158, "ess_fraction": 0.011385972418293033, "ess_unique": 5.2508329895823636}}, "ess": {"early": {"objective": -3.9037958022909713e-05, "mmd2": -3.156749346075981e-05, "covariance_rel": -0.0003583490347006668, "pooled_rmse": -6.934574253332493e-06, "fixed_within_rmse": -2.9146245753480793e-05, "cosine": 0.000549337273047179, "ess_rows": 2.5212692429054187, "ess_fraction": 0.0012606346214528719, "ess_unique": 2.5212692429054187}, "late_mean": {"objective": 0.0005355664256837186, "mmd2": 0.0002266722576514911, "covariance_rel": -0.0075582660706445814, "pooled_rmse": 0.00026633952347621115, "fixed_within_rmse": -0.0004127040717139957, "cosine": 0.0042352954121372965, "ess_rows": 161.2672273785787, "ess_fraction": 0.08063361368928923, "ess_unique": 155.8157837007717}, "late_main": {"objective": -0.0010559850517804503, "mmd2": -0.0006749147180471482, "covariance_rel": -0.031057781931830397, "pooled_rmse": -0.00022355326498795652, "fixed_within_rmse": -0.0004250247409830696, "cosine": 0.009032064270114715, "ess_rows": 148.34884088382387, "ess_fraction": 0.07417442044191191, "ess_unique": 121.09162249478948}}, "decoded": {"early": {"objective": -0.006677080938004612, "mmd2": -0.004308516342334344, "covariance_rel": -0.013363499055949385, "pooled_rmse": -0.003281018102427008, "fixed_within_rmse": -0.0007447631908927346, "cosine": 0.026198835388213992, "ess_rows": -131.65502029070012, "ess_fraction": -0.06582751014535004, "ess_unique": -131.65502029070035}, "late_mean": {"objective": -0.021809053154075105, "mmd2": -0.011853438693501249, "covariance_rel": -0.039463282842066905, "pooled_rmse": -0.008308254491664946, "fixed_within_rmse": -0.005621449276313445, "cosine": 0.06960442513823095, "ess_rows": -73.89291705385938, "ess_fraction": -0.036946458526929626, "ess_unique": -71.49149958092858}, "late_main": {"objective": -0.019800314271873495, "mmd2": -0.010936764589025141, "covariance_rel": -0.03928484664440418, "pooled_rmse": -0.007610885552846482, "fixed_within_rmse": -0.005545205377616602, "cosine": 0.0714269754828264, "ess_rows": -62.20428829913976, "ess_fraction": -0.031102144149569855, "ess_unique": -50.19720093448552}}}
+
+表达尺度为全部32285基因log1p(CP10K)。主损失=3带宽MMD V+.05*PCA均值MSE+.01*PCA协方差MSE+10*全基因总体均值MSE。
+MMD²为去自配对的加权核代理；数据依赖权重下不声称无偏。协方差ddof0。群内RMSE使用固定早期群标签、按目标群比例加权，非真实谱系。
+ESS按源行计，同时保存合并重复原细胞后的ESS。软约束的目标不是逐次硬保证。
+D未学习基因开关，仍保留原零支持；它改的是经过这个解码器训练，而非使用新零值生成器。
+模型时间接口只开放已观察区间；尚未选定E10.5→E12.5方向外推规则。
+
+解码器与旧NumPy实现最大差：4.77e-07；方向有限差分梯度已通过。
+加载检查点回放最大差：0；16→32步最大位移变化：2.315%。
+
+研究输出：temporal_decoded_weighted_pool.h5ad带有obs.prediction_weight；temporal_decoded_E10.5_diagnostic.h5ad通过系统重采样形成2000行。
+这两个文件都来自含E10.5校准数据的模型，不是早期盲测预测，也不代表推荐官方提交。
+
+复跑：
+cd .
+.venv/bin/python analysis/independent_review_20261126/stage_conditioned_decoder_v1/prepare.py
+.venv/bin/python analysis/independent_review_20261126/stage_conditioned_decoder_v1/verify.py
+.venv/bin/python analysis/independent_review_20261126/stage_conditioned_decoder_v1/train.py
+.venv/bin/python analysis/independent_review_20261126/stage_conditioned_decoder_v1/verify.py --after-training
+.venv/bin/python analysis/independent_review_20261126/stage_conditioned_decoder_v1/evaluate.py
+.venv/bin/python analysis/independent_review_20261126/stage_conditioned_decoder_v1/summarize.py
+沿用joint_dynamics_trial/deps中的torch==2.10.0；其余为已有venv依赖。

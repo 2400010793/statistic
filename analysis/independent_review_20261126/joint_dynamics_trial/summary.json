@@ -1,0 +1,3783 @@
+{
+  "passed": false,
+  "gates": [
+    {
+      "seed": 2026112601,
+      "passed": false,
+      "checks": {
+        "weighted_mmd2": {
+          "mean_difference": -0.0006397035959289504,
+          "wins": 5,
+          "passed": true
+        },
+        "weighted_covariance_rel": {
+          "mean_difference": 0.038543978874542285,
+          "wins": 0,
+          "passed": false
+        },
+        "weighted_pooled_rmse": {
+          "ratio": 1.0055074395349464,
+          "passed": true
+        },
+        "weighted_fixed_within_rmse": {
+          "ratio": 1.013600476408195,
+          "passed": false
+        },
+        "weighted_cosine": {
+          "difference": -0.04540812045325243,
+          "passed": false
+        },
+        "materialized_mmd2": {
+          "mean_difference": -0.0011710152579694378,
+          "wins": 5,
+          "passed": true
+        },
+        "materialized_covariance_rel": {
+          "mean_difference": 0.020396311029797907,
+          "wins": 0,
+          "passed": false
+        },
+        "materialized_pooled_rmse": {
+          "ratio": 0.9972481651659134,
+          "passed": true
+        },
+        "materialized_fixed_within_rmse": {
+          "ratio": 1.0170191061409455,
+          "passed": false
+        },
+        "materialized_cosine": {
+          "difference": -0.016141928502921288,
+          "passed": false
+        }
+      }
+    },
+    {
+      "seed": 2026112602,
+      "passed": false,
+      "checks": {
+        "weighted_mmd2": {
+          "mean_difference": 0.0025687182059754843,
+          "wins": 0,
+          "passed": false
+        },
+        "weighted_covariance_rel": {
+          "mean_difference": 0.041871722341569106,
+          "wins": 0,
+          "passed": false
+        },
+        "weighted_pooled_rmse": {
+          "ratio": 1.0214436245863545,
+          "passed": false
+        },
+        "weighted_fixed_within_rmse": {
+          "ratio": 1.017035467397606,
+          "passed": false
+        },
+        "weighted_cosine": {
+          "difference": -0.1042929896376582,
+          "passed": false
+        },
+        "materialized_mmd2": {
+          "mean_difference": -0.0005797194488410956,
+          "wins": 5,
+          "passed": true
+        },
+        "materialized_covariance_rel": {
+          "mean_difference": 0.021901625205704732,
+          "wins": 0,
+          "passed": false
+        },
+        "materialized_pooled_rmse": {
+          "ratio": 1.00038196684169,
+          "passed": true
+        },
+        "materialized_fixed_within_rmse": {
+          "ratio": 1.0202100588577745,
+          "passed": false
+        },
+        "materialized_cosine": {
+          "difference": -0.029608829829524064,
+          "passed": false
+        }
+      }
+    }
+  ],
+  "training": [
+    {
+      "seed": 2026112601,
+      "kind": "velocity",
+      "parameters": 24993,
+      "best_step": 600,
+      "validation_identity_loss": 0.032289523631334305,
+      "validation_best_loss": 0.0021607812959700823
+    },
+    {
+      "seed": 2026112601,
+      "kind": "joint",
+      "parameters": 24993,
+      "best_step": 600,
+      "validation_identity_loss": 0.032289523631334305,
+      "validation_best_loss": 0.0019119984935969114
+    },
+    {
+      "seed": 2026112602,
+      "kind": "velocity",
+      "parameters": 24993,
+      "best_step": 1100,
+      "validation_identity_loss": 0.032289523631334305,
+      "validation_best_loss": 0.0021773544140160084
+    },
+    {
+      "seed": 2026112602,
+      "kind": "joint",
+      "parameters": 24993,
+      "best_step": 700,
+      "validation_identity_loss": 0.032289523631334305,
+      "validation_best_loss": 0.001928514102473855
+    }
+  ],
+  "comparisons": {
+    "weighted": {
+      "copy": {
+        "mmd2": {
+          "mean": 0.08173452989453331,
+          "min": 0.08087304672611302,
+          "max": 0.08276249465879311,
+          "difference_mean": 0.004045787028299675,
+          "wins": 0
+        },
+        "covariance_rel": {
+          "mean": 0.80175561422934,
+          "min": 0.7902690474136893,
+          "max": 0.8086402286657239,
+          "difference_mean": -0.0006331351962018505,
+          "wins": 5
+        },
+        "pooled_rmse": {
+          "mean": 0.0651585320627706,
+          "min": 0.06479353003774921,
+          "max": 0.0655752486722157,
+          "difference_mean": 0.0009489360301869254,
+          "wins": 0
+        },
+        "fixed_within_rmse": {
+          "mean": 0.0705222051414853,
+          "min": 0.0694419511874699,
+          "max": 0.07158099276874283,
+          "difference_mean": 0.000748337751549491,
+          "wins": 0
+        },
+        "fixed_equal_rmse": {
+          "mean": 0.0693396387419443,
+          "min": 0.06889813025086772,
+          "max": 0.0698800228129269,
+          "difference_mean": 0.0007981405155573496,
+          "wins": 0
+        },
+        "cosine": {
+          "mean": 0.056773589402148585,
+          "min": -0.02912398126288145,
+          "max": 0.12584806248653466,
+          "difference_mean": -0.1411443506207169,
+          "wins": 0
+        },
+        "source_composition_tv": {
+          "mean": 0.357088738540374,
+          "min": 0.354188738540374,
+          "max": 0.36868873854037404,
+          "difference_mean": 0.0,
+          "wins": 0
+        },
+        "output_composition_tv": {
+          "mean": 0.357088738540374,
+          "min": 0.354188738540374,
+          "max": 0.36868873854037404,
+          "difference_mean": 0.004000000000000015,
+          "wins": 0
+        },
+        "zero_fraction": {
+          "mean": 0.8779682638996439,
+          "min": 0.8770056063187237,
+          "max": 0.8790810283413351,
+          "difference_mean": 0.0,
+          "wins": 0
+        },
+        "effective_unique_source_cells": {
+          "mean": 1956.1887800534296,
+          "min": 1780.9439002671418,
+          "max": 2000.0000000000016,
+          "difference_mean": 0.0,
+          "wins": 0
+        }
+      },
+      "shared": {
+        "mmd2": {
+          "mean": 0.07768874286623365,
+          "min": 0.07693270111279049,
+          "max": 0.0787035821961893,
+          "difference_mean": 0.0,
+          "wins": 0
+        },
+        "covariance_rel": {
+          "mean": 0.802388749425542,
+          "min": 0.7907694650725688,
+          "max": 0.8092458535354159,
+          "difference_mean": 0.0,
+          "wins": 0
+        },
+        "pooled_rmse": {
+          "mean": 0.06420959603258367,
+          "min": 0.06386898064444788,
+          "max": 0.06463723825768151,
+          "difference_mean": 0.0,
+          "wins": 0
+        },
+        "fixed_within_rmse": {
+          "mean": 0.06977386738993581,
+          "min": 0.06872468773681538,
+          "max": 0.07080460473799272,
+          "difference_mean": 0.0,
+          "wins": 0
+        },
+        "fixed_equal_rmse": {
+          "mean": 0.06854149822638697,
+          "min": 0.06810194881147036,
+          "max": 0.06908843579957427,
+          "difference_mean": 0.0,
+          "wins": 0
+        },
+        "cosine": {
+          "mean": 0.19791794002286545,
+          "min": 0.14098720101718323,
+          "max": 0.23762948911074847,
+          "difference_mean": 0.0,
+          "wins": 0
+        },
+        "source_composition_tv": {
+          "mean": 0.357088738540374,
+          "min": 0.354188738540374,
+          "max": 0.36868873854037404,
+          "difference_mean": 0.0,
+          "wins": 0
+        },
+        "output_composition_tv": {
+          "mean": 0.353088738540374,
+          "min": 0.34818873854037397,
+          "max": 0.36318873854037403,
+          "difference_mean": 0.0,
+          "wins": 0
+        },
+        "zero_fraction": {
+          "mean": 0.8779682638996439,
+          "min": 0.8770056063187237,
+          "max": 0.8790810283413351,
+          "difference_mean": 0.0,
+          "wins": 0
+        },
+        "effective_unique_source_cells": {
+          "mean": 1956.1887800534296,
+          "min": 1780.9439002671418,
+          "max": 2000.0000000000016,
+          "difference_mean": 0.0,
+          "wins": 0
+        }
+      },
+      "velocity_2026112601_h1": {
+        "mmd2": {
+          "mean": 0.0762433274356023,
+          "min": 0.07560462405311748,
+          "max": 0.07731691408636876,
+          "difference_mean": -0.0014454154306313388,
+          "wins": 5
+        },
+        "covariance_rel": {
+          "mean": 0.8408718927640413,
+          "min": 0.8298415767900154,
+          "max": 0.8498893362108387,
+          "difference_mean": 0.03848314333849927,
+          "wins": 0
+        },
+        "pooled_rmse": {
+          "mean": 0.06392908934083799,
+          "min": 0.0636308500676974,
+          "max": 0.06435097511678936,
+          "difference_mean": -0.0002805066917456772,
+          "wins": 5
+        },
+        "fixed_within_rmse": {
+          "mean": 0.0712863473766758,
+          "min": 0.07014748304705948,
+          "max": 0.07244282171358307,
+          "difference_mean": 0.001512479986739998,
+          "wins": 0
+        },
+        "fixed_equal_rmse": {
+          "mean": 0.06898198323198332,
+          "min": 0.06852084263528416,
+          "max": 0.06954808559748386,
+          "difference_mean": 0.00044048500559634994,
+          "wins": 0
+        },
+        "cosine": {
+          "mean": 0.20198922404572936,
+          "min": 0.17356517790391557,
+          "max": 0.22222348317842935,
+          "difference_mean": 0.004071284022863908,
+          "wins": 2
+        },
+        "source_composition_tv": {
+          "mean": 0.357088738540374,
+          "min": 0.354188738540374,
+          "max": 0.36868873854037404,
+          "difference_mean": 0.0,
+          "wins": 0
+        },
+        "output_composition_tv": {
+          "mean": 0.32688873854037404,
+          "min": 0.322688738540374,
+          "max": 0.329188738540374,
+          "difference_mean": -0.0262,
+          "wins": 5
+        },
+        "zero_fraction": {
+          "mean": 0.8779682638996439,
+          "min": 0.8770056063187237,
+          "max": 0.8790810283413351,
+          "difference_mean": 0.0,
+          "wins": 0
+        },
+        "effective_unique_source_cells": {
+          "mean": 1956.1887800534296,
+          "min": 1780.9439002671418,
+          "max": 2000.0000000000016,
+          "difference_mean": 0.0,
+          "wins": 0
+        }
+      },
+      "joint_2026112601_h1": {
+        "mmd2": {
+          "mean": 0.0770490392703047,
+          "min": 0.0763065256810338,
+          "max": 0.07797723111411115,
+          "difference_mean": -0.0006397035959289504,
+          "wins": 5
+        },
+        "covariance_rel": {
+          "mean": 0.8409327283000841,
+          "min": 0.8303407794995863,
+          "max": 0.8495798138919054,
+          "difference_mean": 0.038543978874542285,
+          "wins": 0
+        },
+        "pooled_rmse": {
+          "mean": 0.06442144099074754,
+          "min": 0.06408299072431768,
+          "max": 0.06480553601649,
+          "difference_mean": 0.00021184495816385928,
+          "wins": 0
+        },
+        "fixed_within_rmse": {
+          "mean": 0.0707808337876382,
+          "min": 0.06963418975996429,
+          "max": 0.07195993699387229,
+          "difference_mean": 0.0010069663977024107,
+          "wins": 0
+        },
+        "fixed_equal_rmse": {
+          "mean": 0.06884216536847937,
+          "min": 0.06838580584904526,
+          "max": 0.06944508666435362,
+          "difference_mean": 0.000300667142092409,
+          "wins": 0
+        },
+        "cosine": {
+          "mean": 0.17451583703833037,
+          "min": 0.15065409270209898,
+          "max": 0.19477094697069414,
+          "difference_mean": -0.02340210298453509,
+          "wins": 1
+        },
+        "source_composition_tv": {
+          "mean": 0.34993221008107456,
+          "min": 0.3467476975486393,
+          "max": 0.36225526495328214,
+          "difference_mean": -0.0071565284592994384,
+          "wins": 5
+        },
+        "output_composition_tv": {
+          "mean": 0.32253963000671415,
+          "min": 0.31969038117704107,
+          "max": 0.3280269095671216,
+          "difference_mean": -0.030549108533659865,
+          "wins": 5
+        },
+        "zero_fraction": {
+          "mean": 0.8767569928540848,
+          "min": 0.8758294901623875,
+          "max": 0.8777515583788362,
+          "difference_mean": -0.0012112710455591147,
+          "wins": 5
+        },
+        "effective_unique_source_cells": {
+          "mean": 1926.678538781946,
+          "min": 1754.6734203290348,
+          "max": 1970.5062926908263,
+          "difference_mean": -29.510241271483665,
+          "wins": 5
+        }
+      },
+      "joint_2026112601_h1_uniform": {
+        "mmd2": {
+          "mean": 0.07651772760826411,
+          "min": 0.07575889258843345,
+          "max": 0.07760326473339337,
+          "difference_mean": -0.0011710152579695265,
+          "wins": 5
+        },
+        "covariance_rel": {
+          "mean": 0.8227562133217425,
+          "min": 0.8105872481116675,
+          "max": 0.831475999080682,
+          "difference_mean": 0.020367463896200522,
+          "wins": 0
+        },
+        "pooled_rmse": {
+          "mean": 0.06402955581827732,
+          "min": 0.06369322375869288,
+          "max": 0.0644612444585327,
+          "difference_mean": -0.00018004021430635398,
+          "wins": 5
+        },
+        "fixed_within_rmse": {
+          "mean": 0.07101753270915749,
+          "min": 0.06989981405116516,
+          "max": 0.07218212440092835,
+          "difference_mean": 0.0012436653192216846,
+          "wins": 0
+        },
+        "fixed_equal_rmse": {
+          "mean": 0.06910929931068162,
+          "min": 0.06866374990705446,
+          "max": 0.06969462778110408,
+          "difference_mean": 0.000567801084294639,
+          "wins": 0
+        },
+        "cosine": {
+          "mean": 0.1943724083976883,
+          "min": 0.16437173626564291,
+          "max": 0.21785985928377585,
+          "difference_mean": -0.0035455316251771507,
+          "wins": 2
+        },
+        "source_composition_tv": {
+          "mean": 0.357088738540374,
+          "min": 0.354188738540374,
+          "max": 0.36868873854037404,
+          "difference_mean": 0.0,
+          "wins": 0
+        },
+        "output_composition_tv": {
+          "mean": 0.32658873854037396,
+          "min": 0.324188738540374,
+          "max": 0.33068873854037395,
+          "difference_mean": -0.026500000000000034,
+          "wins": 5
+        },
+        "zero_fraction": {
+          "mean": 0.8779682638996439,
+          "min": 0.8770056063187237,
+          "max": 0.8790810283413351,
+          "difference_mean": 0.0,
+          "wins": 0
+        },
+        "effective_unique_source_cells": {
+          "mean": 1956.1887800534296,
+          "min": 1780.9439002671418,
+          "max": 2000.0000000000016,
+          "difference_mean": 0.0,
+          "wins": 0
+        }
+      },
+      "joint_2026112601_h1_open": {
+        "mmd2": {
+          "mean": 0.07897091330547754,
+          "min": 0.07828745347428212,
+          "max": 0.07996183110447697,
+          "difference_mean": 0.0012821704392438932,
+          "wins": 0
+        },
+        "covariance_rel": {
+          "mean": 0.8372870213336459,
+          "min": 0.8263404429923499,
+          "max": 0.8457165456494188,
+          "difference_mean": 0.03489827190810395,
+          "wins": 0
+        },
+        "pooled_rmse": {
+          "mean": 0.0649160237439342,
+          "min": 0.06459019772220106,
+          "max": 0.0653225052951851,
+          "difference_mean": 0.0007064277113505047,
+          "wins": 0
+        },
+        "fixed_within_rmse": {
+          "mean": 0.07105763832776134,
+          "min": 0.06989817340082997,
+          "max": 0.07224858735540232,
+          "difference_mean": 0.0012837709378255263,
+          "wins": 0
+        },
+        "fixed_equal_rmse": {
+          "mean": 0.06878094954257752,
+          "min": 0.06831462389197392,
+          "max": 0.06939219496634864,
+          "difference_mean": 0.00023945131619054484,
+          "wins": 0
+        },
+        "cosine": {
+          "mean": 0.15352575262142576,
+          "min": 0.1312324711922419,
+          "max": 0.17105281645026654,
+          "difference_mean": -0.04439218740143969,
+          "wins": 0
+        },
+        "source_composition_tv": {
+          "mean": 0.34993221008107456,
+          "min": 0.3467476975486393,
+          "max": 0.36225526495328214,
+          "difference_mean": -0.0071565284592994384,
+          "wins": 5
+        },
+        "output_composition_tv": {
+          "mean": 0.3157827761373713,
+          "min": 0.3130597334096552,
+          "max": 0.3188517971366941,
+          "difference_mean": -0.03730596240300269,
+          "wins": 5
+        },
+        "zero_fraction": {
+          "mean": 0.5677608494780542,
+          "min": 0.5673650207802503,
+          "max": 0.5679912461792964,
+          "difference_mean": -0.3102074144215899,
+          "wins": 5
+        },
+        "effective_unique_source_cells": {
+          "mean": 1926.678538781946,
+          "min": 1754.6734203290348,
+          "max": 1970.5062926908263,
+          "difference_mean": -29.510241271483665,
+          "wins": 5
+        }
+      },
+      "velocity_2026112601_h0.5": {
+        "mmd2": {
+          "mean": 0.07824348194159413,
+          "min": 0.07749444561454803,
+          "max": 0.07929347987393887,
+          "difference_mean": 0.0005547390753604748,
+          "wins": 0
+        },
+        "covariance_rel": {
+          "mean": 0.8198075061448602,
+          "min": 0.8084874154225278,
+          "max": 0.8277414814533228,
+          "difference_mean": 0.01741875671931825,
+          "wins": 0
+        },
+        "pooled_rmse": {
+          "mean": 0.06427260569080824,
+          "min": 0.06393972561439602,
+          "max": 0.06469344497560989,
+          "difference_mean": 6.300965822455817e-05,
+          "wins": 0
+        },
+        "fixed_within_rmse": {
+          "mean": 0.07049609044293577,
+          "min": 0.0693861124950197,
+          "max": 0.07160805111926248,
+          "difference_mean": 0.0007222230529999596,
+          "wins": 0
+        },
+        "fixed_equal_rmse": {
+          "mean": 0.06873130691162954,
+          "min": 0.06828367164615566,
+          "max": 0.0692855595054788,
+          "difference_mean": 0.00018980868524258454,
+          "wins": 0
+        },
+        "cosine": {
+          "mean": 0.17757389364938522,
+          "min": 0.13163565785068834,
+          "max": 0.21050428612202324,
+          "difference_mean": -0.020344046373480206,
+          "wins": 0
+        },
+        "source_composition_tv": {
+          "mean": 0.357088738540374,
+          "min": 0.354188738540374,
+          "max": 0.36868873854037404,
+          "difference_mean": 0.0,
+          "wins": 0
+        },
+        "output_composition_tv": {
+          "mean": 0.33878873854037406,
+          "min": 0.335688738540374,
+          "max": 0.3466887385403741,
+          "difference_mean": -0.01429999999999999,
+          "wins": 5
+        },
+        "zero_fraction": {
+          "mean": 0.8779682638996439,
+          "min": 0.8770056063187237,
+          "max": 0.8790810283413351,
+          "difference_mean": 0.0,
+          "wins": 0
+        },
+        "effective_unique_source_cells": {
+          "mean": 1956.1887800534296,
+          "min": 1780.9439002671418,
+          "max": 2000.0000000000016,
+          "difference_mean": 0.0,
+          "wins": 0
+        }
+      },
+      "joint_2026112601_h0.5": {
+        "mmd2": {
+          "mean": 0.07851064258316756,
+          "min": 0.07791905945943589,
+          "max": 0.0794925863512937,
+          "difference_mean": 0.0008218997169339104,
+          "wins": 0
+        },
+        "covariance_rel": {
+          "mean": 0.8198496664562537,
+          "min": 0.8087412294039001,
+          "max": 0.827594362075537,
+          "difference_mean": 0.017460917030711863,
+          "wins": 0
+        },
+        "pooled_rmse": {
+          "mean": 0.06447433588789162,
+          "min": 0.06417654015065566,
+          "max": 0.06487706726910379,
+          "difference_mean": 0.00026473985530793277,
+          "wins": 0
+        },
+        "fixed_within_rmse": {
+          "mean": 0.07026677152525676,
+          "min": 0.06915368060097973,
+          "max": 0.07139225400654968,
+          "difference_mean": 0.0004929041353209484,
+          "wins": 0
+        },
+        "fixed_equal_rmse": {
+          "mean": 0.06868661918539884,
+          "min": 0.06824052571381299,
+          "max": 0.06926315353960319,
+          "difference_mean": 0.00014512095901186294,
+          "wins": 0
+        },
+        "cosine": {
+          "mean": 0.15483776098358912,
+          "min": 0.11280855105036491,
+          "max": 0.18665152530511622,
+          "difference_mean": -0.043080179039276315,
+          "wins": 0
+        },
+        "source_composition_tv": {
+          "mean": 0.35374674950390705,
+          "min": 0.35071283678329224,
+          "max": 0.3657027011621183,
+          "difference_mean": -0.0033419890364669858,
+          "wins": 5
+        },
+        "output_composition_tv": {
+          "mean": 0.3365939515226844,
+          "min": 0.3323612814713277,
+          "max": 0.34573811205775645,
+          "difference_mean": -0.01649478701768964,
+          "wins": 5
+        },
+        "zero_fraction": {
+          "mean": 0.8773615506404427,
+          "min": 0.876415311556018,
+          "max": 0.8784162123810568,
+          "difference_mean": -0.000606713259201097,
+          "wins": 5
+        },
+        "effective_unique_source_cells": {
+          "mean": 1948.7590846019575,
+          "min": 1774.64035894831,
+          "max": 1992.5065285983592,
+          "difference_mean": -7.429695451472116,
+          "wins": 5
+        }
+      },
+      "velocity_2026112602_h1": {
+        "mmd2": {
+          "mean": 0.07686166861149588,
+          "min": 0.07620804490695791,
+          "max": 0.07796188658002556,
+          "difference_mean": -0.0008270742547377641,
+          "wins": 5
+        },
+        "covariance_rel": {
+          "mean": 0.8431757679191746,
+          "min": 0.8325048461162753,
+          "max": 0.8522215164228978,
+          "difference_mean": 0.04078701849363262,
+          "wins": 0
+        },
+        "pooled_rmse": {
+          "mean": 0.06414737788360977,
+          "min": 0.06384390866598873,
+          "max": 0.06457455321240933,
+          "difference_mean": -6.221814897389987e-05,
+          "wins": 5
+        },
+        "fixed_within_rmse": {
+          "mean": 0.07166384648891835,
+          "min": 0.07052858988105203,
+          "max": 0.0728104498297988,
+          "difference_mean": 0.0018899790989825415,
+          "wins": 0
+        },
+        "fixed_equal_rmse": {
+          "mean": 0.0691815835043508,
+          "min": 0.06871800778659713,
+          "max": 0.06973098253966263,
+          "difference_mean": 0.000640085277963845,
+          "wins": 0
+        },
+        "cosine": {
+          "mean": 0.1895143346201805,
+          "min": 0.1621666273578761,
+          "max": 0.20982995016068992,
+          "difference_mean": -0.008403605402684932,
+          "wins": 2
+        },
+        "source_composition_tv": {
+          "mean": 0.357088738540374,
+          "min": 0.354188738540374,
+          "max": 0.36868873854037404,
+          "difference_mean": 0.0,
+          "wins": 0
+        },
+        "output_composition_tv": {
+          "mean": 0.32628873854037405,
+          "min": 0.322188738540374,
+          "max": 0.32918873854037406,
+          "difference_mean": -0.02679999999999999,
+          "wins": 5
+        },
+        "zero_fraction": {
+          "mean": 0.8779682638996439,
+          "min": 0.8770056063187237,
+          "max": 0.8790810283413351,
+          "difference_mean": 0.0,
+          "wins": 0
+        },
+        "effective_unique_source_cells": {
+          "mean": 1956.1887800534296,
+          "min": 1780.9439002671418,
+          "max": 2000.0000000000016,
+          "difference_mean": 0.0,
+          "wins": 0
+        }
+      },
+      "joint_2026112602_h1": {
+        "mmd2": {
+          "mean": 0.08025746107220913,
+          "min": 0.0794460097087047,
+          "max": 0.08115265177741941,
+          "difference_mean": 0.0025687182059754843,
+          "wins": 0
+        },
+        "covariance_rel": {
+          "mean": 0.8442604717671109,
+          "min": 0.8336100220893528,
+          "max": 0.8530557525406789,
+          "difference_mean": 0.041871722341569106,
+          "wins": 0
+        },
+        "pooled_rmse": {
+          "mean": 0.06540607516576018,
+          "min": 0.06505012445056127,
+          "max": 0.06576752308145148,
+          "difference_mean": 0.0011964791331765061,
+          "wins": 0
+        },
+        "fixed_within_rmse": {
+          "mean": 0.07103050761676825,
+          "min": 0.06991964112372151,
+          "max": 0.07221313368660705,
+          "difference_mean": 0.0012566402268324478,
+          "wins": 0
+        },
+        "fixed_equal_rmse": {
+          "mean": 0.06902524845280261,
+          "min": 0.06859474611565043,
+          "max": 0.06962297307750429,
+          "difference_mean": 0.0004837502264156468,
+          "wins": 0
+        },
+        "cosine": {
+          "mean": 0.11512107382350711,
+          "min": 0.0922630162724,
+          "max": 0.13467269429319273,
+          "difference_mean": -0.08279686619935832,
+          "wins": 0
+        },
+        "source_composition_tv": {
+          "mean": 0.36215193305702653,
+          "min": 0.3588941633427971,
+          "max": 0.3741462550185589,
+          "difference_mean": 0.005063194516652536,
+          "wins": 0
+        },
+        "output_composition_tv": {
+          "mean": 0.3354967064065761,
+          "min": 0.33277336124138057,
+          "max": 0.34076401813528406,
+          "difference_mean": -0.017592032133797886,
+          "wins": 5
+        },
+        "zero_fraction": {
+          "mean": 0.876594190389168,
+          "min": 0.8756640701692465,
+          "max": 0.8775956299593537,
+          "difference_mean": -0.001374073510475937,
+          "wins": 5
+        },
+        "effective_unique_source_cells": {
+          "mean": 1925.064248797225,
+          "min": 1752.4936582035805,
+          "max": 1969.0248130870007,
+          "difference_mean": -31.124531256204317,
+          "wins": 5
+        }
+      },
+      "joint_2026112602_h1_uniform": {
+        "mmd2": {
+          "mean": 0.07710902341739273,
+          "min": 0.07635852652310164,
+          "max": 0.07819818433765173,
+          "difference_mean": -0.000579719448840918,
+          "wins": 5
+        },
+        "covariance_rel": {
+          "mean": 0.8242594306093409,
+          "min": 0.8122453445041763,
+          "max": 0.8331324798612568,
+          "difference_mean": 0.021870681183798934,
+          "wins": 0
+        },
+        "pooled_rmse": {
+          "mean": 0.06422759542267739,
+          "min": 0.06389337647726659,
+          "max": 0.06465808661840773,
+          "difference_mean": 1.7999390093709212e-05,
+          "wins": 1
+        },
+        "fixed_within_rmse": {
+          "mean": 0.0712407037421082,
+          "min": 0.07011010609322918,
+          "max": 0.07240965415736222,
+          "difference_mean": 0.0014668363521724043,
+          "wins": 0
+        },
+        "fixed_equal_rmse": {
+          "mean": 0.06926686283059634,
+          "min": 0.06881266466927724,
+          "max": 0.06985451076069929,
+          "difference_mean": 0.0007253646042093692,
+          "wins": 0
+        },
+        "cosine": {
+          "mean": 0.18084749385127963,
+          "min": 0.15112614408498934,
+          "max": 0.20439295795717308,
+          "difference_mean": -0.017070446171585825,
+          "wins": 1
+        },
+        "source_composition_tv": {
+          "mean": 0.357088738540374,
+          "min": 0.354188738540374,
+          "max": 0.36868873854037404,
+          "difference_mean": 0.0,
+          "wins": 0
+        },
+        "output_composition_tv": {
+          "mean": 0.32668873854037395,
+          "min": 0.324188738540374,
+          "max": 0.330688738540374,
+          "difference_mean": -0.026400000000000024,
+          "wins": 5
+        },
+        "zero_fraction": {
+          "mean": 0.8779682638996439,
+          "min": 0.8770056063187237,
+          "max": 0.8790810283413351,
+          "difference_mean": 0.0,
+          "wins": 0
+        },
+        "effective_unique_source_cells": {
+          "mean": 1956.1887800534296,
+          "min": 1780.9439002671418,
+          "max": 2000.0000000000016,
+          "difference_mean": 0.0,
+          "wins": 0
+        }
+      },
+      "joint_2026112602_h1_open": {
+        "mmd2": {
+          "mean": 0.08219630880704082,
+          "min": 0.08144124169472751,
+          "max": 0.08314581709905806,
+          "difference_mean": 0.004507565940807173,
+          "wins": 0
+        },
+        "covariance_rel": {
+          "mean": 0.8404435917575741,
+          "min": 0.8294334446557267,
+          "max": 0.8490016813785961,
+          "difference_mean": 0.0380548423320322,
+          "wins": 0
+        },
+        "pooled_rmse": {
+          "mean": 0.06588902971174684,
+          "min": 0.06554340258621094,
+          "max": 0.06626992637141137,
+          "difference_mean": 0.0016794336791631614,
+          "wins": 0
+        },
+        "fixed_within_rmse": {
+          "mean": 0.07130394949153951,
+          "min": 0.07018508915406887,
+          "max": 0.07249409612564925,
+          "difference_mean": 0.0015300821016037136,
+          "wins": 0
+        },
+        "fixed_equal_rmse": {
+          "mean": 0.06897037163753784,
+          "min": 0.06853390177798947,
+          "max": 0.06957268293756279,
+          "difference_mean": 0.0004288734111508763,
+          "wins": 0
+        },
+        "cosine": {
+          "mean": 0.09879897802651623,
+          "min": 0.0777117254379076,
+          "max": 0.11585998845662968,
+          "difference_mean": -0.09911896199634922,
+          "wins": 0
+        },
+        "source_composition_tv": {
+          "mean": 0.36215193305702653,
+          "min": 0.3588941633427971,
+          "max": 0.3741462550185589,
+          "difference_mean": 0.005063194516652536,
+          "wins": 0
+        },
+        "output_composition_tv": {
+          "mean": 0.3299105739913667,
+          "min": 0.32774292895743323,
+          "max": 0.3336017828648113,
+          "difference_mean": -0.02317816454900734,
+          "wins": 5
+        },
+        "zero_fraction": {
+          "mean": 0.5642396774242621,
+          "min": 0.563849415860215,
+          "max": 0.5644792090446992,
+          "difference_mean": -0.3137285864753818,
+          "wins": 5
+        },
+        "effective_unique_source_cells": {
+          "mean": 1925.064248797225,
+          "min": 1752.4936582035805,
+          "max": 1969.0248130870007,
+          "difference_mean": -31.124531256204317,
+          "wins": 5
+        }
+      },
+      "velocity_2026112602_h0.5": {
+        "mmd2": {
+          "mean": 0.07847043534442723,
+          "min": 0.0777144363195393,
+          "max": 0.0795311854318576,
+          "difference_mean": 0.0007816924781935825,
+          "wins": 0
+        },
+        "covariance_rel": {
+          "mean": 0.8210162777469208,
+          "min": 0.8098848481696235,
+          "max": 0.8289771427825813,
+          "difference_mean": 0.018627528321378907,
+          "wins": 0
+        },
+        "pooled_rmse": {
+          "mean": 0.06435144004882813,
+          "min": 0.06401564142652874,
+          "max": 0.064774324198614,
+          "difference_mean": 0.00014184401624445787,
+          "wins": 0
+        },
+        "fixed_within_rmse": {
+          "mean": 0.07064429233814733,
+          "min": 0.06953615614527715,
+          "max": 0.0717492099944972,
+          "difference_mean": 0.0008704249482115207,
+          "wins": 0
+        },
+        "fixed_equal_rmse": {
+          "mean": 0.0687795724446027,
+          "min": 0.06833172538756674,
+          "max": 0.06932466382628592,
+          "difference_mean": 0.00023807421821573637,
+          "wins": 0
+        },
+        "cosine": {
+          "mean": 0.16775125329660462,
+          "min": 0.12336975066126316,
+          "max": 0.20034793717511154,
+          "difference_mean": -0.030166686726260834,
+          "wins": 0
+        },
+        "source_composition_tv": {
+          "mean": 0.357088738540374,
+          "min": 0.354188738540374,
+          "max": 0.36868873854037404,
+          "difference_mean": 0.0,
+          "wins": 0
+        },
+        "output_composition_tv": {
+          "mean": 0.33798873854037403,
+          "min": 0.335188738540374,
+          "max": 0.344188738540374,
+          "difference_mean": -0.015100000000000002,
+          "wins": 5
+        },
+        "zero_fraction": {
+          "mean": 0.8779682638996439,
+          "min": 0.8770056063187237,
+          "max": 0.8790810283413351,
+          "difference_mean": 0.0,
+          "wins": 0
+        },
+        "effective_unique_source_cells": {
+          "mean": 1956.1887800534296,
+          "min": 1780.9439002671418,
+          "max": 2000.0000000000016,
+          "difference_mean": 0.0,
+          "wins": 0
+        }
+      },
+      "joint_2026112602_h0.5": {
+        "mmd2": {
+          "mean": 0.08005370197918749,
+          "min": 0.07944253929028156,
+          "max": 0.08102402569981981,
+          "difference_mean": 0.002364959112953846,
+          "wins": 0
+        },
+        "covariance_rel": {
+          "mean": 0.8218689278699699,
+          "min": 0.8108038409563237,
+          "max": 0.8296877276430581,
+          "difference_mean": 0.019480178444427974,
+          "wins": 0
+        },
+        "pooled_rmse": {
+          "mean": 0.0649447075765274,
+          "min": 0.06463940412182491,
+          "max": 0.06533756489709296,
+          "difference_mean": 0.0007351115439437172,
+          "wins": 0
+        },
+        "fixed_within_rmse": {
+          "mean": 0.07039345821670735,
+          "min": 0.06929679918994361,
+          "max": 0.07152081523142895,
+          "difference_mean": 0.0006195908267715378,
+          "wins": 0
+        },
+        "fixed_equal_rmse": {
+          "mean": 0.06877257864470189,
+          "min": 0.06833826572147696,
+          "max": 0.06934624972022882,
+          "difference_mean": 0.00023108041831491622,
+          "wins": 0
+        },
+        "cosine": {
+          "mean": 0.10618289362707947,
+          "min": 0.06468697647229636,
+          "max": 0.1377507689828217,
+          "difference_mean": -0.09173504639578597,
+          "wins": 0
+        },
+        "source_composition_tv": {
+          "mean": 0.3598224622071905,
+          "min": 0.35674141436060475,
+          "max": 0.371612476812454,
+          "difference_mean": 0.0027337236668164453,
+          "wins": 0
+        },
+        "output_composition_tv": {
+          "mean": 0.3435663980832581,
+          "min": 0.33961768787288943,
+          "max": 0.35243871148894024,
+          "difference_mean": -0.009522340457115886,
+          "wins": 5
+        },
+        "zero_fraction": {
+          "mean": 0.8772866689290162,
+          "min": 0.8763395314366171,
+          "max": 0.8783441419023035,
+          "difference_mean": -0.0006815949706275637,
+          "wins": 5
+        },
+        "effective_unique_source_cells": {
+          "mean": 1948.2120693030115,
+          "min": 1773.6998604071123,
+          "max": 1992.0575787337361,
+          "difference_mean": -7.9767107504180785,
+          "wins": 5
+        }
+      }
+    },
+    "materialized": {
+      "copy": {
+        "mmd2": {
+          "mean": 0.08173452989453311,
+          "min": 0.08087304672611251,
+          "max": 0.08276249465879164,
+          "difference_mean": 0.004045787028299738,
+          "wins": 0
+        },
+        "covariance_rel": {
+          "mean": 0.8018827384254431,
+          "min": 0.7904003213535947,
+          "max": 0.808773503655602,
+          "difference_mean": -0.0006350240981622957,
+          "wins": 5
+        },
+        "pooled_rmse": {
+          "mean": 0.0651585320627706,
+          "min": 0.06479353003774921,
+          "max": 0.0655752486722157,
+          "difference_mean": 0.0009489360301869254,
+          "wins": 0
+        },
+        "fixed_within_rmse": {
+          "mean": 0.0705222051414853,
+          "min": 0.0694419511874699,
+          "max": 0.07158099276874283,
+          "difference_mean": 0.000748337751549491,
+          "wins": 0
+        },
+        "fixed_equal_rmse": {
+          "mean": 0.0693396387419443,
+          "min": 0.06889813025086772,
+          "max": 0.0698800228129269,
+          "difference_mean": 0.0007981405155573496,
+          "wins": 0
+        },
+        "cosine": {
+          "mean": 0.056773589402148585,
+          "min": -0.02912398126288145,
+          "max": 0.12584806248653466,
+          "difference_mean": -0.1411443506207169,
+          "wins": 0
+        },
+        "source_composition_tv": {
+          "mean": 0.357088738540374,
+          "min": 0.354188738540374,
+          "max": 0.36868873854037404,
+          "difference_mean": 0.0,
+          "wins": 0
+        },
+        "output_composition_tv": {
+          "mean": 0.357088738540374,
+          "min": 0.354188738540374,
+          "max": 0.36868873854037404,
+          "difference_mean": 0.004000000000000015,
+          "wins": 0
+        },
+        "zero_fraction": {
+          "mean": 0.8779682638996439,
+          "min": 0.8770056063187237,
+          "max": 0.8790810283413351,
+          "difference_mean": 0.0,
+          "wins": 0
+        },
+        "effective_unique_source_cells": {
+          "mean": 1956.1887800534296,
+          "min": 1780.9439002671418,
+          "max": 2000.0000000000016,
+          "difference_mean": 0.0,
+          "wins": 0
+        }
+      },
+      "shared": {
+        "mmd2": {
+          "mean": 0.07768874286623337,
+          "min": 0.07693270111279167,
+          "max": 0.0787035821961893,
+          "difference_mean": 0.0,
+          "wins": 0
+        },
+        "covariance_rel": {
+          "mean": 0.8025177625236053,
+          "min": 0.7909025962026469,
+          "max": 0.8093809583136278,
+          "difference_mean": 0.0,
+          "wins": 0
+        },
+        "pooled_rmse": {
+          "mean": 0.06420959603258367,
+          "min": 0.06386898064444788,
+          "max": 0.06463723825768151,
+          "difference_mean": 0.0,
+          "wins": 0
+        },
+        "fixed_within_rmse": {
+          "mean": 0.06977386738993581,
+          "min": 0.06872468773681538,
+          "max": 0.07080460473799272,
+          "difference_mean": 0.0,
+          "wins": 0
+        },
+        "fixed_equal_rmse": {
+          "mean": 0.06854149822638697,
+          "min": 0.06810194881147036,
+          "max": 0.06908843579957427,
+          "difference_mean": 0.0,
+          "wins": 0
+        },
+        "cosine": {
+          "mean": 0.19791794002286545,
+          "min": 0.14098720101718323,
+          "max": 0.23762948911074847,
+          "difference_mean": 0.0,
+          "wins": 0
+        },
+        "source_composition_tv": {
+          "mean": 0.357088738540374,
+          "min": 0.354188738540374,
+          "max": 0.36868873854037404,
+          "difference_mean": 0.0,
+          "wins": 0
+        },
+        "output_composition_tv": {
+          "mean": 0.353088738540374,
+          "min": 0.34818873854037397,
+          "max": 0.36318873854037403,
+          "difference_mean": 0.0,
+          "wins": 0
+        },
+        "zero_fraction": {
+          "mean": 0.8779682638996439,
+          "min": 0.8770056063187237,
+          "max": 0.8790810283413351,
+          "difference_mean": 0.0,
+          "wins": 0
+        },
+        "effective_unique_source_cells": {
+          "mean": 1956.1887800534296,
+          "min": 1780.9439002671418,
+          "max": 2000.0000000000016,
+          "difference_mean": 0.0,
+          "wins": 0
+        }
+      },
+      "velocity_2026112601_h1": {
+        "mmd2": {
+          "mean": 0.07624332743560217,
+          "min": 0.07560462405311681,
+          "max": 0.0773169140863681,
+          "difference_mean": -0.0014454154306312085,
+          "wins": 5
+        },
+        "covariance_rel": {
+          "mean": 0.8410526750221065,
+          "min": 0.830026792802085,
+          "max": 0.8500777010037626,
+          "difference_mean": 0.03853491249850123,
+          "wins": 0
+        },
+        "pooled_rmse": {
+          "mean": 0.06392908934083799,
+          "min": 0.0636308500676974,
+          "max": 0.06435097511678936,
+          "difference_mean": -0.0002805066917456772,
+          "wins": 5
+        },
+        "fixed_within_rmse": {
+          "mean": 0.0712863473766758,
+          "min": 0.07014748304705948,
+          "max": 0.07244282171358307,
+          "difference_mean": 0.001512479986739998,
+          "wins": 0
+        },
+        "fixed_equal_rmse": {
+          "mean": 0.06898198323198332,
+          "min": 0.06852084263528416,
+          "max": 0.06954808559748386,
+          "difference_mean": 0.00044048500559634994,
+          "wins": 0
+        },
+        "cosine": {
+          "mean": 0.20198922404572936,
+          "min": 0.17356517790391557,
+          "max": 0.22222348317842935,
+          "difference_mean": 0.004071284022863908,
+          "wins": 2
+        },
+        "source_composition_tv": {
+          "mean": 0.357088738540374,
+          "min": 0.354188738540374,
+          "max": 0.36868873854037404,
+          "difference_mean": 0.0,
+          "wins": 0
+        },
+        "output_composition_tv": {
+          "mean": 0.32688873854037404,
+          "min": 0.322688738540374,
+          "max": 0.329188738540374,
+          "difference_mean": -0.0262,
+          "wins": 5
+        },
+        "zero_fraction": {
+          "mean": 0.8779682638996439,
+          "min": 0.8770056063187237,
+          "max": 0.8790810283413351,
+          "difference_mean": 0.0,
+          "wins": 0
+        },
+        "effective_unique_source_cells": {
+          "mean": 1956.1887800534296,
+          "min": 1780.9439002671418,
+          "max": 2000.0000000000016,
+          "difference_mean": 0.0,
+          "wins": 0
+        }
+      },
+      "joint_2026112601_h1": {
+        "mmd2": {
+          "mean": 0.07651772760826393,
+          "min": 0.07575889258843338,
+          "max": 0.07760326473339256,
+          "difference_mean": -0.0011710152579694378,
+          "wins": 5
+        },
+        "covariance_rel": {
+          "mean": 0.8229140735534033,
+          "min": 0.8107487950892597,
+          "max": 0.8316414648132564,
+          "difference_mean": 0.020396311029797907,
+          "wins": 0
+        },
+        "pooled_rmse": {
+          "mean": 0.06402955581827732,
+          "min": 0.06369322375869288,
+          "max": 0.0644612444585327,
+          "difference_mean": -0.00018004021430635398,
+          "wins": 5
+        },
+        "fixed_within_rmse": {
+          "mean": 0.07101753270915749,
+          "min": 0.06989981405116516,
+          "max": 0.07218212440092835,
+          "difference_mean": 0.0012436653192216846,
+          "wins": 0
+        },
+        "fixed_equal_rmse": {
+          "mean": 0.06910929931068162,
+          "min": 0.06866374990705446,
+          "max": 0.06969462778110408,
+          "difference_mean": 0.000567801084294639,
+          "wins": 0
+        },
+        "cosine": {
+          "mean": 0.1943724083976883,
+          "min": 0.16437173626564291,
+          "max": 0.21785985928377585,
+          "difference_mean": -0.0035455316251771507,
+          "wins": 2
+        },
+        "source_composition_tv": {
+          "mean": 0.357088738540374,
+          "min": 0.354188738540374,
+          "max": 0.36868873854037404,
+          "difference_mean": 0.0,
+          "wins": 0
+        },
+        "output_composition_tv": {
+          "mean": 0.32658873854037396,
+          "min": 0.324188738540374,
+          "max": 0.33068873854037395,
+          "difference_mean": -0.026500000000000034,
+          "wins": 5
+        },
+        "zero_fraction": {
+          "mean": 0.8779682638996439,
+          "min": 0.8770056063187237,
+          "max": 0.8790810283413351,
+          "difference_mean": 0.0,
+          "wins": 0
+        },
+        "effective_unique_source_cells": {
+          "mean": 1956.1887800534296,
+          "min": 1780.9439002671418,
+          "max": 2000.0000000000016,
+          "difference_mean": 0.0,
+          "wins": 0
+        }
+      },
+      "joint_2026112601_h1_uniform": {
+        "mmd2": {
+          "mean": 0.07651772760826393,
+          "min": 0.07575889258843338,
+          "max": 0.07760326473339256,
+          "difference_mean": -0.0011710152579694378,
+          "wins": 5
+        },
+        "covariance_rel": {
+          "mean": 0.8229140735534033,
+          "min": 0.8107487950892597,
+          "max": 0.8316414648132564,
+          "difference_mean": 0.020396311029797907,
+          "wins": 0
+        },
+        "pooled_rmse": {
+          "mean": 0.06402955581827732,
+          "min": 0.06369322375869288,
+          "max": 0.0644612444585327,
+          "difference_mean": -0.00018004021430635398,
+          "wins": 5
+        },
+        "fixed_within_rmse": {
+          "mean": 0.07101753270915749,
+          "min": 0.06989981405116516,
+          "max": 0.07218212440092835,
+          "difference_mean": 0.0012436653192216846,
+          "wins": 0
+        },
+        "fixed_equal_rmse": {
+          "mean": 0.06910929931068162,
+          "min": 0.06866374990705446,
+          "max": 0.06969462778110408,
+          "difference_mean": 0.000567801084294639,
+          "wins": 0
+        },
+        "cosine": {
+          "mean": 0.1943724083976883,
+          "min": 0.16437173626564291,
+          "max": 0.21785985928377585,
+          "difference_mean": -0.0035455316251771507,
+          "wins": 2
+        },
+        "source_composition_tv": {
+          "mean": 0.357088738540374,
+          "min": 0.354188738540374,
+          "max": 0.36868873854037404,
+          "difference_mean": 0.0,
+          "wins": 0
+        },
+        "output_composition_tv": {
+          "mean": 0.32658873854037396,
+          "min": 0.324188738540374,
+          "max": 0.33068873854037395,
+          "difference_mean": -0.026500000000000034,
+          "wins": 5
+        },
+        "zero_fraction": {
+          "mean": 0.8779682638996439,
+          "min": 0.8770056063187237,
+          "max": 0.8790810283413351,
+          "difference_mean": 0.0,
+          "wins": 0
+        },
+        "effective_unique_source_cells": {
+          "mean": 1956.1887800534296,
+          "min": 1780.9439002671418,
+          "max": 2000.0000000000016,
+          "difference_mean": 0.0,
+          "wins": 0
+        }
+      },
+      "joint_2026112601_h1_open": {
+        "mmd2": {
+          "mean": 0.0782956308190788,
+          "min": 0.07737690455533186,
+          "max": 0.0794432277364469,
+          "difference_mean": 0.0006068879528454224,
+          "wins": 0
+        },
+        "covariance_rel": {
+          "mean": 0.8199225996282822,
+          "min": 0.8074196478640201,
+          "max": 0.828425809894376,
+          "difference_mean": 0.017404837104676996,
+          "wins": 0
+        },
+        "pooled_rmse": {
+          "mean": 0.0644637910279247,
+          "min": 0.06409388249831922,
+          "max": 0.06491684973399331,
+          "difference_mean": 0.0002541949953410283,
+          "wins": 0
+        },
+        "fixed_within_rmse": {
+          "mean": 0.07128470783821395,
+          "min": 0.0701536821375994,
+          "max": 0.07246108814703962,
+          "difference_mean": 0.0015108404482781362,
+          "wins": 0
+        },
+        "fixed_equal_rmse": {
+          "mean": 0.06904152319721919,
+          "min": 0.06858466315290866,
+          "max": 0.06963577591763143,
+          "difference_mean": 0.0005000249708322247,
+          "wins": 0
+        },
+        "cosine": {
+          "mean": 0.16997626438378277,
+          "min": 0.14211518626127992,
+          "max": 0.19372893806915517,
+          "difference_mean": -0.027941675639082675,
+          "wins": 1
+        },
+        "source_composition_tv": {
+          "mean": 0.357088738540374,
+          "min": 0.354188738540374,
+          "max": 0.36868873854037404,
+          "difference_mean": 0.0,
+          "wins": 0
+        },
+        "output_composition_tv": {
+          "mean": 0.3192687537531527,
+          "min": 0.316688738540374,
+          "max": 0.32118873854037394,
+          "difference_mean": -0.03381998478722133,
+          "wins": 5
+        },
+        "zero_fraction": {
+          "mean": 0.568639718135357,
+          "min": 0.5682180579216355,
+          "max": 0.5689774353414899,
+          "difference_mean": -0.30932854576428687,
+          "wins": 5
+        },
+        "effective_unique_source_cells": {
+          "mean": 1956.1887800534296,
+          "min": 1780.9439002671418,
+          "max": 2000.0000000000016,
+          "difference_mean": 0.0,
+          "wins": 0
+        }
+      },
+      "velocity_2026112601_h0.5": {
+        "mmd2": {
+          "mean": 0.07824348194159339,
+          "min": 0.07749444561454728,
+          "max": 0.0792934798739399,
+          "difference_mean": 0.0005547390753600278,
+          "wins": 0
+        },
+        "covariance_rel": {
+          "mean": 0.8199614629519099,
+          "min": 0.808645679392195,
+          "max": 0.8279023247978265,
+          "difference_mean": 0.017443700428304586,
+          "wins": 0
+        },
+        "pooled_rmse": {
+          "mean": 0.06427260569080824,
+          "min": 0.06393972561439602,
+          "max": 0.06469344497560989,
+          "difference_mean": 6.300965822455817e-05,
+          "wins": 0
+        },
+        "fixed_within_rmse": {
+          "mean": 0.07049609044293577,
+          "min": 0.0693861124950197,
+          "max": 0.07160805111926248,
+          "difference_mean": 0.0007222230529999596,
+          "wins": 0
+        },
+        "fixed_equal_rmse": {
+          "mean": 0.06873130691162954,
+          "min": 0.06828367164615566,
+          "max": 0.0692855595054788,
+          "difference_mean": 0.00018980868524258454,
+          "wins": 0
+        },
+        "cosine": {
+          "mean": 0.17757389364938522,
+          "min": 0.13163565785068834,
+          "max": 0.21050428612202324,
+          "difference_mean": -0.020344046373480206,
+          "wins": 0
+        },
+        "source_composition_tv": {
+          "mean": 0.357088738540374,
+          "min": 0.354188738540374,
+          "max": 0.36868873854037404,
+          "difference_mean": 0.0,
+          "wins": 0
+        },
+        "output_composition_tv": {
+          "mean": 0.33878873854037406,
+          "min": 0.335688738540374,
+          "max": 0.3466887385403741,
+          "difference_mean": -0.01429999999999999,
+          "wins": 5
+        },
+        "zero_fraction": {
+          "mean": 0.8779682638996439,
+          "min": 0.8770056063187237,
+          "max": 0.8790810283413351,
+          "difference_mean": 0.0,
+          "wins": 0
+        },
+        "effective_unique_source_cells": {
+          "mean": 1956.1887800534296,
+          "min": 1780.9439002671418,
+          "max": 2000.0000000000016,
+          "difference_mean": 0.0,
+          "wins": 0
+        }
+      },
+      "joint_2026112601_h0.5": {
+        "mmd2": {
+          "mean": 0.07847306891263603,
+          "min": 0.07766056788908737,
+          "max": 0.07953072104099983,
+          "difference_mean": 0.0007843260464026642,
+          "wins": 0
+        },
+        "covariance_rel": {
+          "mean": 0.8109125950846684,
+          "min": 0.7990083929183251,
+          "max": 0.8187178420887892,
+          "difference_mean": 0.00839483256106317,
+          "wins": 0
+        },
+        "pooled_rmse": {
+          "mean": 0.06433533931742692,
+          "min": 0.06398323250610986,
+          "max": 0.06476110226157557,
+          "difference_mean": 0.00012574328484324658,
+          "wins": 0
+        },
+        "fixed_within_rmse": {
+          "mean": 0.07040234306467275,
+          "min": 0.06930212394591678,
+          "max": 0.0715203087761129,
+          "difference_mean": 0.0006284756747369363,
+          "wins": 0
+        },
+        "fixed_equal_rmse": {
+          "mean": 0.0688350720493111,
+          "min": 0.06839390099098643,
+          "max": 0.06940131443374692,
+          "difference_mean": 0.0002935738229241258,
+          "wins": 0
+        },
+        "cosine": {
+          "mean": 0.17200825647001583,
+          "min": 0.12378504516761402,
+          "max": 0.20891110330055476,
+          "difference_mean": -0.025909683552849616,
+          "wins": 0
+        },
+        "source_composition_tv": {
+          "mean": 0.357088738540374,
+          "min": 0.354188738540374,
+          "max": 0.36868873854037404,
+          "difference_mean": 0.0,
+          "wins": 0
+        },
+        "output_composition_tv": {
+          "mean": 0.338988738540374,
+          "min": 0.33468873854037406,
+          "max": 0.3476887385403741,
+          "difference_mean": -0.014099999999999991,
+          "wins": 5
+        },
+        "zero_fraction": {
+          "mean": 0.8779682638996439,
+          "min": 0.8770056063187237,
+          "max": 0.8790810283413351,
+          "difference_mean": 0.0,
+          "wins": 0
+        },
+        "effective_unique_source_cells": {
+          "mean": 1956.1887800534296,
+          "min": 1780.9439002671418,
+          "max": 2000.0000000000016,
+          "difference_mean": 0.0,
+          "wins": 0
+        }
+      },
+      "velocity_2026112602_h1": {
+        "mmd2": {
+          "mean": 0.07686166861149611,
+          "min": 0.07620804490695894,
+          "max": 0.07796188658002534,
+          "difference_mean": -0.0008270742547372478,
+          "wins": 5
+        },
+        "covariance_rel": {
+          "mean": 0.8433613140593831,
+          "min": 0.8326952488026436,
+          "max": 0.8524146291403919,
+          "difference_mean": 0.04084355153577779,
+          "wins": 0
+        },
+        "pooled_rmse": {
+          "mean": 0.06414737788360977,
+          "min": 0.06384390866598873,
+          "max": 0.06457455321240933,
+          "difference_mean": -6.221814897389987e-05,
+          "wins": 5
+        },
+        "fixed_within_rmse": {
+          "mean": 0.07166384648891835,
+          "min": 0.07052858988105203,
+          "max": 0.0728104498297988,
+          "difference_mean": 0.0018899790989825415,
+          "wins": 0
+        },
+        "fixed_equal_rmse": {
+          "mean": 0.0691815835043508,
+          "min": 0.06871800778659713,
+          "max": 0.06973098253966263,
+          "difference_mean": 0.000640085277963845,
+          "wins": 0
+        },
+        "cosine": {
+          "mean": 0.1895143346201805,
+          "min": 0.1621666273578761,
+          "max": 0.20982995016068992,
+          "difference_mean": -0.008403605402684932,
+          "wins": 2
+        },
+        "source_composition_tv": {
+          "mean": 0.357088738540374,
+          "min": 0.354188738540374,
+          "max": 0.36868873854037404,
+          "difference_mean": 0.0,
+          "wins": 0
+        },
+        "output_composition_tv": {
+          "mean": 0.32628873854037405,
+          "min": 0.322188738540374,
+          "max": 0.32918873854037406,
+          "difference_mean": -0.02679999999999999,
+          "wins": 5
+        },
+        "zero_fraction": {
+          "mean": 0.8779682638996439,
+          "min": 0.8770056063187237,
+          "max": 0.8790810283413351,
+          "difference_mean": 0.0,
+          "wins": 0
+        },
+        "effective_unique_source_cells": {
+          "mean": 1956.1887800534296,
+          "min": 1780.9439002671418,
+          "max": 2000.0000000000016,
+          "difference_mean": 0.0,
+          "wins": 0
+        }
+      },
+      "joint_2026112602_h1": {
+        "mmd2": {
+          "mean": 0.07710902341739227,
+          "min": 0.07635852652310142,
+          "max": 0.07819818433765106,
+          "difference_mean": -0.0005797194488410956,
+          "wins": 5
+        },
+        "covariance_rel": {
+          "mean": 0.82441938772931,
+          "min": 0.8124091189057755,
+          "max": 0.8333001568810414,
+          "difference_mean": 0.021901625205704732,
+          "wins": 0
+        },
+        "pooled_rmse": {
+          "mean": 0.06422759542267739,
+          "min": 0.06389337647726659,
+          "max": 0.06465808661840773,
+          "difference_mean": 1.7999390093709212e-05,
+          "wins": 1
+        },
+        "fixed_within_rmse": {
+          "mean": 0.0712407037421082,
+          "min": 0.07011010609322918,
+          "max": 0.07240965415736222,
+          "difference_mean": 0.0014668363521724043,
+          "wins": 0
+        },
+        "fixed_equal_rmse": {
+          "mean": 0.06926686283059634,
+          "min": 0.06881266466927724,
+          "max": 0.06985451076069929,
+          "difference_mean": 0.0007253646042093692,
+          "wins": 0
+        },
+        "cosine": {
+          "mean": 0.18084749385127963,
+          "min": 0.15112614408498934,
+          "max": 0.20439295795717308,
+          "difference_mean": -0.017070446171585825,
+          "wins": 1
+        },
+        "source_composition_tv": {
+          "mean": 0.357088738540374,
+          "min": 0.354188738540374,
+          "max": 0.36868873854037404,
+          "difference_mean": 0.0,
+          "wins": 0
+        },
+        "output_composition_tv": {
+          "mean": 0.32668873854037395,
+          "min": 0.324188738540374,
+          "max": 0.330688738540374,
+          "difference_mean": -0.026400000000000024,
+          "wins": 5
+        },
+        "zero_fraction": {
+          "mean": 0.8779682638996439,
+          "min": 0.8770056063187237,
+          "max": 0.8790810283413351,
+          "difference_mean": 0.0,
+          "wins": 0
+        },
+        "effective_unique_source_cells": {
+          "mean": 1956.1887800534296,
+          "min": 1780.9439002671418,
+          "max": 2000.0000000000016,
+          "difference_mean": 0.0,
+          "wins": 0
+        }
+      },
+      "joint_2026112602_h1_uniform": {
+        "mmd2": {
+          "mean": 0.07710902341739227,
+          "min": 0.07635852652310142,
+          "max": 0.07819818433765106,
+          "difference_mean": -0.0005797194488410956,
+          "wins": 5
+        },
+        "covariance_rel": {
+          "mean": 0.82441938772931,
+          "min": 0.8124091189057755,
+          "max": 0.8333001568810414,
+          "difference_mean": 0.021901625205704732,
+          "wins": 0
+        },
+        "pooled_rmse": {
+          "mean": 0.06422759542267739,
+          "min": 0.06389337647726659,
+          "max": 0.06465808661840773,
+          "difference_mean": 1.7999390093709212e-05,
+          "wins": 1
+        },
+        "fixed_within_rmse": {
+          "mean": 0.0712407037421082,
+          "min": 0.07011010609322918,
+          "max": 0.07240965415736222,
+          "difference_mean": 0.0014668363521724043,
+          "wins": 0
+        },
+        "fixed_equal_rmse": {
+          "mean": 0.06926686283059634,
+          "min": 0.06881266466927724,
+          "max": 0.06985451076069929,
+          "difference_mean": 0.0007253646042093692,
+          "wins": 0
+        },
+        "cosine": {
+          "mean": 0.18084749385127963,
+          "min": 0.15112614408498934,
+          "max": 0.20439295795717308,
+          "difference_mean": -0.017070446171585825,
+          "wins": 1
+        },
+        "source_composition_tv": {
+          "mean": 0.357088738540374,
+          "min": 0.354188738540374,
+          "max": 0.36868873854037404,
+          "difference_mean": 0.0,
+          "wins": 0
+        },
+        "output_composition_tv": {
+          "mean": 0.32668873854037395,
+          "min": 0.324188738540374,
+          "max": 0.330688738540374,
+          "difference_mean": -0.026400000000000024,
+          "wins": 5
+        },
+        "zero_fraction": {
+          "mean": 0.8779682638996439,
+          "min": 0.8770056063187237,
+          "max": 0.8790810283413351,
+          "difference_mean": 0.0,
+          "wins": 0
+        },
+        "effective_unique_source_cells": {
+          "mean": 1956.1887800534296,
+          "min": 1780.9439002671418,
+          "max": 2000.0000000000016,
+          "difference_mean": 0.0,
+          "wins": 0
+        }
+      },
+      "joint_2026112602_h1_open": {
+        "mmd2": {
+          "mean": 0.07901119135963626,
+          "min": 0.07811492143518713,
+          "max": 0.08015435149205419,
+          "difference_mean": 0.0013224484934028918,
+          "wins": 0
+        },
+        "covariance_rel": {
+          "mean": 0.8214240482727895,
+          "min": 0.8090706488958436,
+          "max": 0.8300753978248522,
+          "difference_mean": 0.018906285749184272,
+          "wins": 0
+        },
+        "pooled_rmse": {
+          "mean": 0.06469458790102675,
+          "min": 0.06433162183902193,
+          "max": 0.06514290999382691,
+          "difference_mean": 0.00048499186844307705,
+          "wins": 0
+        },
+        "fixed_within_rmse": {
+          "mean": 0.07151056268293192,
+          "min": 0.07037149750728378,
+          "max": 0.07268721388548903,
+          "difference_mean": 0.0017366952929961156,
+          "wins": 0
+        },
+        "fixed_equal_rmse": {
+          "mean": 0.06920913957781769,
+          "min": 0.06874743508393497,
+          "max": 0.06980200329680711,
+          "difference_mean": 0.0006676413514307312,
+          "wins": 0
+        },
+        "cosine": {
+          "mean": 0.15585213786654722,
+          "min": 0.12848430613597617,
+          "max": 0.17936118273307294,
+          "difference_mean": -0.04206580215631825,
+          "wins": 0
+        },
+        "source_composition_tv": {
+          "mean": 0.357088738540374,
+          "min": 0.354188738540374,
+          "max": 0.36868873854037404,
+          "difference_mean": 0.0,
+          "wins": 0
+        },
+        "output_composition_tv": {
+          "mean": 0.3203754153488932,
+          "min": 0.318688738540374,
+          "max": 0.32318873854037394,
+          "difference_mean": -0.03271332319148088,
+          "wins": 5
+        },
+        "zero_fraction": {
+          "mean": 0.5656156016726035,
+          "min": 0.5651968561251358,
+          "max": 0.5659620721697384,
+          "difference_mean": -0.3123526622270404,
+          "wins": 5
+        },
+        "effective_unique_source_cells": {
+          "mean": 1956.1887800534296,
+          "min": 1780.9439002671418,
+          "max": 2000.0000000000016,
+          "difference_mean": 0.0,
+          "wins": 0
+        }
+      },
+      "velocity_2026112602_h0.5": {
+        "mmd2": {
+          "mean": 0.07847043534442788,
+          "min": 0.07771443631954027,
+          "max": 0.07953118543185804,
+          "difference_mean": 0.0007816924781945151,
+          "wins": 0
+        },
+        "covariance_rel": {
+          "mean": 0.8211729106548505,
+          "min": 0.8100460237801207,
+          "max": 0.8291406549793122,
+          "difference_mean": 0.018655148131245226,
+          "wins": 0
+        },
+        "pooled_rmse": {
+          "mean": 0.06435144004882813,
+          "min": 0.06401564142652874,
+          "max": 0.064774324198614,
+          "difference_mean": 0.00014184401624445787,
+          "wins": 0
+        },
+        "fixed_within_rmse": {
+          "mean": 0.07064429233814733,
+          "min": 0.06953615614527715,
+          "max": 0.0717492099944972,
+          "difference_mean": 0.0008704249482115207,
+          "wins": 0
+        },
+        "fixed_equal_rmse": {
+          "mean": 0.0687795724446027,
+          "min": 0.06833172538756674,
+          "max": 0.06932466382628592,
+          "difference_mean": 0.00023807421821573637,
+          "wins": 0
+        },
+        "cosine": {
+          "mean": 0.16775125329660462,
+          "min": 0.12336975066126316,
+          "max": 0.20034793717511154,
+          "difference_mean": -0.030166686726260834,
+          "wins": 0
+        },
+        "source_composition_tv": {
+          "mean": 0.357088738540374,
+          "min": 0.354188738540374,
+          "max": 0.36868873854037404,
+          "difference_mean": 0.0,
+          "wins": 0
+        },
+        "output_composition_tv": {
+          "mean": 0.33798873854037403,
+          "min": 0.335188738540374,
+          "max": 0.344188738540374,
+          "difference_mean": -0.015100000000000002,
+          "wins": 5
+        },
+        "zero_fraction": {
+          "mean": 0.8779682638996439,
+          "min": 0.8770056063187237,
+          "max": 0.8790810283413351,
+          "difference_mean": 0.0,
+          "wins": 0
+        },
+        "effective_unique_source_cells": {
+          "mean": 1956.1887800534296,
+          "min": 1780.9439002671418,
+          "max": 2000.0000000000016,
+          "difference_mean": 0.0,
+          "wins": 0
+        }
+      },
+      "joint_2026112602_h0.5": {
+        "mmd2": {
+          "mean": 0.07878815558966663,
+          "min": 0.07797888439498542,
+          "max": 0.07984712694500895,
+          "difference_mean": 0.0010994127234332713,
+          "wins": 0
+        },
+        "covariance_rel": {
+          "mean": 0.8114771934268704,
+          "min": 0.7996481202062996,
+          "max": 0.8193588180059661,
+          "difference_mean": 0.008959430903265208,
+          "wins": 0
+        },
+        "pooled_rmse": {
+          "mean": 0.06443902752822243,
+          "min": 0.06408747413332463,
+          "max": 0.0648640365185918,
+          "difference_mean": 0.0002294314956387572,
+          "wins": 0
+        },
+        "fixed_within_rmse": {
+          "mean": 0.07050927616535771,
+          "min": 0.06940280741906169,
+          "max": 0.07162957141859873,
+          "difference_mean": 0.0007354087754219002,
+          "wins": 0
+        },
+        "fixed_equal_rmse": {
+          "mean": 0.06890512256855237,
+          "min": 0.06845973023858229,
+          "max": 0.06947229413415947,
+          "difference_mean": 0.0003636243421654056,
+          "wins": 0
+        },
+        "cosine": {
+          "mean": 0.16005397306438945,
+          "min": 0.11203732403412564,
+          "max": 0.19725296870137948,
+          "difference_mean": -0.037863966958476006,
+          "wins": 0
+        },
+        "source_composition_tv": {
+          "mean": 0.357088738540374,
+          "min": 0.354188738540374,
+          "max": 0.36868873854037404,
+          "difference_mean": 0.0,
+          "wins": 0
+        },
+        "output_composition_tv": {
+          "mean": 0.339688738540374,
+          "min": 0.335688738540374,
+          "max": 0.3481887385403741,
+          "difference_mean": -0.0134,
+          "wins": 5
+        },
+        "zero_fraction": {
+          "mean": 0.8779682638996439,
+          "min": 0.8770056063187237,
+          "max": 0.8790810283413351,
+          "difference_mean": 0.0,
+          "wins": 0
+        },
+        "effective_unique_source_cells": {
+          "mean": 1956.1887800534296,
+          "min": 1780.9439002671418,
+          "max": 2000.0000000000016,
+          "difference_mean": 0.0,
+          "wins": 0
+        }
+      }
+    }
+  },
+  "primary": {
+    "batch": 0,
+    "weighted": {
+      "copy": {
+        "pooled_rmse": 0.06479353003774921,
+        "fixed_within_rmse": 0.07062766861594806,
+        "fixed_equal_rmse": 0.06903525344769744,
+        "cosine": 0.12584806248653466,
+        "mmd2": 0.08087304672611302,
+        "mmd2_batches": [
+          0.07960509986972886,
+          0.07966551343189732,
+          0.0833485268767129
+        ],
+        "covariance_rel": 0.7902690474136893,
+        "source_composition_tv": 0.36868873854037404,
+        "output_composition_tv": 0.36868873854037404,
+        "effective_rows": 2000.0000000000016,
+        "effective_unique_source_cells": 1780.9439002671418,
+        "group_proportions": [
+          0.16100000000000012,
+          0.07750000000000005,
+          0.06500000000000004,
+          0.09950000000000007,
+          0.11700000000000009,
+          0.1375000000000001,
+          0.018000000000000013,
+          0.08400000000000006,
+          0.10100000000000008,
+          0.01650000000000001,
+          0.08700000000000006,
+          0.036000000000000025
+        ],
+        "output_group_proportions": [
+          0.16100000000000012,
+          0.07750000000000005,
+          0.06500000000000004,
+          0.09950000000000007,
+          0.11700000000000009,
+          0.1375000000000001,
+          0.018000000000000013,
+          0.08400000000000006,
+          0.10100000000000008,
+          0.01650000000000001,
+          0.08700000000000006,
+          0.036000000000000025
+        ],
+        "zero_fraction": 0.8790810283413351,
+        "reassigned_mass": 0.0,
+        "unique_raw_source_cells": 1883
+      },
+      "shared": {
+        "pooled_rmse": 0.06386898064444788,
+        "fixed_within_rmse": 0.0698976371088836,
+        "fixed_equal_rmse": 0.06828692578032525,
+        "cosine": 0.23400178778669714,
+        "mmd2": 0.07693270111279049,
+        "mmd2_batches": [
+          0.07558727292906742,
+          0.07564664635376728,
+          0.07956418405553678
+        ],
+        "covariance_rel": 0.7907694650725688,
+        "source_composition_tv": 0.36868873854037404,
+        "output_composition_tv": 0.36318873854037403,
+        "effective_rows": 2000.0000000000016,
+        "effective_unique_source_cells": 1780.9439002671418,
+        "group_proportions": [
+          0.16100000000000012,
+          0.07750000000000005,
+          0.06500000000000004,
+          0.09950000000000007,
+          0.11700000000000009,
+          0.1375000000000001,
+          0.018000000000000013,
+          0.08400000000000006,
+          0.10100000000000008,
+          0.01650000000000001,
+          0.08700000000000006,
+          0.036000000000000025
+        ],
+        "output_group_proportions": [
+          0.16350000000000012,
+          0.07800000000000006,
+          0.057000000000000044,
+          0.09950000000000007,
+          0.12000000000000009,
+          0.1410000000000001,
+          0.018000000000000013,
+          0.08300000000000006,
+          0.10300000000000008,
+          0.01650000000000001,
+          0.08750000000000006,
+          0.03300000000000002
+        ],
+        "zero_fraction": 0.8790810283413351,
+        "reassigned_mass": 0.014,
+        "unique_raw_source_cells": 1883
+      },
+      "velocity_2026112601_h1": {
+        "pooled_rmse": 0.0636308500676974,
+        "fixed_within_rmse": 0.07137488687646557,
+        "fixed_equal_rmse": 0.06870505583390217,
+        "cosine": 0.22222348317842935,
+        "mmd2": 0.07560462405311748,
+        "mmd2_batches": [
+          0.07434198111485135,
+          0.0742646762247583,
+          0.0782072148197428
+        ],
+        "covariance_rel": 0.8298415767900154,
+        "source_composition_tv": 0.36868873854037404,
+        "output_composition_tv": 0.329188738540374,
+        "effective_rows": 2000.0000000000016,
+        "effective_unique_source_cells": 1780.9439002671418,
+        "group_proportions": [
+          0.16100000000000012,
+          0.07750000000000005,
+          0.06500000000000004,
+          0.09950000000000007,
+          0.11700000000000009,
+          0.1375000000000001,
+          0.018000000000000013,
+          0.08400000000000006,
+          0.10100000000000008,
+          0.01650000000000001,
+          0.08700000000000006,
+          0.036000000000000025
+        ],
+        "output_group_proportions": [
+          0.1545000000000001,
+          0.07650000000000005,
+          0.036000000000000025,
+          0.10000000000000007,
+          0.1205000000000001,
+          0.16350000000000012,
+          0.018000000000000013,
+          0.08600000000000006,
+          0.11400000000000009,
+          0.010000000000000005,
+          0.09150000000000007,
+          0.029500000000000023
+        ],
+        "zero_fraction": 0.8790810283413351,
+        "reassigned_mass": 0.061500000000000006,
+        "unique_raw_source_cells": 1883
+      },
+      "joint_2026112601_h1": {
+        "pooled_rmse": 0.06422073519350584,
+        "fixed_within_rmse": 0.07084827827337153,
+        "fixed_equal_rmse": 0.06852331107971599,
+        "cosine": 0.1885936673334447,
+        "mmd2": 0.07674058713169929,
+        "mmd2_batches": [
+          0.07551266741586016,
+          0.07533981072590556,
+          0.07936928325333215
+        ],
+        "covariance_rel": 0.8303407794995863,
+        "source_composition_tv": 0.36225526495328214,
+        "output_composition_tv": 0.3280269095671216,
+        "effective_rows": 1969.5169479395358,
+        "effective_unique_source_cells": 1754.6734203290348,
+        "group_proportions": [
+          0.14782629292038205,
+          0.08552995062439242,
+          0.05624747269496309,
+          0.11769754211703157,
+          0.10412345498191222,
+          0.12585426992750112,
+          0.017472618717966036,
+          0.09219929078316055,
+          0.10140904282459308,
+          0.016198621705888067,
+          0.10341503385044172,
+          0.03202640885176809
+        ],
+        "output_group_proportions": [
+          0.14573919519937178,
+          0.08438860409355146,
+          0.03173394687752681,
+          0.11825436859412394,
+          0.10766868505930546,
+          0.15035649603983123,
+          0.017472618717966036,
+          0.08925243389105103,
+          0.11057834562133115,
+          0.009750133249337514,
+          0.10851539311463794,
+          0.02628977954196569
+        ],
+        "zero_fraction": 0.8777515583788362,
+        "reassigned_mass": 0.04804109560735382,
+        "unique_raw_source_cells": 1883
+      },
+      "joint_2026112601_h1_uniform": {
+        "pooled_rmse": 0.06369322375869288,
+        "fixed_within_rmse": 0.07108723241384098,
+        "fixed_equal_rmse": 0.0687940509599649,
+        "cosine": 0.21785985928377585,
+        "mmd2": 0.07575889258843345,
+        "mmd2_batches": [
+          0.07446562052254535,
+          0.07444845773137998,
+          0.07836259951137503
+        ],
+        "covariance_rel": 0.8105872481116675,
+        "source_composition_tv": 0.36868873854037404,
+        "output_composition_tv": 0.33068873854037395,
+        "effective_rows": 2000.0000000000016,
+        "effective_unique_source_cells": 1780.9439002671418,
+        "group_proportions": [
+          0.16100000000000012,
+          0.07750000000000005,
+          0.06500000000000004,
+          0.09950000000000007,
+          0.11700000000000009,
+          0.1375000000000001,
+          0.018000000000000013,
+          0.08400000000000006,
+          0.10100000000000008,
+          0.01650000000000001,
+          0.08700000000000006,
+          0.036000000000000025
+        ],
+        "output_group_proportions": [
+          0.1590000000000001,
+          0.07650000000000005,
+          0.037000000000000026,
+          0.10000000000000007,
+          0.1210000000000001,
+          0.16550000000000012,
+          0.018000000000000013,
+          0.08150000000000006,
+          0.11050000000000008,
+          0.010000000000000005,
+          0.09150000000000007,
+          0.029500000000000023
+        ],
+        "zero_fraction": 0.8790810283413351,
+        "reassigned_mass": 0.052000000000000005,
+        "unique_raw_source_cells": 1883
+      },
+      "joint_2026112601_h1_open": {
+        "pooled_rmse": 0.06468120833426286,
+        "fixed_within_rmse": 0.07110093591286891,
+        "fixed_equal_rmse": 0.06846312535704865,
+        "cosine": 0.16849012713551628,
+        "mmd2": 0.07850157171741252,
+        "mmd2_batches": [
+          0.07731760589568637,
+          0.07696617292132824,
+          0.08122093633522298
+        ],
+        "covariance_rel": 0.8263404429923499,
+        "source_composition_tv": 0.36225526495328214,
+        "output_composition_tv": 0.3188517971366941,
+        "effective_rows": 1969.5169479395358,
+        "effective_unique_source_cells": 1754.6734203290348,
+        "group_proportions": [
+          0.14782629292038205,
+          0.08552995062439242,
+          0.05624747269496309,
+          0.11769754211703157,
+          0.10412345498191222,
+          0.12585426992750112,
+          0.017472618717966036,
+          0.09219929078316055,
+          0.10140904282459308,
+          0.016198621705888067,
+          0.10341503385044172,
+          0.03202640885176809
+        ],
+        "output_group_proportions": [
+          0.14221549696979685,
+          0.0822377007755846,
+          0.029531025854575302,
+          0.11769754211703157,
+          0.1063629980094733,
+          0.15026541205137398,
+          0.017472618717966036,
+          0.08865718758578763,
+          0.12040136851730826,
+          0.009249923248190961,
+          0.10966129361136025,
+          0.026247432541551312
+        ],
+        "zero_fraction": 0.5679912461792964,
+        "reassigned_mass": 0.06023070798204601,
+        "unique_raw_source_cells": 1883
+      },
+      "velocity_2026112601_h0.5": {
+        "pooled_rmse": 0.06393972561439602,
+        "fixed_within_rmse": 0.07059344935562395,
+        "fixed_equal_rmse": 0.06843887638252409,
+        "cosine": 0.21050428612202324,
+        "mmd2": 0.07749444561454803,
+        "mmd2_batches": [
+          0.07623436295489605,
+          0.0762049581804971,
+          0.08004401570825093
+        ],
+        "covariance_rel": 0.8084874154225278,
+        "source_composition_tv": 0.36868873854037404,
+        "output_composition_tv": 0.3466887385403741,
+        "effective_rows": 2000.0000000000016,
+        "effective_unique_source_cells": 1780.9439002671418,
+        "group_proportions": [
+          0.16100000000000012,
+          0.07750000000000005,
+          0.06500000000000004,
+          0.09950000000000007,
+          0.11700000000000009,
+          0.1375000000000001,
+          0.018000000000000013,
+          0.08400000000000006,
+          0.10100000000000008,
+          0.01650000000000001,
+          0.08700000000000006,
+          0.036000000000000025
+        ],
+        "output_group_proportions": [
+          0.1585000000000001,
+          0.07900000000000006,
+          0.046500000000000034,
+          0.10000000000000007,
+          0.12000000000000009,
+          0.1530000000000001,
+          0.018000000000000013,
+          0.08350000000000006,
+          0.10700000000000008,
+          0.013000000000000008,
+          0.09050000000000007,
+          0.031000000000000024
+        ],
+        "zero_fraction": 0.8790810283413351,
+        "reassigned_mass": 0.036000000000000004,
+        "unique_raw_source_cells": 1883
+      },
+      "joint_2026112601_h0.5": {
+        "pooled_rmse": 0.06418807582884943,
+        "fixed_within_rmse": 0.07035312849753032,
+        "fixed_equal_rmse": 0.06837083451205656,
+        "cosine": 0.1828892874495484,
+        "mmd2": 0.07791905945943589,
+        "mmd2_batches": [
+          0.07667603395264266,
+          0.07659964334400815,
+          0.08048150108165686
+        ],
+        "covariance_rel": 0.8087412294039001,
+        "source_composition_tv": 0.3657027011621183,
+        "output_composition_tv": 0.34573811205775645,
+        "effective_rows": 1992.2403052681593,
+        "effective_unique_source_cells": 1774.64035894831,
+        "group_proportions": [
+          0.1544514786039961,
+          0.08167181190072363,
+          0.060481543327619784,
+          0.10839543551253157,
+          0.11059603022430334,
+          0.13146052317294146,
+          0.017792121396779277,
+          0.08832281150081402,
+          0.10133795729600334,
+          0.01635953150265605,
+          0.0951206333131231,
+          0.03401012224850835
+        ],
+        "output_group_proportions": [
+          0.15384542866279616,
+          0.08167181190072363,
+          0.04504923908308788,
+          0.10892363526460974,
+          0.11342412120675793,
+          0.14595217996702944,
+          0.017792121396779277,
+          0.08725116446864219,
+          0.10628268985419892,
+          0.012346516311647028,
+          0.09720102092793814,
+          0.03026007095578957
+        ],
+        "zero_fraction": 0.8784162123810568,
+        "reassigned_mass": 0.028168945554621884,
+        "unique_raw_source_cells": 1883
+      },
+      "velocity_2026112602_h1": {
+        "pooled_rmse": 0.06384390866598873,
+        "fixed_within_rmse": 0.07177399506465862,
+        "fixed_equal_rmse": 0.06892033559618552,
+        "cosine": 0.20982995016068992,
+        "mmd2": 0.07620804490695791,
+        "mmd2_batches": [
+          0.07495170960413211,
+          0.07485221487768201,
+          0.07882021023905961
+        ],
+        "covariance_rel": 0.8325048461162753,
+        "source_composition_tv": 0.36868873854037404,
+        "output_composition_tv": 0.32918873854037406,
+        "effective_rows": 2000.0000000000016,
+        "effective_unique_source_cells": 1780.9439002671418,
+        "group_proportions": [
+          0.16100000000000012,
+          0.07750000000000005,
+          0.06500000000000004,
+          0.09950000000000007,
+          0.11700000000000009,
+          0.1375000000000001,
+          0.018000000000000013,
+          0.08400000000000006,
+          0.10100000000000008,
+          0.01650000000000001,
+          0.08700000000000006,
+          0.036000000000000025
+        ],
+        "output_group_proportions": [
+          0.1555000000000001,
+          0.07700000000000005,
+          0.03400000000000002,
+          0.10000000000000007,
+          0.1210000000000001,
+          0.16100000000000012,
+          0.018000000000000013,
+          0.08600000000000006,
+          0.11650000000000009,
+          0.010000000000000005,
+          0.09200000000000007,
+          0.029000000000000022
+        ],
+        "zero_fraction": 0.8790810283413351,
+        "reassigned_mass": 0.067,
+        "unique_raw_source_cells": 1883
+      },
+      "joint_2026112602_h1": {
+        "pooled_rmse": 0.06523856308810055,
+        "fixed_within_rmse": 0.07108837602702169,
+        "fixed_equal_rmse": 0.06869395269004525,
+        "cosine": 0.12970879814903893,
+        "mmd2": 0.08004886351521508,
+        "mmd2_batches": [
+          0.07878936032825856,
+          0.07863553522459776,
+          0.08272169499278892
+        ],
+        "covariance_rel": 0.8336100220893528,
+        "source_composition_tv": 0.3741462550185589,
+        "output_composition_tv": 0.34076401813528406,
+        "effective_rows": 1967.6901918716155,
+        "effective_unique_source_cells": 1752.4936582035805,
+        "group_proportions": [
+          0.14998289916717764,
+          0.08779869711957938,
+          0.0553163990896764,
+          0.11393606577368064,
+          0.10884202694400076,
+          0.11904509508908796,
+          0.01743505363647739,
+          0.09541162042076677,
+          0.10012626902256902,
+          0.015555979043841197,
+          0.1044640932892152,
+          0.03208580140392769
+        ],
+        "output_group_proportions": [
+          0.14786708776152108,
+          0.08662011919774319,
+          0.031356147457325574,
+          0.11446555885029698,
+          0.11246191236309706,
+          0.14288712511097898,
+          0.01743505363647739,
+          0.09358571344324051,
+          0.10913698280733661,
+          0.009372888287598522,
+          0.10847661222621909,
+          0.026334798858165132
+        ],
+        "zero_fraction": 0.8775956299593537,
+        "reassigned_mass": 0.04619275705431809,
+        "unique_raw_source_cells": 1883
+      },
+      "joint_2026112602_h1_uniform": {
+        "pooled_rmse": 0.06389337647726659,
+        "fixed_within_rmse": 0.07131027246887349,
+        "fixed_equal_rmse": 0.0689564675976548,
+        "cosine": 0.20439295795717308,
+        "mmd2": 0.07635852652310164,
+        "mmd2_batches": [
+          0.07506454741232371,
+          0.07505314832294885,
+          0.07895788383403235
+        ],
+        "covariance_rel": 0.8122453445041763,
+        "source_composition_tv": 0.36868873854037404,
+        "output_composition_tv": 0.330688738540374,
+        "effective_rows": 2000.0000000000016,
+        "effective_unique_source_cells": 1780.9439002671418,
+        "group_proportions": [
+          0.16100000000000012,
+          0.07750000000000005,
+          0.06500000000000004,
+          0.09950000000000007,
+          0.11700000000000009,
+          0.1375000000000001,
+          0.018000000000000013,
+          0.08400000000000006,
+          0.10100000000000008,
+          0.01650000000000001,
+          0.08700000000000006,
+          0.036000000000000025
+        ],
+        "output_group_proportions": [
+          0.1590000000000001,
+          0.07650000000000005,
+          0.037000000000000026,
+          0.10000000000000007,
+          0.1210000000000001,
+          0.16550000000000012,
+          0.018000000000000013,
+          0.08250000000000006,
+          0.11050000000000008,
+          0.010000000000000005,
+          0.09050000000000007,
+          0.029500000000000023
+        ],
+        "zero_fraction": 0.8790810283413351,
+        "reassigned_mass": 0.051000000000000004,
+        "unique_raw_source_cells": 1883
+      },
+      "joint_2026112602_h1_open": {
+        "pooled_rmse": 0.06569178629979629,
+        "fixed_within_rmse": 0.07133810087985165,
+        "fixed_equal_rmse": 0.06863980411186309,
+        "cosine": 0.11372551004564349,
+        "mmd2": 0.08184217315415594,
+        "mmd2_batches": [
+          0.0806211810799411,
+          0.08030045311713785,
+          0.0846048852653889
+        ],
+        "covariance_rel": 0.8294334446557267,
+        "source_composition_tv": 0.3741462550185589,
+        "output_composition_tv": 0.3336017828648113,
+        "effective_rows": 1967.6901918716155,
+        "effective_unique_source_cells": 1752.4936582035805,
+        "group_proportions": [
+          0.14998289916717764,
+          0.08779869711957938,
+          0.0553163990896764,
+          0.11393606577368064,
+          0.10884202694400076,
+          0.11904509508908796,
+          0.01743505363647739,
+          0.09541162042076677,
+          0.10012626902256902,
+          0.015555979043841197,
+          0.1044640932892152,
+          0.03208580140392769
+        ],
+        "output_group_proportions": [
+          0.143520755646959,
+          0.0855245603263433,
+          0.030456115218037313,
+          0.11393606577368064,
+          0.11156379567509876,
+          0.14377442856215908,
+          0.01743505363647739,
+          0.09241098185870532,
+          0.11594140770324551,
+          0.008911659873745424,
+          0.11021295635589863,
+          0.026312219369649722
+        ],
+        "zero_fraction": 0.5644792090446992,
+        "reassigned_mass": 0.05466013502124392,
+        "unique_raw_source_cells": 1883
+      },
+      "velocity_2026112602_h0.5": {
+        "pooled_rmse": 0.06401564142652874,
+        "fixed_within_rmse": 0.07075247593148219,
+        "fixed_equal_rmse": 0.06849498441135571,
+        "cosine": 0.20034793717511154,
+        "mmd2": 0.0777144363195393,
+        "mmd2_batches": [
+          0.07645863751278315,
+          0.0764138158650507,
+          0.08027085558078406
+        ],
+        "covariance_rel": 0.8098848481696235,
+        "source_composition_tv": 0.36868873854037404,
+        "output_composition_tv": 0.344188738540374,
+        "effective_rows": 2000.0000000000016,
+        "effective_unique_source_cells": 1780.9439002671418,
+        "group_proportions": [
+          0.16100000000000012,
+          0.07750000000000005,
+          0.06500000000000004,
+          0.09950000000000007,
+          0.11700000000000009,
+          0.1375000000000001,
+          0.018000000000000013,
+          0.08400000000000006,
+          0.10100000000000008,
+          0.01650000000000001,
+          0.08700000000000006,
+          0.036000000000000025
+        ],
+        "output_group_proportions": [
+          0.1575000000000001,
+          0.07850000000000006,
+          0.04500000000000003,
+          0.10000000000000007,
+          0.11900000000000009,
+          0.1530000000000001,
+          0.018000000000000013,
+          0.08400000000000006,
+          0.10950000000000008,
+          0.013000000000000008,
+          0.09050000000000007,
+          0.03200000000000002
+        ],
+        "zero_fraction": 0.8790810283413351,
+        "reassigned_mass": 0.0395,
+        "unique_raw_source_cells": 1883
+      },
+      "joint_2026112602_h0.5": {
+        "pooled_rmse": 0.06467202855599176,
+        "fixed_within_rmse": 0.07047626821669278,
+        "fixed_equal_rmse": 0.06845018018823538,
+        "cosine": 0.1355843564336254,
+        "mmd2": 0.07950142639617648,
+        "mmd2_batches": [
+          0.07824248663437183,
+          0.07817730604279216,
+          0.08208448651136546
+        ],
+        "covariance_rel": 0.8108038409563237,
+        "source_composition_tv": 0.371612476812454,
+        "output_composition_tv": 0.35243871148894024,
+        "effective_rows": 1991.6953500218797,
+        "effective_unique_source_cells": 1773.6998604071123,
+        "group_proportions": [
+          0.1555679005583632,
+          0.08274464538765683,
+          0.0599970242791398,
+          0.10661091087640871,
+          0.1130637386244397,
+          0.12798533138300383,
+          0.01777489896709261,
+          0.08984370515921335,
+          0.10070512050141464,
+          0.016034055472787193,
+          0.09562870632888848,
+          0.034043962461591436
+        ],
+        "output_group_proportions": [
+          0.15593501473165527,
+          0.08274464538765683,
+          0.045198053441726005,
+          0.10712596899158276,
+          0.11499067134926244,
+          0.14274140331086235,
+          0.01777489896709261,
+          0.08875952156808206,
+          0.10460775578189575,
+          0.012128526845515646,
+          0.0977193715578475,
+          0.030274168066820473
+        ],
+        "zero_fraction": 0.8783441419023035,
+        "reassigned_mass": 0.026475718098757383,
+        "unique_raw_source_cells": 1883
+      }
+    },
+    "materialized": {
+      "copy": {
+        "pooled_rmse": 0.06479353003774921,
+        "fixed_within_rmse": 0.07062766861594806,
+        "fixed_equal_rmse": 0.06903525344769744,
+        "cosine": 0.12584806248653466,
+        "mmd2": 0.08087304672611251,
+        "mmd2_batches": [
+          0.07960509986972797,
+          0.07966551343189687,
+          0.08334852687671268
+        ],
+        "covariance_rel": 0.7904003213535947,
+        "source_composition_tv": 0.36868873854037404,
+        "output_composition_tv": 0.36868873854037404,
+        "effective_rows": 2000.0000000000016,
+        "effective_unique_source_cells": 1780.9439002671418,
+        "group_proportions": [
+          0.16100000000000012,
+          0.07750000000000005,
+          0.06500000000000004,
+          0.09950000000000007,
+          0.11700000000000009,
+          0.1375000000000001,
+          0.018000000000000013,
+          0.08400000000000006,
+          0.10100000000000008,
+          0.01650000000000001,
+          0.08700000000000006,
+          0.036000000000000025
+        ],
+        "output_group_proportions": [
+          0.16100000000000012,
+          0.07750000000000005,
+          0.06500000000000004,
+          0.09950000000000007,
+          0.11700000000000009,
+          0.1375000000000001,
+          0.018000000000000013,
+          0.08400000000000006,
+          0.10100000000000008,
+          0.01650000000000001,
+          0.08700000000000006,
+          0.036000000000000025
+        ],
+        "zero_fraction": 0.8790810283413351,
+        "reassigned_mass": 0.0,
+        "unique_raw_source_cells": 1883
+      },
+      "shared": {
+        "pooled_rmse": 0.06386898064444788,
+        "fixed_within_rmse": 0.0698976371088836,
+        "fixed_equal_rmse": 0.06828692578032525,
+        "cosine": 0.23400178778669714,
+        "mmd2": 0.07693270111279167,
+        "mmd2_batches": [
+          0.07558727292906875,
+          0.07564664635376928,
+          0.079564184055537
+        ],
+        "covariance_rel": 0.7909025962026469,
+        "source_composition_tv": 0.36868873854037404,
+        "output_composition_tv": 0.36318873854037403,
+        "effective_rows": 2000.0000000000016,
+        "effective_unique_source_cells": 1780.9439002671418,
+        "group_proportions": [
+          0.16100000000000012,
+          0.07750000000000005,
+          0.06500000000000004,
+          0.09950000000000007,
+          0.11700000000000009,
+          0.1375000000000001,
+          0.018000000000000013,
+          0.08400000000000006,
+          0.10100000000000008,
+          0.01650000000000001,
+          0.08700000000000006,
+          0.036000000000000025
+        ],
+        "output_group_proportions": [
+          0.16350000000000012,
+          0.07800000000000006,
+          0.057000000000000044,
+          0.09950000000000007,
+          0.12000000000000009,
+          0.1410000000000001,
+          0.018000000000000013,
+          0.08300000000000006,
+          0.10300000000000008,
+          0.01650000000000001,
+          0.08750000000000006,
+          0.03300000000000002
+        ],
+        "zero_fraction": 0.8790810283413351,
+        "reassigned_mass": 0.014,
+        "unique_raw_source_cells": 1883
+      },
+      "velocity_2026112601_h1": {
+        "pooled_rmse": 0.0636308500676974,
+        "fixed_within_rmse": 0.07137488687646557,
+        "fixed_equal_rmse": 0.06870505583390217,
+        "cosine": 0.22222348317842935,
+        "mmd2": 0.07560462405311681,
+        "mmd2_batches": [
+          0.07434198111485069,
+          0.07426467622475719,
+          0.07820721481974258
+        ],
+        "covariance_rel": 0.830026792802085,
+        "source_composition_tv": 0.36868873854037404,
+        "output_composition_tv": 0.329188738540374,
+        "effective_rows": 2000.0000000000016,
+        "effective_unique_source_cells": 1780.9439002671418,
+        "group_proportions": [
+          0.16100000000000012,
+          0.07750000000000005,
+          0.06500000000000004,
+          0.09950000000000007,
+          0.11700000000000009,
+          0.1375000000000001,
+          0.018000000000000013,
+          0.08400000000000006,
+          0.10100000000000008,
+          0.01650000000000001,
+          0.08700000000000006,
+          0.036000000000000025
+        ],
+        "output_group_proportions": [
+          0.1545000000000001,
+          0.07650000000000005,
+          0.036000000000000025,
+          0.10000000000000007,
+          0.1205000000000001,
+          0.16350000000000012,
+          0.018000000000000013,
+          0.08600000000000006,
+          0.11400000000000009,
+          0.010000000000000005,
+          0.09150000000000007,
+          0.029500000000000023
+        ],
+        "zero_fraction": 0.8790810283413351,
+        "reassigned_mass": 0.061500000000000006,
+        "unique_raw_source_cells": 1883
+      },
+      "joint_2026112601_h1": {
+        "pooled_rmse": 0.06369322375869288,
+        "fixed_within_rmse": 0.07108723241384098,
+        "fixed_equal_rmse": 0.0687940509599649,
+        "cosine": 0.21785985928377585,
+        "mmd2": 0.07575889258843338,
+        "mmd2_batches": [
+          0.07446562052254602,
+          0.07444845773137909,
+          0.07836259951137503
+        ],
+        "covariance_rel": 0.8107487950892597,
+        "source_composition_tv": 0.36868873854037404,
+        "output_composition_tv": 0.33068873854037395,
+        "effective_rows": 2000.0000000000016,
+        "effective_unique_source_cells": 1780.9439002671418,
+        "group_proportions": [
+          0.16100000000000012,
+          0.07750000000000005,
+          0.06500000000000004,
+          0.09950000000000007,
+          0.11700000000000009,
+          0.1375000000000001,
+          0.018000000000000013,
+          0.08400000000000006,
+          0.10100000000000008,
+          0.01650000000000001,
+          0.08700000000000006,
+          0.036000000000000025
+        ],
+        "output_group_proportions": [
+          0.1590000000000001,
+          0.07650000000000005,
+          0.037000000000000026,
+          0.10000000000000007,
+          0.1210000000000001,
+          0.16550000000000012,
+          0.018000000000000013,
+          0.08150000000000006,
+          0.11050000000000008,
+          0.010000000000000005,
+          0.09150000000000007,
+          0.029500000000000023
+        ],
+        "zero_fraction": 0.8790810283413351,
+        "reassigned_mass": 0.052000000000000005,
+        "unique_raw_source_cells": 1883
+      },
+      "joint_2026112601_h1_uniform": {
+        "pooled_rmse": 0.06369322375869288,
+        "fixed_within_rmse": 0.07108723241384098,
+        "fixed_equal_rmse": 0.0687940509599649,
+        "cosine": 0.21785985928377585,
+        "mmd2": 0.07575889258843338,
+        "mmd2_batches": [
+          0.07446562052254602,
+          0.07444845773137909,
+          0.07836259951137503
+        ],
+        "covariance_rel": 0.8107487950892597,
+        "source_composition_tv": 0.36868873854037404,
+        "output_composition_tv": 0.33068873854037395,
+        "effective_rows": 2000.0000000000016,
+        "effective_unique_source_cells": 1780.9439002671418,
+        "group_proportions": [
+          0.16100000000000012,
+          0.07750000000000005,
+          0.06500000000000004,
+          0.09950000000000007,
+          0.11700000000000009,
+          0.1375000000000001,
+          0.018000000000000013,
+          0.08400000000000006,
+          0.10100000000000008,
+          0.01650000000000001,
+          0.08700000000000006,
+          0.036000000000000025
+        ],
+        "output_group_proportions": [
+          0.1590000000000001,
+          0.07650000000000005,
+          0.037000000000000026,
+          0.10000000000000007,
+          0.1210000000000001,
+          0.16550000000000012,
+          0.018000000000000013,
+          0.08150000000000006,
+          0.11050000000000008,
+          0.010000000000000005,
+          0.09150000000000007,
+          0.029500000000000023
+        ],
+        "zero_fraction": 0.8790810283413351,
+        "reassigned_mass": 0.052000000000000005,
+        "unique_raw_source_cells": 1883
+      },
+      "joint_2026112601_h1_open": {
+        "pooled_rmse": 0.06409388249831922,
+        "fixed_within_rmse": 0.07132999977450584,
+        "fixed_equal_rmse": 0.06872608624750544,
+        "cosine": 0.19372893806915517,
+        "mmd2": 0.07737690455533186,
+        "mmd2_batches": [
+          0.07613028271961286,
+          0.07592743739582808,
+          0.08007299355055464
+        ],
+        "covariance_rel": 0.8074196478640201,
+        "source_composition_tv": 0.36868873854037404,
+        "output_composition_tv": 0.32118873854037394,
+        "effective_rows": 2000.0000000000016,
+        "effective_unique_source_cells": 1780.9439002671418,
+        "group_proportions": [
+          0.16100000000000012,
+          0.07750000000000005,
+          0.06500000000000004,
+          0.09950000000000007,
+          0.11700000000000009,
+          0.1375000000000001,
+          0.018000000000000013,
+          0.08400000000000006,
+          0.10100000000000008,
+          0.01650000000000001,
+          0.08700000000000006,
+          0.036000000000000025
+        ],
+        "output_group_proportions": [
+          0.1555000000000001,
+          0.07450000000000005,
+          0.034500000000000024,
+          0.09950000000000007,
+          0.11950000000000009,
+          0.16550000000000012,
+          0.018000000000000013,
+          0.08100000000000006,
+          0.1205000000000001,
+          0.009500000000000005,
+          0.09250000000000007,
+          0.029500000000000023
+        ],
+        "zero_fraction": 0.5689774353414899,
+        "reassigned_mass": 0.0645,
+        "unique_raw_source_cells": 1883
+      },
+      "velocity_2026112601_h0.5": {
+        "pooled_rmse": 0.06393972561439602,
+        "fixed_within_rmse": 0.07059344935562395,
+        "fixed_equal_rmse": 0.06843887638252409,
+        "cosine": 0.21050428612202324,
+        "mmd2": 0.07749444561454728,
+        "mmd2_batches": [
+          0.07623436295489427,
+          0.0762049581804971,
+          0.08004401570825048
+        ],
+        "covariance_rel": 0.808645679392195,
+        "source_composition_tv": 0.36868873854037404,
+        "output_composition_tv": 0.3466887385403741,
+        "effective_rows": 2000.0000000000016,
+        "effective_unique_source_cells": 1780.9439002671418,
+        "group_proportions": [
+          0.16100000000000012,
+          0.07750000000000005,
+          0.06500000000000004,
+          0.09950000000000007,
+          0.11700000000000009,
+          0.1375000000000001,
+          0.018000000000000013,
+          0.08400000000000006,
+          0.10100000000000008,
+          0.01650000000000001,
+          0.08700000000000006,
+          0.036000000000000025
+        ],
+        "output_group_proportions": [
+          0.1585000000000001,
+          0.07900000000000006,
+          0.046500000000000034,
+          0.10000000000000007,
+          0.12000000000000009,
+          0.1530000000000001,
+          0.018000000000000013,
+          0.08350000000000006,
+          0.10700000000000008,
+          0.013000000000000008,
+          0.09050000000000007,
+          0.031000000000000024
+        ],
+        "zero_fraction": 0.8790810283413351,
+        "reassigned_mass": 0.036000000000000004,
+        "unique_raw_source_cells": 1883
+      },
+      "joint_2026112601_h0.5": {
+        "pooled_rmse": 0.06398323250610986,
+        "fixed_within_rmse": 0.0704895065164947,
+        "fixed_equal_rmse": 0.06852149995010984,
+        "cosine": 0.20891110330055476,
+        "mmd2": 0.07766056788908737,
+        "mmd2_batches": [
+          0.07638455447433223,
+          0.07638908543544964,
+          0.08020806375748024
+        ],
+        "covariance_rel": 0.7990083929183251,
+        "source_composition_tv": 0.36868873854037404,
+        "output_composition_tv": 0.3476887385403741,
+        "effective_rows": 2000.0000000000016,
+        "effective_unique_source_cells": 1780.9439002671418,
+        "group_proportions": [
+          0.16100000000000012,
+          0.07750000000000005,
+          0.06500000000000004,
+          0.09950000000000007,
+          0.11700000000000009,
+          0.1375000000000001,
+          0.018000000000000013,
+          0.08400000000000006,
+          0.10100000000000008,
+          0.01650000000000001,
+          0.08700000000000006,
+          0.036000000000000025
+        ],
+        "output_group_proportions": [
+          0.16050000000000011,
+          0.07750000000000005,
+          0.048500000000000036,
+          0.10000000000000007,
+          0.12000000000000009,
+          0.1530000000000001,
+          0.018000000000000013,
+          0.08300000000000006,
+          0.10600000000000008,
+          0.012500000000000008,
+          0.08900000000000007,
+          0.03200000000000002
+        ],
+        "zero_fraction": 0.8790810283413351,
+        "reassigned_mass": 0.029500000000000002,
+        "unique_raw_source_cells": 1883
+      },
+      "velocity_2026112602_h1": {
+        "pooled_rmse": 0.06384390866598873,
+        "fixed_within_rmse": 0.07177399506465862,
+        "fixed_equal_rmse": 0.06892033559618552,
+        "cosine": 0.20982995016068992,
+        "mmd2": 0.07620804490695894,
+        "mmd2_batches": [
+          0.07495170960413322,
+          0.07485221487768268,
+          0.07882021023906094
+        ],
+        "covariance_rel": 0.8326952488026436,
+        "source_composition_tv": 0.36868873854037404,
+        "output_composition_tv": 0.32918873854037406,
+        "effective_rows": 2000.0000000000016,
+        "effective_unique_source_cells": 1780.9439002671418,
+        "group_proportions": [
+          0.16100000000000012,
+          0.07750000000000005,
+          0.06500000000000004,
+          0.09950000000000007,
+          0.11700000000000009,
+          0.1375000000000001,
+          0.018000000000000013,
+          0.08400000000000006,
+          0.10100000000000008,
+          0.01650000000000001,
+          0.08700000000000006,
+          0.036000000000000025
+        ],
+        "output_group_proportions": [
+          0.1555000000000001,
+          0.07700000000000005,
+          0.03400000000000002,
+          0.10000000000000007,
+          0.1210000000000001,
+          0.16100000000000012,
+          0.018000000000000013,
+          0.08600000000000006,
+          0.11650000000000009,
+          0.010000000000000005,
+          0.09200000000000007,
+          0.029000000000000022
+        ],
+        "zero_fraction": 0.8790810283413351,
+        "reassigned_mass": 0.067,
+        "unique_raw_source_cells": 1883
+      },
+      "joint_2026112602_h1": {
+        "pooled_rmse": 0.06389337647726659,
+        "fixed_within_rmse": 0.07131027246887349,
+        "fixed_equal_rmse": 0.0689564675976548,
+        "cosine": 0.20439295795717308,
+        "mmd2": 0.07635852652310142,
+        "mmd2_batches": [
+          0.07506454741232371,
+          0.07505314832294907,
+          0.07895788383403146
+        ],
+        "covariance_rel": 0.8124091189057755,
+        "source_composition_tv": 0.36868873854037404,
+        "output_composition_tv": 0.330688738540374,
+        "effective_rows": 2000.0000000000016,
+        "effective_unique_source_cells": 1780.9439002671418,
+        "group_proportions": [
+          0.16100000000000012,
+          0.07750000000000005,
+          0.06500000000000004,
+          0.09950000000000007,
+          0.11700000000000009,
+          0.1375000000000001,
+          0.018000000000000013,
+          0.08400000000000006,
+          0.10100000000000008,
+          0.01650000000000001,
+          0.08700000000000006,
+          0.036000000000000025
+        ],
+        "output_group_proportions": [
+          0.1590000000000001,
+          0.07650000000000005,
+          0.037000000000000026,
+          0.10000000000000007,
+          0.1210000000000001,
+          0.16550000000000012,
+          0.018000000000000013,
+          0.08250000000000006,
+          0.11050000000000008,
+          0.010000000000000005,
+          0.09050000000000007,
+          0.029500000000000023
+        ],
+        "zero_fraction": 0.8790810283413351,
+        "reassigned_mass": 0.051000000000000004,
+        "unique_raw_source_cells": 1883
+      },
+      "joint_2026112602_h1_uniform": {
+        "pooled_rmse": 0.06389337647726659,
+        "fixed_within_rmse": 0.07131027246887349,
+        "fixed_equal_rmse": 0.0689564675976548,
+        "cosine": 0.20439295795717308,
+        "mmd2": 0.07635852652310142,
+        "mmd2_batches": [
+          0.07506454741232371,
+          0.07505314832294907,
+          0.07895788383403146
+        ],
+        "covariance_rel": 0.8124091189057755,
+        "source_composition_tv": 0.36868873854037404,
+        "output_composition_tv": 0.330688738540374,
+        "effective_rows": 2000.0000000000016,
+        "effective_unique_source_cells": 1780.9439002671418,
+        "group_proportions": [
+          0.16100000000000012,
+          0.07750000000000005,
+          0.06500000000000004,
+          0.09950000000000007,
+          0.11700000000000009,
+          0.1375000000000001,
+          0.018000000000000013,
+          0.08400000000000006,
+          0.10100000000000008,
+          0.01650000000000001,
+          0.08700000000000006,
+          0.036000000000000025
+        ],
+        "output_group_proportions": [
+          0.1590000000000001,
+          0.07650000000000005,
+          0.037000000000000026,
+          0.10000000000000007,
+          0.1210000000000001,
+          0.16550000000000012,
+          0.018000000000000013,
+          0.08250000000000006,
+          0.11050000000000008,
+          0.010000000000000005,
+          0.09050000000000007,
+          0.029500000000000023
+        ],
+        "zero_fraction": 0.8790810283413351,
+        "reassigned_mass": 0.051000000000000004,
+        "unique_raw_source_cells": 1883
+      },
+      "joint_2026112602_h1_open": {
+        "pooled_rmse": 0.06433162183902193,
+        "fixed_within_rmse": 0.07155686789365903,
+        "fixed_equal_rmse": 0.06889857800343582,
+        "cosine": 0.17936118273307294,
+        "mmd2": 0.07811492143518713,
+        "mmd2_batches": [
+          0.07686184974145638,
+          0.07667601097455967,
+          0.08080690358954534
+        ],
+        "covariance_rel": 0.8090706488958436,
+        "source_composition_tv": 0.36868873854037404,
+        "output_composition_tv": 0.32318873854037394,
+        "effective_rows": 2000.0000000000016,
+        "effective_unique_source_cells": 1780.9439002671418,
+        "group_proportions": [
+          0.16100000000000012,
+          0.07750000000000005,
+          0.06500000000000004,
+          0.09950000000000007,
+          0.11700000000000009,
+          0.1375000000000001,
+          0.018000000000000013,
+          0.08400000000000006,
+          0.10100000000000008,
+          0.01650000000000001,
+          0.08700000000000006,
+          0.036000000000000025
+        ],
+        "output_group_proportions": [
+          0.1545000000000001,
+          0.07550000000000005,
+          0.036000000000000025,
+          0.09950000000000007,
+          0.12000000000000009,
+          0.16650000000000012,
+          0.018000000000000013,
+          0.08150000000000006,
+          0.11750000000000009,
+          0.009500000000000005,
+          0.09200000000000007,
+          0.029500000000000023
+        ],
+        "zero_fraction": 0.5659620721697384,
+        "reassigned_mass": 0.059500000000000004,
+        "unique_raw_source_cells": 1883
+      },
+      "velocity_2026112602_h0.5": {
+        "pooled_rmse": 0.06401564142652874,
+        "fixed_within_rmse": 0.07075247593148219,
+        "fixed_equal_rmse": 0.06849498441135571,
+        "cosine": 0.20034793717511154,
+        "mmd2": 0.07771443631954027,
+        "mmd2_batches": [
+          0.07645863751278359,
+          0.07641381586505025,
+          0.08027085558078695
+        ],
+        "covariance_rel": 0.8100460237801207,
+        "source_composition_tv": 0.36868873854037404,
+        "output_composition_tv": 0.344188738540374,
+        "effective_rows": 2000.0000000000016,
+        "effective_unique_source_cells": 1780.9439002671418,
+        "group_proportions": [
+          0.16100000000000012,
+          0.07750000000000005,
+          0.06500000000000004,
+          0.09950000000000007,
+          0.11700000000000009,
+          0.1375000000000001,
+          0.018000000000000013,
+          0.08400000000000006,
+          0.10100000000000008,
+          0.01650000000000001,
+          0.08700000000000006,
+          0.036000000000000025
+        ],
+        "output_group_proportions": [
+          0.1575000000000001,
+          0.07850000000000006,
+          0.04500000000000003,
+          0.10000000000000007,
+          0.11900000000000009,
+          0.1530000000000001,
+          0.018000000000000013,
+          0.08400000000000006,
+          0.10950000000000008,
+          0.013000000000000008,
+          0.09050000000000007,
+          0.03200000000000002
+        ],
+        "zero_fraction": 0.8790810283413351,
+        "reassigned_mass": 0.0395,
+        "unique_raw_source_cells": 1883
+      },
+      "joint_2026112602_h0.5": {
+        "pooled_rmse": 0.06408747413332463,
+        "fixed_within_rmse": 0.07059660939672056,
+        "fixed_equal_rmse": 0.06859284589291575,
+        "cosine": 0.19725296870137948,
+        "mmd2": 0.07797888439498542,
+        "mmd2_batches": [
+          0.07670210475900707,
+          0.07671061859407624,
+          0.08052392983187295
+        ],
+        "covariance_rel": 0.7996481202062996,
+        "source_composition_tv": 0.36868873854037404,
+        "output_composition_tv": 0.3481887385403741,
+        "effective_rows": 2000.0000000000016,
+        "effective_unique_source_cells": 1780.9439002671418,
+        "group_proportions": [
+          0.16100000000000012,
+          0.07750000000000005,
+          0.06500000000000004,
+          0.09950000000000007,
+          0.11700000000000009,
+          0.1375000000000001,
+          0.018000000000000013,
+          0.08400000000000006,
+          0.10100000000000008,
+          0.01650000000000001,
+          0.08700000000000006,
+          0.036000000000000025
+        ],
+        "output_group_proportions": [
+          0.16150000000000012,
+          0.07750000000000005,
+          0.04900000000000004,
+          0.10000000000000007,
+          0.11900000000000009,
+          0.1535000000000001,
+          0.018000000000000013,
+          0.08300000000000006,
+          0.10500000000000008,
+          0.012500000000000008,
+          0.08900000000000007,
+          0.03200000000000002
+        ],
+        "zero_fraction": 0.8790810283413351,
+        "reassigned_mass": 0.028,
+        "unique_raw_source_cells": 1883
+      }
+    },
+    "decoder": {
+      "copy": {
+        "activated_entries": 0,
+        "closed_entries": 0,
+        "edit_rms": 0.0
+      },
+      "shared": {
+        "activated_entries": 0,
+        "closed_entries": 0,
+        "edit_rms": 0.008712815588464437
+      },
+      "velocity_2026112601_h1": {
+        "activated_entries": 0,
+        "closed_entries": 0,
+        "edit_rms": 0.02092074955825051,
+        "requested_latent_rms": 1.1146326065063477,
+        "realized_latent_rms": 0.5101423263549805,
+        "decoder_relative_residual": 0.5849668383598328
+      },
+      "joint_2026112601_h1": {
+        "activated_entries": 0,
+        "closed_entries": 0,
+        "edit_rms": 0.01962638654484727,
+        "requested_latent_rms": 1.0411930084228516,
+        "realized_latent_rms": 0.4820014238357544,
+        "decoder_relative_residual": 0.5683520436286926
+      },
+      "joint_2026112601_h1_uniform": {
+        "activated_entries": 0,
+        "closed_entries": 0,
+        "edit_rms": 0.01962638654484727,
+        "requested_latent_rms": 1.0411930084228516,
+        "realized_latent_rms": 0.4820014238357544,
+        "decoder_relative_residual": 0.5683520436286926
+      },
+      "joint_2026112601_h1_open": {
+        "activated_entries": 20023498,
+        "closed_entries": 109,
+        "edit_rms": 0.01962638398072737,
+        "requested_latent_rms": 1.0411930084228516,
+        "realized_latent_rms": 0.5540485382080078,
+        "decoder_relative_residual": 0.48860350251197815
+      },
+      "velocity_2026112601_h0.5": {
+        "activated_entries": 0,
+        "closed_entries": 0,
+        "edit_rms": 0.011179046356207301,
+        "requested_latent_rms": 0.5607048869132996,
+        "realized_latent_rms": 0.27650612592697144,
+        "decoder_relative_residual": 0.5455827713012695
+      },
+      "joint_2026112601_h0.5": {
+        "activated_entries": 0,
+        "closed_entries": 0,
+        "edit_rms": 0.010415980216986299,
+        "requested_latent_rms": 0.5219568610191345,
+        "realized_latent_rms": 0.25926023721694946,
+        "decoder_relative_residual": 0.5326128005981445
+      },
+      "velocity_2026112602_h1": {
+        "activated_entries": 0,
+        "closed_entries": 0,
+        "edit_rms": 0.02242663889895712,
+        "requested_latent_rms": 1.2056970596313477,
+        "realized_latent_rms": 0.5458465218544006,
+        "decoder_relative_residual": 0.5898730754852295
+      },
+      "joint_2026112602_h1": {
+        "activated_entries": 0,
+        "closed_entries": 0,
+        "edit_rms": 0.019833260333237297,
+        "requested_latent_rms": 1.046087622642517,
+        "realized_latent_rms": 0.48834648728370667,
+        "decoder_relative_residual": 0.5646874308586121
+      },
+      "joint_2026112602_h1_uniform": {
+        "activated_entries": 0,
+        "closed_entries": 0,
+        "edit_rms": 0.019833260333237297,
+        "requested_latent_rms": 1.046087622642517,
+        "realized_latent_rms": 0.48834648728370667,
+        "decoder_relative_residual": 0.5646874308586121
+      },
+      "joint_2026112602_h1_open": {
+        "activated_entries": 20218190,
+        "closed_entries": 99,
+        "edit_rms": 0.019833258833249108,
+        "requested_latent_rms": 1.046087622642517,
+        "realized_latent_rms": 0.560624897480011,
+        "decoder_relative_residual": 0.48571261763572693
+      },
+      "velocity_2026112602_h0.5": {
+        "activated_entries": 0,
+        "closed_entries": 0,
+        "edit_rms": 0.012012200331770051,
+        "requested_latent_rms": 0.6030179262161255,
+        "realized_latent_rms": 0.29714226722717285,
+        "decoder_relative_residual": 0.5461252331733704
+      },
+      "joint_2026112602_h0.5": {
+        "activated_entries": 0,
+        "closed_entries": 0,
+        "edit_rms": 0.010497037397350967,
+        "requested_latent_rms": 0.5242139101028442,
+        "realized_latent_rms": 0.26177000999450684,
+        "decoder_relative_residual": 0.5305072665214539
+      }
+    },
+    "latent_intended": {
+      "copy": {
+        "mmd2": 0.0808730467261128,
+        "covariance_rel": 0.7902690474136893
+      },
+      "shared": {
+        "mmd2": 0.07693270111279078,
+        "covariance_rel": 0.7907694650725688
+      },
+      "velocity_2026112601_h1": {
+        "mmd2": 0.08572413756252373,
+        "covariance_rel": 0.8849460067461307
+      },
+      "joint_2026112601_h1": {
+        "mmd2": 0.08390586775820415,
+        "covariance_rel": 0.8725185751642118
+      },
+      "joint_2026112601_h1_uniform": {
+        "mmd2": 0.08245351604830715,
+        "covariance_rel": 0.853206718383745
+      },
+      "joint_2026112601_h1_open": {
+        "mmd2": 0.08390586775820415,
+        "covariance_rel": 0.8725185751642118
+      },
+      "velocity_2026112601_h0.5": {
+        "mmd2": 0.07868741546811682,
+        "covariance_rel": 0.8250262817176021
+      },
+      "joint_2026112601_h0.5": {
+        "mmd2": 0.07801474067674492,
+        "covariance_rel": 0.8220910409719983
+      },
+      "velocity_2026112602_h1": {
+        "mmd2": 0.08914607431417425,
+        "covariance_rel": 0.8963675308545237
+      },
+      "joint_2026112602_h1": {
+        "mmd2": 0.08739497885444991,
+        "covariance_rel": 0.8743247840874517
+      },
+      "joint_2026112602_h1_uniform": {
+        "mmd2": 0.08335143460680161,
+        "covariance_rel": 0.8557599870120028
+      },
+      "joint_2026112602_h1_open": {
+        "mmd2": 0.08739497885444991,
+        "covariance_rel": 0.8743247840874517
+      },
+      "velocity_2026112602_h0.5": {
+        "mmd2": 0.07967235812710016,
+        "covariance_rel": 0.8284989046533058
+      },
+      "joint_2026112602_h0.5": {
+        "mmd2": 0.07976062949603631,
+        "covariance_rel": 0.8238213092809147
+      }
+    }
+  },
+  "baseline_verification_max_abs_error": 1.772549440559601e-09,
+  "all_inputs_unchanged": true,
+  "resampling_diagnostic": {
+    "2026112601": {
+      "main_mean": {
+        "mmd2": 0.07727558412578654,
+        "covariance_rel": 0.8335419602919308,
+        "pooled_rmse": 0.06442876461528163,
+        "fixed_within_rmse": 0.0710430552521718,
+        "fixed_equal_rmse": 0.0687666603738122,
+        "cosine": 0.177799303732559,
+        "source_composition_tv": 0.36568873854037404,
+        "output_composition_tv": 0.332688738540374,
+        "zero_fraction": 0.8776764441691189,
+        "effective_unique_source_cells": 1616.4750161404402
+      },
+      "main_min": {
+        "mmd2": 0.07662515160052408,
+        "covariance_rel": 0.8296818309173274,
+        "pooled_rmse": 0.0642371988185262,
+        "fixed_within_rmse": 0.07094379026250225,
+        "fixed_equal_rmse": 0.06863919615617316,
+        "cosine": 0.16926646017546604,
+        "source_composition_tv": 0.36268873854037403,
+        "output_composition_tv": 0.330188738540374,
+        "zero_fraction": 0.877493960043364,
+        "effective_unique_source_cells": 1600.0000000000014
+      },
+      "main_max": {
+        "mmd2": 0.07778803700434489,
+        "covariance_rel": 0.8403636959571941,
+        "pooled_rmse": 0.06456265593069915,
+        "fixed_within_rmse": 0.07122542796000735,
+        "fixed_equal_rmse": 0.06886929078843099,
+        "cosine": 0.18743906771404067,
+        "source_composition_tv": 0.3681887385403741,
+        "output_composition_tv": 0.33418873854037395,
+        "zero_fraction": 0.8778000309741367,
+        "effective_unique_source_cells": 1629.991850040752
+      },
+      "differences_vs_uniform": {
+        "mmd2": 0.0004647403452271807,
+        "covariance_rel": 0.017953376407262623,
+        "pooled_rmse": 0.0003786173543297198,
+        "fixed_within_rmse": -8.004466531126667e-05,
+        "fixed_equal_rmse": -2.0618883412938198e-05,
+        "cosine": -0.018488568816234514,
+        "source_composition_tv": -0.006433333333333343,
+        "output_composition_tv": -0.0031666666666666583,
+        "zero_fraction": -0.0011733849568943263,
+        "effective_unique_source_cells": -183.4183333471971
+      }
+    },
+    "2026112602": {
+      "main_mean": {
+        "mmd2": 0.08039015605506282,
+        "covariance_rel": 0.8319639655310095,
+        "pooled_rmse": 0.06536535589294355,
+        "fixed_within_rmse": 0.07137282138607981,
+        "fixed_equal_rmse": 0.06905418056534045,
+        "cosine": 0.12317469459170355,
+        "source_composition_tv": 0.3750220718737074,
+        "output_composition_tv": 0.3423554052070408,
+        "zero_fraction": 0.8775024779309278,
+        "effective_unique_source_cells": 1622.2086504594226
+      },
+      "main_min": {
+        "mmd2": 0.07965660135753676,
+        "covariance_rel": 0.828516578933996,
+        "pooled_rmse": 0.06514914467830596,
+        "fixed_within_rmse": 0.07125196041921825,
+        "fixed_equal_rmse": 0.06896435431309446,
+        "cosine": 0.11316603289388881,
+        "source_composition_tv": 0.37018873854037404,
+        "output_composition_tv": 0.33968873854037407,
+        "zero_fraction": 0.8773746166950597,
+        "effective_unique_source_cells": 1606.4257028112456
+      },
+      "main_max": {
+        "mmd2": 0.0810588803621662,
+        "covariance_rel": 0.8363794447496066,
+        "pooled_rmse": 0.0655763954395843,
+        "fixed_within_rmse": 0.07145529183038435,
+        "fixed_equal_rmse": 0.06910483084190486,
+        "cosine": 0.1329524416623708,
+        "source_composition_tv": 0.380188738540374,
+        "output_composition_tv": 0.3451887385403741,
+        "zero_fraction": 0.877684404522224,
+        "effective_unique_source_cells": 1643.3853738701746
+      },
+      "differences_vs_uniform": {
+        "mmd2": 0.00362157861395195,
+        "covariance_rel": 0.02008881044451256,
+        "pooled_rmse": 0.0013345084077532358,
+        "fixed_within_rmse": 3.341542180779293e-05,
+        "fixed_equal_rmse": 9.290783656665155e-05,
+        "cosine": -0.07388501120810806,
+        "source_composition_tv": 0.00723333333333334,
+        "output_composition_tv": 0.011266666666666699,
+        "zero_fraction": -0.0014801579680966625,
+        "effective_unique_source_cells": -195.87420309327337
+      }
+    }
+  },
+  "largest_remainder_identity_count": 10
+}

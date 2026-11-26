@@ -1,0 +1,282 @@
+{
+  "E8.5": {
+    "shape": [
+      16787,
+      32285
+    ],
+    "storage": "csc_matrix",
+    "density": 0.13096692676459976,
+    "celltypes": {
+      "Foregut": 2405,
+      "pSHF": 2192,
+      "Surface Ectoderm": 1423,
+      "OFT/RV-CM": 1176,
+      "Endothelium": 1139,
+      "JCF": 1119,
+      "IFT-CM": 949,
+      "Paraxial Mesoderm": 934,
+      "EXEM": 863,
+      "aSHF": 822,
+      "Neural Tube": 773,
+      "Pericardium": 745,
+      "AVC-CM": 598,
+      "RV-CM": 442,
+      "LV-CM": 344,
+      "SV-CM": 310,
+      "NCC": 287,
+      "Blood": 266
+    },
+    "obs_columns": [
+      "celltype"
+    ],
+    "nonzero_quantiles": [
+      0.0,
+      0.5570352077484131,
+      0.7725890874862671,
+      1.1513299942016602,
+      3.1765072345733643,
+      6.177741050720215
+    ],
+    "nonzero_integer_fraction": 0.0791886166319403,
+    "log_space_row_sum_quantiles": [
+      1785.9786376953125,
+      3921.856689453125,
+      4884.5791015625
+    ],
+    "expm1_row_sum_quantiles": [
+      9999.998046875,
+      10000.0,
+      10000.001953125
+    ],
+    "panel_order_exact": true
+  },
+  "E9.5": {
+    "shape": [
+      17057,
+      32285
+    ],
+    "storage": "csc_matrix",
+    "density": 0.13320685031246843,
+    "celltypes": {
+      "OFT/RV-CM": 1830,
+      "Endocardium": 1555,
+      "SV-CM": 1273,
+      "pPHM": 1194,
+      "Hepatocyte": 1190,
+      "V-CM": 1144,
+      "pSHF": 1110,
+      "aSHF": 1050,
+      "Pericardium": 897,
+      "Proepicardium": 883,
+      "ST": 879,
+      "Foregut": 871,
+      "IFT-CM": 690,
+      "NCC-derived": 621,
+      "Surface Ectoderm": 554,
+      "AVC-CM": 326,
+      "BEC": 271,
+      "Epithelium": 233,
+      "aPHM": 226,
+      "Blood": 213,
+      "NCC": 47
+    },
+    "obs_columns": [
+      "celltype"
+    ],
+    "nonzero_quantiles": [
+      0.0,
+      0.5388328433036804,
+      0.7754538655281067,
+      1.1595264673233032,
+      3.1675779819488525,
+      6.537480354309082
+    ],
+    "nonzero_integer_fraction": 0.08285250363932604,
+    "log_space_row_sum_quantiles": [
+      1526.3331298828125,
+      3922.577880859375,
+      4800.59716796875
+    ],
+    "expm1_row_sum_quantiles": [
+      9999.9990234375,
+      10000.0,
+      10000.001953125
+    ],
+    "panel_order_exact": true
+  },
+  "E10.5": {
+    "shape": [
+      24979,
+      32285
+    ],
+    "storage": "csc_matrix",
+    "density": 0.09974446988312059,
+    "celltypes": {
+      "Blood": 3818,
+      "Epicardium": 3028,
+      "Endocardium-1": 1766,
+      "pPHM": 1673,
+      "Endocardium-2": 1566,
+      "pSHF": 1534,
+      "Surface Ectoderm": 1482,
+      "aPHM": 1243,
+      "EndoMT Endocardium": 1234,
+      "Early VIC": 1141,
+      "OFT-CM": 924,
+      "BEC": 843,
+      "RV-CM": 813,
+      "LV-CM": 775,
+      "ST": 617,
+      "Pericardium": 616,
+      "SV-CM": 379,
+      "NCC": 363,
+      "AVC-CM": 325,
+      "Macrophage": 318,
+      "IFT-CM": 237,
+      "Hepatocyte": 164,
+      "Gut Endoderm": 120
+    },
+    "obs_columns": [
+      "celltype"
+    ],
+    "nonzero_quantiles": [
+      0.0,
+      0.6438688039779663,
+      0.9662741422653198,
+      1.401176929473877,
+      3.2309137368202077,
+      7.563924312591553
+    ],
+    "nonzero_integer_fraction": 0.08294718054339503,
+    "log_space_row_sum_quantiles": [
+      1172.265869140625,
+      3571.353271484375,
+      4769.23779296875
+    ],
+    "expm1_row_sum_quantiles": [
+      9999.998046875,
+      10000.0,
+      10000.001953125
+    ],
+    "panel_order_exact": true
+  },
+  "early_change": {
+    "global_mean_rmse": 0.0310998694093728,
+    "top_absolute_gene_changes": [
+      {
+        "gene": "Xist",
+        "delta": -0.8280585408210754
+      },
+      {
+        "gene": "Prtg",
+        "delta": -0.8223460912704468
+      },
+      {
+        "gene": "Rpl29",
+        "delta": 0.723353385925293
+      },
+      {
+        "gene": "Tpm3-rs7",
+        "delta": -0.6280030012130737
+      },
+      {
+        "gene": "Cwc22",
+        "delta": -0.5667839646339417
+      },
+      {
+        "gene": "Mir99ahg",
+        "delta": 0.5516053438186646
+      },
+      {
+        "gene": "BC004004",
+        "delta": -0.5389338135719299
+      },
+      {
+        "gene": "Nfib",
+        "delta": 0.530768096446991
+      },
+      {
+        "gene": "Erbb4",
+        "delta": 0.42096447944641113
+      },
+      {
+        "gene": "Kcnq5",
+        "delta": 0.41553205251693726
+      },
+      {
+        "gene": "Sparc",
+        "delta": 0.4017893075942993
+      },
+      {
+        "gene": "Tle5",
+        "delta": 0.39801454544067383
+      },
+      {
+        "gene": "Cdkn1c",
+        "delta": 0.396683931350708
+      },
+      {
+        "gene": "Slc2a1",
+        "delta": -0.3953723907470703
+      },
+      {
+        "gene": "Abcb7",
+        "delta": -0.36995577812194824
+      },
+      {
+        "gene": "Nfia",
+        "delta": 0.36789698898792267
+      },
+      {
+        "gene": "Atp5l",
+        "delta": 0.35572510957717896
+      },
+      {
+        "gene": "Car4",
+        "delta": -0.3546396791934967
+      },
+      {
+        "gene": "Slc2a3",
+        "delta": -0.3529124855995178
+      },
+      {
+        "gene": "Gm10260",
+        "delta": -0.3465380072593689
+      }
+    ],
+    "shared_celltype_mean_rmse": {
+      "AVC-CM": 0.050217989964684254,
+      "Blood": 0.06266482635522683,
+      "Foregut": 0.040503656062161136,
+      "IFT-CM": 0.057510735404470485,
+      "NCC": 0.08722201800745162,
+      "OFT/RV-CM": 0.05340057556766353,
+      "Pericardium": 0.064242742082267,
+      "SV-CM": 0.07881301581725662,
+      "Surface Ectoderm": 0.044372302479283546,
+      "aSHF": 0.06263436289047546,
+      "pSHF": 0.055710041042292324
+    },
+    "only_E85": [
+      "EXEM",
+      "Endothelium",
+      "JCF",
+      "LV-CM",
+      "Neural Tube",
+      "Paraxial Mesoderm",
+      "RV-CM"
+    ],
+    "only_E95": [
+      "BEC",
+      "Endocardium",
+      "Epithelium",
+      "Hepatocyte",
+      "NCC-derived",
+      "Proepicardium",
+      "ST",
+      "V-CM",
+      "aPHM",
+      "pPHM"
+    ]
+  }
+}

@@ -1,0 +1,3907 @@
+{
+  "scope": "Two observed intervals; target-stage calibrated retrospective fits",
+  "models": [
+    {
+      "fold": 0,
+      "seed": 2026112601,
+      "arm": "autonomous_latent",
+      "best_step": 1200,
+      "best_selection": 0.03451395966112614,
+      "history": [
+        {
+          "step": 0,
+          "selection": 0.09397491440176964,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.04272773116827011,
+              "gene_mean_mse": 0.0010432472918182611,
+              "selection": 0.04272773116827011,
+              "ess_fraction": 1.0
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.14522209763526917,
+              "gene_mean_mse": 0.004529003519564867,
+              "selection": 0.14522209763526917,
+              "ess_fraction": 1.0
+            }
+          ],
+          "training_loss": null
+        },
+        {
+          "step": 200,
+          "selection": 0.041308535262942314,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.017567913979291916,
+              "gene_mean_mse": 0.00048084487207233906,
+              "selection": 0.017567913979291916,
+              "ess_fraction": 0.9562069177627563
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.06504915654659271,
+              "gene_mean_mse": 0.002475098939612508,
+              "selection": 0.06504915654659271,
+              "ess_fraction": 0.8627638220787048
+            }
+          ],
+          "training_loss": 0.031185420230031013
+        },
+        {
+          "step": 400,
+          "selection": 0.03692740201950073,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.016319047659635544,
+              "gene_mean_mse": 0.0004653789510484785,
+              "selection": 0.016319047659635544,
+              "ess_fraction": 0.886237621307373
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.05753575637936592,
+              "gene_mean_mse": 0.0022732901852577925,
+              "selection": 0.05753575637936592,
+              "ess_fraction": 0.6673581600189209
+            }
+          ],
+          "training_loss": 0.02458297647535801
+        },
+        {
+          "step": 600,
+          "selection": 0.04089016653597355,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.016425419598817825,
+              "gene_mean_mse": 0.0004647028399631381,
+              "selection": 0.016425419598817825,
+              "ess_fraction": 0.9379528164863586
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.06535491347312927,
+              "gene_mean_mse": 0.0025006961077451706,
+              "selection": 0.06535491347312927,
+              "ess_fraction": 0.7953984141349792
+            }
+          ],
+          "training_loss": 0.03169023245573044
+        },
+        {
+          "step": 800,
+          "selection": 0.0447157546877861,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.016569510102272034,
+              "gene_mean_mse": 0.0004652836068999022,
+              "selection": 0.016569510102272034,
+              "ess_fraction": 0.9730729460716248
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.07286199927330017,
+              "gene_mean_mse": 0.002725080121308565,
+              "selection": 0.07286199927330017,
+              "ess_fraction": 0.9289185404777527
+            }
+          ],
+          "training_loss": 0.029662031680345535
+        },
+        {
+          "step": 1000,
+          "selection": 0.03850462939590216,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.015863439068198204,
+              "gene_mean_mse": 0.00045798823703080416,
+              "selection": 0.015863439068198204,
+              "ess_fraction": 0.9204599261283875
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.06114581972360611,
+              "gene_mean_mse": 0.0023845958057790995,
+              "selection": 0.06114581972360611,
+              "ess_fraction": 0.7132360935211182
+            }
+          ],
+          "training_loss": 0.023517562076449394
+        },
+        {
+          "step": 1200,
+          "selection": 0.03451395966112614,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.016119446605443954,
+              "gene_mean_mse": 0.00047017892939038575,
+              "selection": 0.016119446605443954,
+              "ess_fraction": 0.8940282464027405
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.05290847271680832,
+              "gene_mean_mse": 0.0021732840687036514,
+              "selection": 0.05290847271680832,
+              "ess_fraction": 0.5881925225257874
+            }
+          ],
+          "training_loss": 0.022369403392076492
+        },
+        {
+          "step": 1400,
+          "selection": 0.03613756224513054,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.01550125703215599,
+              "gene_mean_mse": 0.00045721925562247634,
+              "selection": 0.01550125703215599,
+              "ess_fraction": 0.9059217572212219
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.05677386745810509,
+              "gene_mean_mse": 0.002274914178997278,
+              "selection": 0.05677386745810509,
+              "ess_fraction": 0.6874830722808838
+            }
+          ],
+          "training_loss": 0.02391991950571537
+        },
+        {
+          "step": 1600,
+          "selection": 0.04471071204170585,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.015361177735030651,
+              "gene_mean_mse": 0.0004459315678104758,
+              "selection": 0.015361177735030651,
+              "ess_fraction": 0.9598604440689087
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.07406024634838104,
+              "gene_mean_mse": 0.002749399049207568,
+              "selection": 0.07406024634838104,
+              "ess_fraction": 0.8973966240882874
+            }
+          ],
+          "training_loss": 0.022183842957019806
+        },
+        {
+          "step": 1800,
+          "selection": 0.03728220425546169,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.01602976769208908,
+              "gene_mean_mse": 0.00046369803021661937,
+              "selection": 0.01602976769208908,
+              "ess_fraction": 0.9162639379501343
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.058534640818834305,
+              "gene_mean_mse": 0.0023197184782475233,
+              "selection": 0.058534640818834305,
+              "ess_fraction": 0.7082160711288452
+            }
+          ],
+          "training_loss": 0.022530756890773773
+        },
+        {
+          "step": 2000,
+          "selection": 0.03843636717647314,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.015282118692994118,
+              "gene_mean_mse": 0.00045294949086382985,
+              "selection": 0.015282118692994118,
+              "ess_fraction": 0.9266690015792847
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.061590615659952164,
+              "gene_mean_mse": 0.0024131271056830883,
+              "selection": 0.061590615659952164,
+              "ess_fraction": 0.7376173734664917
+            }
+          ],
+          "training_loss": 0.021356234326958656
+        }
+      ],
+      "trainable_parameters": 24993,
+      "seconds": 23.42246913909912
+    },
+    {
+      "fold": 0,
+      "seed": 2026112601,
+      "arm": "temporal_noess",
+      "best_step": 600,
+      "best_selection": 0.03161354921758175,
+      "history": [
+        {
+          "step": 0,
+          "selection": 0.09397491440176964,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.04272773116827011,
+              "gene_mean_mse": 0.0010432472918182611,
+              "selection": 0.04272773116827011,
+              "ess_fraction": 1.0
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.14522209763526917,
+              "gene_mean_mse": 0.004529003519564867,
+              "selection": 0.14522209763526917,
+              "ess_fraction": 1.0
+            }
+          ],
+          "training_loss": null
+        },
+        {
+          "step": 200,
+          "selection": 0.03255138546228409,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.016116954386234283,
+              "gene_mean_mse": 0.00045925038284622133,
+              "selection": 0.016116954386234283,
+              "ess_fraction": 0.9778692126274109
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.04898581653833389,
+              "gene_mean_mse": 0.002047695918008685,
+              "selection": 0.04898581653833389,
+              "ess_fraction": 0.4944681227207184
+            }
+          ],
+          "training_loss": 0.022871382534503937
+        },
+        {
+          "step": 400,
+          "selection": 0.03551287762820721,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.01558716595172882,
+              "gene_mean_mse": 0.00045347033301368356,
+              "selection": 0.01558716595172882,
+              "ess_fraction": 0.9692175388336182
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.05543858930468559,
+              "gene_mean_mse": 0.0022219433449208736,
+              "selection": 0.05543858930468559,
+              "ess_fraction": 0.5734302401542664
+            }
+          ],
+          "training_loss": 0.02319890446960926
+        },
+        {
+          "step": 600,
+          "selection": 0.03161354921758175,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.015604730695486069,
+              "gene_mean_mse": 0.0004510827420745045,
+              "selection": 0.015604730695486069,
+              "ess_fraction": 0.9737399220466614
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.04762236773967743,
+              "gene_mean_mse": 0.0020199872087687254,
+              "selection": 0.04762236773967743,
+              "ess_fraction": 0.43440377712249756
+            }
+          ],
+          "training_loss": 0.022302206605672836
+        },
+        {
+          "step": 800,
+          "selection": 0.03442090190947056,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.0158999003469944,
+              "gene_mean_mse": 0.0004596263461280614,
+              "selection": 0.0158999003469944,
+              "ess_fraction": 0.9766550064086914
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.052941903471946716,
+              "gene_mean_mse": 0.002164535690099001,
+              "selection": 0.052941903471946716,
+              "ess_fraction": 0.5437622666358948
+            }
+          ],
+          "training_loss": 0.022106152027845383
+        },
+        {
+          "step": 1000,
+          "selection": 0.03309199586510658,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.01531982421875,
+              "gene_mean_mse": 0.0004489878483582288,
+              "selection": 0.01531982421875,
+              "ess_fraction": 0.9708287715911865
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.050864167511463165,
+              "gene_mean_mse": 0.002111294539645314,
+              "selection": 0.050864167511463165,
+              "ess_fraction": 0.5039020776748657
+            }
+          ],
+          "training_loss": 0.0215147752314806
+        },
+        {
+          "step": 1200,
+          "selection": 0.03302273526787758,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.01586480438709259,
+              "gene_mean_mse": 0.0004669026529882103,
+              "selection": 0.01586480438709259,
+              "ess_fraction": 0.9703291654586792
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.05018066614866257,
+              "gene_mean_mse": 0.002095884410664439,
+              "selection": 0.05018066614866257,
+              "ess_fraction": 0.4951830506324768
+            }
+          ],
+          "training_loss": 0.02178199775516987
+        },
+        {
+          "step": 1400,
+          "selection": 0.033449859358370304,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.01544867642223835,
+              "gene_mean_mse": 0.00045292312279343605,
+              "selection": 0.01544867642223835,
+              "ess_fraction": 0.9759160876274109
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.05145104229450226,
+              "gene_mean_mse": 0.0021253277081996202,
+              "selection": 0.05145104229450226,
+              "ess_fraction": 0.5487433671951294
+            }
+          ],
+          "training_loss": 0.02193366549909115
+        },
+        {
+          "step": 1600,
+          "selection": 0.03518821159377694,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.015154802240431309,
+              "gene_mean_mse": 0.00044621742563322186,
+              "selection": 0.015154802240431309,
+              "ess_fraction": 0.974437415599823
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.055221620947122574,
+              "gene_mean_mse": 0.0022287238389253616,
+              "selection": 0.055221620947122574,
+              "ess_fraction": 0.6152244210243225
+            }
+          ],
+          "training_loss": 0.02011800743639469
+        },
+        {
+          "step": 1800,
+          "selection": 0.03271949663758278,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.016161058098077774,
+              "gene_mean_mse": 0.0004654207732528448,
+              "selection": 0.016161058098077774,
+              "ess_fraction": 0.9771752953529358
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.049277935177087784,
+              "gene_mean_mse": 0.0020662539172917604,
+              "selection": 0.049277935177087784,
+              "ess_fraction": 0.4934764504432678
+            }
+          ],
+          "training_loss": 0.021662937477231026
+        },
+        {
+          "step": 2000,
+          "selection": 0.03475849889218807,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.015693027526140213,
+              "gene_mean_mse": 0.0004591080651152879,
+              "selection": 0.015693027526140213,
+              "ess_fraction": 0.9770803451538086
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.05382397025823593,
+              "gene_mean_mse": 0.0022005001083016396,
+              "selection": 0.05382397025823593,
+              "ess_fraction": 0.5727290511131287
+            }
+          ],
+          "training_loss": 0.021474555134773254
+        }
+      ],
+      "trainable_parameters": 29250,
+      "seconds": 24.858691215515137
+    },
+    {
+      "fold": 0,
+      "seed": 2026112601,
+      "arm": "temporal_latent",
+      "best_step": 600,
+      "best_selection": 0.031658501364290714,
+      "history": [
+        {
+          "step": 0,
+          "selection": 0.09397491440176964,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.04272773116827011,
+              "gene_mean_mse": 0.0010432472918182611,
+              "selection": 0.04272773116827011,
+              "ess_fraction": 1.0
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.14522209763526917,
+              "gene_mean_mse": 0.004529003519564867,
+              "selection": 0.14522209763526917,
+              "ess_fraction": 1.0
+            }
+          ],
+          "training_loss": null
+        },
+        {
+          "step": 200,
+          "selection": 0.0338381202891469,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.01614176668226719,
+              "gene_mean_mse": 0.0004594723286572844,
+              "selection": 0.01614176668226719,
+              "ess_fraction": 0.9799240827560425
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.05153447389602661,
+              "gene_mean_mse": 0.00210738112218678,
+              "selection": 0.05153447389602661,
+              "ess_fraction": 0.6116211414337158
+            }
+          ],
+          "training_loss": 0.02437131293118
+        },
+        {
+          "step": 400,
+          "selection": 0.0357733890414238,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.015546128153800964,
+              "gene_mean_mse": 0.00045302551006898284,
+              "selection": 0.015546128153800964,
+              "ess_fraction": 0.9693198204040527
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.05600064992904663,
+              "gene_mean_mse": 0.0022343755699694157,
+              "selection": 0.05600064992904663,
+              "ess_fraction": 0.6220098733901978
+            }
+          ],
+          "training_loss": 0.02318633534014225
+        },
+        {
+          "step": 600,
+          "selection": 0.031658501364290714,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.01569492556154728,
+              "gene_mean_mse": 0.0004525031545199454,
+              "selection": 0.01569492556154728,
+              "ess_fraction": 0.9752033948898315
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.04762207716703415,
+              "gene_mean_mse": 0.002006918890401721,
+              "selection": 0.04762207716703415,
+              "ess_fraction": 0.5066345930099487
+            }
+          ],
+          "training_loss": 0.02240375056862831
+        },
+        {
+          "step": 800,
+          "selection": 0.037125371396541595,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.015814729034900665,
+              "gene_mean_mse": 0.0004576424544211477,
+              "selection": 0.015814729034900665,
+              "ess_fraction": 0.9792219996452332
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.058436013758182526,
+              "gene_mean_mse": 0.0023118399549275637,
+              "selection": 0.058436013758182526,
+              "ess_fraction": 0.7171052098274231
+            }
+          ],
+          "training_loss": 0.023387333378195763
+        },
+        {
+          "step": 1000,
+          "selection": 0.03461986314505339,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.015389090403914452,
+              "gene_mean_mse": 0.0004496815090533346,
+              "selection": 0.015389090403914452,
+              "ess_fraction": 0.9729428291320801
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.05385063588619232,
+              "gene_mean_mse": 0.002181013347581029,
+              "selection": 0.05385063588619232,
+              "ess_fraction": 0.6317740082740784
+            }
+          ],
+          "training_loss": 0.022065678611397743
+        },
+        {
+          "step": 1200,
+          "selection": 0.03401733189821243,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.01588902622461319,
+              "gene_mean_mse": 0.00046758187818340957,
+              "selection": 0.01588902622461319,
+              "ess_fraction": 0.9712430834770203
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.052145637571811676,
+              "gene_mean_mse": 0.002138547133654356,
+              "selection": 0.052145637571811676,
+              "ess_fraction": 0.5657538771629333
+            }
+          ],
+          "training_loss": 0.021599842235445976
+        },
+        {
+          "step": 1400,
+          "selection": 0.03552802000194788,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.015134008601307869,
+              "gene_mean_mse": 0.00044594123028218746,
+              "selection": 0.015134008601307869,
+              "ess_fraction": 0.9778056144714355
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.05592203140258789,
+              "gene_mean_mse": 0.0022448142990469933,
+              "selection": 0.05592203140258789,
+              "ess_fraction": 0.6994229555130005
+            }
+          ],
+          "training_loss": 0.02143181674182415
+        },
+        {
+          "step": 1600,
+          "selection": 0.036027178168296814,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.015290167182683945,
+              "gene_mean_mse": 0.00044992484617978334,
+              "selection": 0.015290167182683945,
+              "ess_fraction": 0.9742490649223328
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.05676418915390968,
+              "gene_mean_mse": 0.0022569228895008564,
+              "selection": 0.05676418915390968,
+              "ess_fraction": 0.679491400718689
+            }
+          ],
+          "training_loss": 0.020461296662688255
+        },
+        {
+          "step": 1800,
+          "selection": 0.03475133515894413,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.016283072531223297,
+              "gene_mean_mse": 0.00046696074423380196,
+              "selection": 0.016283072531223297,
+              "ess_fraction": 0.9805228114128113
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.05321959778666496,
+              "gene_mean_mse": 0.002161240903660655,
+              "selection": 0.05321959778666496,
+              "ess_fraction": 0.6334913969039917
+            }
+          ],
+          "training_loss": 0.021902771666646004
+        },
+        {
+          "step": 2000,
+          "selection": 0.03573474660515785,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.0157526433467865,
+              "gene_mean_mse": 0.0004598047526087612,
+              "selection": 0.0157526433467865,
+              "ess_fraction": 0.9786419868469238
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.055716849863529205,
+              "gene_mean_mse": 0.0022426065988838673,
+              "selection": 0.055716849863529205,
+              "ess_fraction": 0.6529906392097473
+            }
+          ],
+          "training_loss": 0.021209530532360077
+        }
+      ],
+      "trainable_parameters": 29250,
+      "seconds": 25.915960788726807
+    },
+    {
+      "fold": 0,
+      "seed": 2026112601,
+      "arm": "temporal_decoded",
+      "best_step": 1800,
+      "best_selection": 0.01656647026538849,
+      "history": [
+        {
+          "step": 0,
+          "selection": 0.09397491440176964,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.04272773116827011,
+              "gene_mean_mse": 0.0010432472918182611,
+              "selection": 0.04272773116827011,
+              "ess_fraction": 1.0
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.14522209763526917,
+              "gene_mean_mse": 0.004529003519564867,
+              "selection": 0.14522209763526917,
+              "ess_fraction": 1.0
+            }
+          ],
+          "training_loss": null
+        },
+        {
+          "step": 200,
+          "selection": 0.019480137154459953,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.010155696421861649,
+              "gene_mean_mse": 0.0003585609083529562,
+              "selection": 0.010155696421861649,
+              "ess_fraction": 0.9413424730300903
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.028804577887058258,
+              "gene_mean_mse": 0.0014448813162744045,
+              "selection": 0.028804577887058258,
+              "ess_fraction": 0.5679759979248047
+            }
+          ],
+          "training_loss": 0.04082028940320015
+        },
+        {
+          "step": 400,
+          "selection": 0.01901449915021658,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.009635208174586296,
+              "gene_mean_mse": 0.0003529875830281526,
+              "selection": 0.009635208174586296,
+              "ess_fraction": 0.9120137691497803
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.028393790125846863,
+              "gene_mean_mse": 0.001440692925825715,
+              "selection": 0.028393790125846863,
+              "ess_fraction": 0.5447096824645996
+            }
+          ],
+          "training_loss": 0.03633026033639908
+        },
+        {
+          "step": 600,
+          "selection": 0.01914494251832366,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.009348307736217976,
+              "gene_mean_mse": 0.00034344784216955304,
+              "selection": 0.009348307736217976,
+              "ess_fraction": 0.9232724905014038
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.028941577300429344,
+              "gene_mean_mse": 0.0014587986515834928,
+              "selection": 0.028941577300429344,
+              "ess_fraction": 0.5973336696624756
+            }
+          ],
+          "training_loss": 0.04344290867447853
+        },
+        {
+          "step": 800,
+          "selection": 0.01802034815773368,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.009365837089717388,
+              "gene_mean_mse": 0.0003446968039497733,
+              "selection": 0.009365837089717388,
+              "ess_fraction": 0.9129237532615662
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.02667485922574997,
+              "gene_mean_mse": 0.0013948205159977078,
+              "selection": 0.02667485922574997,
+              "ess_fraction": 0.5437212586402893
+            }
+          ],
+          "training_loss": 0.035117268562316895
+        },
+        {
+          "step": 1000,
+          "selection": 0.01737098442390561,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.008960695005953312,
+              "gene_mean_mse": 0.00034168013371527195,
+              "selection": 0.008960695005953312,
+              "ess_fraction": 0.9093294739723206
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.02578127384185791,
+              "gene_mean_mse": 0.0013709081104025245,
+              "selection": 0.02578127384185791,
+              "ess_fraction": 0.5267829298973083
+            }
+          ],
+          "training_loss": 0.03683965280652046
+        },
+        {
+          "step": 1200,
+          "selection": 0.016688543371856213,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.009511694312095642,
+              "gene_mean_mse": 0.00035467627458274364,
+              "selection": 0.009511694312095642,
+              "ess_fraction": 0.9087104797363281
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.023685336112976074,
+              "gene_mean_mse": 0.0013104897225275636,
+              "selection": 0.023865392431616783,
+              "ess_fraction": 0.47735363245010376
+            }
+          ],
+          "training_loss": 0.035583026707172394
+        },
+        {
+          "step": 1400,
+          "selection": 0.017755385953933,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.009027832187712193,
+              "gene_mean_mse": 0.00034841944579966366,
+              "selection": 0.009027832187712193,
+              "ess_fraction": 0.8897494673728943
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.02648293972015381,
+              "gene_mean_mse": 0.0014037287328392267,
+              "selection": 0.02648293972015381,
+              "ess_fraction": 0.5618540644645691
+            }
+          ],
+          "training_loss": 0.037121836096048355
+        },
+        {
+          "step": 1600,
+          "selection": 0.01879376731812954,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.009189855307340622,
+              "gene_mean_mse": 0.0003446593473199755,
+              "selection": 0.009189855307340622,
+              "ess_fraction": 0.9081868529319763
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.028397679328918457,
+              "gene_mean_mse": 0.0014502863632515073,
+              "selection": 0.028397679328918457,
+              "ess_fraction": 0.5757604241371155
+            }
+          ],
+          "training_loss": 0.03318270668387413
+        },
+        {
+          "step": 1800,
+          "selection": 0.01656647026538849,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.009708480909466743,
+              "gene_mean_mse": 0.0003529223904479295,
+              "selection": 0.009708480909466743,
+              "ess_fraction": 0.9005659818649292
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.02324700355529785,
+              "gene_mean_mse": 0.0013049080735072494,
+              "selection": 0.023424459621310234,
+              "ess_fraction": 0.47751036286354065
+            }
+          ],
+          "training_loss": 0.032905615866184235
+        },
+        {
+          "step": 2000,
+          "selection": 0.017709836829453707,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.009523545391857624,
+              "gene_mean_mse": 0.00035326313809491694,
+              "selection": 0.009523545391857624,
+              "ess_fraction": 0.9066830277442932
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.025891080498695374,
+              "gene_mean_mse": 0.0013706645695492625,
+              "selection": 0.02589612826704979,
+              "ess_fraction": 0.4960592985153198
+            }
+          ],
+          "training_loss": 0.03541185334324837
+        }
+      ],
+      "trainable_parameters": 29250,
+      "seconds": 126.05241990089417
+    },
+    {
+      "fold": 0,
+      "seed": 2026112602,
+      "arm": "autonomous_latent",
+      "best_step": 1600,
+      "best_selection": 0.03451027441769838,
+      "history": [
+        {
+          "step": 0,
+          "selection": 0.09397491440176964,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.04272773116827011,
+              "gene_mean_mse": 0.0010432472918182611,
+              "selection": 0.04272773116827011,
+              "ess_fraction": 1.0
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.14522209763526917,
+              "gene_mean_mse": 0.004529003519564867,
+              "selection": 0.14522209763526917,
+              "ess_fraction": 1.0
+            }
+          ],
+          "training_loss": null
+        },
+        {
+          "step": 200,
+          "selection": 0.03988111391663551,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.017039641737937927,
+              "gene_mean_mse": 0.00047305470798164606,
+              "selection": 0.017039641737937927,
+              "ess_fraction": 0.919230580329895
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.0627225860953331,
+              "gene_mean_mse": 0.0024016338866204023,
+              "selection": 0.0627225860953331,
+              "ess_fraction": 0.7784681916236877
+            }
+          ],
+          "training_loss": 0.02445077896118164
+        },
+        {
+          "step": 400,
+          "selection": 0.035330748185515404,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.01649882271885872,
+              "gene_mean_mse": 0.00046687599387951195,
+              "selection": 0.01649882271885872,
+              "ess_fraction": 0.8969191908836365
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.05416267365217209,
+              "gene_mean_mse": 0.0021876709070056677,
+              "selection": 0.05416267365217209,
+              "ess_fraction": 0.6564898490905762
+            }
+          ],
+          "training_loss": 0.023946115747094154
+        },
+        {
+          "step": 600,
+          "selection": 0.040640912018716335,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.016449106857180595,
+              "gene_mean_mse": 0.00046224374091252685,
+              "selection": 0.016449106857180595,
+              "ess_fraction": 0.9657532572746277
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.06483271718025208,
+              "gene_mean_mse": 0.002506184158846736,
+              "selection": 0.06483271718025208,
+              "ess_fraction": 0.8714228868484497
+            }
+          ],
+          "training_loss": 0.02704777754843235
+        },
+        {
+          "step": 800,
+          "selection": 0.03978612367063761,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.015805410221219063,
+              "gene_mean_mse": 0.0004521964001469314,
+              "selection": 0.015805410221219063,
+              "ess_fraction": 0.9418424367904663
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.06376683712005615,
+              "gene_mean_mse": 0.0024644341319799423,
+              "selection": 0.06376683712005615,
+              "ess_fraction": 0.7859664559364319
+            }
+          ],
+          "training_loss": 0.022277269512414932
+        },
+        {
+          "step": 1000,
+          "selection": 0.03788444306701422,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.015828577801585197,
+              "gene_mean_mse": 0.0004627981106750667,
+              "selection": 0.015828577801585197,
+              "ess_fraction": 0.9221984148025513
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.05994030833244324,
+              "gene_mean_mse": 0.0023650587536394596,
+              "selection": 0.05994030833244324,
+              "ess_fraction": 0.7184023857116699
+            }
+          ],
+          "training_loss": 0.02312879078090191
+        },
+        {
+          "step": 1200,
+          "selection": 0.03478302154690027,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.016015423461794853,
+              "gene_mean_mse": 0.0004673463699873537,
+              "selection": 0.016015423461794853,
+              "ess_fraction": 0.9025669693946838
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.05355061963200569,
+              "gene_mean_mse": 0.002183088567107916,
+              "selection": 0.05355061963200569,
+              "ess_fraction": 0.6417911052703857
+            }
+          ],
+          "training_loss": 0.021442249417304993
+        },
+        {
+          "step": 1400,
+          "selection": 0.03763833921402693,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.015337655320763588,
+              "gene_mean_mse": 0.0004546712734736502,
+              "selection": 0.015337655320763588,
+              "ess_fraction": 0.9160674214363098
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.05993902310729027,
+              "gene_mean_mse": 0.0023586791940033436,
+              "selection": 0.05993902310729027,
+              "ess_fraction": 0.6930873394012451
+            }
+          ],
+          "training_loss": 0.022867294028401375
+        },
+        {
+          "step": 1600,
+          "selection": 0.03451027441769838,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.015414530411362648,
+              "gene_mean_mse": 0.00045899668475613,
+              "selection": 0.015414530411362648,
+              "ess_fraction": 0.9063079953193665
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.05360601842403412,
+              "gene_mean_mse": 0.0022014807909727097,
+              "selection": 0.05360601842403412,
+              "ess_fraction": 0.6125577092170715
+            }
+          ],
+          "training_loss": 0.02247707173228264
+        },
+        {
+          "step": 1800,
+          "selection": 0.03473837673664093,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.01545165479183197,
+              "gene_mean_mse": 0.00045607684296555817,
+              "selection": 0.01545165479183197,
+              "ess_fraction": 0.9170100688934326
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.05402509868144989,
+              "gene_mean_mse": 0.002203330397605896,
+              "selection": 0.05402509868144989,
+              "ess_fraction": 0.6085451245307922
+            }
+          ],
+          "training_loss": 0.021348919719457626
+        },
+        {
+          "step": 2000,
+          "selection": 0.0383440125733614,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.01669589802622795,
+              "gene_mean_mse": 0.0004748153733089566,
+              "selection": 0.01669589802622795,
+              "ess_fraction": 0.958748996257782
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.05999212712049484,
+              "gene_mean_mse": 0.002383365062996745,
+              "selection": 0.05999212712049484,
+              "ess_fraction": 0.8142228126525879
+            }
+          ],
+          "training_loss": 0.0234212726354599
+        }
+      ],
+      "trainable_parameters": 24993,
+      "seconds": 25.248082876205444
+    },
+    {
+      "fold": 0,
+      "seed": 2026112602,
+      "arm": "temporal_noess",
+      "best_step": 1800,
+      "best_selection": 0.030765486415475607,
+      "history": [
+        {
+          "step": 0,
+          "selection": 0.09397491440176964,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.04272773116827011,
+              "gene_mean_mse": 0.0010432472918182611,
+              "selection": 0.04272773116827011,
+              "ess_fraction": 1.0
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.14522209763526917,
+              "gene_mean_mse": 0.004529003519564867,
+              "selection": 0.14522209763526917,
+              "ess_fraction": 1.0
+            }
+          ],
+          "training_loss": null
+        },
+        {
+          "step": 200,
+          "selection": 0.035383451730012894,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.01568176969885826,
+              "gene_mean_mse": 0.0004474620509427041,
+              "selection": 0.01568176969885826,
+              "ess_fraction": 0.9764070510864258
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.055085133761167526,
+              "gene_mean_mse": 0.002199385780841112,
+              "selection": 0.055085133761167526,
+              "ess_fraction": 0.6057254672050476
+            }
+          ],
+          "training_loss": 0.022767793387174606
+        },
+        {
+          "step": 400,
+          "selection": 0.03335442207753658,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.01554795727133751,
+              "gene_mean_mse": 0.00044802925549447536,
+              "selection": 0.01554795727133751,
+              "ess_fraction": 0.9707160592079163
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.05116088688373566,
+              "gene_mean_mse": 0.002109130611643195,
+              "selection": 0.05116088688373566,
+              "ess_fraction": 0.5499342083930969
+            }
+          ],
+          "training_loss": 0.020912090316414833
+        },
+        {
+          "step": 600,
+          "selection": 0.03493270743638277,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.01549106277525425,
+              "gene_mean_mse": 0.0004504250537138432,
+              "selection": 0.01549106277525425,
+              "ess_fraction": 0.9773586988449097
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.05437435209751129,
+              "gene_mean_mse": 0.002208192367106676,
+              "selection": 0.05437435209751129,
+              "ess_fraction": 0.6129850149154663
+            }
+          ],
+          "training_loss": 0.021556789055466652
+        },
+        {
+          "step": 800,
+          "selection": 0.0327056348323822,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.015142232179641724,
+              "gene_mean_mse": 0.00044258325942792,
+              "selection": 0.015142232179641724,
+              "ess_fraction": 0.9710601568222046
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.05026903748512268,
+              "gene_mean_mse": 0.0020914531778544188,
+              "selection": 0.05026903748512268,
+              "ess_fraction": 0.5395059585571289
+            }
+          ],
+          "training_loss": 0.02229916863143444
+        },
+        {
+          "step": 1000,
+          "selection": 0.03407081123441458,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.015148436650633812,
+              "gene_mean_mse": 0.00044825085205957294,
+              "selection": 0.015148436650633812,
+              "ess_fraction": 0.9701542854309082
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.05299318581819534,
+              "gene_mean_mse": 0.0021751760505139828,
+              "selection": 0.05299318581819534,
+              "ess_fraction": 0.5770768523216248
+            }
+          ],
+          "training_loss": 0.023138081654906273
+        },
+        {
+          "step": 1200,
+          "selection": 0.031095788814127445,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.014872560277581215,
+              "gene_mean_mse": 0.0004424082871992141,
+              "selection": 0.014872560277581215,
+              "ess_fraction": 0.9699434041976929
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.047319017350673676,
+              "gene_mean_mse": 0.002013590419664979,
+              "selection": 0.047319017350673676,
+              "ess_fraction": 0.45856693387031555
+            }
+          ],
+          "training_loss": 0.020621707662940025
+        },
+        {
+          "step": 1400,
+          "selection": 0.033531103283166885,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.015170235186815262,
+              "gene_mean_mse": 0.00044853254803456366,
+              "selection": 0.015170235186815262,
+              "ess_fraction": 0.9716936349868774
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.05189197137951851,
+              "gene_mean_mse": 0.0021342369727790356,
+              "selection": 0.05189197137951851,
+              "ess_fraction": 0.5298898220062256
+            }
+          ],
+          "training_loss": 0.02053036168217659
+        },
+        {
+          "step": 1600,
+          "selection": 0.03149958048015833,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.0143927913159132,
+              "gene_mean_mse": 0.0004356912977527827,
+              "selection": 0.0143927913159132,
+              "ess_fraction": 0.9669965505599976
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.04860636964440346,
+              "gene_mean_mse": 0.0020601411815732718,
+              "selection": 0.04860636964440346,
+              "ess_fraction": 0.48681363463401794
+            }
+          ],
+          "training_loss": 0.02132290042936802
+        },
+        {
+          "step": 1800,
+          "selection": 0.030765486415475607,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.0150844631716609,
+              "gene_mean_mse": 0.0004451352870091796,
+              "selection": 0.0150844631716609,
+              "ess_fraction": 0.9739726185798645
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.046446509659290314,
+              "gene_mean_mse": 0.001988600939512253,
+              "selection": 0.046446509659290314,
+              "ess_fraction": 0.4368005692958832
+            }
+          ],
+          "training_loss": 0.021736079826951027
+        },
+        {
+          "step": 2000,
+          "selection": 0.03159348387271166,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.0149144995957613,
+              "gene_mean_mse": 0.0004407459346111864,
+              "selection": 0.0149144995957613,
+              "ess_fraction": 0.9806867241859436
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.04827246814966202,
+              "gene_mean_mse": 0.0020572864450514317,
+              "selection": 0.04827246814966202,
+              "ess_fraction": 0.5240034461021423
+            }
+          ],
+          "training_loss": 0.020100640133023262
+        }
+      ],
+      "trainable_parameters": 29250,
+      "seconds": 27.678750038146973
+    },
+    {
+      "fold": 0,
+      "seed": 2026112602,
+      "arm": "temporal_latent",
+      "best_step": 1800,
+      "best_selection": 0.031445395201444626,
+      "history": [
+        {
+          "step": 0,
+          "selection": 0.09397491440176964,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.04272773116827011,
+              "gene_mean_mse": 0.0010432472918182611,
+              "selection": 0.04272773116827011,
+              "ess_fraction": 1.0
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.14522209763526917,
+              "gene_mean_mse": 0.004529003519564867,
+              "selection": 0.14522209763526917,
+              "ess_fraction": 1.0
+            }
+          ],
+          "training_loss": null
+        },
+        {
+          "step": 200,
+          "selection": 0.034883225336670876,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.015623707324266434,
+              "gene_mean_mse": 0.0004463201039470732,
+              "selection": 0.015623707324266434,
+              "ess_fraction": 0.9763380885124207
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.05414274334907532,
+              "gene_mean_mse": 0.002168717561289668,
+              "selection": 0.05414274334907532,
+              "ess_fraction": 0.6246263980865479
+            }
+          ],
+          "training_loss": 0.02257065288722515
+        },
+        {
+          "step": 400,
+          "selection": 0.034639338962733746,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.01569908671081066,
+              "gene_mean_mse": 0.0004499076458159834,
+              "selection": 0.01569908671081066,
+              "ess_fraction": 0.9734187126159668
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.05357959121465683,
+              "gene_mean_mse": 0.0021656875032931566,
+              "selection": 0.05357959121465683,
+              "ess_fraction": 0.6681236028671265
+            }
+          ],
+          "training_loss": 0.021038612350821495
+        },
+        {
+          "step": 600,
+          "selection": 0.03526217304170132,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.015663836151361465,
+              "gene_mean_mse": 0.0004537245840765536,
+              "selection": 0.015663836151361465,
+              "ess_fraction": 0.9783388376235962
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.05486050993204117,
+              "gene_mean_mse": 0.0022120466455817223,
+              "selection": 0.05486050993204117,
+              "ess_fraction": 0.6519050002098083
+            }
+          ],
+          "training_loss": 0.021810127422213554
+        },
+        {
+          "step": 800,
+          "selection": 0.03369388822466135,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.015284532681107521,
+              "gene_mean_mse": 0.0004454298468772322,
+              "selection": 0.015284532681107521,
+              "ess_fraction": 0.9724608659744263
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.05210324376821518,
+              "gene_mean_mse": 0.0021330639719963074,
+              "selection": 0.05210324376821518,
+              "ess_fraction": 0.613985538482666
+            }
+          ],
+          "training_loss": 0.022555479779839516
+        },
+        {
+          "step": 1000,
+          "selection": 0.03495994955301285,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.015277467668056488,
+              "gene_mean_mse": 0.00045013256021775305,
+              "selection": 0.015277467668056488,
+              "ess_fraction": 0.9726080298423767
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.05464243143796921,
+              "gene_mean_mse": 0.002209519036114216,
+              "selection": 0.05464243143796921,
+              "ess_fraction": 0.6622114181518555
+            }
+          ],
+          "training_loss": 0.023514891043305397
+        },
+        {
+          "step": 1200,
+          "selection": 0.03199667204171419,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.014889901503920555,
+              "gene_mean_mse": 0.00044314240221865475,
+              "selection": 0.014889901503920555,
+              "ess_fraction": 0.971796452999115
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.04910344257950783,
+              "gene_mean_mse": 0.00204241625033319,
+              "selection": 0.04910344257950783,
+              "ess_fraction": 0.5505334734916687
+            }
+          ],
+          "training_loss": 0.020613986998796463
+        },
+        {
+          "step": 1400,
+          "selection": 0.03414698923006654,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.015144449658691883,
+              "gene_mean_mse": 0.0004479295457713306,
+              "selection": 0.015144449658691883,
+              "ess_fraction": 0.9724107384681702
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.05314952880144119,
+              "gene_mean_mse": 0.0021636171732097864,
+              "selection": 0.05314952880144119,
+              "ess_fraction": 0.5782288908958435
+            }
+          ],
+          "training_loss": 0.020700961351394653
+        },
+        {
+          "step": 1600,
+          "selection": 0.03248313628137112,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.014372594654560089,
+              "gene_mean_mse": 0.0004356249701231718,
+              "selection": 0.014372594654560089,
+              "ess_fraction": 0.9676694273948669
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.050593677908182144,
+              "gene_mean_mse": 0.002099971752613783,
+              "selection": 0.050593677908182144,
+              "ess_fraction": 0.5672452449798584
+            }
+          ],
+          "training_loss": 0.02130902372300625
+        },
+        {
+          "step": 1800,
+          "selection": 0.031445395201444626,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.01502886414527893,
+              "gene_mean_mse": 0.0004442109202500433,
+              "selection": 0.01502886414527893,
+              "ess_fraction": 0.9748350977897644
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.04786192625761032,
+              "gene_mean_mse": 0.0020190891809761524,
+              "selection": 0.04786192625761032,
+              "ess_fraction": 0.5060650110244751
+            }
+          ],
+          "training_loss": 0.021980641409754753
+        },
+        {
+          "step": 2000,
+          "selection": 0.03306650370359421,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.015089411288499832,
+              "gene_mean_mse": 0.00044376848381944,
+              "selection": 0.015089411288499832,
+              "ess_fraction": 0.9824070930480957
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.05104359611868858,
+              "gene_mean_mse": 0.002120415912941098,
+              "selection": 0.05104359611868858,
+              "ess_fraction": 0.6308506727218628
+            }
+          ],
+          "training_loss": 0.020570559427142143
+        }
+      ],
+      "trainable_parameters": 29250,
+      "seconds": 28.9216730594635
+    },
+    {
+      "fold": 0,
+      "seed": 2026112602,
+      "arm": "temporal_decoded",
+      "best_step": 1600,
+      "best_selection": 0.01614774391055107,
+      "history": [
+        {
+          "step": 0,
+          "selection": 0.09397491440176964,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.04272773116827011,
+              "gene_mean_mse": 0.0010432472918182611,
+              "selection": 0.04272773116827011,
+              "ess_fraction": 1.0
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.14522209763526917,
+              "gene_mean_mse": 0.004529003519564867,
+              "selection": 0.14522209763526917,
+              "ess_fraction": 1.0
+            }
+          ],
+          "training_loss": null
+        },
+        {
+          "step": 200,
+          "selection": 0.01898806169629097,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.009891580790281296,
+              "gene_mean_mse": 0.0003505602362565696,
+              "selection": 0.009891580790281296,
+              "ess_fraction": 0.9382004737854004
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.028084542602300644,
+              "gene_mean_mse": 0.001405402785167098,
+              "selection": 0.028084542602300644,
+              "ess_fraction": 0.527596116065979
+            }
+          ],
+          "training_loss": 0.03655235096812248
+        },
+        {
+          "step": 400,
+          "selection": 0.020038116723299026,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.009335298091173172,
+              "gene_mean_mse": 0.0003416508552618325,
+              "selection": 0.009335298091173172,
+              "ess_fraction": 0.9158565998077393
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.03074093535542488,
+              "gene_mean_mse": 0.0015015265671536326,
+              "selection": 0.03074093535542488,
+              "ess_fraction": 0.6162441372871399
+            }
+          ],
+          "training_loss": 0.0344681441783905
+        },
+        {
+          "step": 600,
+          "selection": 0.016988581977784634,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.009589377790689468,
+              "gene_mean_mse": 0.0003510626556817442,
+              "selection": 0.009589377790689468,
+              "ess_fraction": 0.917415201663971
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.024383429437875748,
+              "gene_mean_mse": 0.0013284346787258983,
+              "selection": 0.0243877861648798,
+              "ess_fraction": 0.49633708596229553
+            }
+          ],
+          "training_loss": 0.03511926904320717
+        },
+        {
+          "step": 800,
+          "selection": 0.016374649945646524,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.00906155351549387,
+              "gene_mean_mse": 0.00034181305090896785,
+              "selection": 0.00906155351549387,
+              "ess_fraction": 0.9030217528343201
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.023646533489227295,
+              "gene_mean_mse": 0.0013105145189911127,
+              "selection": 0.02368774637579918,
+              "ess_fraction": 0.4889031946659088
+            }
+          ],
+          "training_loss": 0.03411984071135521
+        },
+        {
+          "step": 1000,
+          "selection": 0.017872251570224762,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.009153846651315689,
+              "gene_mean_mse": 0.0003522664192132652,
+              "selection": 0.009153846651315689,
+              "ess_fraction": 0.8923876285552979
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.026590656489133835,
+              "gene_mean_mse": 0.0014149658381938934,
+              "selection": 0.026590656489133835,
+              "ess_fraction": 0.5507371425628662
+            }
+          ],
+          "training_loss": 0.03568641096353531
+        },
+        {
+          "step": 1200,
+          "selection": 0.016694675665348768,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.008988657034933567,
+              "gene_mean_mse": 0.0003435253747738898,
+              "selection": 0.008988657034933567,
+              "ess_fraction": 0.8980175256729126
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.02235536463558674,
+              "gene_mean_mse": 0.0012672439916059375,
+              "selection": 0.02440069429576397,
+              "ess_fraction": 0.43107324838638306
+            }
+          ],
+          "training_loss": 0.03333818167448044
+        },
+        {
+          "step": 1400,
+          "selection": 0.018147320486605167,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.009235875681042671,
+              "gene_mean_mse": 0.0003503415791783482,
+              "selection": 0.009235875681042671,
+              "ess_fraction": 0.9014073014259338
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.027058765292167664,
+              "gene_mean_mse": 0.0014088036259636283,
+              "selection": 0.027058765292167664,
+              "ess_fraction": 0.5246042013168335
+            }
+          ],
+          "training_loss": 0.03600309044122696
+        },
+        {
+          "step": 1600,
+          "selection": 0.01614774391055107,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.008918093517422676,
+              "gene_mean_mse": 0.0003464672772679478,
+              "selection": 0.008918093517422676,
+              "ess_fraction": 0.8906980752944946
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.021978793665766716,
+              "gene_mean_mse": 0.0012723417021334171,
+              "selection": 0.023377394303679466,
+              "ess_fraction": 0.4416097104549408
+            }
+          ],
+          "training_loss": 0.03420569747686386
+        },
+        {
+          "step": 1800,
+          "selection": 0.017465760465711355,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.009078758768737316,
+              "gene_mean_mse": 0.00033977083512581885,
+              "selection": 0.009078758768737316,
+              "ess_fraction": 0.9088419675827026
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.025852762162685394,
+              "gene_mean_mse": 0.0013669298496097326,
+              "selection": 0.025852762162685394,
+              "ess_fraction": 0.5260764956474304
+            }
+          ],
+          "training_loss": 0.03625694662332535
+        },
+        {
+          "step": 2000,
+          "selection": 0.016493532806634903,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.00912131555378437,
+              "gene_mean_mse": 0.00034065902582369745,
+              "selection": 0.00912131555378437,
+              "ess_fraction": 0.9176048040390015
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.023836009204387665,
+              "gene_mean_mse": 0.0013165451819077134,
+              "selection": 0.023865750059485435,
+              "ess_fraction": 0.4905417859554291
+            }
+          ],
+          "training_loss": 0.03594756871461868
+        }
+      ],
+      "trainable_parameters": 29250,
+      "seconds": 150.8202610015869
+    },
+    {
+      "fold": 1,
+      "seed": 2026112601,
+      "arm": "autonomous_latent",
+      "best_step": 600,
+      "best_selection": 0.03579282481223345,
+      "history": [
+        {
+          "step": 0,
+          "selection": 0.09306317195296288,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.04272773116827011,
+              "gene_mean_mse": 0.0010432472918182611,
+              "selection": 0.04272773116827011,
+              "ess_fraction": 1.0
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.14339861273765564,
+              "gene_mean_mse": 0.004564368166029453,
+              "selection": 0.14339861273765564,
+              "ess_fraction": 1.0
+            }
+          ],
+          "training_loss": null
+        },
+        {
+          "step": 200,
+          "selection": 0.03981808386743069,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.016962897032499313,
+              "gene_mean_mse": 0.0004732659726869315,
+              "selection": 0.016962897032499313,
+              "ess_fraction": 0.930020272731781
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.06267327070236206,
+              "gene_mean_mse": 0.0024704013485461473,
+              "selection": 0.06267327070236206,
+              "ess_fraction": 0.8173723816871643
+            }
+          ],
+          "training_loss": 0.027126319706439972
+        },
+        {
+          "step": 400,
+          "selection": 0.037612367421388626,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.01728016883134842,
+              "gene_mean_mse": 0.0004891332937404513,
+              "selection": 0.01728016883134842,
+              "ess_fraction": 0.9035810828208923
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.05794456601142883,
+              "gene_mean_mse": 0.0023390203714370728,
+              "selection": 0.05794456601142883,
+              "ess_fraction": 0.7033306956291199
+            }
+          ],
+          "training_loss": 0.024147333577275276
+        },
+        {
+          "step": 600,
+          "selection": 0.03579282481223345,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.016314195469021797,
+              "gene_mean_mse": 0.0004686444590333849,
+              "selection": 0.016314195469021797,
+              "ess_fraction": 0.907684326171875
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.0552714541554451,
+              "gene_mean_mse": 0.0022892183624207973,
+              "selection": 0.0552714541554451,
+              "ess_fraction": 0.6475511789321899
+            }
+          ],
+          "training_loss": 0.025049641728401184
+        },
+        {
+          "step": 800,
+          "selection": 0.03589186072349548,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.01669340953230858,
+              "gene_mean_mse": 0.00047854584408923984,
+              "selection": 0.01669340953230858,
+              "ess_fraction": 0.8990964889526367
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.05509031191468239,
+              "gene_mean_mse": 0.002269554417580366,
+              "selection": 0.05509031191468239,
+              "ess_fraction": 0.6428588628768921
+            }
+          ],
+          "training_loss": 0.026611043140292168
+        },
+        {
+          "step": 1000,
+          "selection": 0.035998295061290264,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.0157234575599432,
+              "gene_mean_mse": 0.0004604966379702091,
+              "selection": 0.0157234575599432,
+              "ess_fraction": 0.9133549332618713
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.05627313256263733,
+              "gene_mean_mse": 0.0023272146936506033,
+              "selection": 0.05627313256263733,
+              "ess_fraction": 0.6755235195159912
+            }
+          ],
+          "training_loss": 0.022019991651177406
+        },
+        {
+          "step": 1200,
+          "selection": 0.03631415031850338,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.016120538115501404,
+              "gene_mean_mse": 0.00046709011076018214,
+              "selection": 0.016120538115501404,
+              "ess_fraction": 0.9085590243339539
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.056507762521505356,
+              "gene_mean_mse": 0.0023153838701546192,
+              "selection": 0.056507762521505356,
+              "ess_fraction": 0.6707737445831299
+            }
+          ],
+          "training_loss": 0.0228301752358675
+        },
+        {
+          "step": 1400,
+          "selection": 0.04040556401014328,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.015990883111953735,
+              "gene_mean_mse": 0.00046076669241301715,
+              "selection": 0.015990883111953735,
+              "ess_fraction": 0.9678450226783752
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.06482024490833282,
+              "gene_mean_mse": 0.0025946120731532574,
+              "selection": 0.06482024490833282,
+              "ess_fraction": 0.8592277765274048
+            }
+          ],
+          "training_loss": 0.02546508237719536
+        },
+        {
+          "step": 1600,
+          "selection": 0.03671438805758953,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.01610308513045311,
+              "gene_mean_mse": 0.000462029711343348,
+              "selection": 0.01610308513045311,
+              "ess_fraction": 0.9374491572380066
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.05732569098472595,
+              "gene_mean_mse": 0.002362591680139303,
+              "selection": 0.05732569098472595,
+              "ess_fraction": 0.7008976340293884
+            }
+          ],
+          "training_loss": 0.020343512296676636
+        },
+        {
+          "step": 1800,
+          "selection": 0.03597638290375471,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.01563224010169506,
+              "gene_mean_mse": 0.00045643080375157297,
+              "selection": 0.01563224010169506,
+              "ess_fraction": 0.9323344230651855
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.05632052570581436,
+              "gene_mean_mse": 0.0023303241468966007,
+              "selection": 0.05632052570581436,
+              "ess_fraction": 0.6721020340919495
+            }
+          ],
+          "training_loss": 0.025069722905755043
+        },
+        {
+          "step": 2000,
+          "selection": 0.03691083751618862,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.015823472291231155,
+              "gene_mean_mse": 0.0004610219330061227,
+              "selection": 0.015823472291231155,
+              "ess_fraction": 0.9321105480194092
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.05799820274114609,
+              "gene_mean_mse": 0.002365292515605688,
+              "selection": 0.05799820274114609,
+              "ess_fraction": 0.693061351776123
+            }
+          ],
+          "training_loss": 0.022028570994734764
+        }
+      ],
+      "trainable_parameters": 24993,
+      "seconds": 26.559069871902466
+    },
+    {
+      "fold": 1,
+      "seed": 2026112601,
+      "arm": "temporal_noess",
+      "best_step": 600,
+      "best_selection": 0.03143227891996503,
+      "history": [
+        {
+          "step": 0,
+          "selection": 0.09306317195296288,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.04272773116827011,
+              "gene_mean_mse": 0.0010432472918182611,
+              "selection": 0.04272773116827011,
+              "ess_fraction": 1.0
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.14339861273765564,
+              "gene_mean_mse": 0.004564368166029453,
+              "selection": 0.14339861273765564,
+              "ess_fraction": 1.0
+            }
+          ],
+          "training_loss": null
+        },
+        {
+          "step": 200,
+          "selection": 0.033483472652733326,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.015926534309983253,
+              "gene_mean_mse": 0.00045682958443649113,
+              "selection": 0.015926534309983253,
+              "ess_fraction": 0.9697950482368469
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.0510404109954834,
+              "gene_mean_mse": 0.0021505060140043497,
+              "selection": 0.0510404109954834,
+              "ess_fraction": 0.5396019816398621
+            }
+          ],
+          "training_loss": 0.022823579609394073
+        },
+        {
+          "step": 400,
+          "selection": 0.03488435223698616,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.015896424651145935,
+              "gene_mean_mse": 0.000459814618807286,
+              "selection": 0.015896424651145935,
+              "ess_fraction": 0.9734318256378174
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.053872279822826385,
+              "gene_mean_mse": 0.0022377436980605125,
+              "selection": 0.053872279822826385,
+              "ess_fraction": 0.550693929195404
+            }
+          ],
+          "training_loss": 0.021106692031025887
+        },
+        {
+          "step": 600,
+          "selection": 0.03143227891996503,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.014725753106176853,
+              "gene_mean_mse": 0.0004407156375236809,
+              "selection": 0.014725753106176853,
+              "ess_fraction": 0.9661849141120911
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.048138804733753204,
+              "gene_mean_mse": 0.0020797771867364645,
+              "selection": 0.048138804733753204,
+              "ess_fraction": 0.44638362526893616
+            }
+          ],
+          "training_loss": 0.02346504107117653
+        },
+        {
+          "step": 800,
+          "selection": 0.03275497630238533,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.015717078000307083,
+              "gene_mean_mse": 0.00045603251783177257,
+              "selection": 0.015717078000307083,
+              "ess_fraction": 0.9759216904640198
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.04979287460446358,
+              "gene_mean_mse": 0.002125229686498642,
+              "selection": 0.04979287460446358,
+              "ess_fraction": 0.521889328956604
+            }
+          ],
+          "training_loss": 0.021617194637656212
+        },
+        {
+          "step": 1000,
+          "selection": 0.03424863750115037,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.015412048436701298,
+              "gene_mean_mse": 0.0004502435040194541,
+              "selection": 0.015412048436701298,
+              "ess_fraction": 0.9748830199241638
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.05308522656559944,
+              "gene_mean_mse": 0.0022310526110231876,
+              "selection": 0.05308522656559944,
+              "ess_fraction": 0.5982120037078857
+            }
+          ],
+          "training_loss": 0.02143961749970913
+        },
+        {
+          "step": 1200,
+          "selection": 0.03327977657318115,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.016070649027824402,
+              "gene_mean_mse": 0.00045994098763912916,
+              "selection": 0.016070649027824402,
+              "ess_fraction": 0.9829927086830139
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.0504889041185379,
+              "gene_mean_mse": 0.002144720871001482,
+              "selection": 0.0504889041185379,
+              "ess_fraction": 0.53240567445755
+            }
+          ],
+          "training_loss": 0.02172759547829628
+        },
+        {
+          "step": 1400,
+          "selection": 0.03170821908861399,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.014823900535702705,
+              "gene_mean_mse": 0.00044302293099462986,
+              "selection": 0.014823900535702705,
+              "ess_fraction": 0.971039891242981
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.04859253764152527,
+              "gene_mean_mse": 0.0021071594674140215,
+              "selection": 0.04859253764152527,
+              "ess_fraction": 0.5085127949714661
+            }
+          ],
+          "training_loss": 0.021235881373286247
+        },
+        {
+          "step": 1600,
+          "selection": 0.03380542527884245,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.015707476064562798,
+              "gene_mean_mse": 0.00045655074063688517,
+              "selection": 0.015707476064562798,
+              "ess_fraction": 0.9737361073493958
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.0519033744931221,
+              "gene_mean_mse": 0.002198621863499284,
+              "selection": 0.0519033744931221,
+              "ess_fraction": 0.5695472359657288
+            }
+          ],
+          "training_loss": 0.019655082374811172
+        },
+        {
+          "step": 1800,
+          "selection": 0.03283808706328273,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.014970834366977215,
+              "gene_mean_mse": 0.0004454829904716462,
+              "selection": 0.014970834366977215,
+              "ess_fraction": 0.9694387912750244
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.05070533975958824,
+              "gene_mean_mse": 0.0021557973232120275,
+              "selection": 0.05070533975958824,
+              "ess_fraction": 0.5145293474197388
+            }
+          ],
+          "training_loss": 0.023712823167443275
+        },
+        {
+          "step": 2000,
+          "selection": 0.032016105484217405,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.015207222662866116,
+              "gene_mean_mse": 0.0004496660840231925,
+              "selection": 0.015207222662866116,
+              "ess_fraction": 0.9720579385757446
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.048824988305568695,
+              "gene_mean_mse": 0.0021042809821665287,
+              "selection": 0.048824988305568695,
+              "ess_fraction": 0.4921698570251465
+            }
+          ],
+          "training_loss": 0.020986566320061684
+        }
+      ],
+      "trainable_parameters": 29250,
+      "seconds": 28.890557765960693
+    },
+    {
+      "fold": 1,
+      "seed": 2026112601,
+      "arm": "temporal_latent",
+      "best_step": 600,
+      "best_selection": 0.03226140886545181,
+      "history": [
+        {
+          "step": 0,
+          "selection": 0.09306317195296288,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.04272773116827011,
+              "gene_mean_mse": 0.0010432472918182611,
+              "selection": 0.04272773116827011,
+              "ess_fraction": 1.0
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.14339861273765564,
+              "gene_mean_mse": 0.004564368166029453,
+              "selection": 0.14339861273765564,
+              "ess_fraction": 1.0
+            }
+          ],
+          "training_loss": null
+        },
+        {
+          "step": 200,
+          "selection": 0.03303268738090992,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.015676449984312057,
+              "gene_mean_mse": 0.0004519833601079881,
+              "selection": 0.015676449984312057,
+              "ess_fraction": 0.9700784683227539
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.05038892477750778,
+              "gene_mean_mse": 0.0021303119137883186,
+              "selection": 0.05038892477750778,
+              "ess_fraction": 0.5743410587310791
+            }
+          ],
+          "training_loss": 0.022694123908877373
+        },
+        {
+          "step": 400,
+          "selection": 0.03566000331193209,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.016040919348597527,
+              "gene_mean_mse": 0.00046239985385909677,
+              "selection": 0.016040919348597527,
+              "ess_fraction": 0.9756942987442017
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.05527908727526665,
+              "gene_mean_mse": 0.002275696722790599,
+              "selection": 0.05527908727526665,
+              "ess_fraction": 0.6411609053611755
+            }
+          ],
+          "training_loss": 0.021043606102466583
+        },
+        {
+          "step": 600,
+          "selection": 0.03226140886545181,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.014813609421253204,
+              "gene_mean_mse": 0.0004417362215463072,
+              "selection": 0.014813609421253204,
+              "ess_fraction": 0.9676523208618164
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.04970920830965042,
+              "gene_mean_mse": 0.0021164712961763144,
+              "selection": 0.04970920830965042,
+              "ess_fraction": 0.5359075665473938
+            }
+          ],
+          "training_loss": 0.022884324193000793
+        },
+        {
+          "step": 800,
+          "selection": 0.03273245878517628,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.016167927533388138,
+              "gene_mean_mse": 0.00046472452231682837,
+              "selection": 0.016167927533388138,
+              "ess_fraction": 0.9766913056373596
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.049296990036964417,
+              "gene_mean_mse": 0.0021001866552978754,
+              "selection": 0.049296990036964417,
+              "ess_fraction": 0.5438539385795593
+            }
+          ],
+          "training_loss": 0.022025397047400475
+        },
+        {
+          "step": 1000,
+          "selection": 0.0353004508651793,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.015537639148533344,
+              "gene_mean_mse": 0.00045260143815539777,
+              "selection": 0.015537639148533344,
+              "ess_fraction": 0.9757245182991028
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.055063262581825256,
+              "gene_mean_mse": 0.00228138524107635,
+              "selection": 0.055063262581825256,
+              "ess_fraction": 0.6601133346557617
+            }
+          ],
+          "training_loss": 0.02153594233095646
+        },
+        {
+          "step": 1200,
+          "selection": 0.03332018293440342,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.016050513833761215,
+              "gene_mean_mse": 0.0004604279238265008,
+              "selection": 0.016050513833761215,
+              "ess_fraction": 0.9829492568969727
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.050589852035045624,
+              "gene_mean_mse": 0.0021432789508253336,
+              "selection": 0.050589852035045624,
+              "ess_fraction": 0.5730649828910828
+            }
+          ],
+          "training_loss": 0.021678563207387924
+        },
+        {
+          "step": 1400,
+          "selection": 0.0329153873026371,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.014667969197034836,
+              "gene_mean_mse": 0.00043954962166026235,
+              "selection": 0.014667969197034836,
+              "ess_fraction": 0.9730613231658936
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.051162805408239365,
+              "gene_mean_mse": 0.0021804224234074354,
+              "selection": 0.051162805408239365,
+              "ess_fraction": 0.6318342685699463
+            }
+          ],
+          "training_loss": 0.022268563508987427
+        },
+        {
+          "step": 1600,
+          "selection": 0.034181551076471806,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.015675099566578865,
+              "gene_mean_mse": 0.00045610175584442914,
+              "selection": 0.015675099566578865,
+              "ess_fraction": 0.9745736718177795
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.052688002586364746,
+              "gene_mean_mse": 0.0022128750570118427,
+              "selection": 0.052688002586364746,
+              "ess_fraction": 0.6206936836242676
+            }
+          ],
+          "training_loss": 0.019920598715543747
+        },
+        {
+          "step": 1800,
+          "selection": 0.033494670409709215,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.015036576427519321,
+              "gene_mean_mse": 0.000446668709628284,
+              "selection": 0.015036576427519321,
+              "ess_fraction": 0.9701296091079712
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.05195276439189911,
+              "gene_mean_mse": 0.002184521406888962,
+              "selection": 0.05195276439189911,
+              "ess_fraction": 0.576734185218811
+            }
+          ],
+          "training_loss": 0.023824939504265785
+        },
+        {
+          "step": 2000,
+          "selection": 0.032915766816586256,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.015274717472493649,
+              "gene_mean_mse": 0.00045097386464476585,
+              "selection": 0.015274717472493649,
+              "ess_fraction": 0.9728881120681763
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.050556816160678864,
+              "gene_mean_mse": 0.002146735554561019,
+              "selection": 0.050556816160678864,
+              "ess_fraction": 0.555971622467041
+            }
+          ],
+          "training_loss": 0.020911533385515213
+        }
+      ],
+      "trainable_parameters": 29250,
+      "seconds": 28.050577878952026
+    },
+    {
+      "fold": 1,
+      "seed": 2026112601,
+      "arm": "temporal_decoded",
+      "best_step": 1400,
+      "best_selection": 0.015556261874735355,
+      "history": [
+        {
+          "step": 0,
+          "selection": 0.09306317195296288,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.04272773116827011,
+              "gene_mean_mse": 0.0010432472918182611,
+              "selection": 0.04272773116827011,
+              "ess_fraction": 1.0
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.14339861273765564,
+              "gene_mean_mse": 0.004564368166029453,
+              "selection": 0.14339861273765564,
+              "ess_fraction": 1.0
+            }
+          ],
+          "training_loss": null
+        },
+        {
+          "step": 200,
+          "selection": 0.017088348045945168,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.009799372404813766,
+              "gene_mean_mse": 0.00035566891892813146,
+              "selection": 0.009799372404813766,
+              "ess_fraction": 0.9248639941215515
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.02437732368707657,
+              "gene_mean_mse": 0.0013723799493163824,
+              "selection": 0.02437732368707657,
+              "ess_fraction": 0.5013297200202942
+            }
+          ],
+          "training_loss": 0.037161603569984436
+        },
+        {
+          "step": 400,
+          "selection": 0.017490978818386793,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.009544621221721172,
+              "gene_mean_mse": 0.00035549121093936265,
+              "selection": 0.009544621221721172,
+              "ess_fraction": 0.921011745929718
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.025437336415052414,
+              "gene_mean_mse": 0.0014167824992910028,
+              "selection": 0.025437336415052414,
+              "ess_fraction": 0.5362550616264343
+            }
+          ],
+          "training_loss": 0.03444113954901695
+        },
+        {
+          "step": 600,
+          "selection": 0.016273087821900845,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.009211260825395584,
+              "gene_mean_mse": 0.00035010953433811665,
+              "selection": 0.009211260825395584,
+              "ess_fraction": 0.9068317413330078
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.023122956976294518,
+              "gene_mean_mse": 0.0013396160211414099,
+              "selection": 0.023334914818406105,
+              "ess_fraction": 0.47552332282066345
+            }
+          ],
+          "training_loss": 0.034379880875349045
+        },
+        {
+          "step": 800,
+          "selection": 0.01700148545205593,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.009369559586048126,
+              "gene_mean_mse": 0.00034367709304206073,
+              "selection": 0.009369559586048126,
+              "ess_fraction": 0.9190527200698853
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.024633411318063736,
+              "gene_mean_mse": 0.0013871617848053575,
+              "selection": 0.024633411318063736,
+              "ess_fraction": 0.5232027173042297
+            }
+          ],
+          "training_loss": 0.03598002716898918
+        },
+        {
+          "step": 1000,
+          "selection": 0.015969908330589533,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.00932640302926302,
+              "gene_mean_mse": 0.00034763288567774,
+              "selection": 0.00932640302926302,
+              "ess_fraction": 0.9090045094490051
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.02254500240087509,
+              "gene_mean_mse": 0.0013339195866137743,
+              "selection": 0.022613413631916046,
+              "ess_fraction": 0.4857940971851349
+            }
+          ],
+          "training_loss": 0.034511495381593704
+        },
+        {
+          "step": 1200,
+          "selection": 0.016261148266494274,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.009573966264724731,
+              "gene_mean_mse": 0.0003461910819169134,
+              "selection": 0.009573966264724731,
+              "ess_fraction": 0.9182308316230774
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.02270366996526718,
+              "gene_mean_mse": 0.0013240306871011853,
+              "selection": 0.022948330268263817,
+              "ess_fraction": 0.4737982153892517
+            }
+          ],
+          "training_loss": 0.0358472540974617
+        },
+        {
+          "step": 1400,
+          "selection": 0.015556261874735355,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.008856037631630898,
+              "gene_mean_mse": 0.00034417014103382826,
+              "selection": 0.008856037631630898,
+              "ess_fraction": 0.9015781879425049
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.02224111557006836,
+              "gene_mean_mse": 0.001333235064521432,
+              "selection": 0.022256486117839813,
+              "ess_fraction": 0.4931640923023224
+            }
+          ],
+          "training_loss": 0.03374021500349045
+        },
+        {
+          "step": 1600,
+          "selection": 0.017410135362297297,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.00955312792211771,
+              "gene_mean_mse": 0.0003475586127024144,
+              "selection": 0.00955312792211771,
+              "ess_fraction": 0.9105805158615112
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.025267142802476883,
+              "gene_mean_mse": 0.0014231483219191432,
+              "selection": 0.025267142802476883,
+              "ess_fraction": 0.5409038662910461
+            }
+          ],
+          "training_loss": 0.03306994214653969
+        },
+        {
+          "step": 1800,
+          "selection": 0.016107724979519844,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.009088749065995216,
+              "gene_mean_mse": 0.0003424466121941805,
+              "selection": 0.009088749065995216,
+              "ess_fraction": 0.9009957313537598
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.023096634075045586,
+              "gene_mean_mse": 0.0013430662220343947,
+              "selection": 0.023126700893044472,
+              "ess_fraction": 0.4904910922050476
+            }
+          ],
+          "training_loss": 0.038787052035331726
+        },
+        {
+          "step": 2000,
+          "selection": 0.01598510704934597,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.00907137244939804,
+              "gene_mean_mse": 0.0003479793667793274,
+              "selection": 0.00907137244939804,
+              "ess_fraction": 0.9049108028411865
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.022759968414902687,
+              "gene_mean_mse": 0.0013276019599288702,
+              "selection": 0.0228988416492939,
+              "ess_fraction": 0.4800011217594147
+            }
+          ],
+          "training_loss": 0.034349627792835236
+        }
+      ],
+      "trainable_parameters": 29250,
+      "seconds": 144.49964022636414
+    },
+    {
+      "fold": 1,
+      "seed": 2026112602,
+      "arm": "autonomous_latent",
+      "best_step": 1600,
+      "best_selection": 0.03463971521705389,
+      "history": [
+        {
+          "step": 0,
+          "selection": 0.09306317195296288,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.04272773116827011,
+              "gene_mean_mse": 0.0010432472918182611,
+              "selection": 0.04272773116827011,
+              "ess_fraction": 1.0
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.14339861273765564,
+              "gene_mean_mse": 0.004564368166029453,
+              "selection": 0.14339861273765564,
+              "ess_fraction": 1.0
+            }
+          ],
+          "training_loss": null
+        },
+        {
+          "step": 200,
+          "selection": 0.04124049935489893,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.017423735931515694,
+              "gene_mean_mse": 0.0004763549077324569,
+              "selection": 0.017423735931515694,
+              "ess_fraction": 0.9564982056617737
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.06505726277828217,
+              "gene_mean_mse": 0.0025413907133042812,
+              "selection": 0.06505726277828217,
+              "ess_fraction": 0.8983467817306519
+            }
+          ],
+          "training_loss": 0.030470233410596848
+        },
+        {
+          "step": 400,
+          "selection": 0.035703458823263645,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.01771094836294651,
+              "gene_mean_mse": 0.0004973593750037253,
+              "selection": 0.01771094836294651,
+              "ess_fraction": 0.8810778856277466
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.05369596928358078,
+              "gene_mean_mse": 0.0022127139382064342,
+              "selection": 0.05369596928358078,
+              "ess_fraction": 0.6381532549858093
+            }
+          ],
+          "training_loss": 0.02799942158162594
+        },
+        {
+          "step": 600,
+          "selection": 0.037721527740359306,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.017046693712472916,
+              "gene_mean_mse": 0.0004766950150951743,
+              "selection": 0.017046693712472916,
+              "ess_fraction": 0.9205564856529236
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.0583963617682457,
+              "gene_mean_mse": 0.0023643074091523886,
+              "selection": 0.0583963617682457,
+              "ess_fraction": 0.6881805062294006
+            }
+          ],
+          "training_loss": 0.025832129642367363
+        },
+        {
+          "step": 800,
+          "selection": 0.03596803918480873,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.015858203172683716,
+              "gene_mean_mse": 0.0004593617341015488,
+              "selection": 0.015858203172683716,
+              "ess_fraction": 0.9184994697570801
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.056077875196933746,
+              "gene_mean_mse": 0.002312264870852232,
+              "selection": 0.056077875196933746,
+              "ess_fraction": 0.6853501796722412
+            }
+          ],
+          "training_loss": 0.022950980812311172
+        },
+        {
+          "step": 1000,
+          "selection": 0.0361989326775074,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.016210205852985382,
+              "gene_mean_mse": 0.0004685486783273518,
+              "selection": 0.016210205852985382,
+              "ess_fraction": 0.9142147898674011
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.05618765950202942,
+              "gene_mean_mse": 0.0023126935120671988,
+              "selection": 0.05618765950202942,
+              "ess_fraction": 0.6602973341941833
+            }
+          ],
+          "training_loss": 0.02130514569580555
+        },
+        {
+          "step": 1200,
+          "selection": 0.0355652766302228,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.015771662816405296,
+              "gene_mean_mse": 0.00045822744141332805,
+              "selection": 0.015771662816405296,
+              "ess_fraction": 0.9150119423866272
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.0553588904440403,
+              "gene_mean_mse": 0.0022890139371156693,
+              "selection": 0.0553588904440403,
+              "ess_fraction": 0.6401656866073608
+            }
+          ],
+          "training_loss": 0.021191569045186043
+        },
+        {
+          "step": 1400,
+          "selection": 0.03713349811732769,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.016132034361362457,
+              "gene_mean_mse": 0.0004640322003979236,
+              "selection": 0.016132034361362457,
+              "ess_fraction": 0.9311613440513611
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.05813496187329292,
+              "gene_mean_mse": 0.002377074211835861,
+              "selection": 0.05813496187329292,
+              "ess_fraction": 0.7125443816184998
+            }
+          ],
+          "training_loss": 0.024632615968585014
+        },
+        {
+          "step": 1600,
+          "selection": 0.03463971521705389,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.016552774235606194,
+              "gene_mean_mse": 0.0004784935445059091,
+              "selection": 0.016552774235606194,
+              "ess_fraction": 0.912223756313324
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.05272665619850159,
+              "gene_mean_mse": 0.0022262567654252052,
+              "selection": 0.05272665619850159,
+              "ess_fraction": 0.6322604417800903
+            }
+          ],
+          "training_loss": 0.020409399643540382
+        },
+        {
+          "step": 1800,
+          "selection": 0.036272683180868626,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.01566545106470585,
+              "gene_mean_mse": 0.00045596921700052917,
+              "selection": 0.01566545106470585,
+              "ess_fraction": 0.9275099039077759
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.0568799152970314,
+              "gene_mean_mse": 0.002328218426555395,
+              "selection": 0.0568799152970314,
+              "ess_fraction": 0.6507729887962341
+            }
+          ],
+          "training_loss": 0.021212417632341385
+        },
+        {
+          "step": 2000,
+          "selection": 0.03888643905520439,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.015203870832920074,
+              "gene_mean_mse": 0.00044993506162427366,
+              "selection": 0.015203870832920074,
+              "ess_fraction": 0.9370370507240295
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.06256900727748871,
+              "gene_mean_mse": 0.002480139024555683,
+              "selection": 0.06256900727748871,
+              "ess_fraction": 0.7689153552055359
+            }
+          ],
+          "training_loss": 0.02192249894142151
+        }
+      ],
+      "trainable_parameters": 24993,
+      "seconds": 27.419943809509277
+    },
+    {
+      "fold": 1,
+      "seed": 2026112602,
+      "arm": "temporal_noess",
+      "best_step": 1600,
+      "best_selection": 0.03149237297475338,
+      "history": [
+        {
+          "step": 0,
+          "selection": 0.09306317195296288,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.04272773116827011,
+              "gene_mean_mse": 0.0010432472918182611,
+              "selection": 0.04272773116827011,
+              "ess_fraction": 1.0
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.14339861273765564,
+              "gene_mean_mse": 0.004564368166029453,
+              "selection": 0.14339861273765564,
+              "ess_fraction": 1.0
+            }
+          ],
+          "training_loss": null
+        },
+        {
+          "step": 200,
+          "selection": 0.035316442139446735,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.016036635264754295,
+              "gene_mean_mse": 0.000455922243418172,
+              "selection": 0.016036635264754295,
+              "ess_fraction": 0.9775895476341248
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.054596249014139175,
+              "gene_mean_mse": 0.0022513545118272305,
+              "selection": 0.054596249014139175,
+              "ess_fraction": 0.5959734916687012
+            }
+          ],
+          "training_loss": 0.02572728879749775
+        },
+        {
+          "step": 400,
+          "selection": 0.032637204974889755,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.016090497374534607,
+              "gene_mean_mse": 0.0004667116154450923,
+              "selection": 0.016090497374534607,
+              "ess_fraction": 0.9727451801300049
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.049183912575244904,
+              "gene_mean_mse": 0.0021076463162899017,
+              "selection": 0.049183912575244904,
+              "ess_fraction": 0.46568700671195984
+            }
+          ],
+          "training_loss": 0.02633826620876789
+        },
+        {
+          "step": 600,
+          "selection": 0.03606203943490982,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.0168902687728405,
+              "gene_mean_mse": 0.0004773699911311269,
+              "selection": 0.0168902687728405,
+              "ess_fraction": 0.9790209531784058
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.05523381009697914,
+              "gene_mean_mse": 0.00227710185572505,
+              "selection": 0.05523381009697914,
+              "ess_fraction": 0.5790291428565979
+            }
+          ],
+          "training_loss": 0.025181638076901436
+        },
+        {
+          "step": 800,
+          "selection": 0.03336062282323837,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.01480628177523613,
+              "gene_mean_mse": 0.000444521545432508,
+              "selection": 0.01480628177523613,
+              "ess_fraction": 0.9699122309684753
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.051914963871240616,
+              "gene_mean_mse": 0.002188579412177205,
+              "selection": 0.051914963871240616,
+              "ess_fraction": 0.5527751445770264
+            }
+          ],
+          "training_loss": 0.022012241184711456
+        },
+        {
+          "step": 1000,
+          "selection": 0.03247924614697695,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.015992170199751854,
+              "gene_mean_mse": 0.00046909559750929475,
+              "selection": 0.015992170199751854,
+              "ess_fraction": 0.9754980206489563
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.04896632209420204,
+              "gene_mean_mse": 0.0021022954024374485,
+              "selection": 0.04896632209420204,
+              "ess_fraction": 0.47042351961135864
+            }
+          ],
+          "training_loss": 0.021418960765004158
+        },
+        {
+          "step": 1200,
+          "selection": 0.031703846994787455,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.015345205552875996,
+              "gene_mean_mse": 0.0004462313081603497,
+              "selection": 0.015345205552875996,
+              "ess_fraction": 0.974147379398346
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.048062488436698914,
+              "gene_mean_mse": 0.0020744444336742163,
+              "selection": 0.048062488436698914,
+              "ess_fraction": 0.4645613729953766
+            }
+          ],
+          "training_loss": 0.02139175869524479
+        },
+        {
+          "step": 1400,
+          "selection": 0.033767081797122955,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.015863455832004547,
+              "gene_mean_mse": 0.000461079936940223,
+              "selection": 0.015863455832004547,
+              "ess_fraction": 0.9703331589698792
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.051670707762241364,
+              "gene_mean_mse": 0.0021877759136259556,
+              "selection": 0.051670707762241364,
+              "ess_fraction": 0.5421028733253479
+            }
+          ],
+          "training_loss": 0.02371767908334732
+        },
+        {
+          "step": 1600,
+          "selection": 0.03149237297475338,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.015285074710845947,
+              "gene_mean_mse": 0.0004476044268812984,
+              "selection": 0.015285074710845947,
+              "ess_fraction": 0.978235125541687
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.04769967123866081,
+              "gene_mean_mse": 0.0020744865760207176,
+              "selection": 0.04769967123866081,
+              "ess_fraction": 0.4848552644252777
+            }
+          ],
+          "training_loss": 0.020664887502789497
+        },
+        {
+          "step": 1800,
+          "selection": 0.03336574602872133,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.015016408637166023,
+              "gene_mean_mse": 0.00044422183418646455,
+              "selection": 0.015016408637166023,
+              "ess_fraction": 0.9737718105316162
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.05171508342027664,
+              "gene_mean_mse": 0.0021822398994117975,
+              "selection": 0.05171508342027664,
+              "ess_fraction": 0.5321645736694336
+            }
+          ],
+          "training_loss": 0.023764245212078094
+        },
+        {
+          "step": 2000,
+          "selection": 0.033416097052395344,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.015050174668431282,
+              "gene_mean_mse": 0.0004446024540811777,
+              "selection": 0.015050174668431282,
+              "ess_fraction": 0.9747081398963928
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.051782019436359406,
+              "gene_mean_mse": 0.0021803013514727354,
+              "selection": 0.051782019436359406,
+              "ess_fraction": 0.5662810206413269
+            }
+          ],
+          "training_loss": 0.020472940057516098
+        }
+      ],
+      "trainable_parameters": 29250,
+      "seconds": 29.211046934127808
+    },
+    {
+      "fold": 1,
+      "seed": 2026112602,
+      "arm": "temporal_latent",
+      "best_step": 1600,
+      "best_selection": 0.03249524161219597,
+      "history": [
+        {
+          "step": 0,
+          "selection": 0.09306317195296288,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.04272773116827011,
+              "gene_mean_mse": 0.0010432472918182611,
+              "selection": 0.04272773116827011,
+              "ess_fraction": 1.0
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.14339861273765564,
+              "gene_mean_mse": 0.004564368166029453,
+              "selection": 0.14339861273765564,
+              "ess_fraction": 1.0
+            }
+          ],
+          "training_loss": null
+        },
+        {
+          "step": 200,
+          "selection": 0.03541187662631273,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.016342194750905037,
+              "gene_mean_mse": 0.0004616220248863101,
+              "selection": 0.016342194750905037,
+              "ess_fraction": 0.9783932566642761
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.05448155850172043,
+              "gene_mean_mse": 0.002240966772660613,
+              "selection": 0.05448155850172043,
+              "ess_fraction": 0.6300432085990906
+            }
+          ],
+          "training_loss": 0.026024214923381805
+        },
+        {
+          "step": 400,
+          "selection": 0.03336523938924074,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.015772448852658272,
+              "gene_mean_mse": 0.00045992902596481144,
+              "selection": 0.015772448852658272,
+              "ess_fraction": 0.9728431701660156
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.05095802992582321,
+              "gene_mean_mse": 0.0021558385342359543,
+              "selection": 0.05095802992582321,
+              "ess_fraction": 0.5856691002845764
+            }
+          ],
+          "training_loss": 0.027996864169836044
+        },
+        {
+          "step": 600,
+          "selection": 0.036992767825722694,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.016897719353437424,
+              "gene_mean_mse": 0.0004769672523252666,
+              "selection": 0.016897719353437424,
+              "ess_fraction": 0.9802725911140442
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.057087816298007965,
+              "gene_mean_mse": 0.002321394858881831,
+              "selection": 0.057087816298007965,
+              "ess_fraction": 0.6528934836387634
+            }
+          ],
+          "training_loss": 0.02499811351299286
+        },
+        {
+          "step": 800,
+          "selection": 0.03488898230716586,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.014764129184186459,
+              "gene_mean_mse": 0.0004415571456775069,
+              "selection": 0.014764129184186459,
+              "ess_fraction": 0.9734010696411133
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.055013835430145264,
+              "gene_mean_mse": 0.002276200568303466,
+              "selection": 0.055013835430145264,
+              "ess_fraction": 0.6913074851036072
+            }
+          ],
+          "training_loss": 0.02163136750459671
+        },
+        {
+          "step": 1000,
+          "selection": 0.03329720441251993,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.01587737537920475,
+              "gene_mean_mse": 0.00046673326869495213,
+              "selection": 0.01587737537920475,
+              "ess_fraction": 0.9756643772125244
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.050717033445835114,
+              "gene_mean_mse": 0.0021437606774270535,
+              "selection": 0.050717033445835114,
+              "ess_fraction": 0.5540843605995178
+            }
+          ],
+          "training_loss": 0.021487068384885788
+        },
+        {
+          "step": 1200,
+          "selection": 0.032899150624871254,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.01534837856888771,
+              "gene_mean_mse": 0.00044628276373259723,
+              "selection": 0.01534837856888771,
+              "ess_fraction": 0.975341260433197
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.0504499226808548,
+              "gene_mean_mse": 0.002137418370693922,
+              "selection": 0.0504499226808548,
+              "ess_fraction": 0.5597901344299316
+            }
+          ],
+          "training_loss": 0.021176083013415337
+        },
+        {
+          "step": 1400,
+          "selection": 0.03473232872784138,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.01581760123372078,
+              "gene_mean_mse": 0.0004606561560649425,
+              "selection": 0.01581760123372078,
+              "ess_fraction": 0.9698281288146973
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.053647056221961975,
+              "gene_mean_mse": 0.002237450797110796,
+              "selection": 0.053647056221961975,
+              "ess_fraction": 0.609398603439331
+            }
+          ],
+          "training_loss": 0.023651983588933945
+        },
+        {
+          "step": 1600,
+          "selection": 0.03249524161219597,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.015166401863098145,
+              "gene_mean_mse": 0.0004451587446965277,
+              "selection": 0.015166401863098145,
+              "ess_fraction": 0.9794443845748901
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.04982408136129379,
+              "gene_mean_mse": 0.0021269721910357475,
+              "selection": 0.04982408136129379,
+              "ess_fraction": 0.5827962756156921
+            }
+          ],
+          "training_loss": 0.020829321816563606
+        },
+        {
+          "step": 1800,
+          "selection": 0.03478309325873852,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.015154361724853516,
+              "gene_mean_mse": 0.00044721626909449697,
+              "selection": 0.015154361724853516,
+              "ess_fraction": 0.9749740958213806
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.05441182479262352,
+              "gene_mean_mse": 0.00224751653149724,
+              "selection": 0.05441182479262352,
+              "ess_fraction": 0.6215562224388123
+            }
+          ],
+          "training_loss": 0.02315947413444519
+        },
+        {
+          "step": 2000,
+          "selection": 0.034020629711449146,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.015093808993697166,
+              "gene_mean_mse": 0.00044504759716801345,
+              "selection": 0.015093808993697166,
+              "ess_fraction": 0.9758287072181702
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.052947450429201126,
+              "gene_mean_mse": 0.0022047501988708973,
+              "selection": 0.052947450429201126,
+              "ess_fraction": 0.6098469495773315
+            }
+          ],
+          "training_loss": 0.02046290412545204
+        }
+      ],
+      "trainable_parameters": 29250,
+      "seconds": 28.55484414100647
+    },
+    {
+      "fold": 1,
+      "seed": 2026112602,
+      "arm": "temporal_decoded",
+      "best_step": 1600,
+      "best_selection": 0.015724189579486847,
+      "history": [
+        {
+          "step": 0,
+          "selection": 0.09306317195296288,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.04272773116827011,
+              "gene_mean_mse": 0.0010432472918182611,
+              "selection": 0.04272773116827011,
+              "ess_fraction": 1.0
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.14339861273765564,
+              "gene_mean_mse": 0.004564368166029453,
+              "selection": 0.14339861273765564,
+              "ess_fraction": 1.0
+            }
+          ],
+          "training_loss": null
+        },
+        {
+          "step": 200,
+          "selection": 0.018820333294570446,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.010117698460817337,
+              "gene_mean_mse": 0.0003523054765537381,
+              "selection": 0.010117698460817337,
+              "ess_fraction": 0.9447854161262512
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.027522968128323555,
+              "gene_mean_mse": 0.0014605286996811628,
+              "selection": 0.027522968128323555,
+              "ess_fraction": 0.558151364326477
+            }
+          ],
+          "training_loss": 0.043003857135772705
+        },
+        {
+          "step": 400,
+          "selection": 0.01751093054190278,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.009910066612064838,
+              "gene_mean_mse": 0.00036027058376930654,
+              "selection": 0.009910066612064838,
+              "ess_fraction": 0.9221476316452026
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.025111794471740723,
+              "gene_mean_mse": 0.0014021021779626608,
+              "selection": 0.025111794471740723,
+              "ess_fraction": 0.5279445648193359
+            }
+          ],
+          "training_loss": 0.0437733456492424
+        },
+        {
+          "step": 600,
+          "selection": 0.017656664364039898,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.009606394916772842,
+              "gene_mean_mse": 0.00035218262928538024,
+              "selection": 0.009606394916772842,
+              "ess_fraction": 0.9193864464759827
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.025706933811306953,
+              "gene_mean_mse": 0.0014274577843025327,
+              "selection": 0.025706933811306953,
+              "ess_fraction": 0.545958936214447
+            }
+          ],
+          "training_loss": 0.03854840621352196
+        },
+        {
+          "step": 800,
+          "selection": 0.016506481915712357,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.009237783029675484,
+              "gene_mean_mse": 0.000357671407982707,
+              "selection": 0.009237783029675484,
+              "ess_fraction": 0.8968988656997681
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.02377518080174923,
+              "gene_mean_mse": 0.0013637946685776114,
+              "selection": 0.02377518080174923,
+              "ess_fraction": 0.5129837393760681
+            }
+          ],
+          "training_loss": 0.0364677757024765
+        },
+        {
+          "step": 1000,
+          "selection": 0.016430038958787918,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.009558241814374924,
+              "gene_mean_mse": 0.0003585996455512941,
+              "selection": 0.009558241814374924,
+              "ess_fraction": 0.9153850674629211
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.023267898708581924,
+              "gene_mean_mse": 0.001350792939774692,
+              "selection": 0.023301836103200912,
+              "ess_fraction": 0.4899095296859741
+            }
+          ],
+          "training_loss": 0.03535120561718941
+        },
+        {
+          "step": 1200,
+          "selection": 0.01575382612645626,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.009163256734609604,
+              "gene_mean_mse": 0.00034031429095193744,
+              "selection": 0.009163256734609604,
+              "ess_fraction": 0.910102128982544
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.021826880052685738,
+              "gene_mean_mse": 0.001303284429013729,
+              "selection": 0.022344395518302917,
+              "ess_fraction": 0.46277883648872375
+            }
+          ],
+          "training_loss": 0.03524921461939812
+        },
+        {
+          "step": 1400,
+          "selection": 0.016103983856737614,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.009313410148024559,
+              "gene_mean_mse": 0.00034598595811985433,
+              "selection": 0.009313410148024559,
+              "ess_fraction": 0.9013673663139343
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.02277335524559021,
+              "gene_mean_mse": 0.0013458949979394674,
+              "selection": 0.02289455756545067,
+              "ess_fraction": 0.48126739263534546
+            }
+          ],
+          "training_loss": 0.03669149428606033
+        },
+        {
+          "step": 1600,
+          "selection": 0.015724189579486847,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.009441619738936424,
+              "gene_mean_mse": 0.0003462346794549376,
+              "selection": 0.009441619738936424,
+              "ess_fraction": 0.9144277572631836
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.020995721220970154,
+              "gene_mean_mse": 0.0012808634201064706,
+              "selection": 0.02200675942003727,
+              "ess_fraction": 0.44947102665901184
+            }
+          ],
+          "training_loss": 0.03558029979467392
+        },
+        {
+          "step": 1800,
+          "selection": 0.016452512703835964,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.008947141468524933,
+              "gene_mean_mse": 0.00034213284379802644,
+              "selection": 0.008947141468524933,
+              "ess_fraction": 0.9012056589126587
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.023934394121170044,
+              "gene_mean_mse": 0.0013587252469733357,
+              "selection": 0.023957883939146996,
+              "ess_fraction": 0.49157658219337463
+            }
+          ],
+          "training_loss": 0.03550378605723381
+        },
+        {
+          "step": 2000,
+          "selection": 0.01589859975501895,
+          "phases": [
+            {
+              "phase": 0,
+              "decoded_objective": 0.00902701634913683,
+              "gene_mean_mse": 0.00034374964889138937,
+              "selection": 0.00902701634913683,
+              "ess_fraction": 0.8961923718452454
+            },
+            {
+              "phase": 1,
+              "decoded_objective": 0.022686606273055077,
+              "gene_mean_mse": 0.0013246677117422223,
+              "selection": 0.02277018316090107,
+              "ess_fraction": 0.4843449294567108
+            }
+          ],
+          "training_loss": 0.034755006432533264
+        }
+      ],
+      "trainable_parameters": 29250,
+      "seconds": 136.11208581924438
+    }
+  ],
+  "input_sha256": {
+    "analysis/independent_review_20261126/joint_dynamics_trial/representation.joblib": "1a37ff47b7a3d87aa3e20fb3845ad9ca75c7fb2405407e08d205e8791c5fa53e",
+    "analysis/independent_review_20261126/joint_dynamics_trial/early_latent.npz": "d3d61a94eb57510f23d69d0cad69086ef092f65b2ae7592e84e66a7cb6d0595e",
+    "analysis/independent_review_20261126/speed_direction_diagnostic/data_splits.npz": "d7aa61d443c6c1107ee5290edc4bc8fd1aca831816c10bf67898d20b00c4a628",
+    "analysis/independent_review_20261126/frozen_controls.npz": "df1e45b43e7ddcfe98eb6af95e485a12091370b1302c44aee513f92bbb1c76e4",
+    "analysis/independent_review_20261126/stage_conditioned_decoder_v1/protocol.txt": "849ba2dc39b230dab5231eb67452d62c47ad551e8aa9e3cbc3f3f598e3373ef8",
+    "data/raw/T1/E8.5_RNA.h5ad": "8eab2d0ccaa89f92861b09816b76b6a731b8ed6b5995e4af196d9ed8ff76e504",
+    "data/raw/T1/E9.5_RNA.h5ad": "0296e0043842f944a663f3c11ac1542d1bbee733c1cd657bd56f75af65958361",
+    "data/p3/T1/E10.5_RNA.h5ad": "974e04e7fe64fb96142f17994a9678d4cebd4f1868dec4de034eda4245b7dd6c",
+    "analysis/independent_review_20261126/stage_conditioned_decoder_v1/model.py": "9f7636dd1104b61e5616e53c5f20e80da48081db9c0c4dc44eaecd57aeb04285",
+    "analysis/independent_review_20261126/stage_conditioned_decoder_v1/train.py": "572d8b30f97ce173561832289d77fd376891fc0c7e7995c3f6cc1a7446ec4a56",
+    "analysis/independent_review_20261126/stage_conditioned_decoder_v1/target_moments.npz": "8506de9bfa387bdd3737310ef0c5039d1db2e8413c375d7434865cecb2d1891a"
+  },
+  "inputs_unchanged": {
+    "analysis/independent_review_20261126/joint_dynamics_trial/representation.joblib": true,
+    "analysis/independent_review_20261126/joint_dynamics_trial/early_latent.npz": true,
+    "analysis/independent_review_20261126/speed_direction_diagnostic/data_splits.npz": true,
+    "analysis/independent_review_20261126/frozen_controls.npz": true,
+    "analysis/independent_review_20261126/stage_conditioned_decoder_v1/protocol.txt": true,
+    "data/raw/T1/E8.5_RNA.h5ad": true,
+    "data/raw/T1/E9.5_RNA.h5ad": true,
+    "data/p3/T1/E10.5_RNA.h5ad": true,
+    "analysis/independent_review_20261126/stage_conditioned_decoder_v1/model.py": true,
+    "analysis/independent_review_20261126/stage_conditioned_decoder_v1/train.py": true,
+    "analysis/independent_review_20261126/stage_conditioned_decoder_v1/target_moments.npz": true
+  },
+  "data_sha256": "736adae9c78f3df0e90251810ae15d7556bf04e5079103acfd2489a0e71bc85e",
+  "frozen_sha256": "8729be62bfc39575f5cac1c0d8c4b3acf6f46caa8ce672e98748f2567f0856bc",
+  "seconds": 887.7199318408966,
+  "torch_version": "2.10.0"
+}

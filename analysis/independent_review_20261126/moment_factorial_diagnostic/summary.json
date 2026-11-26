@@ -1,0 +1,329 @@
+{
+  "primary_model": "common_only",
+  "primary_grouping": "fixed_source",
+  "recommended_factor": "P",
+  "recommendation_gates": {
+    "single_and_shapley_agree": true,
+    "five_source_batches_agree": true,
+    "output_grouping_agrees": true,
+    "at_least_seven_target_halves_agree": true
+  },
+  "primary_combinations": {
+    "none": {
+      "covariance_relative": 0.7907694665400887,
+      "covariance_squared": 0.6253163492120964,
+      "gene_mean_rmse": 0.06386898064444789,
+      "gene_mean_mse": 0.004079246688560859,
+      "pca_mean_rmse": 2.1570729984901367,
+      "conditional_covariance_relative": 0.700992049651622,
+      "min_covariance_eigenvalue": 1.2299786675495483
+    },
+    "P": {
+      "covariance_relative": 0.43216819978393717,
+      "covariance_squared": 0.18676935290448904,
+      "gene_mean_rmse": 0.04786823391835364,
+      "gene_mean_mse": 0.002291367818462222,
+      "pca_mean_rmse": 1.3190153420419437,
+      "conditional_covariance_relative": 0.700992049651622,
+      "min_covariance_eigenvalue": 1.1021921243071968
+    },
+    "M": {
+      "covariance_relative": 0.7632666299822626,
+      "covariance_squared": 0.5825759484444801,
+      "gene_mean_rmse": 0.03270897280159519,
+      "gene_mean_mse": 0.0010698769017354938,
+      "pca_mean_rmse": 1.213835624083256,
+      "conditional_covariance_relative": 0.700992049651622,
+      "min_covariance_eigenvalue": 1.1507636600973226
+    },
+    "PM": {
+      "covariance_relative": 0.11711271135773427,
+      "covariance_squared": 0.01371538716155998,
+      "gene_mean_rmse": 0.0,
+      "gene_mean_mse": 0.0,
+      "pca_mean_rmse": 0.0,
+      "conditional_covariance_relative": 0.700992049651622,
+      "min_covariance_eigenvalue": 1.0491042779443134
+    },
+    "C": {
+      "covariance_relative": 0.7357793979097469,
+      "covariance_squared": 0.5413713223884297,
+      "gene_mean_rmse": 0.06386898064444789,
+      "gene_mean_mse": 0.004079246688560859,
+      "pca_mean_rmse": 2.1570729984901367,
+      "conditional_covariance_relative": 0.0,
+      "min_covariance_eigenvalue": 0.8397849718932596
+    },
+    "PC": {
+      "covariance_relative": 0.3909633807833707,
+      "covariance_squared": 0.15285236511356287,
+      "gene_mean_rmse": 0.04786823391835364,
+      "gene_mean_mse": 0.002291367818462222,
+      "pca_mean_rmse": 1.3190153420419437,
+      "conditional_covariance_relative": 0.0,
+      "min_covariance_eigenvalue": 0.8177321818939969
+    },
+    "MC": {
+      "covariance_relative": 0.7166333715076982,
+      "covariance_squared": 0.5135633891584906,
+      "gene_mean_rmse": 0.03270897280159519,
+      "gene_mean_mse": 0.0010698769017354938,
+      "pca_mean_rmse": 1.213835624083256,
+      "conditional_covariance_relative": 0.0,
+      "min_covariance_eigenvalue": 0.707892904127527
+    },
+    "PMC": {
+      "covariance_relative": 0.0,
+      "covariance_squared": 0.0,
+      "gene_mean_rmse": 0.0,
+      "gene_mean_mse": 0.0,
+      "pca_mean_rmse": 0.0,
+      "conditional_covariance_relative": 0.0,
+      "min_covariance_eigenvalue": 0.6997050966710978
+    }
+  },
+  "primary_attributions": {
+    "covariance_squared": {
+      "baseline": 0.6253163492120964,
+      "all_replaced": 0.0,
+      "total_reduction": 0.6253163492120964,
+      "single_replacement_reductions": {
+        "P": 0.4385469963076074,
+        "M": 0.042740400767616316,
+        "C": 0.08394502682366678
+      },
+      "single_replacement_best": "P",
+      "shapley": {
+        "P": 0.4769333815816639,
+        "M": 0.09867457178920441,
+        "C": 0.0497083958412282
+      },
+      "shapley_fraction_of_reduction": {
+        "P": 0.7627073595350636,
+        "M": 0.15779944329543782,
+        "C": 0.07949319716949857
+      },
+      "shapley_largest": "P",
+      "pair_interactions": {
+        "PM": 0.13031356497531277,
+        "PC": -0.05002803903274061,
+        "MC": -0.014932467537677296
+      },
+      "triple_interaction": -0.005269133091688916,
+      "orders": [
+        {
+          "order": "PMC",
+          "gains": {
+            "P": 0.4385469963076074,
+            "M": 0.17305396574292906,
+            "C": 0.01371538716155998
+          }
+        },
+        {
+          "order": "PCM",
+          "gains": {
+            "P": 0.4385469963076074,
+            "C": 0.03391698779092617,
+            "M": 0.15285236511356287
+          }
+        },
+        {
+          "order": "MPC",
+          "gains": {
+            "M": 0.042740400767616316,
+            "P": 0.5688605612829202,
+            "C": 0.01371538716155998
+          }
+        },
+        {
+          "order": "MCP",
+          "gains": {
+            "M": 0.042740400767616316,
+            "C": 0.06901255928598948,
+            "P": 0.5135633891584906
+          }
+        },
+        {
+          "order": "CPM",
+          "gains": {
+            "C": 0.08394502682366678,
+            "P": 0.3885189572748668,
+            "M": 0.15285236511356287
+          }
+        },
+        {
+          "order": "CMP",
+          "gains": {
+            "C": 0.08394502682366678,
+            "M": 0.02780793322993902,
+            "P": 0.5135633891584906
+          }
+        }
+      ]
+    },
+    "gene_mean_mse": {
+      "baseline": 0.004079246688560859,
+      "all_replaced": 0.0,
+      "total_reduction": 0.004079246688560859,
+      "single_replacement_reductions": {
+        "P": 0.0017878788700986374,
+        "M": 0.0030093697868253657,
+        "C": 0.0
+      },
+      "single_replacement_best": "M",
+      "shapley": {
+        "P": 0.0014288778859170655,
+        "M": 0.0026503688026437936,
+        "C": 0.0
+      },
+      "shapley_fraction_of_reduction": {
+        "P": 0.35027984209044427,
+        "M": 0.6497201579095557,
+        "C": 0.0
+      },
+      "shapley_largest": "M",
+      "pair_interactions": {
+        "PM": -0.0007180019683631438,
+        "PC": 0.0,
+        "MC": 0.0
+      },
+      "triple_interaction": -4.336808689942018e-19,
+      "orders": [
+        {
+          "order": "PMC",
+          "gains": {
+            "P": 0.0017878788700986374,
+            "M": 0.002291367818462222,
+            "C": 0.0
+          }
+        },
+        {
+          "order": "PCM",
+          "gains": {
+            "P": 0.0017878788700986374,
+            "C": 0.0,
+            "M": 0.002291367818462222
+          }
+        },
+        {
+          "order": "MPC",
+          "gains": {
+            "M": 0.0030093697868253657,
+            "P": 0.0010698769017354938,
+            "C": 0.0
+          }
+        },
+        {
+          "order": "MCP",
+          "gains": {
+            "M": 0.0030093697868253657,
+            "C": 0.0,
+            "P": 0.0010698769017354938
+          }
+        },
+        {
+          "order": "CPM",
+          "gains": {
+            "C": 0.0,
+            "P": 0.0017878788700986374,
+            "M": 0.002291367818462222
+          }
+        },
+        {
+          "order": "CMP",
+          "gains": {
+            "C": 0.0,
+            "M": 0.0030093697868253657,
+            "P": 0.0010698769017354938
+          }
+        }
+      ]
+    }
+  },
+  "primary_error_decomposition": {
+    "within_squared": 0.012469750693142656,
+    "between_squared": 0.528274997036554,
+    "cross_term": 0.08457160148239963,
+    "total_squared": 0.6253163492120964,
+    "within_error_norm_over_total": 0.11166803792107505,
+    "between_error_norm_over_total": 0.7268252864592385
+  },
+  "source_sensitivity": [
+    {
+      "batch": 0,
+      "single_best": "P",
+      "shapley_fraction": {
+        "P": 0.7627073595350636,
+        "M": 0.15779944329543782,
+        "C": 0.07949319716949857
+      }
+    },
+    {
+      "batch": 1,
+      "single_best": "P",
+      "shapley_fraction": {
+        "P": 0.7857750240890263,
+        "M": 0.1426931804956779,
+        "C": 0.07153179541529579
+      }
+    },
+    {
+      "batch": 2,
+      "single_best": "P",
+      "shapley_fraction": {
+        "P": 0.7745160651323141,
+        "M": 0.15001573833607723,
+        "C": 0.0754681965316086
+      }
+    },
+    {
+      "batch": 3,
+      "single_best": "P",
+      "shapley_fraction": {
+        "P": 0.7275218605054407,
+        "M": 0.19844470641195294,
+        "C": 0.07403343308260657
+      }
+    },
+    {
+      "batch": 4,
+      "single_best": "P",
+      "shapley_fraction": {
+        "P": 0.7591923791111485,
+        "M": 0.1672335086503129,
+        "C": 0.07357411223853871
+      }
+    }
+  ],
+  "output_grouping_shapley": {
+    "P": 0.7618428608323348,
+    "M": 0.15871558260963003,
+    "C": 0.07944155655803534
+  },
+  "target_halves": {
+    "matching_rank_count": 8,
+    "n": 8,
+    "single_P_best_count": 8,
+    "factor_fraction_range": [
+      0.7583906848948803,
+      0.767637302245977
+    ],
+    "all_replaced_covariance_error_range": [
+      0.021670630558365822,
+      0.02847839651766403
+    ]
+  },
+  "baseline_reproduction_max_error": 2.220446049250313e-16,
+  "mixture_identity_max_error": 4.46261070035368e-16,
+  "blood_annotation_frequencies_from_initial_inspection": {
+    "E8.5": 0.015845594805504258,
+    "E9.5": 0.01248754177170663,
+    "E10.5": 0.15284839264982586
+  },
+  "single_covariance_squared_error_reduction_fraction": {
+    "P": 0.7013202147363972,
+    "M": 0.0683500452554448,
+    "C": 0.13424409409643323
+  },
+  "P_and_M_squared_error_reduction_fraction": 0.9780664823831305
+}

@@ -1,0 +1,11 @@
+{
+  "decoder_max_absolute_difference": 4.76837158203125e-07,
+  "decoder_directional_derivative": {
+    "analytic": -0.004211441562013078,
+    "finite_difference": -0.0042114416287653
+  },
+  "zero_support_and_cp10k_passed": true,
+  "source_strata_exact_probability_correction": true,
+  "ess_penalty_has_concentration_gradient": true,
+  "stage_residual_field_identity_passed": true
+}

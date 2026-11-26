@@ -1,0 +1,50 @@
+{
+  "phase": "density",
+  "scope": "E8.5/E9.5 only; no E10.5 loaded in fitting process",
+  "oof_auc": 0.9963392918942785,
+  "oof_log_loss": 0.09843533362257148,
+  "density_shares": [
+    0.1556214771602078,
+    0.06636734083633072,
+    0.05928997057807671,
+    0.10250042222518879,
+    0.11219502682752473,
+    0.14641516189431594,
+    0.010129670183676127,
+    0.0854050577593846,
+    0.1155200456272346,
+    0.01249501698228551,
+    0.09061132825321251,
+    0.043449481672561935
+  ],
+  "ratio_quantiles": [
+    0.5,
+    1.8552174461810764,
+    2.0,
+    2.0,
+    2.0
+  ],
+  "density_models_sha256": "210a96b7a4a1dbb75f7a90995bfd863c80fb10ae3aba34cb991d73cd3ba49266",
+  "early_space_sha256": "35d6bba5f2aca7c7e86cec9c82014971622c0183981566e00b2a15196bd64671",
+  "fallback_reason": "Preregistered trend gate failed",
+  "parameters_sha256": "861df35f7ee03ae8bf70f317be12d886a14deeee7064e2059118b3b85cd780d9",
+  "inputs_sha256": {
+    "analysis/independent_review_20261126/composition_forecast_trial/protocol.txt": "aeb1c63a94e721d031576f1763accb3593728b0c7e72be4c4c5ce292efd72f25",
+    "analysis/independent_review_20261126/composition_forecast_trial/fit_models.py": "4a0c2f5c3514f70dbd86db3bea52c50c59c4dcc0e0d865e3ad72d62d91462151",
+    "analysis/independent_review_20261126/composition_forecast_trial/core.py": "a5dba42e0087e8d1edda0ef460663c93065fdbde814bdf66cd8bc281c58af89b",
+    "analysis/independent_review_20261126/frozen_controls.npz": "df1e45b43e7ddcfe98eb6af95e485a12091370b1302c44aee513f92bbb1c76e4",
+    "analysis/independent_review_20261126/run_review.py": "35e2939a0a29cd0a603d3eb253dd61600971d0038e47631ae9246dc1ead37735",
+    "data/raw/T1/E8.5_RNA.h5ad": "8eab2d0ccaa89f92861b09816b76b6a731b8ed6b5995e4af196d9ed8ff76e504",
+    "data/raw/T1/E9.5_RNA.h5ad": "0296e0043842f944a663f3c11ac1542d1bbee733c1cd657bd56f75af65958361"
+  },
+  "inputs_unchanged": {
+    "analysis/independent_review_20261126/composition_forecast_trial/protocol.txt": true,
+    "analysis/independent_review_20261126/composition_forecast_trial/fit_models.py": true,
+    "analysis/independent_review_20261126/composition_forecast_trial/core.py": true,
+    "analysis/independent_review_20261126/frozen_controls.npz": true,
+    "analysis/independent_review_20261126/run_review.py": true,
+    "data/raw/T1/E8.5_RNA.h5ad": true,
+    "data/raw/T1/E9.5_RNA.h5ad": true
+  },
+  "elapsed_seconds": 1.227787971496582
+}
